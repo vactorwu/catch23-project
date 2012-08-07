@@ -1,3 +1,4 @@
 Microsoft(R) Visual C# 2010 编译器 4.0.30319.1 版
 版权所有(C) Microsoft Corporation。保留所有权利。
 
+n_service.of_dbconnect(IRS)(18,3): warning CS0162: 检测到无法访问的代码
