@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>stocktrader.pbtx</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{92b196c2-2b19-4377-9b08-965b889fcddb}</ProjectGuid>
+    <Comment>Migrated by pb2cs</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>stocktrader</AssemblyName>
+    <RootNamespace>stocktrader</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>stocktrader</ApplicationName>
+    <ApplicationObject>stocktrader.sra</ApplicationObject>
+    <ApplicationLibrary>stocktrader.pbl\stocktrader.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.0.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{dc4d8cfd-803c-42dc-bc71-53a31b273aa5};{939990e9-5e86-40a7-b67f-e57a79c8d8eb};{6336f51a-868a-47a9-a313-4b81984a7f2a};{cc3898e2-df9a-43a4-9195-17de35581ec0};{096cad69-d1d1-41e6-8716-edb816a441c7}</LibraryList>
+    <PBFontDWText_FONT>Trebuchet MS, 10pt</PBFontDWText_FONT>
+    <PBFontDWText_FGC>0, 0, 0</PBFontDWText_FGC>
+    <PBFontDWText_BGC>255, 255, 255</PBFontDWText_BGC>
+    <PBFontDWLabel_FONT>Trebuchet MS, 10pt</PBFontDWLabel_FONT>
+    <PBFontDWLabel_FGC>Black</PBFontDWLabel_FGC>
+    <PBFontDWLabel_BGC>White</PBFontDWLabel_BGC>
+    <PBFontDWColumn_FONT>Trebuchet MS, 9pt</PBFontDWColumn_FONT>
+    <PBFontDWColumn_FGC>0, 0, 0</PBFontDWColumn_FGC>
+    <PBFontDWColumn_BGC>255, 255, 255</PBFontDWColumn_BGC>
+    <PBFontDWHeader_FONT>Trebuchet MS, 10pt</PBFontDWHeader_FONT>
+    <PBFontDWHeader_FGC>0, 0, 0</PBFontDWHeader_FGC>
+    <PBFontDWHeader_BGC>255, 255, 255</PBFontDWHeader_BGC>
+    <PBProjectsDeploy>{dc4d8cfd-803c-42dc-bc71-53a31b273aa5},p_generate_proxies.srj,41Gxx;{dc4d8cfd-803c-42dc-bc71-53a31b273aa5},p_deploy_stocktrader.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>stocktrader.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>stocktrader.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="fundtraderproxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>fundtraderproxy</Name>
+      <AssemblyName>fundtraderproxy.dll</AssemblyName>
+      <HintPath>fundtraderproxy.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls" />
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins" />
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="stocktrader.pbl\stocktrader.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>stocktrader</Name>
+      <InstanceGuid>{dc4d8cfd-803c-42dc-bc71-53a31b273aa5}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="gui.pbl\gui.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>gui</Name>
+      <InstanceGuid>{939990e9-5e86-40a7-b67f-e57a79c8d8eb}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="dwo.pbl\dwo.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>dwo</Name>
+      <InstanceGuid>{6336f51a-868a-47a9-a313-4b81984a7f2a}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="dal.pbl\dal.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>dal</Name>
+      <InstanceGuid>{cc3898e2-df9a-43a4-9195-17de35581ec0}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="proxy.pbl\proxy.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>proxy</Name>
+      <InstanceGuid>{096cad69-d1d1-41e6-8716-edb816a441c7}</InstanceGuid>
+    </SubProject>
+    <Content Include="FundTraderErrors.log">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Documentation</PBFileDisposition>
+    </Content>
+    <Content Include="Images\dnarrow.png">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Documentation</PBFileDisposition>
+    </Content>
+    <Content Include="Images\uparrow.png">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Documentation</PBFileDisposition>
+    </Content>
+    <Content Include="Images\WelcomeText.rtf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="StockTrader.ini">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Documentation</PBFileDisposition>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\App_Logo.JPG">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Welcome1.png">
+      <SubType>Content</SubType>
+      <PBFileDisposition>Resource</PBFileDisposition>
+      <ItemType>Resource</ItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

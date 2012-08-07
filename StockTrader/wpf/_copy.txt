@@ -1,0 +1,3 @@
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\FundTraderErrors.log
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\Images\	s
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\StockTrader.ini

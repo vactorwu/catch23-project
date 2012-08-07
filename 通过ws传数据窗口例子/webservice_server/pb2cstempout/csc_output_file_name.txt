@@ -1,0 +1,26 @@
+Microsoft(R) Visual C# 2010 编译器 4.0.30319.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+f_get_sqlselect(SSS)(31,5): warning CS1717: 对同一变量进行赋值；是否希望为其他变量赋值?
+n_zlib.of_zipopennewfileinzip(IUSS)(41,48): warning CS0197: 由于“c__n_zlib.c__win32_find_data.ftlastwritetime”是引用封送类的字段，将它作为 ref 或 out 参数传递或获取它的地址可能导致运行时异常
+n_zlib.of_unzgetcurrentfileinfo(IURSRSRSRURURWRBRBRBRBRBRB)(212,15): (与前一个警告相关的符号位置)
+pb_webservice.connectionbegin(7,47): warning CS0219: 变量“ancestorreturnvalue”已赋值，但其值从未使用过
+uo_ds.createdw(ISROSRS)(51,3): warning CS0162: 检测到无法访问的代码
+uo_ds.of_ds_data2blob_array(ICdatastore.LRO[]RS)(66,3): warning CS0162: 检测到无法访问的代码
+uo_ds.operate_sql(IS[]SSRS)(27,3): warning CS0162: 检测到无法访问的代码
+uo_ds.validate_password(ISSSRS)(94,3): warning CS0162: 检测到无法访问的代码
+uo_ds.init_password(ISSSRS)(81,3): warning CS0162: 检测到无法访问的代码
+uo_ds.change_password(ISSSSRS)(99,3): warning CS0162: 检测到无法访问的代码
+uo_ds.of_validate_account_password(ISSRS)(71,5): warning CS0162: 检测到无法访问的代码
+uo_ds.sp_with_output_parameter(IS[]SSS[]S[]RS[]RS)(105,3): warning CS0162: 检测到无法访问的代码
+uo_ds.sp_without_outputparameter(IS[]SSS[]S[]RS)(75,3): warning CS0162: 检测到无法访问的代码
+uo_ds.getdata_batch(IBS[]SLS[]RS[]RO[]RU[]RI[]RS)(224,3): warning CS0162: 检测到无法访问的代码
+uo_ds.update_single_dsordw(IBS[]SOUSRS)(90,3): warning CS0162: 检测到无法访问的代码
+uo_ds.update_batch(IBS[]SO[]U[]SRS)(79,3): warning CS0162: 检测到无法访问的代码
+uo_ds.retrieve_dddw(IBSLSRSRO[]RU[]RS)(205,3): warning CS0162: 检测到无法访问的代码
+uo_ds.select_sql(IBS[]SSRSRO[]RU[]RS)(205,3): warning CS0162: 检测到无法访问的代码
+uo_ds.getdata(IBS[]SSLSRU[]RO[]RS)(211,3): warning CS0162: 检测到无法访问的代码
+uo_ds.client_grant_requisition(IS[]SSSRS)(43,18): warning CS0618: “System.Net.Dns.Resolve(string)”已过时:“Resolve is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202”
+uo_ds.client_grant_requisition(IS[]SSSRS)(160,3): warning CS0162: 检测到无法访问的代码
+uo_ds.get_back_password(ISSRS)(66,3): warning CS0162: 检测到无法访问的代码
+uo_ds.sendmail(ISISSSSSSSRS)(44,3): warning CS0162: 检测到无法访问的代码

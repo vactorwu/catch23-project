@@ -1,0 +1,68 @@
+CLOSED
+
+
+REQUEST:
+CLOSED
+POST /pb_webservice/uo_ds.asmx?WSDL HTTP/1.1
+Host: 10.202.38.6
+Connection: Keep-Alive
+User-Agent: EasySoap++/0.6
+Content-Type: text/xml; charset=utf-8
+Authorization: Basic YWRtaW5pc3RyYXRvcjprZGxwZjc3MTIxMw==
+SOAPAction: "http://tempurl.org/getserverdate"
+Content-Length: 466
+
+<E:Envelope
+	xmlns:E="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:A="http://schemas.xmlsoap.org/soap/encoding/"
+	xmlns:s="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:y="http://www.w3.org/2001/XMLSchema"
+	E:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<E:Body>
+<m:getserverdate
+	xmlns:m="http://tempurl.org">
+<m:a_datetime
+	s:type="y:dateTime">1899-12-31T16:00:00.000Z</m:a_datetime>
+</m:getserverdate>
+</E:Body>
+</E:Envelope>
+
+
+RESPONSE:
+HTTP/1.1 401 Access Denied
+Server: Microsoft-IIS/5.1
+Date: Tue, 05 Jan 2010 02:43:50 GMT
+WWW-Authenticate: Negotiate
+WWW-Authenticate: NTLM
+Connection: close
+Content-Length: 4075
+Content-Type: text/html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html dir=ltr>
+
+<head>
+<style>
+a:link                  {font:9pt/12pt 新細明體; color:FF0000}
+a:visited               {font:9pt/12pt 新細明體; color:#4e4e4e}
+</style>
+
+<META NAME="ROBOTS" CONTENT="NOINDEX">
+
+<title>您沒有檢視此網頁的授權</title>
+
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=big5">
+</head>
+
+<script> 
+function Homepage(){
+<!--
+// in real bits, urls get returned to our script like this:
+// res://shdocvw.dll/http_404.htm#http://www.DocURL.com/bar.htm 
+
+	//For testing use DocURL = "res://shdocvw.dll/http_404.htm#https://www.microsoft.com/bar.htm"
+	DocURL=document.URL;
+	
+	//this is where the http or https will be, as found by searching for :// but skipping the res://
+	protocolIndex=DocURL.indexConnection Disconnected
+

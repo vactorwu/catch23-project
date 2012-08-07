@@ -1,0 +1,220 @@
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11.5\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 25-11月-2009 18:24:26
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11.5\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 25-11月-2009 18:24:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11.5\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 25-11月-2009 18:25:45
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11.5\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 25-11月-2009 18:27:26
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11.5\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 25-11月-2009 18:28:36
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12560, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11.5\PowerBuilder 11.5\PB115.EXE)(HOST=LMWEBSERVER)(USER=developer))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 29-11月-2009 15:11:26
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12560
+    TNS-12560: TNS:協定介面程式錯誤
+    ns secondary err code: 0
+    nt main err code: 538
+    TNS-00538: Message 538 not found;  product=NETWORK; facility=TNS
+
+    nt secondary err code: 65
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.21)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=prod)(CID=(PROGRAM=C:\Program Files\Sybase11\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 30-11月-2009 13:06:34
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.21)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=prod)(CID=(PROGRAM=C:\Program Files\Sybase11\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 30-11月-2009 13:07:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.21)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=prod)(CID=(PROGRAM=C:\Program Files\Sybase11\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 30-11月-2009 13:07:48
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:作業逾時
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: 作業逾時
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 04-1月 -2010 16:43:36
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.200.9.15)(PORT=1526))(CONNECT_DATA=(SID=mis)(CID=(PROGRAM=C:\Program Files\Sybase11\PowerBuilder 11.5\PB115.EXE)(HOST=P140PEIFA)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 04-1月 -2010 18:50:25
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:沒有監聽器
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: 沒有監聽器
+    nt secondary err code: 61
+    nt OS err code: 0

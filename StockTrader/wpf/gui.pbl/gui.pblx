@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>gui</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{939990e9-5e86-40a7-b67f-e57a79c8d8eb}</ProjectGuid>
+    <Comment>View (GUI) Objects only</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>gui</AssemblyName>
+    <RootNamespace>gui</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.0.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="u_home.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO hosting 2 dw controls Home Page</Comment>
+    </Compile>
+    <Compile Include="u_marketsummary.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO encapsulating the right hand side of the home page</Comment>
+    </Compile>
+    <Compile Include="u_portfolio_piechart.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="w_stocktrader.srw">
+      <Comment>Main App Window:  Has visual navigation logic.  Is central control for activating / deactivating pages (simulates MDI frame type logic)</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_welcome.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO Welcome page</Comment>
+    </Compile>
+    <Compile Include="u_quotes.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO quote page</Comment>
+    </Compile>
+    <Compile Include="u_quotebar.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO encapsulating Get Quote GUI  &amp; its integration logic</Comment>
+    </Compile>
+    <Compile Include="u_portfolio.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO Portfolio page</Comment>
+    </Compile>
+    <Compile Include="u_orders.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO Order Page</Comment>
+    </Compile>
+    <Compile Include="u_navbar.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO with methods to jump to specific pages and change item colors on navigation</Comment>
+    </Compile>
+    <Compile Include="u_logout.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO Logout Page</Comment>
+    </Compile>
+    <Compile Include="u_login.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO Login Page</Comment>
+    </Compile>
+    <Compile Include="u_header.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO combining background and navbar with method to signal  page change</Comment>
+    </Compile>
+    <Compile Include="u_config.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO: Attach to server page</Comment>
+    </Compile>
+    <Compile Include="u_basepage.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO ancestor for all pages</Comment>
+    </Compile>
+    <Compile Include="u_account.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO Account Page</Comment>
+    </Compile>
+    <Compile Include="st_navitem.sru">
+      <SubType>Code</SubType>
+      <Comment>Ancestor for all intelligent items in the navigation bar</Comment>
+    </Compile>
+    <Compile Include="u_register.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO Register page</Comment>
+    </Compile>
+    <Compile Include="w_order_alert.srw">
+      <SubType>Code</SubType>
+      <Comment>Main window: Delivers message that buy or sell executed</Comment>
+    </Compile>
+    <Compile Include="u_dw.sru">
+      <Comment>ws enabled datawindow control ancestor</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="u_buy_sell.sru">
+      <SubType>Code</SubType>
+      <Comment>CVUO pseudo response window to display message and accept user input for buy or sell a stock</Comment>
+    </Compile>
+    <Page Include="u_home.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_home.sru</DependentUpon>
+    </Page>
+    <Page Include="u_marketsummary.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_marketsummary.sru</DependentUpon>
+    </Page>
+    <Page Include="u_portfolio_piechart.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_portfolio_piechart.sru</DependentUpon>
+    </Page>
+    <Page Include="w_stocktrader.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_stocktrader.srw</DependentUpon>
+    </Page>
+    <Page Include="u_welcome.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_welcome.sru</DependentUpon>
+    </Page>
+    <Page Include="u_quotes.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_quotes.sru</DependentUpon>
+    </Page>
+    <Page Include="u_quotebar.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_quotebar.sru</DependentUpon>
+    </Page>
+    <Page Include="u_portfolio.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_portfolio.sru</DependentUpon>
+    </Page>
+    <Page Include="u_orders.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_orders.sru</DependentUpon>
+    </Page>
+    <Page Include="u_navbar.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_navbar.sru</DependentUpon>
+    </Page>
+    <Page Include="u_logout.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_logout.sru</DependentUpon>
+    </Page>
+    <Page Include="u_login.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_login.sru</DependentUpon>
+    </Page>
+    <Page Include="u_header.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_header.sru</DependentUpon>
+    </Page>
+    <Page Include="u_config.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_config.sru</DependentUpon>
+    </Page>
+    <Page Include="u_basepage.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_basepage.sru</DependentUpon>
+    </Page>
+    <Page Include="u_account.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_account.sru</DependentUpon>
+    </Page>
+    <Page Include="st_navitem.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>st_navitem.sru</DependentUpon>
+    </Page>
+    <Page Include="u_register.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_register.sru</DependentUpon>
+    </Page>
+    <Page Include="w_order_alert.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_order_alert.srw</DependentUpon>
+    </Page>
+    <Page Include="u_dw.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_dw.sru</DependentUpon>
+    </Page>
+    <Page Include="u_buy_sell.sru.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>u_buy_sell.sru</DependentUpon>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>
