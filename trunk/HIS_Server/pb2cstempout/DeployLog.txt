@@ -1,71 +1,71 @@
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if "" == "" set NET_FRAMEWORK_PB125=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+C:\project\HIS_Server\pb2cstempout\hisserver>if "" == "" set NET_FRAMEWORK_PB125=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc
+C:\project\HIS_Server\pb2cstempout\hisserver>C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc
 Microsoft(R) Visual C# 2010 编译器 4.0.30319.1 版
 版权所有(C) Microsoft Corporation。保留所有权利。
 
 fatal error CS2008: 未指定输入
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if errorlevel 9009 exit 3 
+C:\project\HIS_Server\pb2cstempout\hisserver>if errorlevel 9009 exit 3 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.asmx" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.asmx" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.asmx" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.asmx" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.html" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.html" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.html" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.html" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.css" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.css" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.css" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.css" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.cs" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.cs" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.cs" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.cs" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.aspx" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.aspx" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.aspx" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.aspx" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.htm" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.htm" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.htm" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.htm" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.js" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.js" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.js" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.js" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.resx" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.resx" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.resx" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.resx" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.asax" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.asax" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.asax" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.asax" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\build.bat" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\build.bat" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\build.bat" del "C:\project\HIS_Server\pb2cstempout\hisserver\build.bat" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\web.config" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\web.config" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\web.config" del "C:\project\HIS_Server\pb2cstempout\hisserver\web.config" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\bin" rd /s /q "D:\pbcode\HIS_Server\pb2cstempout\hisserver\bin" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\bin" rd /s /q "C:\project\HIS_Server\pb2cstempout\hisserver\bin" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\images" rd /s /q "D:\pbcode\HIS_Server\pb2cstempout\hisserver\images" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\images" rd /s /q "C:\project\HIS_Server\pb2cstempout\hisserver\images" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\scripts" rd /s /q "D:\pbcode\HIS_Server\pb2cstempout\hisserver\scripts" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\scripts" rd /s /q "C:\project\HIS_Server\pb2cstempout\hisserver\scripts" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\temp" rd /s /q "D:\pbcode\HIS_Server\pb2cstempout\hisserver\temp" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\temp" rd /s /q "C:\project\HIS_Server\pb2cstempout\hisserver\temp" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\..\hisserver_root" rd /s /q "D:\pbcode\HIS_Server\pb2cstempout\hisserver\..\hisserver_root" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\..\hisserver_root" rd /s /q "C:\project\HIS_Server\pb2cstempout\hisserver\..\hisserver_root" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>rename "D:\pbcode\HIS_Server\pb2cstempout\hisserver\AssemblyInfo.bak" "AssemblyInfo.cs" 
+C:\project\HIS_Server\pb2cstempout\hisserver>rename "C:\project\HIS_Server\pb2cstempout\hisserver\AssemblyInfo.bak" "AssemblyInfo.cs" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>"D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\pb2cs" @"D:\pbcode\HIS_Server\pb2cstempout\projectinfo.txt" 
+C:\project\HIS_Server\pb2cstempout\hisserver>"C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\pb2cs" @"C:\project\HIS_Server\pb2cstempout\projectinfo.txt" 
 Type-checking (pass 1) system (system)
-Pre-parsing takes 0.00 seconds
-Parsing d:\pbcode\his_server\hisserver.pbl (n_service)
-Parsing d:\pbcode\his_server\hisserver.pbl (hisserver)
+Pre-parsing takes 1.00 seconds
+Parsing c:\project\his_server\hisserver.pbl (n_service)
+Parsing c:\project\his_server\hisserver.pbl (hisserver)
 Parsing takes 0.00 seconds
-Type-checking (pass 1) d:\pbcode\his_server\hisserver.pbl (hisserver)
-Type-checking (pass 1) d:\pbcode\his_server\hisserver.pbl (n_service)
-Type-checking (pass 1) d:\pbcode\his_server\hisserver.pbl (hisserver)
-Type-checking (pass 1) d:\pbcode\his_server\hisserver.pbl (n_service)
-Type-checking (pass 1) d:\pbcode\his_server\hisserver.pbl (hisserver)
-Type-checking (pass 1) d:\pbcode\his_server\hisserver.pbl (n_service)
+Type-checking (pass 1) c:\project\his_server\hisserver.pbl (hisserver)
+Type-checking (pass 1) c:\project\his_server\hisserver.pbl (n_service)
+Type-checking (pass 1) c:\project\his_server\hisserver.pbl (hisserver)
+Type-checking (pass 1) c:\project\his_server\hisserver.pbl (n_service)
+Type-checking (pass 1) c:\project\his_server\hisserver.pbl (hisserver)
+Type-checking (pass 1) c:\project\his_server\hisserver.pbl (n_service)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
-Type-checking methods(pass 2) d:\pbcode\his_server\hisserver.pbl (hisserver)
-Type-checking methods(pass 2) d:\pbcode\his_server\hisserver.pbl (n_service)
-Typechecking takes 0.00 seconds
-Emitting d:\pbcode\his_server\hisserver.pbl (hisserver)
-Emitting d:\pbcode\his_server\hisserver.pbl (n_service)
-Emitting d:\pbcode\his_server\hisserver.pbl (hisserver)
-Emitting d:\pbcode\his_server\hisserver.pbl (hisserver)
-Emitting d:\pbcode\his_server\hisserver.pbl (n_service)
-Emitting d:\pbcode\his_server\hisserver.pbl (hisserver)
+Type-checking methods(pass 2) c:\project\his_server\hisserver.pbl (hisserver)
+Type-checking methods(pass 2) c:\project\his_server\hisserver.pbl (n_service)
+Typechecking takes 2.00 seconds
+Emitting c:\project\his_server\hisserver.pbl (hisserver)
+Emitting c:\project\his_server\hisserver.pbl (n_service)
+Emitting c:\project\his_server\hisserver.pbl (hisserver)
+Emitting c:\project\his_server\hisserver.pbl (hisserver)
+Emitting c:\project\his_server\hisserver.pbl (n_service)
+Emitting c:\project\his_server\hisserver.pbl (hisserver)
 Emiting takes 0.00 seconds
 
 
@@ -80,253 +80,273 @@ Warning Summary : 0 warning(s)
 Compile complete -- 0 error(s), 0 warning(s)
 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if ERRORLEVEL 1 exit 1 
+C:\project\HIS_Server\pb2cstempout\hisserver>if ERRORLEVEL 1 exit 1 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>call build.bat c- "D:\pbcode\HIS_Server\pb2cstempout\csc_output_file_name.txt" 
+C:\project\HIS_Server\pb2cstempout\hisserver>call build.bat c- "C:\project\HIS_Server\pb2cstempout\csc_output_file_name.txt" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>rem setlocal 
+C:\project\HIS_Server\pb2cstempout\hisserver>rem setlocal 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if "c-" == "" goto usage  
+C:\project\HIS_Server\pb2cstempout\hisserver>if "c-" == "" goto usage  
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if "D:\Program Files\pb12\PowerBuilder 12.5\DotNET" == "" goto sethome 
+C:\project\HIS_Server\pb2cstempout\hisserver>if "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET" == "" goto sethome 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if "" == "" set PB_WEBROOT=D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot 
+C:\project\HIS_Server\pb2cstempout\hisserver>if "" == "" set PB_WEBROOT=C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>set NET_FRAMEWORK_PB125=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+C:\project\HIS_Server\pb2cstempout\hisserver>set NET_FRAMEWORK_PB125=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md bin 
+C:\project\HIS_Server\pb2cstempout\hisserver>md bin 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>set PBROOTDIR="..\hisserver_root" 
+C:\project\HIS_Server\pb2cstempout\hisserver>set PBROOTDIR="..\hisserver_root" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\mail\users 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\mail\users 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\mail\session 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\mail\session 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\print\users 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\print\users 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\print\session 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\print\session 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\log 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\log 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\icon 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\icon 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\users 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\users 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\session 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\session 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>set PB_WEBFILEC="..\hisserver_root"\file\common\c 
+C:\project\HIS_Server\pb2cstempout\hisserver>set PB_WEBFILEC="..\hisserver_root"\file\common\c 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\common\c\temp 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\common\c\temp 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>set PB_WEBLIBDIR="..\hisserver_root"\file\common\c\~pl_ 
+C:\project\HIS_Server\pb2cstempout\hisserver>set PB_WEBLIBDIR="..\hisserver_root"\file\common\c\~pl_ 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\common\c\~pl_ 
+C:\project\HIS_Server\pb2cstempout\hisserver>md "..\hisserver_root"\file\common\c\~pl_ 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>net user ASPNET 
-找不到用户名。
+C:\project\HIS_Server\pb2cstempout\hisserver>net user ASPNET 
+用户名                 ASPNET
+全名                   ASP.NET Machine Account
+注释                   Account used for running the ASP.NET worker process (aspnet_wp.exe)
+用户的注释             Account used for running the ASP.NET worker process (aspnet_wp.exe)
+国家(地区)代码         000 (系统默认值)
+帐户启用               Yes
+帐户到期               从不
 
-请键入 NET HELPMSG 2221 以获得更多的帮助。
+上次设置密码           2012/8/7 上午 10:54
+密码到期               从不
+密码可更改             2012/8/7 上午 10:54
+需要密码               No
+用户可以更改密码       No
 
-ASPNET [IIS 5] was not found.
+允许的工作站           All
+登录脚本               
+用户配置文件           
+主目录                 
+上次登录               2012/8/7 上午 11:39
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>goto groupstep_iis6 
+可允许的登录小时数     All
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>net localgroup IIS_WPG 
+本地组成员             *Users                
+全局组成员             *None                 
+命令成功完成。
+
+
+C:\project\HIS_Server\pb2cstempout\hisserver>cacls temp /t /e /c /g ASPNET:f 
+
+C:\project\HIS_Server\pb2cstempout\hisserver>cacls "..\hisserver_root" /t /e /c /g ASPNET:f 
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\log
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\mail
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\print
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file\common
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file\icon
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file\session
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file\users
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file\common\c
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file\common\c\temp
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\file\common\c\~pl_
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\mail\session
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\mail\users
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\print\session
+处理的目录: C:\project\HIS_Server\pb2cstempout\hisserver_root\print\users
+
+C:\project\HIS_Server\pb2cstempout\hisserver>net localgroup IIS_WPG 
 发生系统错误 1376。
 
 指定的本地组不存在。
 
 IIS_WPG [IIS 6] was not found.
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>goto groupstep_iis7 
+C:\project\HIS_Server\pb2cstempout\hisserver>goto groupstep_iis7 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>net localgroup IIS_IUSRS 
-别名     IIS_IUSRS
-注释     Internet 信息服务使用的内置组。
+C:\project\HIS_Server\pb2cstempout\hisserver>net localgroup IIS_IUSRS 
+发生系统错误 1376。
 
-成员
+指定的本地组不存在。
 
--------------------------------------------------------------------------------
-IIS APPPOOL\PBDotnet4AppPool
-命令成功完成。
+IIS_IUSRS [IIS 7] was not found.
 
+C:\project\HIS_Server\pb2cstempout\hisserver>goto copystep 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>cacls temp /t /e /c /g IIS_IUSRS:f 
+C:\project\HIS_Server\pb2cstempout\hisserver>if "c-" == "c-" goto notcopy 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>cacls "..\hisserver_root" /t /e /c /g IIS_IUSRS:f 
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\log
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\mail
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\print
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file\common
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file\icon
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file\session
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file\users
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file\common\c
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file\common\c\temp
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\file\common\c\~pl_
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\mail\session
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\mail\users
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\print\session
-处理的目录: D:\pbcode\HIS_Server\pb2cstempout\hisserver_root\print\users
-
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if "c-" == "c-" goto notcopy 
-
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\global.asax" . 
-D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\Global.asax
+C:\project\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\global.asax" . 
+C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\Global.asax
 复制了 1 个文件
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\global.asax.cs" . 
-D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\Global.asax.cs
+C:\project\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\global.asax.cs" . 
+C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\Global.asax.cs
 复制了 1 个文件
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\global.asax.resx" . 
-D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\Global.asax.resx
+C:\project\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\global.asax.resx" . 
+C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\Global.asax.resx
 复制了 1 个文件
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>REM xcopy /D /Y /E "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\images\*.*" images\ 
+C:\project\HIS_Server\pb2cstempout\hisserver>REM xcopy /D /Y /E "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\images\*.*" images\ 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>REM xcopy /D /Y /E "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\scripts\*.*" scripts\ 
+C:\project\HIS_Server\pb2cstempout\hisserver>REM xcopy /D /Y /E "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\webroot\scripts\*.*" scripts\ 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.System.pbd" "..\hisserver_root"\file\common\c\~pl_\ 
-D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.System.pbd
+C:\project\HIS_Server\pb2cstempout\hisserver>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.System.pbd" "..\hisserver_root"\file\common\c\~pl_\ 
+C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.System.pbd
 复制了 1 个文件
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>reg import "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\PBExceptionTrace.reg" 
-操作成功完成。
+C:\project\HIS_Server\pb2cstempout\hisserver>reg import "C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\PBExceptionTrace.reg" 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if "D:\pbcode\HIS_Server\pb2cstempout\csc_output_file_name.txt" == "" (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\hisserver.dll" *.cs )  else (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\hisserver.dll" *.cs  1>"D:\pbcode\HIS_Server\pb2cstempout\csc_output_file_name.txt" ) 
+操作成功结束
+
+C:\project\HIS_Server\pb2cstempout\hisserver>if "C:\project\HIS_Server\pb2cstempout\csc_output_file_name.txt" == "" (C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\hisserver.dll" *.cs )  else (C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\hisserver.dll" *.cs  1>"C:\project\HIS_Server\pb2cstempout\csc_output_file_name.txt" ) 
 Build Succeeded.
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>goto end 
+C:\project\HIS_Server\pb2cstempout\hisserver>goto end 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>rem endlocal 
+C:\project\HIS_Server\pb2cstempout\hisserver>rem endlocal 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if ERRORLEVEL 1 exit 2 
+C:\project\HIS_Server\pb2cstempout\hisserver>if ERRORLEVEL 1 exit 2 
 
-D:\pbcode\HIS_Server\pb2cstempout\hisserver>if exist "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.cs" del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\*.cs" 
+C:\project\HIS_Server\pb2cstempout\hisserver>if exist "C:\project\HIS_Server\pb2cstempout\hisserver\*.cs" del "C:\project\HIS_Server\pb2cstempout\hisserver\*.cs" 
 Generating PowerBuilder .NET assemblies succeeded.
-Warning: Cannot delete the D:\pbcode\HIS_Server\pb2cstempout\hisserver\build.bat file.
-Warning: Cannot delete the D:\pbcode\HIS_Server\pb2cstempout\hisserver\securityperms.txt file.
+Warning: Cannot delete the C:\project\HIS_Server\pb2cstempout\hisserver\build.bat file.
+Warning: Cannot delete the C:\project\HIS_Server\pb2cstempout\hisserver\securityperms.txt file.
 Warning: Cannot copy the log.txt file to the output directory.
 
-D:\pbcode\HIS_Server\pb2cstempout>call "D:\pbcode\HIS_Server\pb2cstempout\hisserver\deploytoserver.bat"  
+C:\project\HIS_Server\pb2cstempout>call "C:\project\HIS_Server\pb2cstempout\hisserver\deploytoserver.bat"  
 
-D:\pbcode\HIS_Server\pb2cstempout>xcopy /H /D /Y "D:\pbcode\HIS_Server\hisserver.pbd" "C:\inetpub\wwwroot\hisserver\..\hisserver_root\file\common\c\~pl_\" 
-D:\pbcode\HIS_Server\hisserver.pbd
+C:\project\HIS_Server\pb2cstempout>xcopy /H /D /Y "C:\project\HIS_Server\hisserver.pbd" "c:\inetpub\wwwroot\hisserver\..\hisserver_root\file\common\c\~pl_\" 
+C:\project\HIS_Server\hisserver.pbd
 复制了 1 个文件
 
-D:\pbcode\HIS_Server\pb2cstempout>echo successful 
+C:\project\HIS_Server\pb2cstempout>echo successful 
 successful
 
-D:\pbcode\HIS_Server\pb2cstempout>del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\deploytoserver.bat"  
+C:\project\HIS_Server\pb2cstempout>del "C:\project\HIS_Server\pb2cstempout\hisserver\deploytoserver.bat"  
 
-D:\pbcode\HIS_Server\pb2cstempout>call "D:\pbcode\HIS_Server\pb2cstempout\hisserver\createvdir_hisserver.bat"  
+C:\project\HIS_Server\pb2cstempout>call "C:\project\HIS_Server\pb2cstempout\hisserver\createvdir_hisserver.bat"  
 
-D:\pbcode\HIS_Server\pb2cstempout>if not exist "C:\inetpub\wwwroot\hisserver" mkdir "C:\inetpub\wwwroot\hisserver" 
+C:\project\HIS_Server\pb2cstempout>if not exist "c:\inetpub\wwwroot\hisserver" mkdir "c:\inetpub\wwwroot\hisserver" 
 
-D:\pbcode\HIS_Server\pb2cstempout>C:\Windows\system32\inetsrv\appcmd add apppool /name:"PBDotnet4AppPool" /managedRuntimeVersion:v4.0 /Enable32BitAppOnWin64:true /managedPipelineMode:Classic  
-ERROR ( message:无法添加重复集合元素“PBDotnet4AppPool”。 )
+C:\project\HIS_Server\pb2cstempout>"C:\project\HIS_Server\pb2cstempout\hisserver\createvroot_hisserver.vbs"
 
-D:\pbcode\HIS_Server\pb2cstempout>C:\Windows\system32\inetsrv\appcmd add app /site.name:"Default Web Site" /path:"/hisserver" /physicalPath:"C:\inetpub\wwwroot\hisserver" /ApplicationPool:"PBDotnet4AppPool" 
-ERROR ( message:无法添加重复集合元素“/hisserver”。 )
+C:\project\HIS_Server\pb2cstempout>del "C:\project\HIS_Server\pb2cstempout\hisserver\createvroot_hisserver.vbs" 
 
-D:\pbcode\HIS_Server\pb2cstempout>del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\createvdir_hisserver.bat" 
+C:\project\HIS_Server\pb2cstempout>del "C:\project\HIS_Server\pb2cstempout\hisserver\createvdir_hisserver.bat" 
 找不到批处理文件。
 
-D:\pbcode\HIS_Server\pb2cstempout>call "D:\pbcode\HIS_Server\pb2cstempout\hisserver\pb971D.tmp.bat"  
+C:\project\HIS_Server\pb2cstempout>if not exist "c:\inetpub\wwwroot\hisserver" mkdir "c:\inetpub\wwwroot\hisserver"  
 
-D:\pbcode\HIS_Server\pb2cstempout>C:\Windows\system32\inetsrv\appcmd list app "Default Web Site/hisserver"   1>"D:\pbcode\HIS_Server\pb2cstempout\hisserver\pb971E.tmp.txt" 
-
-D:\pbcode\HIS_Server\pb2cstempout>"D:\pbcode\HIS_Server\pb2cstempout\hisserver\pb971C.tmp.vbs" "D:\pbcode\HIS_Server\pb2cstempout\hisserver\pb971E.tmp.txt" "C:\Windows\system32\inetsrv\appcmd"  
-
-D:\pbcode\HIS_Server\pb2cstempout>del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\pb971E.tmp.txt"  
-
-D:\pbcode\HIS_Server\pb2cstempout>del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\pb971C.tmp.vbs"  
-
-D:\pbcode\HIS_Server\pb2cstempout>del "D:\pbcode\HIS_Server\pb2cstempout\hisserver\pb971D.tmp.bat"  
-找不到批处理文件。
-
-D:\pbcode\HIS_Server\pb2cstempout>if not exist "C:\inetpub\wwwroot\hisserver" mkdir "C:\inetpub\wwwroot\hisserver"  
-
-D:\pbcode\HIS_Server\pb2cstempout>xcopy /Y /E /D "D:\pbcode\HIS_Server\pb2cstempout\hisserver" "C:\inetpub\wwwroot\hisserver"  
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\hisserver.disco
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\log.txt
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\n_service.asmx
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\TestWebService.htm
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\web.config
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\bin\hisserver.dll
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\bin\hisserver.pdb
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\bin\hisserver_ws.dll
-D:\pbcode\HIS_Server\pb2cstempout\hisserver\bin\hisserver_ws.pdb
+C:\project\HIS_Server\pb2cstempout>xcopy /Y /E /D "C:\project\HIS_Server\pb2cstempout\hisserver" "c:\inetpub\wwwroot\hisserver"  
+C:\project\HIS_Server\pb2cstempout\hisserver\hisserver.disco
+C:\project\HIS_Server\pb2cstempout\hisserver\log.txt
+C:\project\HIS_Server\pb2cstempout\hisserver\n_service.asmx
+C:\project\HIS_Server\pb2cstempout\hisserver\TestWebService.htm
+C:\project\HIS_Server\pb2cstempout\hisserver\web.config
+C:\project\HIS_Server\pb2cstempout\hisserver\bin\hisserver.dll
+C:\project\HIS_Server\pb2cstempout\hisserver\bin\hisserver.pdb
+C:\project\HIS_Server\pb2cstempout\hisserver\bin\hisserver_ws.dll
+C:\project\HIS_Server\pb2cstempout\hisserver\bin\hisserver_ws.pdb
 复制了 9 个文件
 
-D:\pbcode\HIS_Server\pb2cstempout>rd /S /Q "D:\pbcode\HIS_Server\pb2cstempout\hisserver"  
+C:\project\HIS_Server\pb2cstempout>rd /S /Q "C:\project\HIS_Server\pb2cstempout\hisserver"  
 
-D:\pbcode\HIS_Server\pb2cstempout>if not exist "C:\inetpub\wwwroot\hisserver_root" mkdir "C:\inetpub\wwwroot\hisserver_root"  
+C:\project\HIS_Server\pb2cstempout>if not exist "c:\inetpub\wwwroot\hisserver_root" mkdir "c:\inetpub\wwwroot\hisserver_root"  
 
-D:\pbcode\HIS_Server\pb2cstempout>xcopy /Y /E /D "D:\pbcode\HIS_Server\pb2cstempout\hisserver_root" "C:\inetpub\wwwroot\hisserver_root"  
+C:\project\HIS_Server\pb2cstempout>xcopy /Y /E /D "C:\project\HIS_Server\pb2cstempout\hisserver_root" "c:\inetpub\wwwroot\hisserver_root"  
 复制了 0 个文件
 
-D:\pbcode\HIS_Server\pb2cstempout>rd /S /Q "D:\pbcode\HIS_Server\pb2cstempout\hisserver_root"  
+C:\project\HIS_Server\pb2cstempout>rd /S /Q "C:\project\HIS_Server\pb2cstempout\hisserver_root"  
 
-D:\pbcode\HIS_Server\pb2cstempout>call "D:\pbcode\HIS_Server\pb2cstempout\pb971F.tmp.bat"  
+C:\project\HIS_Server\pb2cstempout>call "C:\project\HIS_Server\pb2cstempout\pb156.tmp.bat"  
 
-D:\pbcode\HIS_Server\pb2cstempout>net user ASPNET    
-找不到用户名。
+C:\project\HIS_Server\pb2cstempout>net user ASPNET    
+用户名                 ASPNET
+全名                   ASP.NET Machine Account
+注释                   Account used for running the ASP.NET worker process (aspnet_wp.exe)
+用户的注释             Account used for running the ASP.NET worker process (aspnet_wp.exe)
+国家(地区)代码         000 (系统默认值)
+帐户启用               Yes
+帐户到期               从不
 
-请键入 NET HELPMSG 2221 以获得更多的帮助。
+上次设置密码           2012/8/7 上午 10:54
+密码到期               从不
+密码可更改             2012/8/7 上午 10:54
+需要密码               No
+用户可以更改密码       No
 
-ASPNET [IIS 5] was not found.
+允许的工作站           All
+登录脚本               
+用户配置文件           
+主目录                 
+上次登录               2012/8/7 上午 11:39
 
-D:\pbcode\HIS_Server\pb2cstempout>goto groupstep_iis6    
+可允许的登录小时数     All
 
-D:\pbcode\HIS_Server\pb2cstempout>net localgroup IIS_WPG     
+本地组成员             *Users                
+全局组成员             *None                 
+命令成功完成。
+
+
+C:\project\HIS_Server\pb2cstempout>cacls "c:\inetpub\wwwroot\hisserver\temp" /t /e /c /g ASPNET:f    
+
+C:\project\HIS_Server\pb2cstempout>cacls "c:\inetpub\wwwroot\hisserver_root" /t /e /c /g ASPNET:f    
+处理的目录: c:\inetpub\wwwroot\hisserver_root
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file
+处理的目录: c:\inetpub\wwwroot\hisserver_root\log
+处理的目录: c:\inetpub\wwwroot\hisserver_root\mail
+处理的目录: c:\inetpub\wwwroot\hisserver_root\print
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file\common
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file\icon
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file\session
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file\users
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file\common\c
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file\common\c\temp
+处理的目录: c:\inetpub\wwwroot\hisserver_root\file\common\c\~pl_
+处理的文件: c:\inetpub\wwwroot\hisserver_root\file\common\c\~pl_\hisserver.pbd
+处理的文件: c:\inetpub\wwwroot\hisserver_root\file\common\c\~pl_\Sybase.PowerBuilder.System.pbd
+处理的目录: c:\inetpub\wwwroot\hisserver_root\mail\session
+处理的目录: c:\inetpub\wwwroot\hisserver_root\mail\users
+处理的目录: c:\inetpub\wwwroot\hisserver_root\print\session
+处理的目录: c:\inetpub\wwwroot\hisserver_root\print\users
+
+C:\project\HIS_Server\pb2cstempout>net localgroup IIS_WPG     
 发生系统错误 1376。
 
 指定的本地组不存在。
 
 IIS_WPG [IIS 6] was not found.
 
-D:\pbcode\HIS_Server\pb2cstempout>goto groupstep_iis7     
+C:\project\HIS_Server\pb2cstempout>goto groupstep_iis7     
 
-D:\pbcode\HIS_Server\pb2cstempout>net localgroup IIS_IUSRS     
-别名     IIS_IUSRS
-注释     Internet 信息服务使用的内置组。
+C:\project\HIS_Server\pb2cstempout>net localgroup IIS_IUSRS     
+发生系统错误 1376。
 
-成员
+指定的本地组不存在。
 
--------------------------------------------------------------------------------
-IIS APPPOOL\PBDotnet4AppPool
-命令成功完成。
+IIS_IUSRS [IIS 7] was not found.
 
+C:\project\HIS_Server\pb2cstempout>goto end    
 
-D:\pbcode\HIS_Server\pb2cstempout>cacls "C:\inetpub\wwwroot\hisserver\temp" /t /e /c /g IIS_IUSRS:f     
-
-D:\pbcode\HIS_Server\pb2cstempout>cacls "C:\inetpub\wwwroot\hisserver_root" /t /e /c /g IIS_IUSRS:f      
-处理的目录: C:\inetpub\wwwroot\hisserver_root
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file
-处理的目录: C:\inetpub\wwwroot\hisserver_root\log
-处理的目录: C:\inetpub\wwwroot\hisserver_root\mail
-处理的目录: C:\inetpub\wwwroot\hisserver_root\print
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file\common
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file\icon
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file\session
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file\users
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file\common\c
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file\common\c\temp
-处理的目录: C:\inetpub\wwwroot\hisserver_root\file\common\c\~pl_
-处理的文件: C:\inetpub\wwwroot\hisserver_root\file\common\c\~pl_\hisserver.pbd
-处理的文件: C:\inetpub\wwwroot\hisserver_root\file\common\c\~pl_\Sybase.PowerBuilder.System.pbd
-处理的目录: C:\inetpub\wwwroot\hisserver_root\mail\session
-处理的目录: C:\inetpub\wwwroot\hisserver_root\mail\users
-处理的目录: C:\inetpub\wwwroot\hisserver_root\print\session
-处理的目录: C:\inetpub\wwwroot\hisserver_root\print\users
-
-D:\pbcode\HIS_Server\pb2cstempout>del  "D:\pbcode\HIS_Server\pb2cstempout\pb971F.tmp.bat" 
+C:\project\HIS_Server\pb2cstempout>del  "C:\project\HIS_Server\pb2cstempout\pb156.tmp.bat" 
 找不到批处理文件。
 
-D:\pbcode\HIS_Server\pb2cstempout>del "D:\pbcode\HIS_Server\pb2cstempout\deploytoserver.bat"  
+C:\project\HIS_Server\pb2cstempout>del "C:\project\HIS_Server\pb2cstempout\deploytoserver.bat"  
 找不到批处理文件。
 Deploying PowerBuilder .NET assemblies succeeded.
