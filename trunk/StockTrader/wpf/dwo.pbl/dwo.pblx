@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>dwo</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{6336f51a-868a-47a9-a313-4b81984a7f2a}</ProjectGuid>
+    <Comment>DataWindow Objects</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>dwo</AssemblyName>
+    <RootNamespace>dwo</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.0.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="d_holdings.srd">
+      <Comment>Portfolio DWO uses d_holdings.dll to call getHoldings method. Rows have Sell button</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_account.srd">
+      <SubType>Code</SubType>
+      <Comment>WS DWO uses d_account.dll to call  getAccountData method that returns an AccountDataBean</Comment>
+    </Compile>
+    <Compile Include="d_quotes.srd">
+      <SubType>Code</SubType>
+      <Comment>displays info about requested stocks.  Called muliple times without clearing buffer if multiple comma or semicolon separated stocks are requested. Rows have Buy button</Comment>
+    </Compile>
+    <Compile Include="d_orders.srd">
+      <SubType>Code</SubType>
+      <Comment>WS DWO backed by d_orders.dll  Displays orders for an UID</Comment>
+    </Compile>
+    <Compile Include="d_tops.srd">
+      <Comment>both top losers and gainers</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_market_summary.srd">
+      <Comment>External DS freeform with two nests.  Populated  in ue_setstate of u_home CVUO</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_user_statistics.srd">
+      <SubType>Code</SubType>
+      <Comment>WS DS DWO used on home page:  # holding , total holdings faked columns are populated by setitem calls with values returned from controller method</Comment>
+    </Compile>
+    <Compile Include="d_holding_totals.srd">
+      <SubType>Code</SubType>
+      <Comment>WS DWO: Used inside controller layer to compute  holdings totals for an account</Comment>
+    </Compile>
+    <Compile Include="d_profiledisplay.srd">
+      <Comment>an external source dwo - confirm password is not a real column in the ws rs: Data is get/set via proxy method calls</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="d_register.srd">
+      <SubType>Code</SubType>
+      <Comment>External DS:  fronts call to WS method:  Confirm Password does not correspond to an actual parameter</Comment>
+    </Compile>
+    <Compile Include="d_order_display.srd">
+      <Comment>never retrieve - just used for the buffer to display order confirmation in w_order_alert on Buy or Sell</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="d_id_sortbuffer.srd">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="d_portfolio_piechart.srd">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="d_welcome.srd">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

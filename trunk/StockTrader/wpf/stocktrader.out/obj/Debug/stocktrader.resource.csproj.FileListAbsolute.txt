@@ -1,0 +1,12 @@
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\wpf\stocktrader.out\bin\Debug\stocktrader.resource.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\wpf\stocktrader.out\bin\Debug\stocktrader.resource.pdb
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\wpf\stocktrader.out\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\wpf\stocktrader.out\obj\Debug\stocktrader.resource.g.resources
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\wpf\stocktrader.out\obj\Debug\stocktrader.resource.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\wpf\stocktrader.out\obj\Debug\stocktrader.resource.pdb
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\wpf\stocktrader.out\bin\Debug\stocktrader.resource.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\wpf\stocktrader.out\bin\Debug\stocktrader.resource.pdb
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\wpf\stocktrader.out\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\wpf\stocktrader.out\obj\Debug\stocktrader.resource.g.resources
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\wpf\stocktrader.out\obj\Debug\stocktrader.resource.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\wpf\stocktrader.out\obj\Debug\stocktrader.resource.pdb

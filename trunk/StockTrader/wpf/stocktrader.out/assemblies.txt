@@ -1,0 +1,4 @@
+c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\wpf\fundtraderproxy.dll
+c:\program files\reference assemblies\microsoft\framework\v3.0\presentationcore.dll
+c:\program files\sybase\powerbuilder 12.0\dotnet\bin\sybase.powerbuilder.wcf.runtime.dll
+c:\program files\reference assemblies\microsoft\framework\v3.5\system.data.datasetextensions.dll

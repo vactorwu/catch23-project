@@ -1,0 +1,19 @@
+﻿stocktrader
+
+
+winexe
+C#
+.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\wpf\stocktrader.out\obj\Debug\
+stocktrader
+none
+false
+DEBUG;TRACE
+
+21-930730042
+
+321925332677
+60-907798499
+gui_u_home.xaml;gui_u_marketsummary.xaml;gui_u_portfolio_piechart.xaml;gui_w_stocktrader.xaml;gui_u_welcome.xaml;gui_u_quotes.xaml;gui_u_quotebar.xaml;gui_u_portfolio.xaml;gui_u_orders.xaml;gui_u_navbar.xaml;gui_u_logout.xaml;gui_u_login.xaml;gui_u_header.xaml;gui_u_config.xaml;gui_u_basepage.xaml;gui_u_account.xaml;gui_st_navitem.xaml;gui_u_register.xaml;gui_w_order_alert.xaml;gui_u_dw.xaml;gui_u_buy_sell.xaml;
+
+

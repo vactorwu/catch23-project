@@ -1,0 +1,412 @@
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if "" == "" set NET_FRAMEWORK_PB120=C:\Windows\Microsoft.NET\Framework\v3.5 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>C:\Windows\Microsoft.NET\Framework\v3.5\csc
+Microsoft (R) Visual C# 2008 Compiler version 3.5.30729.4926
+for Microsoft (R) .NET Framework version 3.5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+fatal error CS2008: No inputs specified
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if errorlevel 9009 exit 3 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>"C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\pb2cs" @"projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if ERRORLEVEL 1 exit 1 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if ERRORLEVEL 6 exit 6 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if ERRORLEVEL 7 exit 7 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if ERRORLEVEL 8 exit 8 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>call build.bat  c- "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build\csc_output_file_name.txt"  
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>setlocal
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if "c-" == "" goto usage  
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET" == "" goto sethome 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if "C:\Windows\Microsoft.NET\Framework\v3.5" == "" set NET_FRAMEWORK_PB120=C:\Windows\Microsoft.NET\Framework\v3.5 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>md debug 
+A subdirectory or file debug already exists.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if "c-" == "c-" goto notcopy 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\App.Win.exe.manifest" debug\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\App.Win.exe.manifest
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>del debug\stocktrader.exe.manifest 
+Could Not Find C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build\debug\stocktrader.exe.manifest
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>ren debug\App.Win.exe.manifest stocktrader.exe.manifest 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\ModifyManifest.vbs"  
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\modifymanifest.vbs
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>ModifyManifest debug\stocktrader.exe.manifest asinvoker false 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>del ModifyManifest.vbs 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>reg import "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\PBExceptionTrace.reg" 
+ERROR: Error accessing the registry.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build\csc_output_file_name.txt" == "" (C:\Windows\Microsoft.NET\Framework\v3.5\csc /t:winexe /debug    /nowin32manifest /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\stocktrader.exe" @mb.rsp )  else (C:\Windows\Microsoft.NET\Framework\v3.5\csc /t:winexe /debug    /nowin32manifest /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.iiop.net.dll" /out:"debug\stocktrader.exe" @mb.rsp  1>"C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>rem "C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe" -nologo -manifest debug\stocktrader.exe.manifest -outputresource:debug\stocktrader.exe;#1 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>rem @if errorlevel 1 (goto embedmanifesterror) else echo Embedding Manifest Succeeded. 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>del debug\stocktrader.exe.manifest 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>goto end 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>endlocal
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if ERRORLEVEL 1 exit 2 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if exist createole.bat call createole.bat 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if ERRORLEVEL 1 exit 4 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if exist createole.bat xcopy ole\*.* debug\ /D /Y 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_winform.pbt_build>if exist createole.bat dir ole\*.*  /B  1>"C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\p_stocktrader_winform_oledllname.txt" 

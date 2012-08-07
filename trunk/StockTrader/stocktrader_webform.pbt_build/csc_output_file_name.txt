@@ -1,0 +1,9 @@
+Microsoft (R) Visual C# 2005 Compiler version 8.00.50727.4927
+for Microsoft (R) Windows (R) 2005 Framework version 2.0.50727
+Copyright (C) Microsoft Corporation 2001-2005. All rights reserved.
+
+n_controller.of_gettsia(M)(8,3): warning CS0162: Unreachable code detected
+n_controller.of_getvolume(D)(8,3): warning CS0162: Unreachable code detected
+n_controller.of_register(BXSXSXSXSXSXSXM)(8,3): warning CS0162: Unreachable code detected
+n_controller.of_sell(Cn_order.LL)(19,3): warning CS0162: Unreachable code detected
+n_controller.of_buy(Cn_order.SSD)(23,3): warning CS0162: Unreachable code detected

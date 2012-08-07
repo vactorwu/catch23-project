@@ -1,0 +1,5 @@
+<pbwpf:UserObject x:Class="u_portfolio_piechart" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" PBHeight="1000" PBWidth="1500" Height="250" Width="328" Uid="67" Border="True">
+    <Canvas>
+        <pbwpf:DataWindow Name="dw_1" TabOrder="10" X="0" Y="0" PBHeight="998" PBWidth="1499" DataObject="d_portfolio_piechart" Height="250" Canvas.Left="-11" Width="344" BorderStyle="StyleBox" Border="False" LiveScroll="true" Title="none" />
+    </Canvas>
+</pbwpf:UserObject>

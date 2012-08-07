@@ -1,0 +1,422 @@
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if "" == "" set NET_FRAMEWORK_PB125=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc
+Microsoft(R) Visual C# 2010 编译器 4.0.30319.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+fatal error CS2008: 未指定输入
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if errorlevel 9009 exit 3 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.asmx" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.asmx" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.html" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.html" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.css" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.css" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.cs" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.cs" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.aspx" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.aspx" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.htm" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.htm" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.js" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.js" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.resx" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.resx" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.asax" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.asax" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\build.bat" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\build.bat" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\web.config" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\web.config" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\bin" rd /s /q "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\bin" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\images" rd /s /q "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\images" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\scripts" rd /s /q "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\scripts" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\temp" rd /s /q "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\temp" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\..\pb_server_root" rd /s /q "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\..\pb_server_root" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>rename "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\AssemblyInfo.bak" "AssemblyInfo.cs" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>"D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\pb2cs" @"D:\pbcode\webservice_code\webservice_server\pb2cstempout\projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Pre-parsing takes 0.00 seconds
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_sqlselect)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_send_error_msg)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_replace_string)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_db_type)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_init_input_dw)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_invalid_columnname)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_dw_column_chinese_name)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds_errtext)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (n_zlib)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Parsing d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (str_delphiresult)
+Parsing takes 0.00 seconds
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_db_type)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_dw_column_chinese_name)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_invalid_columnname)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_sqlselect)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_init_input_dw)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_replace_string)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_send_error_msg)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (n_zlib)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (str_delphiresult)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds_errtext)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_db_type)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_dw_column_chinese_name)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_invalid_columnname)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_sqlselect)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_init_input_dw)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_replace_string)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_send_error_msg)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (n_zlib)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (str_delphiresult)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds_errtext)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_db_type)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_dw_column_chinese_name)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_invalid_columnname)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_sqlselect)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_init_input_dw)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_replace_string)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_send_error_msg)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (n_zlib)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (str_delphiresult)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds)
+Type-checking (pass 1) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds_errtext)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_db_type)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_dw_column_chinese_name)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_invalid_columnname)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_sqlselect)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_init_input_dw)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_replace_string)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_send_error_msg)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (n_zlib)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (str_delphiresult)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds)
+Type-checking methods(pass 2) d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds_errtext)
+Typechecking takes 1.00 seconds
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_sqlselect)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_send_error_msg)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_replace_string)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_db_type)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_init_input_dw)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_invalid_columnname)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_dw_column_chinese_name)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds_errtext)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (n_zlib)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (str_delphiresult)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_sqlselect)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_send_error_msg)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_replace_string)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_db_type)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_init_input_dw)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_invalid_columnname)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (f_get_dw_column_chinese_name)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (uo_ds_errtext)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (n_zlib)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (pb_webservice)
+Emitting d:\pbcode\webservice_code\webservice_server\pb_webservice.pbl (str_delphiresult)
+Emiting takes 0.00 seconds
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if ERRORLEVEL 1 exit 1 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>call build.bat c- "D:\pbcode\webservice_code\webservice_server\pb2cstempout\csc_output_file_name.txt" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>rem setlocal 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if "c-" == "" goto usage  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if "D:\Program Files\pb12\PowerBuilder 12.5\DotNET" == "" goto sethome 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if "" == "" set PB_WEBROOT=D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>set NET_FRAMEWORK_PB125=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md bin 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>set PBROOTDIR="..\pb_server_root" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\mail\users 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\mail\session 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\print\users 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\print\session 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\log 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\file\icon 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\file\users 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\file\session 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>set PB_WEBFILEC="..\pb_server_root"\file\common\c 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\file\common\c\temp 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>set PB_WEBLIBDIR="..\pb_server_root"\file\common\c\~pl_ 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>md "..\pb_server_root"\file\common\c\~pl_ 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>net user ASPNET 
+找不到用户名。
+
+请键入 NET HELPMSG 2221 以获得更多的帮助。
+
+ASPNET [IIS 5] was not found.
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>goto groupstep_iis6 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>net localgroup IIS_WPG 
+发生系统错误 1376。
+
+指定的本地组不存在。
+
+IIS_WPG [IIS 6] was not found.
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>goto groupstep_iis7 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>net localgroup IIS_IUSRS 
+别名     IIS_IUSRS
+注释     Internet 信息服务使用的内置组。
+
+成员
+
+-------------------------------------------------------------------------------
+IIS APPPOOL\PBDotnet4AppPool
+命令成功完成。
+
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>cacls temp /t /e /c /g IIS_IUSRS:f 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>cacls "..\pb_server_root" /t /e /c /g IIS_IUSRS:f 
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\log
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\mail
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\print
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\common
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\icon
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\session
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\users
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\common\c
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\common\c\temp
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\common\c\~pl_
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\mail\session
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\mail\users
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\print\session
+处理的目录: D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\print\users
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if "c-" == "c-" goto notcopy 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\global.asax" . 
+D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\Global.asax
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\global.asax.cs" . 
+D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\Global.asax.cs
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\global.asax.resx" . 
+D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\Global.asax.resx
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>REM xcopy /D /Y /E "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\images\*.*" images\ 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>REM xcopy /D /Y /E "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\webroot\scripts\*.*" scripts\ 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>xcopy /D /Y "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.System.pbd" "..\pb_server_root"\file\common\c\~pl_\ 
+D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.System.pbd
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>reg import "D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\PBExceptionTrace.reg" 
+操作成功完成。
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if "D:\pbcode\webservice_code\webservice_server\pb2cstempout\csc_output_file_name.txt" == "" (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\pb_server.dll" *.cs )  else (C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc /t:library /debug   /platform:x86 "/r:D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Web.WebService.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"bin\pb_server.dll" *.cs  1>"D:\pbcode\webservice_code\webservice_server\pb2cstempout\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>goto end 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>rem endlocal 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if ERRORLEVEL 1 exit 2 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server>if exist "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.cs" del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\*.cs" 
+Generating PowerBuilder .NET assemblies succeeded.
+Warning: Cannot delete the D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\build.bat file.
+Warning: Cannot delete the D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\securityperms.txt file.
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>call "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\deploytoserver.bat"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>xcopy /H /D /Y "D:\pbcode\webservice_code\webservice_server\zlibwapi.dll" "C:\inetpub\wwwroot\pb_server\bin\" 
+D:\pbcode\webservice_code\webservice_server\zlibwapi.dll
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>xcopy /H /D /Y "D:\pbcode\webservice_code\webservice_server\extlib.dll" "C:\inetpub\wwwroot\pb_server\bin\" 
+D:\pbcode\webservice_code\webservice_server\extlib.dll
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>xcopy /H /D /Y "D:\pbcode\webservice_code\webservice_server\pb_webservice.pbd" "C:\inetpub\wwwroot\pb_server\..\pb_server_root\file\common\c\~pl_\" 
+D:\pbcode\webservice_code\webservice_server\pb_webservice.pbd
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>echo successful 
+successful
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\deploytoserver.bat"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>call "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\createvdir_pb_server.bat"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>if not exist "C:\inetpub\wwwroot\pb_server" mkdir "C:\inetpub\wwwroot\pb_server" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>C:\Windows\system32\inetsrv\appcmd add apppool /name:"PBDotnet4AppPool" /managedRuntimeVersion:v4.0 /Enable32BitAppOnWin64:true /managedPipelineMode:Classic  
+ERROR ( message:无法添加重复集合元素“PBDotnet4AppPool”。 )
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>C:\Windows\system32\inetsrv\appcmd add app /site.name:"Default Web Site" /path:"/pb_server" /physicalPath:"C:\inetpub\wwwroot\pb_server" /ApplicationPool:"PBDotnet4AppPool" 
+已添加 APP 对象“Default Web Site/pb_server”
+已添加 VDIR 对象“Default Web Site/pb_server”
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\createvdir_pb_server.bat" 
+找不到批处理文件。
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>call "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pbF3AA.tmp.bat"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>C:\Windows\system32\inetsrv\appcmd list app "Default Web Site/pb_server"   1>"D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pbF3AB.tmp.txt" 
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>"D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pbF3A9.tmp.vbs" "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pbF3AB.tmp.txt" "C:\Windows\system32\inetsrv\appcmd"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pbF3AB.tmp.txt"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pbF3A9.tmp.vbs"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pbF3AA.tmp.bat"  
+找不到批处理文件。
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>if not exist "C:\inetpub\wwwroot\pb_server" mkdir "C:\inetpub\wwwroot\pb_server"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>xcopy /Y /E /D "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server" "C:\inetpub\wwwroot\pb_server"  
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\Global.asax
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\Global.asax.resx
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\pb_webservice.disco
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\TestWebService.htm
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\uo_ds.asmx
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\web.config
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\bin\pb_server.dll
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\bin\pb_server.pdb
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\bin\pb_server_ws.dll
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server\bin\pb_server_ws.pdb
+复制了 10 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>rd /S /Q "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>if not exist "C:\inetpub\wwwroot\pb_server_root" mkdir "C:\inetpub\wwwroot\pb_server_root"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>xcopy /Y /E /D "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root" "C:\inetpub\wwwroot\pb_server_root"  
+D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root\file\common\c\~pl_\Sybase.PowerBuilder.System.pbd
+复制了 1 个文件
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>rd /S /Q "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pb_server_root"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>call "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pbF3AC.tmp.bat"  
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>net user ASPNET    
+找不到用户名。
+
+请键入 NET HELPMSG 2221 以获得更多的帮助。
+
+ASPNET [IIS 5] was not found.
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>goto groupstep_iis6    
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>net localgroup IIS_WPG     
+发生系统错误 1376。
+
+指定的本地组不存在。
+
+IIS_WPG [IIS 6] was not found.
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>goto groupstep_iis7     
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>net localgroup IIS_IUSRS     
+别名     IIS_IUSRS
+注释     Internet 信息服务使用的内置组。
+
+成员
+
+-------------------------------------------------------------------------------
+IIS APPPOOL\PBDotnet4AppPool
+命令成功完成。
+
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>cacls "C:\inetpub\wwwroot\pb_server\temp" /t /e /c /g IIS_IUSRS:f     
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>cacls "C:\inetpub\wwwroot\pb_server_root" /t /e /c /g IIS_IUSRS:f      
+处理的目录: C:\inetpub\wwwroot\pb_server_root
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file
+处理的目录: C:\inetpub\wwwroot\pb_server_root\log
+处理的目录: C:\inetpub\wwwroot\pb_server_root\mail
+处理的目录: C:\inetpub\wwwroot\pb_server_root\print
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file\common
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file\icon
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file\session
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file\users
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file\common\c
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file\common\c\temp
+处理的目录: C:\inetpub\wwwroot\pb_server_root\file\common\c\~pl_
+处理的文件: C:\inetpub\wwwroot\pb_server_root\file\common\c\~pl_\pb_webservice.pbd
+处理的文件: C:\inetpub\wwwroot\pb_server_root\file\common\c\~pl_\Sybase.PowerBuilder.System.pbd
+处理的目录: C:\inetpub\wwwroot\pb_server_root\mail\session
+处理的目录: C:\inetpub\wwwroot\pb_server_root\mail\users
+处理的目录: C:\inetpub\wwwroot\pb_server_root\print\session
+处理的目录: C:\inetpub\wwwroot\pb_server_root\print\users
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>del  "D:\pbcode\webservice_code\webservice_server\pb2cstempout\pbF3AC.tmp.bat" 
+找不到批处理文件。
+
+D:\pbcode\webservice_code\webservice_server\pb2cstempout>del "D:\pbcode\webservice_code\webservice_server\pb2cstempout\deploytoserver.bat"  
+找不到批处理文件。
+Deploying PowerBuilder .NET assemblies succeeded.

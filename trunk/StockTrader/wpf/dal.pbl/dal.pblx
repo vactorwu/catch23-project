@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>dal</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{cc3898e2-df9a-43a4-9195-17de35581ec0}</ProjectGuid>
+    <Comment>Controller Layer Objects</Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>dal</AssemblyName>
+    <RootNamespace>dal</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <ProjectTypeGuids>{1e00f043-675d-11d2-bca5-000086095dda};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{1e00f043-675a-11d2-bca5-000086095dda}</ProjectTypeGuids>
+    <PBOriginalVersion>12.0.0</PBOriginalVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="n_controller.sru">
+      <Comment>Controller layer - fronts calls to proxy - A stateful object Holds user state in-between method calls</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_logger.sru">
+      <SubType>Code</SubType>
+      <Comment>wraps file I/O to log exceptions</Comment>
+    </Compile>
+    <Compile Include="n_exception.sru">
+      <SubType>Code</SubType>
+      <Comment>custom exception class: overrides setmessage method to log exceptions</Comment>
+    </Compile>
+    <Compile Include="n_ds.sru">
+      <Comment>ws enabled datastore ancestor</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_holding_totals.sru">
+      <Comment>a value object for passing between tiers</Comment>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="n_order.sru">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.0\PowerBuilder.targets" />
+</Project>

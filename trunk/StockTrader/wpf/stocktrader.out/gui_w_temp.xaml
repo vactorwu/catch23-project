@@ -1,0 +1,10 @@
+<pbwpf:Window x:Class="w_temp"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls"
+    PBHeight="1942" PBWidth="3705" MinBox="True" MaxBox="True" TitleBar="True" ControlMenu="True"
+    Center="True" Resizable="True" Uid="67" Height="486" Width="811">
+    <Grid>
+		<pbwpf:DataWindow LiveScroll="True" Margin="6,13,0,107" Name="dw_1" TabOrder="10" PBHeight="1366" PBWidth="2370" X="26" Y="51" DataObject="d_holding_totals" />
+	</Grid>
+</pbwpf:Window>

@@ -1,0 +1,2019 @@
+dwspy succeeded.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>csc
+Microsoft (R) Visual C# 2008 Compiler version 3.5.30729.4926
+for Microsoft (R) .NET Framework version 3.5
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+fatal error CS2008: No inputs specified
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if errorlevel 9009 exit 3 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.asmx" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.asmx" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.html" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.html" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.css" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.css" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.aspx" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.aspx" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.htm" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.htm" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.js" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.js" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.resx" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.resx" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.asax" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.asax" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\build.bat" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\build.bat" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\web.config" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\web.config" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\images" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\images" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\scripts" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\scripts" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\temp" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\temp" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\Registry.xml" del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\Registry.xml" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\a" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\a" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\b" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\b" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\c" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\c" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\d" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\d" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\e" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\e" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\f" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\f" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\g" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\g" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\h" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\h" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\i" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\i" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\j" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\j" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\k" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\k" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\l" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\l" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\m" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\m" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\n" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\n" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\o" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\o" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\p" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\p" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\q" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\q" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\r" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\r" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\s" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\s" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\t" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\t" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\u" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\u" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\v" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\v" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\w" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\w" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\x" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\x" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\y" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\y" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\z" rd /s /q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\..\ST_root\file\common\z" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>rename "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\AssemblyInfo.bak" "AssemblyInfo.cs" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>"C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\pb2cs" @"C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Parsing c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking (pass 1) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Type-checking methods(pass 2) c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\stocktrader.pbl (stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_stocktrader)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_welcome)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotes)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_quotebar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_orders)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_navbar)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_mle)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_logout)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_login)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_home)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_header)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_config)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_basepage)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_account)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (st_navitem)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_register)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (w_order_alert)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_dw)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_marketsummary)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_buy_sell)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (n_order)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\gui.pbl (u_portfolio_piechart)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dwo.pbl (f_getquote)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_controller)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_logger)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_exception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_ds)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\dal.pbl (n_holding_totals)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (tradeserviceasmx)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (marketsummarydatabeanws)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (quotedatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (holdingdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (accountprofiledatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\proxy.pbl (orderdatabean)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapexception)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soappbcookie)
+Emitting c:\users\r. yakov werde\documents\sybase\referenceapp\stocktrader\soapclasses.pbl (soapconnection)
+
+
+Error Summary : 0 error(s) 
+
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 0 error(s), 0 warning(s)
+
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if ERRORLEVEL 1 exit 1 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>call build.bat c- "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\csc_output_file_name.txt" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>rem setlocal 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "c-" == "" goto usage  
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET" == "" goto sethome 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "" == "" set PB_WEBROOT=C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "" == "" set MS_AJAX_EXT_DLL=C:\Windows\assembly\GAC_MSIL\System.Web.Extensions\1.0.61025.0__31bf3856ad364e35\System.Web.Extensions.dll 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "" == "" set NET_FRAMEWORK=C:\Windows\Microsoft.NET\Framework\v2.0.50727 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md debug 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md images 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md scripts 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md temp 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>set PBROOTDIR="..\st_root" 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\mail\users 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\mail\session 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\print\users 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\print\session 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\log 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\file\icon 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\file\users 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\file\session 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>set PB_WEBFILEC="..\st_root"\file\common\c 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\file\common\c\temp 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>set PB_WEBLIBDIR="..\st_root"\file\common\c\~pl_ 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md "..\st_root"\file\common\c\~pl_ 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\csc_output_file_name.txt" == "" (
+net user ASPNET  
+  
+ goto groupstep_iis6  
+ cacls temp /t /e /c /g ASPNET:f  
+ cacls "..\st_root" /t /e /c /g ASPNET:f  
+ net localgroup IIS_WPG  
+  
+ goto groupstep_iis7  
+ cacls temp /t /e /c /g IIS_WPG:f  
+ cacls "..\st_root" /t /e /c /g IIS_WPG:f  
+ net localgroup IIS_IUSRS  
+  
+ goto copystep  
+ cacls temp /t /e /c /g IIS_IUSRS:f  
+ cacls "..\st_root" /t /e /c /g IIS_IUSRS:f 
+) 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "c-" == "c-" goto notcopy 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>xcopy /D /Y /E "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\*.*" . 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\classic.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\default.htm
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\download.htm
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\execute_error.htm
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Global.asax
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Global.asax.cs
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Global.asax.resx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\GraphStreamImageContainerPage.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\iframe_control.htm
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Login.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\pbopenfile.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\pbopenfile.aspx.cs
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\pbuploadfile.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\pbuploadfile.aspx.cs
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\StreamImageContainerPage.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\too_many_users.htm
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\UsersInit.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\wait.htm
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\xp.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\admin\UserAdd.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\admin\UserAdd.aspx.cs
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\admin\UserEdit.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\admin\UserEdit.aspx.cs
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\admin\Users.aspx
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\admin\Users.aspx.cs
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\ajax-loader.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\arrow_black.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\bg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Bgcolor.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Bold.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\break.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Bullist.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Center.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\checkbox_1_2.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_1_1_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_1_1_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_1_2_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_1_2_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_1_3_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_1_3_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_2_1_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_2_1_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_2_2_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_2_2_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_2_3_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_checkbox_2_3_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_close.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_max.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_min.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_restore.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\classic_web_close.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\ClipboardPaste.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\close.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Copy.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Cut.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Date.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\dddw.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\dddw1.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\def_top_left.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\def_top_right.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\disable_scr_down.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\disable_scr_down_xp.png
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\down.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\downdisable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\downenable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\drive.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\editdisable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\editenable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\excl.GIF
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Fgcolor.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\filemanager.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\fndragno.cur
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\folder.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\folderopen.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\gray.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\HSeparator.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\htrack.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\h_thumb_back_ground_xp.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Image.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Indent.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\info.GIF
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\InsertTable.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Italic.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Left.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\left.png
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Link.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\mailprofilemgr.GIF
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\max.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\min.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\mode.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\null.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Numlist.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Outdent.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Paste.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\printer.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\printmanager.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\quest.GIF
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\RadToolbarLeft_c.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\removedisable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\removeenable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\restore.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Right.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\right.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\root.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_down.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_down_xp.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_left.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_left_xp.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_right.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_right_xp.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_up.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\scr_up_xp.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Show.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Spacer.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\stop.GIF
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Table.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_close_classic_normal.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_close_xp_normal.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_left.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_left_bottom.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_left_top.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_scr_down.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_scr_left.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_scr_right.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_scr_up.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_top.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_top_left.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\tab_top_right.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\thememanager.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\thumb.png
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\thumb_mouse_down.png
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\Underline.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\up.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\uparrow.cur
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\updisable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\upenable.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\VSeparator.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\vtrack.PNG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\v_thumb_back_ground_xp.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_1_1_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_1_1_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_1_2_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_1_2_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_1_3_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_1_3_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_2_1_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_2_1_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_2_2_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_2_2_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_2_3_0.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_checkbox_2_3_1.jpg
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_close.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_max.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_min.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_restore.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_titlebar.JPG
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\xp_web_close.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\algnbot.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\algncntr.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\algnhcnt.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\algnleft.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\algnrght.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\algntop.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\appstarting.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\area2d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\area3d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\bar2d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\bar3d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\bar3dobj.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\barst3do.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\barstack.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\col2d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\col3d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\col3dobj.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\colst3do.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\colstack.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\dtpmask.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\dwsyntax.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\epgchkdd.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\epgchked.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\exclamation.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn0600.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn0602.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn0604.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn0700.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn0702.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn0704.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1000.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1000.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1002.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1002.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1004.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1004.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1006.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1006.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1008.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1008.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1010.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1012.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1014.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1014.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1016.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1018.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1018.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1020.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1020.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1022.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1022.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1024.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1026.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1026.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1030.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1030.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1032.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1032.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1034.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1034.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1036.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1038.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1040.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1042.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1044.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1048.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1050.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1052.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1052.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1054.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1056.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1060.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1060.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1062.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1064.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1064.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1068.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1070.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1074.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1076.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1076.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1078.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1080.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1082.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1084.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1086.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1088.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1090.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1092.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1094.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1096.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1098.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1100.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1100.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1102.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1102.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1104.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1106.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1112.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1116.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1118.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1118.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1120.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1124.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1126.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1128.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1130.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1132.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1134.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1136.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1138.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1140.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1142.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1144.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1146.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1148.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1156.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1158.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1160.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1258.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1260.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1262.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1264.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1266.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1268.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1270.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1272.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1274.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1276.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1278.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1290.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1292.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1294.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1296.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1298.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1300.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1302.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1304.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1306.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1308.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1316.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1318.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1322.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1324.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1326.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1328.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1330.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1332.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1334.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1336.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1338.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1340.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1342.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1344.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1346.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1348.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1350.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1352.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1354.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1356.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1358.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1360.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1362.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1364.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1366.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1368.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1370.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1372.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1374.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1386.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1388.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1390.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1392.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1394.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1396.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1398.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1400.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1402.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1404.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1406.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1408.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1410.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1412.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1414.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1416.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1418.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1420.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1422.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1432.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1436.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1438.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1440.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1442.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1444.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1446.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1448.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1450.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1452.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1454.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1456.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1458.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1460.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1462.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1464.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1466.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1468.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1470.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1472.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1474.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1476.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1478.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1480.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1482.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1484.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1486.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1488.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1490.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1492.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1496.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1497.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1498minusxp.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1499plusxp.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1546.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1548.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1550.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1552.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1610.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1610.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1612.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1614.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1616.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1618.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1620.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1622.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1624.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1626.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1628.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1630.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1632.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1634.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1636.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1638.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1640.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1674.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1676.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1678.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1680.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1682.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1684.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1686.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1688.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1690.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1692.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1694.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1696.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1698.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1700.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1702.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1704.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1706.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1708.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1738.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1740.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1742.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1744.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1746.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1748.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1750.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1752.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1754.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1756.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1760.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1762.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1764.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1766.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1768.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1770.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1772.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1774.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1776.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1778.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1780.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1782.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1784.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1786.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1788.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1790.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1792.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1796.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1798.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1800.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1802.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1804.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1806.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1808.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1810.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1812.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1816.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1850.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1852.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1854.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1856.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1858.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1860.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1862.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1864.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1866.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1868.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1934.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1994.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1996.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn1998.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2000.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2002.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2004.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2006.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2122.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2128.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2130.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2132.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2134.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2136.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2140.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2142.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2144.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2152.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2156.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2160.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2164.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2166.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2168.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2170.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2172.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2178.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2282.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2286.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2288.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2290.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2292.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2294.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2298.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2300.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2348.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2410.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2412.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2414.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2416.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2418.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2420.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2422.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2424.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2426.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2428.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2430.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2432.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2434.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2436.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2438.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2440.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2442.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2444.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2446.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2448.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2450.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2452.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2454.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2456.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2458.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2460.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2462.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2464.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2466.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2468.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2470.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2472.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2474.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2476.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2478.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2480.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2482.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2484.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2486.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2488.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2490.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2492.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2494.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2496.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2498.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2500.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2502.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2504.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2506.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2508.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2510.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2512.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2514.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2516.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2518.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2520.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2522.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2524.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2526.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2528.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2530.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2532.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2534.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2536.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2538.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2540.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2542.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2544.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2546.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2548.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2550.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2552.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2554.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2556.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2558.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2560.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2562.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2564.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2566.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2568.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2570.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2572.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2574.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2576.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2578.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2580.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2582.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2584.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2586.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2588.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2590.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2592.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2594.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2596.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2598.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2600.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2602.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2604.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2606.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2608.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2610.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2668.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2670.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2672.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2674.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2676.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2678.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2680.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2682.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2684.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2686.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2688.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2690.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2692.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2694.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2696.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2698.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2700.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2702.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2704.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2706.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2708.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2710.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2712.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2714.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2716.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2718.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2720.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2722.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2724.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2726.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2728.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2730.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2732.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2734.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2736.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2738.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2740.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2742.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2744.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2746.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2748.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2750.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2752.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2754.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2756.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2758.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2760.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2762.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2764.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2766.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2768.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2770.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2772.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2774.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2776.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2778.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2780.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2782.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2784.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2786.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2788.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2790.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2792.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2794.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2796.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2798.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2800.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2802.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2804.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2806.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2808.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2810.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2812.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2814.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2816.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2818.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2820.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2822.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2824.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2826.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2828.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2830.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2832.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2834.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2836.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2838.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2840.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2842.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2844.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2846.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2848.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2850.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2852.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2854.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2856.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2858.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2860.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2862.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2864.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2866.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2868.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2870.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2872.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2874.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2876.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2878.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2880.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2882.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2884.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2886.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2888.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2890.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2892.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2894.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2896.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2898.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2900.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2902.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2904.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2906.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2908.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2911.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2912.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2913.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2914.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2915.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2916.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2917.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2918.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2919.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2920.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2921.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2922.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2923.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2924.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2926.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2928.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn2930.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3000.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3001.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3002.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3003.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3004.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3005.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3006.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3007.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3008.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3009.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3010.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3011.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3012.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3013.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3014.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3015.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fn3016.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fnappend.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fndddn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fnddup.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fndither.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fndragno.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fnhand.cur
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fnmask.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fnruler.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fntooldn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\fntoolup.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\hourglass.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\hyperlink.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\icon.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\information.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\jagcomp.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\jagfldrs.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\jagpack.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\jagserv.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\jpgchkdd.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\jpgchked.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\line2d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\line3d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\meta.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\no.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\owactvx.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\owapp.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\owappsrv.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\owapptpl.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\owauto.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\owcom.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\owjag.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\padata.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\PB.exe.manifest
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbcdrag.cur
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbcross.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbdpp.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbewizd.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbewize.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbewizm.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbewizq.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbewizv.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbhyp.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbprfont.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbqcksel.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbqry.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pbttfont.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_b_dn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_b_up.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_c_dn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_c_up.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_i_dn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_i_up.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_l_dn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_l_up.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_r_dn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_r_up.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_u_dn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pb_u_up.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdtdata.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdtes1.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdtes10.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdtes2.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdtes3.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdtes8.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdtes9.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdthand.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvcalc.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvcurs.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvdcur.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvdel.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvdproc.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvdrtn.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvfet.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvfproc.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvins.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvjoin.cur
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvscrpt.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvsel.cur
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvsel.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvucur.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdvupd.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwcol.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwcross.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwewiz.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwexpr1.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwexpr2.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwform.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwgrid.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwgroup.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwlabel.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwnst.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwnup.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwole.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwoval.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwrrect.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwrte.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwscrpt.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwsp.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwsqls.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwsqlsa.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwtabl.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdwtree.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdx1.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdx10.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdx2.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdx3.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdx8.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdx9.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdxbut1.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdxbut10.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdxbut2.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdxbut3.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdxbut8.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdxbut9.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pdxshare.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgactvx.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgapptpl.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgauto.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgcom.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgejbpxy.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgjag.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgjagpxy.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pgwsprxy.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pie2d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pie3d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pjwsprxy.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\plappl.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pldatwin.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\plfunc.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\plmenu.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\plstruct.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pludo.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\plwindow.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb00.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb11.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb12.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb13.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb14.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb21.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb22.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb23.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb24.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb31.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb32.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb33.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb34.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb41.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb42.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb43.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pb44.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt00.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt11.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt12.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt13.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt14.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt21.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt22.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt23.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt24.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt31.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt32.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt33.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt34.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt41.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt42.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt43.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pt44.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv00.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv11.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv12.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv13.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv14.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv21.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv22.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv23.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv24.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv31.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv32.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv33.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv34.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv41.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv42.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv43.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_0pv44.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_blank.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_fold.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb00.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb11.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb12.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb13.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb14.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb21.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb22.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb23.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb24.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb31.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb32.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb33.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb34.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb41.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb42.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb43.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipb44.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt00.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt11.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt12.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt13.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt14.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt21.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt22.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt23.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt24.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt31.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt32.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt33.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt34.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt41.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt42.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt43.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipt44.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv00.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv11.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv12.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv13.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv14.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv21.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv22.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv23.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv24.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv31.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv32.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv33.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv34.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv41.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv42.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv43.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pl_ipv44.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pst_drag.cur
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwactvx.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwapptpl.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwarrow.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwauto.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwbmap.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwcom.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwdebug.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwejbpxy.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwjag.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwjagpxy.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwline.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwrect.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwrun.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwtext.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\pwwsprxy.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\question.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\rtc.resources
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\rtc.resX
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\scat2d.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\size.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\sizenesw.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\sizens.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\sizenwse.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\sizewe.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\sizhght.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\sizwidth.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\spchorz.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\spcvert.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\stopsign.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\swactvx.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\swapp.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\swappsrv.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\swapptpl.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\swauto.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\swcom.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\swjag.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\uparrow.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\winlogo.ico
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\wpgchkdd.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\wpgchked.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\wpgfldrs.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\wpgport.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\wpgserv.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Images\res\wpgsvc.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\LicenseFile.xml
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Images\arrow.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Calendar.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\RadTimePicker.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\arrowLeft.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\arrowRight.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\calendarBg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\clock.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\clockHover.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\ContextMenuInputBg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\datePickerPopup.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\datePickerPopupHover.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\fastNavLeft.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\fastNavRight.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\HoverBg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\MonthYearFastNavBtnBg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\selectBg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Calendar\Skins\PB\Img\TodayBg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\styles.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\Img\button.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\Img\buttondown.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\Img\buttonup.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\Img\default.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\Img\error.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\Img\focus.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Input\Skins\Default\Img\over.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Scripts\4_3_2\menu.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\styles.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\bottom.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\GroupBkg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\groupImage.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\groupImageRTL.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\left.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\right.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\RootItemBkg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\RootItemFocusedBkg.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBContemporary\Img\top.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBTraditional\styles.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBTraditional\img\bottom.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBTraditional\img\groupImage.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBTraditional\img\invertedGroupImage.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBTraditional\img\left.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBTraditional\img\right.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Menu\Skins\PBTraditional\img\top.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBContemporary\PBContemporary.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBContemporary\img\separator_h.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBContemporary\img\toolbarLeft.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBContemporary\img\toolbarRight.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBTraditional\PBTraditional.css
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBTraditional\img\separator_h.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBTraditional\img\toolbarLeft.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\RadControls\Toolbar\Skins\PBTraditional\img\toolbarRight.bmp
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\AppendRow.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Cancel.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\DeleteRow.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\dwcommon.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\dwdatetime.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\dwnumber.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\dwstring.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Filter.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\InsertRow.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PageFirst.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PageLast.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PageNext.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PagePrior.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBCheckBox.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBCollections.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBCommonUtil.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBConst.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBDataWindow.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBDatePicker.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBEditMask.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBFile.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBGraph.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBListView.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBMenu.htc
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBPDFPrinting.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBPicture.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBPictureListBox.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBProgressBar.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBRichEdit.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBScrollBar.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBStatic.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBTab.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBTextBox.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBTreeView.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\PBWindow.js
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Preview.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Print2.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\QueryClear.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\QueryModeOn.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\QuerySortOn.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Retrieve.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Ruler.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\SaveRowsAs.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Sort.gif
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\webroot\Scripts\Update.gif
+1135 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.System.pbd" "..\st_root"\file\common\c\~pl_\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.System.pbd
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadTreeView.Net2.dll" xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadTreeView.Net2.dll" debug\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadTreeView.Net2.dll
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadMenu.Net2.dll" xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadMenu.Net2.dll" debug\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadMenu.Net2.dll
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadToolbar.Net2.dll" xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadToolbar.Net2.dll" debug\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadToolbar.Net2.dll
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadCalendar.Net2.dll" xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadCalendar.Net2.dll" debug\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadCalendar.Net2.dll
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadInput.Net2.dll" xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadInput.Net2.dll" debug\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\RadInput.Net2.dll
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if exist "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\PBRTCFileTransform120.exe" xcopy /D /Y "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\PBRTCFileTransform120.exe" debug\ 
+C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\PBRTCFileTransform120.exe
+1 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>reg import "C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\PBExceptionTrace.reg" 
+ERROR: Error accessing the registry.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\csc_output_file_name.txt" == "" (C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc /t:library /debug   /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Web.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.iiop.net.dll;C:\Windows\assembly\GAC_MSIL\System.Web.Extensions\1.0.61025.0__31bf3856ad364e35\System.Web.Extensions.dll" /out:"debug\stocktrader.dll" @mb.rsp )  else (C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc /t:library /debug   /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.Web.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.0\DotNET\bin\com.sybase.iiop.net.dll;C:\Windows\assembly\GAC_MSIL\System.Web.Extensions\1.0.61025.0__31bf3856ad364e35\System.Web.Extensions.dll" /out:"debug\stocktrader.dll" @mb.rsp  1>"C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\csc_output_file_name.txt" ) 
+Build Succeeded.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>goto end 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>md bin 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>xcopy /D /Y /E debug\*.* bin\ 
+debug\PBRTCFileTransform120.exe
+debug\RadCalendar.Net2.dll
+debug\RadInput.Net2.dll
+debug\RadMenu.Net2.dll
+debug\RadToolbar.Net2.dll
+debug\RadTreeView.Net2.dll
+debug\stocktrader.dll
+debug\stocktrader.pdb
+8 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>rem endlocal 
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST>if ERRORLEVEL 1 exit 2 
+Generating PowerBuilder .NET assemblies succeeded.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build>if not exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\Debug" mkdir "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\Debug"  
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build>xcopy /Y /E /D "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug" "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\Debug"  
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\PBRTCFileTransform120.exe
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\RadCalendar.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\RadInput.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\RadMenu.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\RadToolbar.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\RadTreeView.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\stocktrader.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug\stocktrader.pdb
+8 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build>rd /S /Q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug"  
+Copying files from C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Debug to C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\Debug succeeded.
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build>if not exist "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\_inc_src" mkdir "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\_inc_src"  
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build>xcopy /Y /H /D /R "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.cs" "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\_inc_src"  
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\accountdatabean.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\accountprofiledatabean.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\AssemblyInfo.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\default.aspx.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\default_sy.aspx.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\f_getquote.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\Global.asax.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\holdingdatabean.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\marketsummarydatabeanws.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\n_controller.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\n_ds.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\n_exception.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\n_holding_totals.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\n_logger.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\n_order.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\orderdatabean.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\PBApplicationEntryPoint.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\pbopenfile.aspx.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\pbuploadfile.aspx.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\quotedatabean.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\soapconnection.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\soapexception.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\soappbcookie.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\stocktrader.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\st_navitem.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\tradeserviceasmx.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_account.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_basepage.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_buy_sell.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_config.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_dw.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_header.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_home.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_login.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_logout.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_marketsummary.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_mle.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_navbar.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_orders.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_portfolio.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_portfolio_piechart.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_quotebar.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_quotes.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_register.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\u_welcome.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\w_order_alert.cs
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\w_stocktrader.cs
+47 File(s) copied
+
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build>del /F /Q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\*.cs"  
+
+C:\Windows\system32>call "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\deploytoserver.bat"  
+
+C:\Windows\system32>if exist "C:\inetpub\wwwroot\ST\bin" rd /S /Q "C:\inetpub\wwwroot\ST\bin"  
+C:\inetpub\wwwroot\ST\bin\d_holding_totals.dll - Access is denied.
+C:\inetpub\wwwroot\ST\bin\d_quotes.dll - Access is denied.
+C:\inetpub\wwwroot\ST\bin\d_user_statistics.dll - Access is denied.
+C:\inetpub\wwwroot\ST\bin\StockTraderClassicProxy.dll - Access is denied.
+
+C:\Windows\system32>if not exist "C:\inetpub\wwwroot\ST\..\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype" mkdir "C:\inetpub\wwwroot\ST\..\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype" 
+
+C:\Windows\system32>xcopy /H /E /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\*.*" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\" 
+0 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\FundTraderErrors.log" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\" 
+0 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\StockTrader.ini" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\" 
+0 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_account.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_account.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_getholdings.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_getholdings.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_holding_totals.dll" "C:\inetpub\wwwroot\ST\bin\" 
+0 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_marketsummary.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_marketsummary.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_order.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_order.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_orders.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_orders.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_quotes.dll" "C:\inetpub\wwwroot\ST\bin\" 
+0 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\d_user_statistics.dll" "C:\inetpub\wwwroot\ST\bin\" 
+0 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktraderclassicproxy.dll" "C:\inetpub\wwwroot\ST\bin\" 
+0 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\sybase.powerbuilder.webservice.runtime.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\Sybase.Powerbuilder.WebService.Runtime.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\sybase.powerbuilder.webservice.runtimeremoteloader.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\Sybase.PowerBuilder.WebService.RuntimeRemoteLoader.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\sybase.powerbuilder.webservice.wsdl.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\Sybase.PowerBuilder.WebService.WSDL.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\sybase.powerbuilder.webservice.wsdlremoteloader.dll" "C:\inetpub\wwwroot\ST\bin\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\Sybase.PowerBuilder.WebService.WSDLRemoteLoader.dll
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\DAL.pbd" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\c\~pl_\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\dal.pbd
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\DWO.pbd" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\c\~pl_\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\dwo.pbd
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\GUI.pbd" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\c\~pl_\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\gui.pbd
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\Proxy.pbd" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\c\~pl_\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\proxy.pbd
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\SOAPclasses.pbd" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\c\~pl_\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\soapclasses.pbd
+1 File(s) copied
+
+C:\Windows\system32>xcopy /H /D /Y "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\stocktrader.pbd" "C:\inetpub\wwwroot\ST\..\ST_root\file\common\c\~pl_\" 
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbd\stocktrader.pbd
+1 File(s) copied
+
+C:\Windows\system32>del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\deploytoserver.bat"  
+
+C:\Windows\system32>call "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\createvdir_ST.bat"  
+
+C:\Windows\system32>if not exist "C:\inetpub\wwwroot\ST" mkdir "C:\inetpub\wwwroot\ST" 
+
+C:\Windows\system32>C:\Windows\system32\inetsrv\appcmd add apppool /name:"PBAppPool" 
+ERROR ( message:Failed to add duplicate collection element "PBAppPool". )
+
+C:\Windows\system32>C:\Windows\system32\inetsrv\appcmd add app /site.name:"Default Web Site" /path:"/ST" /physicalPath:"C:\inetpub\wwwroot\ST" /ApplicationPool:"PBAppPool" 
+ERROR ( message:Failed to add duplicate collection element "/ST". )
+
+C:\Windows\system32>del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\createvdir_ST.bat" 
+The batch file cannot be found.
+
+C:\Windows\system32>call "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C4.tmp.bat"  
+
+C:\Windows\system32>C:\Windows\system32\inetsrv\appcmd list app "Default Web Site/ST"   1>"C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C5.tmp.txt" 
+
+C:\Windows\system32>"C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C3.tmp.vbs" "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C5.tmp.txt" "C:\Windows\system32\inetsrv\appcmd"  
+
+C:\Windows\system32>del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C5.tmp.txt"  
+
+C:\Windows\system32>del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C3.tmp.vbs"  
+
+C:\Windows\system32>del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C4.tmp.bat"  
+The batch file cannot be found.
+
+C:\Windows\system32>if not exist "C:\inetpub\wwwroot\ST" mkdir "C:\inetpub\wwwroot\ST"  
+
+C:\Windows\system32>xcopy /Y /E /D /R "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST" "C:\inetpub\wwwroot\ST"  
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\default.aspx
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\default_sy.aspx
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\insert_image.html
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\insert_table.html
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\log.txt
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\mb.rsp
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\web.config
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\PBRTCFileTransform120.exe
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\RadCalendar.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\RadInput.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\RadMenu.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\RadToolbar.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\RadTreeView.Net2.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\stocktrader.dll
+C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST\bin\stocktrader.pdb
+15 File(s) copied
+
+C:\Windows\system32>rd /S /Q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST"  
+
+C:\Windows\system32>if not exist "C:\inetpub\wwwroot\ST_root" mkdir "C:\inetpub\wwwroot\ST_root"  
+
+C:\Windows\system32>xcopy /Y /E /D /R "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST_root" "C:\inetpub\wwwroot\ST_root"  
+0 File(s) copied
+
+C:\Windows\system32>rd /S /Q "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\ST_root"  
+
+C:\Windows\system32>call "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C6.tmp.bat"  
+
+C:\Windows\system32>net user ASPNET    
+The user name could not be found.
+
+More help is available by typing NET HELPMSG 2221.
+
+ASPNET [IIS 5] was not found.
+
+C:\Windows\system32>goto groupstep_iis6    
+
+C:\Windows\system32>net localgroup IIS_WPG     
+System error 1376 has occurred.
+
+The specified local group does not exist.
+
+IIS_WPG [IIS 6] was not found.
+
+C:\Windows\system32>goto groupstep_iis7     
+
+C:\Windows\system32>net localgroup IIS_IUSRS     
+Alias name     IIS_IUSRS
+Comment        Built-in group used by Internet Information Services.
+
+Members
+
+-------------------------------------------------------------------------------
+The command completed successfully.
+
+
+C:\Windows\system32>cacls "C:\inetpub\wwwroot\ST\temp" /t /e /c /g IIS_IUSRS:f     
+processed dir: C:\inetpub\wwwroot\ST\temp
+
+C:\Windows\system32>cacls "C:\inetpub\wwwroot\ST_root" /t /e /c /g IIS_IUSRS:f      
+processed dir: C:\inetpub\wwwroot\ST_root
+processed dir: C:\inetpub\wwwroot\ST_root\file
+processed dir: C:\inetpub\wwwroot\ST_root\log
+processed dir: C:\inetpub\wwwroot\ST_root\mail
+processed dir: C:\inetpub\wwwroot\ST_root\print
+processed dir: C:\inetpub\wwwroot\ST_root\file\common
+processed dir: C:\inetpub\wwwroot\ST_root\file\icon
+processed dir: C:\inetpub\wwwroot\ST_root\file\session
+processed dir: C:\inetpub\wwwroot\ST_root\file\users
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\temp
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\AccountPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\ConfigPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\dnarrow.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\HomePage.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\HomePagePrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\HomePagePrototype2.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\LoginPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\LoginPrototype2.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\OrderPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\PortfolioPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\QuotePrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\uparrow.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\Welcome1Prototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\Prototype\images\Welcome2Prototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\FundTraderErrors.log
+processed dir: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\StockTrader.ini
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\AccountPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\App_Logo.JPG
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\ConfigPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\dnarrow.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\HomePage.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\HomePagePrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\HomePagePrototype2.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\LoginPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\LoginPrototype2.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\OrderPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\PB12_big.jpg
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\PortfolioPrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\QuotePrototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\StockTrader.pbr
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\uparrow.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\Welcome1.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\Welcome1Prototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\Welcome2Prototype.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\images\zzSearchBug.png
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_\dal.pbd
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_\dwo.pbd
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_\gui.pbd
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_\proxy.pbd
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_\soapclasses.pbd
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_\stocktrader.pbd
+processed file: C:\inetpub\wwwroot\ST_root\file\common\C\~pl_\Sybase.PowerBuilder.System.pbd
+processed file: C:\inetpub\wwwroot\ST_root\log\PBTrace.log
+processed dir: C:\inetpub\wwwroot\ST_root\mail\session
+processed dir: C:\inetpub\wwwroot\ST_root\mail\users
+processed dir: C:\inetpub\wwwroot\ST_root\print\session
+processed dir: C:\inetpub\wwwroot\ST_root\print\users
+
+C:\Windows\system32>del  "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\pbF6C6.tmp.bat" 
+The batch file cannot be found.
+
+C:\Windows\system32>del "C:\Users\R. Yakov Werde\Documents\Sybase\ReferenceApp\StockTrader\stocktrader_webform.pbt_build\deploywebapptoserver.bat"  
+The batch file cannot be found.
+Deploying PowerBuilder .NET assemblies succeeded.
