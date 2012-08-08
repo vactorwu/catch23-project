@@ -1,0 +1,11 @@
+D:\code\YGGL\SqlServerDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.SqlServerDAL.dll
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.SqlServerDAL.pdb
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.DBUtility.dll
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.IDAL.dll
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.Model.dll
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.DBUtility.pdb
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.IDAL.pdb
+D:\code\YGGL\SqlServerDAL\bin\Debug\LYC.Model.pdb
+D:\code\YGGL\SqlServerDAL\obj\Debug\LYC.SqlServerDAL.dll
+D:\code\YGGL\SqlServerDAL\obj\Debug\LYC.SqlServerDAL.pdb

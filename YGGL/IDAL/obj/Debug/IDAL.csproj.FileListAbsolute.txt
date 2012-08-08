@@ -1,0 +1,7 @@
+D:\code\YGGL\IDAL\bin\Debug\LYC.IDAL.dll
+D:\code\YGGL\IDAL\bin\Debug\LYC.IDAL.pdb
+D:\code\YGGL\IDAL\bin\Debug\LYC.Model.dll
+D:\code\YGGL\IDAL\bin\Debug\LYC.Model.pdb
+D:\code\YGGL\IDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\code\YGGL\IDAL\obj\Debug\LYC.IDAL.dll
+D:\code\YGGL\IDAL\obj\Debug\LYC.IDAL.pdb
