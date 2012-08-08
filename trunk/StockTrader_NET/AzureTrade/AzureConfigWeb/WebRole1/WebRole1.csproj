@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3ACB5FE9-12FE-48A2-A7CE-1C6F47B3C3B6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebRole1</RootNamespace>
+    <AssemblyName>WebRole1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ConfigService.AzureConfigUtility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.AzureConfigUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.Cache, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.CacheDataContract, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.CacheDataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.CustomValidators, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.CustomValidators.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.DALSQLHelper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.DALSQLHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.IConfigActions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.IConfigActions.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.LoadBalancingClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.LoadBalancingClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.NodeBroadcastClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.NodeBroadcastClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.RuntimeHostData, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.RuntimeHostData.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.DALFactory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.DALFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.DALSQLServer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.DALSQLServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.DataContract, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.DataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.IDAL, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.IDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationBase, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationBase.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationContract, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationHelper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationRemote, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationRemote.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationUtility, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceNodeCommunication.DataContract, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceNodeCommunication.DataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceNodeCommunicationContract, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceNodeCommunicationContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceNodeCommunicationImplementation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=3ee2596f5a3c4873, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharedLibraries\Configuration\ConfigService.ServiceNodeCommunicationImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics" />
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AddConnection.aspx" />
+    <Content Include="Audit.aspx" />
+    <Content Include="Config.aspx" />
+    <Content Include="ConfigDefine.aspx" />
+    <Content Include="ConfigUpdate.aspx" />
+    <Content Include="ConnectionPoint.aspx" />
+    <Content Include="Controls\WebUserControl.ascx" />
+    <Content Include="CSServices.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Develop.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HSServices.aspx" />
+    <Content Include="Images\AboutBackground.jpg" />
+    <Content Include="Images\azurecachedown.png" />
+    <Content Include="Images\azurecacheup.png" />
+    <Content Include="Images\azurecacheyellow.png" />
+    <Content Include="Images\AzureConfigWeb.png" />
+    <Content Include="Images\azuredown.png" />
+    <Content Include="Images\azurelogo-left.png" />
+    <Content Include="Images\azureservergeneric.png" />
+    <Content Include="Images\azureunknown.png" />
+    <Content Include="Images\azureup.png" />
+    <Content Include="Images\azure_serverdown.png" />
+    <Content Include="Images\azure_serverup.png" />
+    <Content Include="Images\azure_serveryellow.png" />
+    <Content Include="Images\azure_vhostdown.png" />
+    <Content Include="Images\azure_vhostup.png" />
+    <Content Include="Images\azure_vhostyellow.png" />
+    <Content Include="Images\background.png" />
+    <Content Include="Images\BackNodesInner.png" />
+    <Content Include="Images\cache.png" />
+    <Content Include="Images\cachenode.png" />
+    <Content Include="Images\cachenodeyellow.png" />
+    <Content Include="Images\clock.png" />
+    <Content Include="Images\cogs.gif" />
+    <Content Include="Images\cogs2.gif" />
+    <Content Include="Images\config.png" />
+    <Content Include="Images\connpointfill.png" />
+    <Content Include="Images\dbserverroot.png" />
+    <Content Include="Images\dbserverrootyellow.png" />
+    <Content Include="Images\DotNetLogo-Left.png" />
+    <Content Include="Images\endpointdown.bmp" />
+    <Content Include="Images\endpointunknown.bmp" />
+    <Content Include="Images\endpointup.bmp" />
+    <Content Include="Images\GetSvcsButton.png" />
+    <Content Include="Images\globe.png" />
+    <Content Include="Images\hypervdown.png" />
+    <Content Include="Images\hypervgeneric.png" />
+    <Content Include="Images\hypervup.png" />
+    <Content Include="Images\hypervwin2008.png" />
+    <Content Include="Images\hypervwin2008R2.png" />
+    <Content Include="Images\hypervwindows.png" />
+    <Content Include="Images\hyperv_serveryellow.png" />
+    <Content Include="Images\hyperv_vhostdown.png" />
+    <Content Include="Images\hyperv_vhostup.png" />
+    <Content Include="Images\hyperv_vhostyellow.png" />
+    <Content Include="Images\lbnodesdown.png" />
+    <Content Include="Images\lbnodesunknown.png" />
+    <Content Include="Images\lbnodesup.png" />
+    <Content Include="Images\Logo-Left.png" />
+    <Content Include="Images\Network.png" />
+    <Content Include="Images\NodesBackground.png" />
+    <Content Include="Images\primary.png" />
+    <Content Include="Images\rackdown.png" />
+    <Content Include="Images\rackunknown.png" />
+    <Content Include="Images\rackup.png" />
+    <Content Include="Images\serverdown.png" />
+    <Content Include="Images\servergeneric.png" />
+    <Content Include="Images\serverup.png" />
+    <Content Include="Images\serveryellow.png" />
+    <Content Include="Images\ServiceMap.png" />
+    <Content Include="Images\servicemapglobe.png" />
+    <Content Include="Images\singleserverdown.png" />
+    <Content Include="Images\singleserverunknown.png" />
+    <Content Include="Images\singleserverup.png" />
+    <Content Include="Images\soa_down.png" />
+    <Content Include="Images\soa_recursed.png" />
+    <Content Include="Images\soa_up.png" />
+    <Content Include="Images\soa_yellow.png" />
+    <Content Include="Images\SQL.png" />
+    <Content Include="Images\sql2.png" />
+    <Content Include="Images\sql_azure_db_down.png" />
+    <Content Include="Images\sql_azure_db_up.png" />
+    <Content Include="Images\sql_azure_down.png" />
+    <Content Include="Images\sql_azure_up.png" />
+    <Content Include="Images\sql_azure_yellow.png" />
+    <Content Include="Images\sql_server_db_down.png" />
+    <Content Include="Images\sql_server_db_up.png" />
+    <Content Include="Images\sql_server_down.png" />
+    <Content Include="Images\sql_server_up.png" />
+    <Content Include="Images\sql_server_yellow.png" />
+    <Content Include="Images\stats.png" />
+    <Content Include="Images\techfill.png" />
+    <Content Include="Images\template1.png" />
+    <Content Include="Images\template2.png" />
+    <Content Include="Images\vhostdown.png" />
+    <Content Include="Images\vhostup.png" />
+    <Content Include="Images\vhostyellow.png" />
+    <Content Include="Images\VS-ConfigWeb.png" />
+    <Content Include="Images\win2008.png" />
+    <Content Include="Images\win2008r2.png" />
+    <Content Include="Images\win7.png" />
+    <Content Include="Images\WinAzureLogo.png" />
+    <Content Include="Images\winbrand.png" />
+    <Content Include="Images\wincachedown.png" />
+    <Content Include="Images\wincacheup.png" />
+    <Content Include="Images\wincacheyellow.png" />
+    <Content Include="Images\windown.png" />
+    <Content Include="Images\winunknown.png" />
+    <Content Include="Images\winup.png" />
+    <Content Include="Images\winvista.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="ManageKeys.aspx" />
+    <Content Include="ManageUsers.aspx" />
+    <Content Include="NodeMap.aspx" />
+    <Content Include="Nodes.aspx" />
+    <Content Include="PurgeConnectionPoints.aspx" />
+    <Content Include="RemoveNode.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="SOAMap.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Terms.aspx" />
+    <Content Include="TreeLineImages\dash.gif" />
+    <Content Include="TreeLineImages\dashminus.gif" />
+    <Content Include="TreeLineImages\dashplus.gif" />
+    <Content Include="TreeLineImages\i.gif" />
+    <Content Include="TreeLineImages\l.gif" />
+    <Content Include="TreeLineImages\lminus.gif" />
+    <Content Include="TreeLineImages\lplus.gif" />
+    <Content Include="TreeLineImages\minus.gif" />
+    <Content Include="TreeLineImages\noexpand.gif" />
+    <Content Include="TreeLineImages\plus.gif" />
+    <Content Include="TreeLineImages\r.gif" />
+    <Content Include="TreeLineImages\rminus.gif" />
+    <Content Include="TreeLineImages\rplus.gif" />
+    <Content Include="TreeLineImages\t.gif" />
+    <Content Include="TreeLineImages\tminus.gif" />
+    <Content Include="TreeLineImages\tplus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddConnection.aspx.cs">
+      <DependentUpon>AddConnection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddConnection.aspx.designer.cs">
+      <DependentUpon>AddConnection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\DynamicTraversePath.cs" />
+    <Compile Include="Audit.aspx.cs">
+      <DependentUpon>Audit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Audit.aspx.designer.cs">
+      <DependentUpon>Audit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Config.aspx.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Config.aspx.designer.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigDefine.aspx.cs">
+      <DependentUpon>ConfigDefine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigDefine.aspx.designer.cs">
+      <DependentUpon>ConfigDefine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigUpdate.aspx.cs">
+      <DependentUpon>ConfigUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfigUpdate.aspx.designer.cs">
+      <DependentUpon>ConfigUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionPoint.aspx.cs">
+      <DependentUpon>ConnectionPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConnectionPoint.aspx.designer.cs">
+      <DependentUpon>ConnectionPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WebUserControl.ascx.cs">
+      <DependentUpon>WebUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\WebUserControl.ascx.designer.cs">
+      <DependentUpon>WebUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CSServices.aspx.cs">
+      <DependentUpon>CSServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSServices.aspx.designer.cs">
+      <DependentUpon>CSServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Develop.aspx.cs">
+      <DependentUpon>Develop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Develop.aspx.designer.cs">
+      <DependentUpon>Develop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HSServices.aspx.cs">
+      <DependentUpon>HSServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HSServices.aspx.designer.cs">
+      <DependentUpon>HSServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageKeys.aspx.cs">
+      <DependentUpon>ManageKeys.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageKeys.aspx.designer.cs">
+      <DependentUpon>ManageKeys.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NodeMap.aspx.cs">
+      <DependentUpon>NodeMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NodeMap.aspx.designer.cs">
+      <DependentUpon>NodeMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nodes.aspx.cs">
+      <DependentUpon>Nodes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nodes.aspx.designer.cs">
+      <DependentUpon>Nodes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurgeConnectionPoints.aspx.cs">
+      <DependentUpon>PurgeConnectionPoints.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PurgeConnectionPoints.aspx.designer.cs">
+      <DependentUpon>PurgeConnectionPoints.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RemoveNode.aspx.cs">
+      <DependentUpon>RemoveNode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RemoveNode.aspx.designer.cs">
+      <DependentUpon>RemoveNode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.master.cs">
+      <DependentUpon>Site.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.master.designer.cs">
+      <DependentUpon>Site.master</DependentUpon>
+    </Compile>
+    <Compile Include="SOAMap.aspx.cs">
+      <DependentUpon>SOAMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SOAMap.aspx.designer.cs">
+      <DependentUpon>SOAMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terms.aspx.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terms.aspx.designer.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateConnectedService.aspx.cs">
+      <DependentUpon>UpdateConnectedService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateConnectedService.aspx.designer.cs">
+      <DependentUpon>UpdateConnectedService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateConnectionPoint.aspx.cs">
+      <DependentUpon>UpdateConnectionPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateConnectionPoint.aspx.designer.cs">
+      <DependentUpon>UpdateConnectionPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateHostedService.aspx.cs">
+      <DependentUpon>UpdateHostedService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateHostedService.aspx.designer.cs">
+      <DependentUpon>UpdateHostedService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VHosts.aspx.cs">
+      <DependentUpon>VHosts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VHosts.aspx.designer.cs">
+      <DependentUpon>VHosts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VHostUpdate.aspx.cs">
+      <DependentUpon>VHostUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VHostUpdate.aspx.designer.cs">
+      <DependentUpon>VHostUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\ConfigServiceTechnicalGuide.pdf" />
+    <Content Include="Startup\setPools.cmd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UpdateConnectedService.aspx" />
+    <Content Include="UpdateConnectionPoint.aspx" />
+    <Content Include="UpdateHostedService.aspx" />
+    <Content Include="Users.aspx" />
+    <Content Include="VHosts.aspx" />
+    <Content Include="VHostUpdate.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\GuideToSolutions.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\ConfigServiceVSTemplate.pdf" />
+    <Content Include="Documentation\stocktraderconfiguration.pdf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>17193</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

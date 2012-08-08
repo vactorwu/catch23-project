@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ConfigWeb" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="2" osVersion="*">
+  <Role name="WebRole1">
+    <Instances count="2" />
+    <ConfigurationSettings>
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="AzureConfigWebSSL.Com" thumbprint="9C1D7328100DA3078048DAB5DAD2C55FB5EA96BC" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

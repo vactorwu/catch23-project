@@ -1,0 +1,46 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="StockTrader.Nav"
+	x:Name="UserControl"
+	Width="833" Height="37" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+	<Grid x:Name="LayoutRoot">
+		<Path x:Name="Path" Stretch="Fill" 
+			StrokeThickness="1.33319" StrokeLineJoin="Round" Stroke="#FFFFFFFF" Data="F1 M 975.583,54.8165C 981.106,54.8165 985.583,59.2937 985.583,64.8165L   985.584,84.8198L 163.493,84.8198C 157.97,84.8198 153.493,80.3426 153.493,74.8198L 153.493,54.7231L 975.583,54.8165 Z " Margin="0.334,0.333,-0.758,5.237"/>
+		<Image x:Name="Image" Source="~as757_files\image0.png" Margin="-2.493,-0.723,-3.507,0.723"/>
+		<Path x:Name="Path_3" Stretch="Fill" Fill="#FF2B62A1" 
+			Data="F1 M 986.584,85.8199L 162.493,85.8199C 158.239,85.8199 154.605,83.163 153.16,79.4179L 986.584,79.4179L 986.584,85.8199 Z " Margin="0.667,0,-1.091,4.903" VerticalAlignment="Bottom" Height="6.402"/>
+		<Path x:Name="Path_4" Stretch="Fill" Data="M   975.583,54.8165C 981.106,54.8165 985.583,59.2937 985.583,64.8165L 985.584,84.8198L 163.493,84.8198C 157.97,84.8198 153.493,80.3426 153.493,74.8198" 
+			StrokeThickness="1.33319" StrokeLineJoin="Round" Margin="0.334,0.427,-0.758,5.237">
+			<Path.Stroke>
+				<LinearGradientBrush StartPoint="0.993099,-0.0234498" EndPoint="0.993099,0.965919">
+					<GradientStop Color="#61FFFFFF" Offset="0.0127119"/>
+					<GradientStop Color="#70FFFFFF" Offset="0.758475"/>
+					<GradientStop Color="#A9FFFFFF" Offset="0.983051"/>
+				</LinearGradientBrush>
+			</Path.Stroke>
+		</Path>
+		<Path x:Name="Path_5" Stretch="Fill" Data="M   153.493,74.8198L 153.493,54.7231L 975.583,54.8165" StrokeThickness="1.33319" StrokeLineJoin="Round" Margin="0.334,0.333,9.242,15.237">
+			<Path.Stroke>
+				<LinearGradientBrush StartPoint="0.010424,-0.0299326" EndPoint="0.742812,-0.0299326">
+					<GradientStop Color="#7EFFFFFF" Offset="0"/>
+					<GradientStop Color="#FFFFFFFF" Offset="0.131356"/>
+					<GradientStop Color="#5FFFFFFF" Offset="0.991525"/>
+				</LinearGradientBrush>
+			</Path.Stroke>
+		</Path>
+		<Path x:Name="Line" Stretch="Fill" 
+			StrokeThickness="1.33319" StrokeLineJoin="Round" Stroke="#7DFFFFFF" Data="F1 M 153.023,77.6633L 985.309,77.6633" Margin="-0.137,0,-0.482,12.393" VerticalAlignment="Bottom" Height="1.333"/>
+		<Canvas x:Name="Sections" Margin="10,0,10,0.723"/>
+		<Path x:Name="Gloss" IsHitTestVisible="false" Stretch="Fill" Data="F1 M   976.584,53.8164C 982.106,53.8164 986.584,58.2936 986.584,63.8164L 986.584,85.8199L 162.493,85.8199C 156.97,85.8199 152.493,81.3427 152.493,75.8199L   152.493,53.723L 976.584,53.8164 Z " Margin="0,0,-1.091,4.903">
+			<Path.Fill>
+				<LinearGradientBrush StartPoint="0.800658,0.0319563" EndPoint="0.800658,0.966728">
+					<GradientStop Color="#32FFFFFF" Offset="0.0127119"/>
+					<GradientStop Color="#11FFFFFF" Offset="0.368644"/>
+					<GradientStop Color="#00FFFFFF" Offset="0.385593"/>
+				</LinearGradientBrush>
+			</Path.Fill>
+		</Path>
+	</Grid>
+</UserControl>

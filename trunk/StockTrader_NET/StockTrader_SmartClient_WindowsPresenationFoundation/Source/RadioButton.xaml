@@ -1,0 +1,51 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="StockTrader.RadioButton"
+	x:Name="UserControl"
+	Width="Auto" Height="Auto">
+
+	<UserControl.Resources>
+		<Storyboard x:Key="Select">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Mark" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.2500000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="DeSelect">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Mark" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.2500000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+	<UserControl.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource Select}"/>
+			<BeginStoryboard Storyboard="{StaticResource DeSelect}"/>
+		</EventTrigger>
+	</UserControl.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<Ellipse Width="14.288" Stretch="Fill" StrokeThickness="1.33319" StrokeLineJoin="Round" HorizontalAlignment="Left" VerticalAlignment="Top" Height="14.288">
+			<Ellipse.Stroke>
+				<LinearGradientBrush StartPoint="0.483402,0.95794" EndPoint="0.483402,0.0468915">
+					<GradientStop Color="#EAFFFFFF" Offset="0"/>
+					<GradientStop Color="#FEA8B0BC" Offset="1"/>
+				</LinearGradientBrush>
+			</Ellipse.Stroke>
+			<Ellipse.Fill>
+				<LinearGradientBrush StartPoint="0.483402,0.95794" EndPoint="0.483402,0.0468915">
+					<GradientStop Color="#FEA8B0BC" Offset="0"/>
+					<GradientStop Color="#EAFFFFFF" Offset="1"/>
+				</LinearGradientBrush>
+			</Ellipse.Fill>
+		</Ellipse>
+		<Path x:Name="Mark" Width="5.979" Stretch="Fill" Data="F1 M -49.3534,258.523C -47.7023,258.523 -46.3638,259.862 -46.3638,261.513C -46.3638,263.164 -47.7023,264.502 -49.3534,264.502C -51.0045,264.502 -52.343,263.164 -52.343,261.513C -52.343,259.862 -51.0045,258.523 -49.3534,258.523 Z " HorizontalAlignment="Left" Margin="4,4,0,0" VerticalAlignment="Top" Height="5.979" Opacity="0">
+			<Path.Fill>
+				<LinearGradientBrush StartPoint="0.510417,0.00833491" EndPoint="0.510417,0.997918">
+					<GradientStop Color="#EA7C8AA4" Offset="0"/>
+					<GradientStop Color="#FE23324D" Offset="1"/>
+				</LinearGradientBrush>
+			</Path.Fill>
+		</Path>
+	</Grid>
+</UserControl>

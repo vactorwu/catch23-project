@@ -1,0 +1,54 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="StockTrader.NavItem"
+	x:Name="UserControl"
+	Width="640" Height="480">
+
+	<UserControl.Resources>
+		<Storyboard x:Key="Select">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Selected" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Label" Storyboard.TargetProperty="(TextElement.Foreground).(SolidColorBrush.Color)">
+				<SplineColorKeyFrame KeyTime="00:00:00.2000000" Value="#FFBF1500"/>
+			</ColorAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="DeSelect">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Selected" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+			<ColorAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Label" Storyboard.TargetProperty="(TextElement.Foreground).(SolidColorBrush.Color)">
+				<SplineColorKeyFrame KeyTime="00:00:00.2000000" Value="#FFACD6FD"/>
+			</ColorAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+	<UserControl.Triggers>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource Select}"/>
+			<BeginStoryboard Storyboard="{StaticResource DeSelect}"/>
+		</EventTrigger>
+	</UserControl.Triggers>
+
+	<Grid x:Name="LayoutRoot" ForceCursor="False">
+		<Canvas x:Name="Selected" Width="92.51" Height="29.503" Opacity="0" HorizontalAlignment="Left" Margin="0,2,0,0" VerticalAlignment="Top" Background="{x:Null}">
+			<Rectangle x:Name="Rectangle_242" Width="92.51" Height="22.5025" Canvas.Left="0" Canvas.Top="0" Stretch="Fill">
+				<Rectangle.Fill>
+					<LinearGradientBrush StartPoint="0.881081,0.0232559" EndPoint="0.881081,1.04651">
+						<GradientStop Color="#FFFFFFFF" Offset="0"/>
+						<GradientStop Color="#FFD2D7E0" Offset="1"/>
+					</LinearGradientBrush>
+				</Rectangle.Fill>
+			</Rectangle>
+			<Rectangle x:Name="Rectangle_243" Width="92.51" Height="5.50061" Canvas.Left="0" Canvas.Top="24.0026" Stretch="Fill">
+				<Rectangle.Fill>
+					<LinearGradientBrush StartPoint="0.881081,0.0232574" EndPoint="0.881081,1.04651">
+						<GradientStop Color="#FF6F0C00" Offset="0"/>
+						<GradientStop Color="#FFBF1500" Offset="1"/>
+					</LinearGradientBrush>
+				</Rectangle.Fill>
+			</Rectangle>
+		</Canvas>
+		<TextBlock HorizontalAlignment="Left" Margin="0,6.75,0,0" x:Name="Label" VerticalAlignment="Top" Width="92.51" Height="24.753" FontFamily="Trebuchet MS" FontSize="12" FontWeight="Bold" Foreground="#FFACD6FD" Text="Welcome" TextAlignment="Center" TextWrapping="Wrap"/>
+	</Grid>
+</UserControl>

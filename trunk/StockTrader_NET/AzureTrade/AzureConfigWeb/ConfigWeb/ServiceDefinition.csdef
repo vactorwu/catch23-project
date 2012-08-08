@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="ConfigWeb" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WebRole name="WebRole1" vmsize="Small">
+    <Startup>
+      <Task commandLine="startup\setPools.cmd" executionContext="elevated" />
+    </Startup>
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="Endpoint1" endpointName="ConfigWebSecure" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Endpoints>
+      <InputEndpoint name="ConfigWebSecure" protocol="https" port="443" certificate="AzureConfigWebSSL.Com" />
+    </Endpoints>
+    <Imports>
+    </Imports>
+    <Certificates>
+      <Certificate name="AzureConfigWebSSL.Com" storeLocation="LocalMachine" storeName="TrustedPeople" />
+    </Certificates>
+  </WebRole>
+</ServiceDefinition>
