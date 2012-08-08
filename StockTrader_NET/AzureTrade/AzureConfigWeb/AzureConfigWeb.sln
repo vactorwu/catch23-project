@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureConfigWeb", "ConfigWeb\AzureConfigWeb.ccproj", "{D1E982E7-41EB-42C0-AAD9-885E20BC5898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{3ACB5FE9-12FE-48A2-A7CE-1C6F47B3C3B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1E982E7-41EB-42C0-AAD9-885E20BC5898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E982E7-41EB-42C0-AAD9-885E20BC5898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E982E7-41EB-42C0-AAD9-885E20BC5898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E982E7-41EB-42C0-AAD9-885E20BC5898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACB5FE9-12FE-48A2-A7CE-1C6F47B3C3B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACB5FE9-12FE-48A2-A7CE-1C6F47B3C3B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACB5FE9-12FE-48A2-A7CE-1C6F47B3C3B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACB5FE9-12FE-48A2-A7CE-1C6F47B3C3B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

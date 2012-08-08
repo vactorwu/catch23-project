@@ -1,0 +1,18 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="StockTrader.GainIcon"
+	x:Name="UserControl"
+	Width="Auto" Height="Auto">
+
+	<Grid x:Name="LayoutRoot">
+		<Path x:Name="Path_4" Width="8.945" Height="14.246" Stretch="Fill" StrokeThickness="1.33319" StrokeLineJoin="Round" Stroke="#FF3E6844" Data="F1 M 202.075,529.343L 198.253,532.765L 200.544,532.765L 200.544,542.256L 203.492,542.256L 203.492,532.83L 205.865,532.83L 202.075,529.343 Z " HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Center">
+			<Path.Fill>
+				<LinearGradientBrush StartPoint="0.431603,0.101165" EndPoint="0.738911,1.10106">
+					<GradientStop Color="#FF91E68C" Offset="0"/>
+					<GradientStop Color="#FF69A969" Offset="1"/>
+				</LinearGradientBrush>
+			</Path.Fill>
+		</Path>
+	</Grid>
+</UserControl>

@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="SiteMaster" Codebehind="Site.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <table style="table-layout:fixed">
+            <col width="140px" />
+            <col width="650px" />
+            <col width="270px" />
+            <tr>
+                <td> 
+                     <div class="titleLogo">
+                     <asp:ImageButton ID="Logo" runat="server" ImageUrl="~/Images/logo-left.png" CssClass="logo" />
+                     </div>
+                </td>
+                <td style="text-align:center;">
+                <h1>
+                  Service ConfigWeb
+                </h1>
+                </td>
+                <td>
+                    <div class="versionDisplay" >
+                    Configuration Service <br />Version 5.0.0
+                    </div>
+                </td>
+          </tr>
+          </table>
+          </div>
+          <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Welcome"/>
+                        <asp:MenuItem NavigateUrl="~/logout.aspx" Text="Login/Logout"/>
+                        <asp:MenuItem NavigateUrl="~/Nodes.aspx" Text="Configuration"/>
+                        <asp:MenuItem NavigateUrl="~/Audit.aspx" Text="Service Logs"/>
+                        <asp:MenuItem NavigateUrl="~/VHosts.aspx" Text="Hosted Services"/>
+                        <asp:MenuItem NavigateUrl="~/CSServices.aspx" Text="Connected Services"/>
+                        <asp:MenuItem NavigateUrl="~/ConnectionPoint.aspx" Text="Connections"/>
+                         <asp:MenuItem NavigateUrl="~/Develop.aspx" Text="Docs"/>
+                        <asp:MenuItem NavigateUrl="~/Terms.aspx" Text="Glossary"/>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                    </Items>
+                </asp:Menu>
+        </div>
+        
+        <div class="main" style="background-image: url('Images/Background.png')">
+            <div class="forum">
+                <span><a class="toplinks" href="http://social.msdn.microsoft.com/forums/en-US/dotnetstocktradersampleapplication/threads/">
+                    Discussion Forum</a></span>
+                <span style="padding-left:25px;"><a class="toplinks" href="http://msdn.microsoft.com/stocktrader">
+                    Download on MSDN
+                </a></span>
+            </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    <div class="clear">
+    </div>
+    </div>
+    <div class="footer">
+       <center>
+            Created with Microsoft Visual Studio and the Microsoft .NET Framework 4.0
+            <br />Copyright 2011, Microsoft Corporation<br /><asp:ImageButton ID="VSLogo" runat="server" ImageUrl="~/Images/VS-ConfigWeb.png" />
+      </center>
+    </div>
+    </form>
+</body>
+</html>

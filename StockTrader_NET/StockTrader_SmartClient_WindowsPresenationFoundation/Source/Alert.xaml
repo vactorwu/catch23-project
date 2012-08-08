@@ -1,0 +1,24 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="StockTrader.Alert"
+	x:Name="UserControl"
+	Width="Auto" Height="Auto" HorizontalAlignment="Left" VerticalAlignment="Top">
+
+	<Grid x:Name="LayoutRoot">
+		<Canvas HorizontalAlignment="Center" Margin="1.037,2.455,-525.037,-84.984" VerticalAlignment="Center">
+			<Image x:Name="Image_137" Source="~or83E_files\image2.png" Width="524" Height="77"/>
+			<Path x:Name="Path_138" Stretch="Fill" Data="F1 M 282.066,291.899L 781.804,291.899C 787.302,291.899 791.758,296.356 791.758,301.853L 791.758,363.576C 791.758,369.073 737.527,373.529 732.03,373.529L 341.795,373.529C 336.298,373.529 272.112,369.073 272.112,363.576L 272.112,301.853C 272.112,296.356 276.568,291.899 282.066,291.899 Z " Width="519.646" Height="81.63" Canvas.Left="2.112" Canvas.Top="0.899">
+				<Path.Fill>
+					<LinearGradientBrush StartPoint="0.262412,-0.00508998" EndPoint="0.262412,0.787593">
+						<GradientStop Color="#32FFFFFF" Offset="0.0127119"/>
+						<GradientStop Color="#11FFFFFF" Offset="0.559322"/>
+						<GradientStop Color="#00FFFFFF" Offset="0.576271"/>
+					</LinearGradientBrush>
+				</Path.Fill>
+			</Path>
+			<Path x:Name="Path_139" Stretch="Fill" Fill="#FFFFFFFF" Data="F1 M 281.94,296.545L 781.18,296.545C 783.929,296.545 786.157,298.773 786.157,301.522L 786.157,354.284C 786.157,357.032 783.929,359.261 781.18,359.261L 281.94,359.261C 279.191,359.261 276.963,357.032 276.963,354.284L 276.963,301.522C 276.963,298.773 279.191,296.545 281.94,296.545 Z " Width="509.194" Height="62.716" Canvas.Left="6.963" Canvas.Top="5.545"/>
+			<TextBlock x:Name="Message" Width="509.194" Height="16" Canvas.Left="6.957" Canvas.Top="32.037" FontFamily="Trebuchet MS" FontSize="12" FontWeight="Bold" Foreground="#FF355FA1" Text="This is a message that needed to be reported!" TextAlignment="Center" TextWrapping="Wrap"/>
+		</Canvas>
+	</Grid>
+</UserControl>

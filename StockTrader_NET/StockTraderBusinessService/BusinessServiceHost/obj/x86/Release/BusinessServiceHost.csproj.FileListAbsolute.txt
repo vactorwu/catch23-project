@@ -1,0 +1,1 @@
+C:\stocktrader\StockTrader\StockTraderBusinessService\BusinessServiceHost\bin\x86\Release\Trade.BusinessServiceHost.exe.config

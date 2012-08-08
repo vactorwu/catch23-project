@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20826</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF8B8AC7-2F85-479D-9514-570E56CB7739}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trade.StockTraderWebApplicationConfigurationImplementation</RootNamespace>
+    <AssemblyName>Trade.StockTraderWebApplicationConfigurationImplementation</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>stocktrader.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ConfigService.AzureConfigUtility">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.AzureConfigUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.Cache">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.CacheDataContract">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.CacheDataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.CustomValidators">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.CustomValidators.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.DALSQLHelper">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.DALSQLHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.IConfigActions">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.IConfigActions.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.LoadBalancingClient">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.LoadBalancingClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.NodeBroadcastClient">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.NodeBroadcastClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.RuntimeHostData">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.RuntimeHostData.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.DALFactory">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.DALFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.DALSQLServer">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.DALSQLServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.DataContract">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.DataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfiguration.IDAL">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfiguration.IDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationBase">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationBase.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationContract">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationHelper">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationRemote">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationRemote.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceConfigurationUtility">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceConfigurationUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceNodeCommunication.DataContract">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceNodeCommunication.DataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceNodeCommunicationContract">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceNodeCommunicationContract.dll</HintPath>
+    </Reference>
+    <Reference Include="ConfigService.ServiceNodeCommunicationImplementation">
+      <HintPath>..\..\..\SharedLibraries\Configuration\ConfigService.ServiceNodeCommunicationImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Windows\Microsoft.NET\Framework\v3.0\Windows Communication Foundation\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Windows\Microsoft.NET\Framework\v3.0\Windows Communication Foundation\System.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Trade.BusinessServiceConfigurationSettings">
+      <HintPath>..\..\..\SharedLibraries\BusinessService\Trade.BusinessServiceConfigurationSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.BusinessServiceContract">
+      <HintPath>..\..\..\SharedLibraries\BusinessService\Trade.BusinessServiceContract.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.BusinessServiceDataContract">
+      <HintPath>..\..\..\SharedLibraries\BusinessService\Trade.BusinessServiceDataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.BusinessServiceHostConfigurationImplementation">
+      <HintPath>..\..\..\SharedLibraries\BusinessService\Trade.BusinessServiceHostConfigurationImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.BusinessServiceImplementation">
+      <HintPath>..\..\..\SharedLibraries\BusinessService\Trade.BusinessServiceImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.DALFactory">
+      <HintPath>..\..\..\SharedLibraries\DataAccess\Trade.DALFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.DALSQLServer">
+      <HintPath>..\..\..\SharedLibraries\DataAccess\Trade.DALSQLServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.IDAL">
+      <HintPath>..\..\..\SharedLibraries\DataAccess\Trade.IDAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.OrderProcessorAsyncClient">
+      <HintPath>..\..\..\SharedLibraries\OrderProcessorService\Trade.OrderProcessorAsyncClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.OrderProcessorContract">
+      <HintPath>..\..\..\SharedLibraries\OrderProcessorService\Trade.OrderProcessorContract.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.OrderProcessorDataContract">
+      <HintPath>..\..\..\SharedLibraries\OrderProcessorService\Trade.OrderProcessorDataContract.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.OrderProcessorHostConfigurationImplementation">
+      <HintPath>..\..\..\SharedLibraries\OrderProcessorService\Trade.OrderProcessorHostConfigurationImplementation.dll</HintPath>
+    </Reference>
+    <Reference Include="Trade.OrderProcessorServiceConfigurationSettings">
+      <HintPath>..\..\..\SharedLibraries\OrderProcessorService\Trade.OrderProcessorServiceConfigurationSettings.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigurationService.cs" />
+    <Compile Include="InitConfigInProcessBusinessService.cs" />
+    <Compile Include="ConfigurationActions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stocktrader.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\StockTraderBusinessService\StockTraderUtility\Utility.csproj">
+      <Project>{382E6E1C-E430-4F6C-BC41-5D84A3798B02}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceConfigurationSettings\StockTraderWebApplicationSettings.csproj">
+      <Project>{D8E1ECD5-2D86-4994-A37B-BF4D24334A2E}</Project>
+      <Name>StockTraderWebApplicationSettings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockTraderWebApplicationClients\StockTraderWebApplicationServiceClient.csproj">
+      <Project>{3A1AB418-60B7-44BF-AE17-E74F425CD5C9}</Project>
+      <Name>StockTraderWebApplicationServiceClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockTraderWebApplicationUIModelClasses\StockTraderWebApplicationModelClasses.csproj">
+      <Project>{97F8A696-9918-4DC4-8D6E-9E574B9A4059}</Project>
+      <Name>StockTraderWebApplicationModelClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

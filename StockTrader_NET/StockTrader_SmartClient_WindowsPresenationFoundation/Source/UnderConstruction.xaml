@@ -1,0 +1,12 @@
+﻿<StockTrader:Section
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:StockTrader="clr-namespace:StockTrader" xmlns:d="http://schemas.microsoft.com/expression/blend/2006" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	x:Class="StockTrader.UnderConstruction"
+	x:Name="UserControl"
+	Width="1000" Height="600">
+
+  <Grid x:Name="LayoutRoot">
+    <TextBlock Margin="0,0,0,0" VerticalAlignment="Center" Height="30" FontFamily="Trebuchet MS" FontSize="25" FontWeight="Bold" Foreground="#FFE9F4FE" Text="Under Construction" TextAlignment="Center" TextWrapping="Wrap"/>
+  </Grid>
+</StockTrader:Section>
