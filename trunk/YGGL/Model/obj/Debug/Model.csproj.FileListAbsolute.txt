@@ -1,0 +1,5 @@
+D:\code\YGGL\Model\bin\Debug\LYC.Model.dll
+D:\code\YGGL\Model\bin\Debug\LYC.Model.pdb
+D:\code\YGGL\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\code\YGGL\Model\obj\Debug\LYC.Model.dll
+D:\code\YGGL\Model\obj\Debug\LYC.Model.pdb

@@ -1,0 +1,5 @@
+D:\code\YGGL\DBUtility\bin\Debug\LYC.DBUtility.dll
+D:\code\YGGL\DBUtility\bin\Debug\LYC.DBUtility.pdb
+D:\code\YGGL\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+D:\code\YGGL\DBUtility\obj\Debug\LYC.DBUtility.dll
+D:\code\YGGL\DBUtility\obj\Debug\LYC.DBUtility.pdb
