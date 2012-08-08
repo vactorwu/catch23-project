@@ -3,6 +3,7 @@ Save Format v3.0(19990112)
 @end;
 @begin Targets
  0 "hisserver.pbt";
+ 1 "assembly.pbt";
 @end;
-DefaultTarget "hisserver.pbt";
-DefaultRemoteTarget "hisserver.pbt";
+DefaultTarget "assembly.pbt";
+DefaultRemoteTarget "assembly.pbt";
