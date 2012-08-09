@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PBProject Name="p_smjl_webform" Type="WebForm">
+	<General>
+		<PBTargetFolder>D:\googlesvn\SMJL\</PBTargetFolder>
+		<PBTargetName>smjl_webform.pbt</PBTargetName>
+		<WebAppName>smjl</WebAppName>
+		<OutputPath>localhost</OutputPath>
+		<DebugBuild>false</DebugBuild>
+		<EnableDebugSymbol>true</EnableDebugSymbol>
+		<FullBuild>false</FullBuild>
+		<DeployTime>
+			<Year>2012</Year>
+			<Month>8</Month>
+			<Day>9</Day>
+			<Hour>5</Hour>
+			<Minute>55</Minute>
+			<Second>39</Second>
+		</DeployTime>
+	</General>
+	<LibList>
+		<FileType>
+			<FileName>D:\googlesvn\SMJL\smjl.pbl</FileName>
+			<ModifyTime>
+				<Year>2012</Year>
+				<Month>8</Month>
+				<Day>9</Day>
+				<Hour>5</Hour>
+				<Minute>55</Minute>
+				<Second>12</Second>
+			</ModifyTime>
+		</FileType>
+	</LibList>
+	<ResourceFiles/>
+	<ReferenceAssemblyFiles/>
+	<PBLibraryFiles>
+		<FileType>
+			<FileName>D:\googlesvn\SMJL\smjl.pbl</FileName>
+			<ModifyTime>
+				<Year>2012</Year>
+				<Month>8</Month>
+				<Day>9</Day>
+				<Hour>5</Hour>
+				<Minute>55</Minute>
+				<Second>12</Second>
+			</ModifyTime>
+		</FileType>
+	</PBLibraryFiles>
+	<Win32LibraryFiles/>
+	<JavaScriptFiles/>
+	<Version>
+		<ProductName/>
+		<Description/>
+		<CopyRight/>
+		<CompanyName/>
+		<ProductVersionString>1.0.0.1</ProductVersionString>
+		<FileVersionString>1.0.0.1</FileVersionString>
+		<AssemblyVersionString>1.0.0.1</AssemblyVersionString>
+	</Version>
+	<Configuration>
+		<Item Key="PBWebFileProcessMode" Value="share"/>
+		<Item Key="PBCurrentDir" Value="D:\googlesvn\SMJL"/>
+		<Item Key="PBTempDir" Value="c:\temp"/>
+		<Item Key="PBLibDir" Value="c:\~pl_"/>
+		<Item Key="PBDenyDownloadFolders" Value="c:\~pl_"/>
+		<Item Key="PBCommandParm" Value=""/>
+		<Item Key="PBYieldTimeout" Value="10000"/>
+		<Item Key="PBFileManager" Value="false"/>
+		<Item Key="PBMailManager" Value="false"/>
+		<Item Key="PBTrace" Value="enabled"/>
+		<Item Key="PBTraceTarget" Value="File"/>
+		<Item Key="PBMaxSession" Value="0"/>
+		<Item Key="PBTraceFileName" Value="PBTrace.log"/>
+		<Item Key="PBEventLogID" Value="1100"/>
+		<Item Key="PBAutoTriggerMenuSelectedEvents" Value="false"/>
+		<Item Key="PBTimerInterval" Value="0"/>
+		<Item Key="PBIdleInterval" Value="0"/>
+		<Item Key="PBMailTimeout" Value="1200000"/>
+		<Item Key="PBDeleteTempFileInterval" Value="0"/>
+		<Item Key="PBShowDenyDownloadFolders" Value="false"/>
+		<Item Key="PBShowFormExitMessage" Value="true"/>
+		<Item Key="PBFormExitMessage" Value="If there is any unsaved data, it will be lost."/>
+		<Item Key="PBDataWindowRowsPerPage" Value="20"/>
+		<Item Key="PBDataWindowPageNavigatorType" Value="NextPrev"/>
+		<Item Key="PBDataWindowStatusInfoFormat" Value="Page {C} of {T}"/>
+		<Item Key="PBDataWindowGoToDescription" Value="Go To:"/>
+		<Item Key="PBDataWindowGoToButtonText" Value="Go"/>
+		<Item Key="PBDataWindowPageCountPerGroup" Value="10"/>
+		<Item Key="PBDataWindowQuickGoPageNavigatorType" Value="DropDownList"/>
+		<Item Key="PBDataWindowNavigationBarPosition" Value="PBDWBottom"/>
+		<Item Key="PBDataWindowScriptCallbackDDDW" Value="false"/>
+		<Item Key="PBDataWindowEnableDDDW" Value="false"/>
+		<Item Key="PBCachedAndSharedDWs" Value=""/>
+		<Item Key="PBCachedAndSharedDDDWs" Value=""/>
+		<Item Key="PBDBFetchBuffers" Value="1"/>
+		<Item Key="PBDBLogFileName" Value="c:\dbtrace.log"/>
+		<Item Key="PBDBShowBindings" Value="1"/>
+		<Item Key="PBDBShowDBINames" Value="0"/>
+		<Item Key="PBDBSqlTraceFile" Value="c:\pbtrsql.log"/>
+		<Item Key="PBDBSumTiming" Value="1"/>
+		<Item Key="PBDBTiming" Value="1"/>
+		<Item Key="PBCultureSource" Value="Server"/>
+		<Item Key="PBWindowDefaultHeight" Value="600"/>
+		<Item Key="PBWindowDefaultWidth" Value="1003"/>
+		<Item Key="PBDefaultTheme" Value="Auto"/>
+		<Item Key="PBThemeManager" Value="false"/>
+		<Item Key="PBJVMLogFileName" Value="vm.out"/>
+		<Item Key="PBTraceLevel" Value="Critical"/>
+		<Item Key="PBAjaxWaitingMessage" Value="Loading ... ... Please wait..."/>
+		<Item Key="PBAjaxWaitingMessageFontFamily" Value="Tahoma"/>
+		<Item Key="PBAjaxWaitingMessageFontSize" Value="10"/>
+		<Item Key="PBAjaxWaitingMessageBoxPosition" Value="Center"/>
+		<Item Key="PBAjaxWaitingMessageBoxWidth" Value=""/>
+		<Item Key="PBAjaxWaitingMessageBoxHeight" Value=""/>
+		<Item Key="PBDenyTextBoxCopyPaste" Value="false"/>
+	</Configuration>
+	<RegistryFile>
+		<FileName/>
+		<ModifyTime>
+			<Year>5450</Year>
+			<Month>8</Month>
+			<Day>13</Day>
+			<Hour>21</Hour>
+			<Minute>17</Minute>
+			<Second>39</Second>
+		</ModifyTime>
+	</RegistryFile>
+	<Sign>
+		<SignAssembly>false</SignAssembly>
+		<StrongnameKeyfile/>
+		<DelaySignOnly>false</DelaySignOnly>
+		<KeyContainerName/>
+	</Sign>
+</PBProject>
