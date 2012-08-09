@@ -8,14 +8,14 @@
 		<OutputPath>C:\project\SMJL\smjl_winform_WinformOutput</OutputPath>
 		<DebugBuild>false</DebugBuild>
 		<EnableDebugSymbol>true</EnableDebugSymbol>
-		<FullBuild>false</FullBuild>
+		<FullBuild>true</FullBuild>
 		<DeployTime>
 			<Year>2012</Year>
 			<Month>8</Month>
 			<Day>9</Day>
 			<Hour>6</Hour>
-			<Minute>12</Minute>
-			<Second>13</Second>
+			<Minute>41</Minute>
+			<Second>49</Second>
 		</DeployTime>
 	</General>
 	<LibList>
@@ -26,8 +26,8 @@
 				<Month>8</Month>
 				<Day>9</Day>
 				<Hour>6</Hour>
-				<Minute>12</Minute>
-				<Second>0</Second>
+				<Minute>41</Minute>
+				<Second>45</Second>
 			</ModifyTime>
 		</PublishFileType>
 	</LibList>
@@ -41,14 +41,14 @@
 				<Month>8</Month>
 				<Day>9</Day>
 				<Hour>6</Hour>
-				<Minute>12</Minute>
-				<Second>0</Second>
+				<Minute>41</Minute>
+				<Second>45</Second>
 			</ModifyTime>
 		</PublishFileType>
 	</PBLibraryFiles>
 	<Win32LibraryFiles/>
 	<Version>
-		<ProductName>smjl</ProductName>
+		<ProductName>生命节律查询_智能客户端</ProductName>
 		<Description>生命节律查询_智能客户端</Description>
 		<CopyRight>catch</CopyRight>
 		<CompanyName>catch</CompanyName>
