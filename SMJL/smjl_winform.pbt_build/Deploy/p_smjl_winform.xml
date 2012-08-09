@@ -13,9 +13,9 @@
 			<Year>2012</Year>
 			<Month>8</Month>
 			<Day>9</Day>
-			<Hour>6</Hour>
-			<Minute>41</Minute>
-			<Second>49</Second>
+			<Hour>8</Hour>
+			<Minute>7</Minute>
+			<Second>39</Second>
 		</DeployTime>
 	</General>
 	<LibList>
@@ -25,9 +25,9 @@
 				<Year>2012</Year>
 				<Month>8</Month>
 				<Day>9</Day>
-				<Hour>6</Hour>
-				<Minute>41</Minute>
-				<Second>45</Second>
+				<Hour>8</Hour>
+				<Minute>7</Minute>
+				<Second>25</Second>
 			</ModifyTime>
 		</PublishFileType>
 	</LibList>
@@ -40,9 +40,9 @@
 				<Year>2012</Year>
 				<Month>8</Month>
 				<Day>9</Day>
-				<Hour>6</Hour>
-				<Minute>41</Minute>
-				<Second>45</Second>
+				<Hour>8</Hour>
+				<Minute>7</Minute>
+				<Second>25</Second>
 			</ModifyTime>
 		</PublishFileType>
 	</PBLibraryFiles>
