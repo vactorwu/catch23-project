@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PBProject Name="p_smjl_webform" Type="WebForm">
 	<General>
-		<PBTargetFolder>D:\googlesvn\SMJL\</PBTargetFolder>
-		<PBTargetName>smjl_webform.pbt</PBTargetName>
+		<PBTargetFolder>C:\project\SMJL\</PBTargetFolder>
+		<PBTargetName/>
 		<WebAppName>smjl</WebAppName>
 		<OutputPath>localhost</OutputPath>
 		<DebugBuild>false</DebugBuild>
 		<EnableDebugSymbol>true</EnableDebugSymbol>
-		<FullBuild>false</FullBuild>
+		<FullBuild>true</FullBuild>
 		<DeployTime>
 			<Year>2012</Year>
 			<Month>8</Month>
 			<Day>9</Day>
-			<Hour>5</Hour>
-			<Minute>55</Minute>
-			<Second>39</Second>
+			<Hour>6</Hour>
+			<Minute>3</Minute>
+			<Second>17</Second>
 		</DeployTime>
 	</General>
 	<LibList>
 		<FileType>
-			<FileName>D:\googlesvn\SMJL\smjl.pbl</FileName>
+			<FileName>C:\project\SMJL\smjl.pbl</FileName>
 			<ModifyTime>
 				<Year>2012</Year>
 				<Month>8</Month>
 				<Day>9</Day>
-				<Hour>5</Hour>
-				<Minute>55</Minute>
-				<Second>12</Second>
+				<Hour>6</Hour>
+				<Minute>2</Minute>
+				<Second>48</Second>
 			</ModifyTime>
 		</FileType>
 	</LibList>
@@ -34,14 +34,14 @@
 	<ReferenceAssemblyFiles/>
 	<PBLibraryFiles>
 		<FileType>
-			<FileName>D:\googlesvn\SMJL\smjl.pbl</FileName>
+			<FileName>C:\project\SMJL\smjl.pbl</FileName>
 			<ModifyTime>
 				<Year>2012</Year>
 				<Month>8</Month>
 				<Day>9</Day>
-				<Hour>5</Hour>
-				<Minute>55</Minute>
-				<Second>12</Second>
+				<Hour>6</Hour>
+				<Minute>2</Minute>
+				<Second>48</Second>
 			</ModifyTime>
 		</FileType>
 	</PBLibraryFiles>
@@ -58,7 +58,7 @@
 	</Version>
 	<Configuration>
 		<Item Key="PBWebFileProcessMode" Value="share"/>
-		<Item Key="PBCurrentDir" Value="D:\googlesvn\SMJL"/>
+		<Item Key="PBCurrentDir" Value="C:\project\SMJL"/>
 		<Item Key="PBTempDir" Value="c:\temp"/>
 		<Item Key="PBLibDir" Value="c:\~pl_"/>
 		<Item Key="PBDenyDownloadFolders" Value="c:\~pl_"/>
@@ -119,9 +119,9 @@
 			<Year>5450</Year>
 			<Month>8</Month>
 			<Day>13</Day>
-			<Hour>21</Hour>
-			<Minute>17</Minute>
-			<Second>39</Second>
+			<Hour>20</Hour>
+			<Minute>49</Minute>
+			<Second>1</Second>
 		</ModifyTime>
 	</RegistryFile>
 	<Sign>
