@@ -10,6 +10,27 @@ fatal error CS2008: 未指定输入
 C:\project\SMJL\smjl_winform.pbt_build>if errorlevel 9009 exit 3 
 
 C:\project\SMJL\smjl_winform.pbt_build>"C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\pb2cs" @"projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Pre-parsing takes 1.00 seconds
+Parsing c:\project\smjl\smjl.pbl (smjl)
+Parsing c:\project\smjl\smjl.pbl (w_smjl)
+Parsing takes 0.00 seconds
+Type-checking (pass 1) c:\project\smjl\smjl.pbl (smjl)
+Type-checking (pass 1) c:\project\smjl\smjl.pbl (w_smjl)
+Type-checking (pass 1) c:\project\smjl\smjl.pbl (smjl)
+Type-checking (pass 1) c:\project\smjl\smjl.pbl (w_smjl)
+Type-checking (pass 1) c:\project\smjl\smjl.pbl (smjl)
+Type-checking (pass 1) c:\project\smjl\smjl.pbl (w_smjl)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) c:\project\smjl\smjl.pbl (smjl)
+Type-checking methods(pass 2) c:\project\smjl\smjl.pbl (w_smjl)
+Typechecking takes 0.00 seconds
+Emitting c:\project\smjl\smjl.pbl (smjl)
+Emitting c:\project\smjl\smjl.pbl (w_smjl)
+Emitting c:\project\smjl\smjl.pbl (smjl)
+Emitting c:\project\smjl\smjl.pbl (w_smjl)
+Emiting takes 0.00 seconds
 
 
 Error Summary : 0 error(s) 
@@ -67,11 +88,26 @@ C:\project\SMJL\smjl_winform.pbt_build>reg import "C:\Program Files\Sybase\Power
 操作成功结束
 
 C:\project\SMJL\smjl_winform.pbt_build>if "C:\project\SMJL\smjl_winform.pbt_build\csc_output_file_name.txt" == "" (C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc /t:winexe /optimize+    /nowin32manifest /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"release\smjl.exe" @mb.rsp )  else (C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc /t:winexe /optimize+    /nowin32manifest /platform:x86 "/r:C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Core.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Interop.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Common.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.Win.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\Sybase.PowerBuilder.WinWebDataWindowCommon.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.ejb.net.dll;C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\com.sybase.iiop.net.dll" /out:"release\smjl.exe" @mb.rsp  1>"C:\project\SMJL\smjl_winform.pbt_build\csc_output_file_name.txt" ) 
+Build Succeeded.
 
-Build Failed.
+C:\project\SMJL\smjl_winform.pbt_build>rem "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe" -nologo -manifest release\smjl.exe.manifest -outputresource:release\smjl.exe;#1 
 
-C:\project\SMJL\smjl_winform.pbt_build>goto errorend 
+C:\project\SMJL\smjl_winform.pbt_build>rem @if errorlevel 1 (goto embedmanifesterror) else echo Embedding Manifest Succeeded. 
 
-C:\project\SMJL\smjl_winform.pbt_build>exit /b 1 
+C:\project\SMJL\smjl_winform.pbt_build>del release\smjl.exe.manifest 
+
+C:\project\SMJL\smjl_winform.pbt_build>rem "C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\sn.exe" -R release\smjl.exe  
+
+C:\project\SMJL\smjl_winform.pbt_build>goto end 
+
+C:\project\SMJL\smjl_winform.pbt_build>endlocal
 
 C:\project\SMJL\smjl_winform.pbt_build>if ERRORLEVEL 1 exit 2 
+
+C:\project\SMJL\smjl_winform.pbt_build>if exist createole.bat call createole.bat 
+
+C:\project\SMJL\smjl_winform.pbt_build>if ERRORLEVEL 1 exit 4 
+
+C:\project\SMJL\smjl_winform.pbt_build>if exist createole.bat xcopy ole\*.* release\ /D /Y 
+
+C:\project\SMJL\smjl_winform.pbt_build>if exist createole.bat dir ole\*.*  /B  1>"C:\project\SMJL\p_smjl_winform_oledllname.txt" 
