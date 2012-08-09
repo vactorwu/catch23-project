@@ -14,8 +14,8 @@
 			<Month>8</Month>
 			<Day>9</Day>
 			<Hour>8</Hour>
-			<Minute>11</Minute>
-			<Second>41</Second>
+			<Minute>35</Minute>
+			<Second>30</Second>
 		</DeployTime>
 	</General>
 	<LibList>
@@ -26,8 +26,8 @@
 				<Month>8</Month>
 				<Day>9</Day>
 				<Hour>8</Hour>
-				<Minute>11</Minute>
-				<Second>34</Second>
+				<Minute>35</Minute>
+				<Second>19</Second>
 			</ModifyTime>
 		</PublishFileType>
 	</LibList>
@@ -41,8 +41,8 @@
 				<Month>8</Month>
 				<Day>9</Day>
 				<Hour>8</Hour>
-				<Minute>11</Minute>
-				<Second>34</Second>
+				<Minute>35</Minute>
+				<Second>19</Second>
 			</ModifyTime>
 		</PublishFileType>
 	</PBLibraryFiles>
