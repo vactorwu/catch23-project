@@ -11,10 +11,10 @@ C:\project\SMJL\smjl_winform.pbt_build>if errorlevel 9009 exit 3
 
 C:\project\SMJL\smjl_winform.pbt_build>"C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\pb2cs" @"projectinfo.txt" 
 Type-checking (pass 1) system (system)
-Pre-parsing takes 1.00 seconds
+Pre-parsing takes 3.00 seconds
 Parsing c:\project\smjl\smjl.pbl (smjl)
 Parsing c:\project\smjl\smjl.pbl (w_smjl)
-Parsing takes 0.00 seconds
+Parsing takes 1.00 seconds
 Type-checking (pass 1) c:\project\smjl\smjl.pbl (smjl)
 Type-checking (pass 1) c:\project\smjl\smjl.pbl (w_smjl)
 Type-checking (pass 1) c:\project\smjl\smjl.pbl (smjl)
@@ -72,6 +72,7 @@ C:\Program Files\Sybase\PowerBuilder 12.5\DotNET\bin\App.Win.exe.manifest
 复制了 1 个文件
 
 C:\project\SMJL\smjl_winform.pbt_build>del release\smjl.exe.manifest 
+找不到 C:\project\SMJL\smjl_winform.pbt_build\release\smjl.exe.manifest
 
 C:\project\SMJL\smjl_winform.pbt_build>ren release\App.Win.exe.manifest smjl.exe.manifest 
 
