@@ -21,3 +21,28 @@ Exception Call Stack:    在 System.Environment.GetStackTrace(Exception e, Boole
    在 PBIntelligentUpdater.Program.Main(String[] args)
 ---------------------------------
 
+Intelligent Updater Trace output file: C:\project\SMJL\smjl_winform_winformoutput\pbiupub.log
+---------------------------------
+Exception Time: 2012-08-09 16:32:11.8637500
+Process ID: 3456
+AppDomain: pbiu.exe Domain ID: 1
+ Managed Thread ID: 1
+Current Thread State: Running
+Method: System.Net.IPHostEntry InternalGetHostByAddress(System.Net.IPAddress, Boolean)
+Exception Type: System.Net.Sockets.SocketException
+Exception Message: 请求的名称有效并且在数据库中找到，但是它没有相关的正确的数据来被解析。
+Exception Source: System
+Exception StackTrace:    在 System.Net.Dns.InternalGetHostByAddress(IPAddress address, Boolean includeIPv6)
+   在 System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   在 PBIntelligentUpdater.FileTransfer.GetDestFolder(Int32 nPublishFolderType)
+Exception Call Stack:    在 System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   在 System.Environment.get_StackTrace()
+   在 PBIntelligentUpdater.PublishLogger.logException(Exception ex, Boolean logCallStack)
+   在 PBIntelligentUpdater.PublishLogger.LogException(Exception e)
+   在 PBIntelligentUpdater.FileTransfer.GetDestFolder(Int32 nPublishFolderType)
+   在 PBIntelligentUpdater.FileTransfer.TransferFiles()
+   在 PBIntelligentUpdater.PublishEngine.doPublish(PublishProperty myProperty)
+   在 PBIntelligentUpdater.PublishEngine.doPublish(String strXmlFileName)
+   在 PBIntelligentUpdater.Program.Main(String[] args)
+---------------------------------
+
