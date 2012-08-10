@@ -6,5 +6,5 @@ Save Format v3.0(19990112)
  1 "smjl_webform.pbt";
  2 "smjl_winform.pbt";
 @end;
-DefaultTarget "smjl_winform.pbt";
-DefaultRemoteTarget "smjl_winform.pbt";
+DefaultTarget "smjl_webform.pbt";
+DefaultRemoteTarget "smjl_webform.pbt";
