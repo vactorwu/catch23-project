@@ -1,0 +1,39 @@
+#IF defined PBDOTNET then
+  //C#语句块
+  .
+  .
+  .
+#END IF
+
+
+语法限制：
+1.初始化类：使用“create”关键字代替“new”关键字
+  例：ls = create logger.LogServer
+
+2.循环语句：必须使用PB风格
+  例：#IF Defined PBDOTNET THEN
+	int i
+	for I = 1 to 10
+	System.Console.WriteLine(i)
+	next
+      #END IF
+
+3.C#关键字转义：在C#关键字前加@，仅适用命名空间？
+  例：#IF Defined PBDOTNET THEN
+	@System.Collections.ArrayList myList
+	myList = create @System.Collections.ArrayList
+      #END IF
+
+4.换行符：&
+
+5.数组：
+  例：#IF Defined PBDOTNET THEN
+	int myArray[-2 to 5]
+	//in C#, you would have to initialize array
+	//with code like: int[] myArray = new int[7]
+	myArray[-1]=10 //assigning a value to 2nd array index
+     #END IF
+
+6.枚举：
+  例：BLUE!
+
