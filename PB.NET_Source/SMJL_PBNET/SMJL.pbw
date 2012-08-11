@@ -1,0 +1,10 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "smjl.pbt";
+ 1 "smjl_webform.pbt";
+ 2 "smjl_winform.pbt";
+@end;
+DefaultTarget "smjl.pbt";
+DefaultRemoteTarget "smjl.pbt";

@@ -1,0 +1,5 @@
+Microsoft(R) Visual C# 2010 编译器 4.0.30319.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+smjl.cs(80,54): warning CS0197: 由于“c__smjl.w_smjl”是引用封送类的字段，将它作为 ref 或 out 参数传递或获取它的地址可能导致运行时异常
+smjl.cs(3,14): (与前一个警告相关的符号位置)
