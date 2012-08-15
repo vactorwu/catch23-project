@@ -1,0 +1,161 @@
+dwspy succeeded.
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if "" == "" set NET_FRAMEWORK_PB125=C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc
+Microsoft(R) Visual C# 2010 编译器 4.0.30319.1 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+fatal error CS2008: 未指定输入
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if errorlevel 9009 exit 3 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.asmx" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.asmx" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.html" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.html" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.css" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.css" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.aspx" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.aspx" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.htm" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.htm" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.js" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.js" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.resx" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.resx" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\*.asax" del "D:\svn\QQOnline\online_webform.pbt_build\online\*.asax" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\build.bat" del "D:\svn\QQOnline\online_webform.pbt_build\online\build.bat" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\web.config" del "D:\svn\QQOnline\online_webform.pbt_build\online\web.config" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\bin" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\bin" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\images" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\images" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\scripts" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\scripts" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\temp" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\temp" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\Registry.xml" del "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\Registry.xml" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\a" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\a" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\b" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\b" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\c" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\c" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\d" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\d" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\e" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\e" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\f" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\f" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\g" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\g" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\h" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\h" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\i" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\i" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\j" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\j" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\k" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\k" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\l" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\l" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\m" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\m" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\n" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\n" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\o" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\o" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\p" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\p" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\q" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\q" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\r" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\r" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\s" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\s" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\t" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\t" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\u" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\u" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\v" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\v" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\w" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\w" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\x" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\x" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\y" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\y" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if exist "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\z" rd /s /q "D:\svn\QQOnline\online_webform.pbt_build\online\..\online_root\file\common\z" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>rename "D:\svn\QQOnline\online_webform.pbt_build\online\AssemblyInfo.bak" "AssemblyInfo.cs" 
+
+D:\svn\QQOnline\online_webform.pbt_build\online>"D:\Program Files\pb12\PowerBuilder 12.5\DotNET\bin\pb2cs" @"D:\svn\QQOnline\online_webform.pbt_build\projectinfo.txt" 
+Type-checking (pass 1) system (system)
+Pre-parsing takes 1.00 seconds
+Parsing d:\svn\qqonline\online.pbl (online)
+Parsing d:\svn\qqonline\online.pbl (w_main)
+Parsing d:\svn\qqonline\online.pbl (n_service)
+Parsing d:\svn\qqonline\proxy.pbl (qqonlinewebservice)
+Parsing takes 0.00 seconds
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (n_service)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (online)
+Type-checking (pass 1) d:\svn\qqonline\proxy.pbl (qqonlinewebservice)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (w_main)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (n_service)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (online)
+Type-checking (pass 1) d:\svn\qqonline\proxy.pbl (qqonlinewebservice)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (w_main)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (n_service)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (online)
+Type-checking (pass 1) d:\svn\qqonline\proxy.pbl (qqonlinewebservice)
+Type-checking (pass 1) d:\svn\qqonline\online.pbl (w_main)
+Type-checking prototypes/instance variables(pass 2) 
+d:\svn\qqonline\online.pbl(n_service).n_service.instance variables(12,2,16) Error C0001: Illegal data type: soapconnection.
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\svn\qqonline\online.pbl (n_service)
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(12,-7,16) Error C0001: Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(22,3,8) Error C0051: No overload for method 'isvalid' takes '1' arguments.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(22,3,1) Error C0003: Condition for if statement must be a boolean.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(12,-7,16) Error C0001: Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(23,4,18) Error C0001: Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(12,-7,16) Error C0001: Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(27,8,10) Error C0316: Function scope cannot be of type method.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(44,25,21) Error C0001: Illegal data type: soapexception.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(44,25,21) Error C0001: Illegal data type: soapexception.
+d:\svn\qqonline\online.pbl(n_service).n_service.of_onlinequery(45,26,22) Error C0316: Function scope cannot be of type method.
+Type-checking methods(pass 2) d:\svn\qqonline\online.pbl (online)
+Type-checking methods(pass 2) d:\svn\qqonline\proxy.pbl (qqonlinewebservice)
+Type-checking methods(pass 2) d:\svn\qqonline\online.pbl (w_main)
+
+
+Error Summary : 11 error(s) 
+
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::instance variables::::12::2::16::C0001::Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::12::-7::16::C0001::Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::22::3::8::C0051::No overload for method 'isvalid' takes '1' arguments.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::22::3::1::C0003::Condition for if statement must be a boolean.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::12::-7::16::C0001::Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::23::4::18::C0001::Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::12::-7::16::C0001::Illegal data type: soapconnection.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::27::8::10::C0316::Function scope cannot be of type method.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::44::25::21::C0001::Illegal data type: soapexception.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::44::25::21::C0001::Illegal data type: soapexception.
+d:\svn\qqonline\online.pbl::Userobject::n_service::n_service::::of_onlinequery::of_onlinequery(string as_qqnumber,ref string as_message)::45::26::22::C0316::Function scope cannot be of type method.
+
+
+Warning Summary : 0 warning(s) 
+
+
+
+Compile complete -- 11 error(s), 0 warning(s)
+
+
+D:\svn\QQOnline\online_webform.pbt_build\online>if ERRORLEVEL 1 exit 1 
+Error: Generating PowerBuilder .NET assemblies failed.
