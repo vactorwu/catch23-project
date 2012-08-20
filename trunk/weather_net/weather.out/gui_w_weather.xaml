@@ -1,0 +1,12 @@
+<pbwpf:Window x:Class="w_weather" x:ClassModifier="internal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" PBHeight="1060" PBWidth="3072" MinBox="True" MaxBox="True" PBTitle="" TitleBar="True" ControlMenu="True" Center="True" Resizable="True" Uid="44" Height="265" Width="672">
+    <Grid Width="645">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="108*" />
+            <RowDefinition Height="118*" />
+        </Grid.RowDefinitions>
+        <pbwpf:DataWindow Height="85" HorizontalAlignment="Left" LiveScroll="False" Name="dw_province" TabOrder="10" VerticalAlignment="Top" Width="123" PBHeight="340" PBWidth="562" X="0" Y="0" DataObject="d_province" DataContext="{Binding RelativeSource={RelativeSource TemplatedParent}}" PBHScrollBar="False" PBVScrollBar="False" pbwpf:Window.Skin="Metal" />
+		<pbwpf:HProgressBar Grid.Row="1" Height="17" HorizontalAlignment="Left" Margin="174,74,0,0" Name="hpb_connect" VerticalAlignment="Top" Width="136" PBHeight="68" PBWidth="622" X="795" Y="296" />
+		<pbwpf:DataWindow Height="85" HorizontalAlignment="Right" LiveScroll="True" Margin="0,2,349,0" Name="dw_city" TabOrder="20" VerticalAlignment="Top" Width="159" PBHeight="340" PBWidth="727" X="626" Y="8" pbwpf:Window.Skin="Metal" DataObject="d_form" />
+		<pbwpf:DataWindow Height="85" HorizontalAlignment="Left" LiveScroll="True" Margin="302,2,0,0" Name="dw_weather" TabOrder="30" VerticalAlignment="Top" Width="331" PBHeight="340" PBWidth="1513" X="1381" Y="8" DataObject="d_weather" pbwpf:Window.Skin="Metal" />
+	</Grid>
+</pbwpf:Window>

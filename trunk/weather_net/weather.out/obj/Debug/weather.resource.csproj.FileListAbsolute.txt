@@ -1,0 +1,8 @@
+C:\project\weather_net\weather.out\bin\Debug\weather.resource.dll
+C:\project\weather_net\weather.out\bin\Debug\weather.resource.pdb
+C:\project\weather_net\weather.out\bin\Debug\Microsoft.Vsa.dll
+C:\project\weather_net\weather.out\bin\Debug\Microsoft.Vsa.xml
+C:\project\weather_net\weather.out\obj\Debug\ResolveAssemblyReference.cache
+C:\project\weather_net\weather.out\obj\Debug\weather.resource.g.resources
+C:\project\weather_net\weather.out\obj\Debug\weather.resource.dll
+C:\project\weather_net\weather.out\obj\Debug\weather.resource.pdb

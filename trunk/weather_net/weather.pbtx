@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>weather</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{d4a402e9-ea53-42ed-a774-ecb35b75fb9a}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>weather</AssemblyName>
+    <RootNamespace>weather</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>weather</ApplicationName>
+    <ApplicationObject>weather</ApplicationObject>
+    <ApplicationLibrary>weather.pbl\weather.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.5.1</PBOriginalVersion>
+    <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{07964b69-cd06-4f92-852c-e64d99c658b3};{9267c27a-5a50-4c3e-b8f1-cf9c23a3bdf4};{051cee8a-774b-4eae-9253-4253ecafb0ff};{fbacceed-34fa-40f6-ba2f-dcf84ea6a098};{669a9489-6b09-4894-8442-60ba3166e938}</LibraryList>
+    <PBProjectDefault>{07964b69-cd06-4f92-852c-e64d99c658b3},p_weather_wpf.srj,41Fxx;</PBProjectDefault>
+    <PBProjectsDeploy>{07964b69-cd06-4f92-852c-e64d99c658b3},p_wcfclient.srj,41Gxx;{07964b69-cd06-4f92-852c-e64d99c658b3},p_weather_wpf.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>weather.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>weather.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>ReachFramework</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Common, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Common</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Core, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Core</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Shared, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Shared</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Wpf, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Wpf</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>System.Web</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Xaml</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WeatherWebService, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>WeatherWebService</Name>
+      <AssemblyName>WeatherWebService.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>WeatherWebService.dll</HintPath>
+    </Reference>
+    <Reference Include="weather_proxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>weather_proxy</Name>
+      <AssemblyName>weather_proxy.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>weather_proxy.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="dwo.pbl\dwo.pblx">
+      <Name>dwo</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{669a9489-6b09-4894-8442-60ba3166e938}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="control.pbl\control.pblx">
+      <Name>control</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{fbacceed-34fa-40f6-ba2f-dcf84ea6a098}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="proxy.pbl\proxy.pblx">
+      <Name>proxy</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{051cee8a-774b-4eae-9253-4253ecafb0ff}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="gui.pbl\gui.pblx">
+      <Name>gui</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{9267c27a-5a50-4c3e-b8f1-cf9c23a3bdf4}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="weather.pbl\weather.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>weather</Name>
+      <InstanceGuid>{07964b69-cd06-4f92-852c-e64d99c658b3}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>
