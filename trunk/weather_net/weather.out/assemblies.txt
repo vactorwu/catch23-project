@@ -1,4 +1,4 @@
-c:\windows\microsoft.net\assembly\gac_32\presentationcore\v4.0_4.0.0.0__31bf3856ad364e35\presentationcore.dll
+c:\program files\reference assemblies\microsoft\framework\.netframework\v4.0\presentationcore.dll
 c:\program files\reference assemblies\microsoft\framework\.netframework\v4.0\reachframework.dll
 c:\program files\sybase\powerbuilder 12.5\\dotnet\bin\sybase.powerbuilder.wcf.runtime.dll
 c:\program files\reference assemblies\microsoft\framework\.netframework\v4.0\system.xaml.dll
