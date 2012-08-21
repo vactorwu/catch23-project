@@ -1,0 +1,16 @@
+D:\svn\wpfthemes\WPF.Themes.Demo\bin\Debug\WPF.Themes.Demo.exe.config
+D:\svn\wpfthemes\WPF.Themes.Demo\bin\Debug\WPF.Themes.Demo.exe
+D:\svn\wpfthemes\WPF.Themes.Demo\bin\Debug\WPF.Themes.Demo.pdb
+D:\svn\wpfthemes\WPF.Themes.Demo\bin\Debug\WPF.Themes.dll
+D:\svn\wpfthemes\WPF.Themes.Demo\bin\Debug\WPF.Themes.pdb
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\Window1.baml
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\Window1.g.cs
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\App.g.cs
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\WPF.Themes.Demo_MarkupCompile.cache
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\WPF.Themes.Demo.g.resources
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\WPF.Themes.Demo.Properties.Resources.resources
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\GenerateResource.read.1.tlog
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\GenerateResource.write.1.tlog
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\WPF.Themes.Demo.exe
+D:\svn\wpfthemes\WPF.Themes.Demo\obj\Debug\WPF.Themes.Demo.pdb

@@ -1,0 +1,8 @@
+WSDL: error WSDL1: 处理“http://www.google.com/ig/api?hl=zh-cn&weather”时出错。
+      URI http://www.google.com/ig/api?hl=zh-cn&weather 处的文档未被识别为已知的文档类型。
+来自各已知类型的错误信息可能有助于修复该问题:
+- 来自“WSDL 文档”的报告是“XML 文档(1, 23)中有错误。”。
+  - 不应有 <xml_api_reply xmlns=''>。
+- 来自“XML 架构”的报告是“W3C XML 架构的根元素应为 <schema>，命名空间应为“http://www.w3.org/2001/XMLSchema”。”。
+- 来自“DISCO 文档”的报告是“在 URL http://www.google.com/ig/api?hl=zh-cn&weather 处找不到发现文档。”。
+  - 无法识别此文档格式。
