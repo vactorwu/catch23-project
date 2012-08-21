@@ -1,4 +1,4 @@
-			PBCompiler Report: 2012-8-20 17:00:20
+			PBCompiler Report: 2012-8-21 15:10:39
 
 Argument List for Sybase.PowerBuilder.Compiler:
 	/t:wpf
@@ -11,44 +11,36 @@ Argument List for Sybase.PowerBuilder.Compiler:
 	/platform:x86
 	/oname:weather
 	/resdll:weather.resource
-	/r:"C:\WINDOWS\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ReachFramework.dll";"C:\Program Files\Sybase\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xaml.dll";"C:\project\weather_net\WeatherWebService.dll";"C:\project\weather_net\weather_proxy.dll"
+	/rebuild:incremental
+	/rebuildapp:-
+	/r:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationCore.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ReachFramework.dll";"C:\Program Files\Sybase\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xaml.dll";"C:\project\weather_net\WeatherWebService.dll";"C:\project\weather_net\weather_proxy.dll"
 
 IPBCompiler.Report() output:
 Type-checking (pass 1) system (system)
-Pre-parsing takes 4.00 seconds
-Parsing c:\project\weather_net\weather.pbl\weather.pblx (weather)
+Pre-parsing takes 5.00 seconds
 Parsing c:\project\weather_net\gui.pbl\gui.pblx (w_weather)
-Parsing c:\project\weather_net\proxy.pbl\proxy.pblx (weather_proxy_WeatherWebServiceSoapClient)
 Parsing c:\project\weather_net\control.pbl\control.pblx (gf_getcitycode)
-Parsing takes 1.00 seconds
+Parsing takes 0.00 seconds
+Type-checking (pass 1)  (weather)
 Type-checking (pass 1) c:\project\weather_net\control.pbl\control.pblx (gf_getcitycode)
 Type-checking (pass 1) c:\project\weather_net\gui.pbl\gui.pblx (w_weather)
-Type-checking (pass 1) c:\project\weather_net\weather.pbl\weather.pblx (weather)
-Type-checking (pass 1) c:\project\weather_net\proxy.pbl\proxy.pblx (weather_proxy_WeatherWebServiceSoapClient)
 Type-checking (pass 1) c:\project\weather_net\control.pbl\control.pblx (gf_getcitycode)
 Type-checking (pass 1) c:\project\weather_net\gui.pbl\gui.pblx (w_weather)
-Type-checking (pass 1) c:\project\weather_net\weather.pbl\weather.pblx (weather)
-Type-checking (pass 1) c:\project\weather_net\proxy.pbl\proxy.pblx (weather_proxy_WeatherWebServiceSoapClient)
 Type-checking (pass 1) c:\project\weather_net\control.pbl\control.pblx (gf_getcitycode)
 Type-checking (pass 1) c:\project\weather_net\gui.pbl\gui.pblx (w_weather)
-Type-checking (pass 1) c:\project\weather_net\weather.pbl\weather.pblx (weather)
-Type-checking (pass 1) c:\project\weather_net\proxy.pbl\proxy.pblx (weather_proxy_WeatherWebServiceSoapClient)
-Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking methods(pass 2) c:\project\weather_net\control.pbl\control.pblx (gf_getcitycode)
 Type-checking methods(pass 2) c:\project\weather_net\gui.pbl\gui.pblx (w_weather)
-Type-checking methods(pass 2) c:\project\weather_net\weather.pbl\weather.pblx (weather)
-Type-checking methods(pass 2) c:\project\weather_net\proxy.pbl\proxy.pblx (weather_proxy_WeatherWebServiceSoapClient)
-Typechecking takes 0.00 seconds
-Emitting c:\project\weather_net\weather.pbl\weather.pblx (weather)
+Type-checking (pass 1)  (weather_proxy_weatherwebservicesoapclient)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (pbglobaldefinitions_weather)
+Type-checking prototypes/instance variables(pass 2) 
+Typechecking takes 1.00 seconds
 Emitting c:\project\weather_net\gui.pbl\gui.pblx (w_weather)
-Emitting c:\project\weather_net\proxy.pbl\proxy.pblx (weather_proxy_WeatherWebServiceSoapClient)
 Emitting c:\project\weather_net\control.pbl\control.pblx (gf_getcitycode)
-Emitting c:\project\weather_net\weather.pbl\weather.pblx (weather)
 Emitting c:\project\weather_net\gui.pbl\gui.pblx (w_weather)
-Emitting c:\project\weather_net\proxy.pbl\proxy.pblx (weather_proxy_WeatherWebServiceSoapClient)
 Emitting c:\project\weather_net\control.pbl\control.pblx (gf_getcitycode)
 Emiting takes 0.00 seconds
 
