@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>Custom_DW</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{8ea3abb2-021f-422c-bd33-b487a2e09995}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>Custom_DW</AssemblyName>
+    <RootNamespace>Custom_DW</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>Custom_DW</ApplicationName>
+    <ApplicationObject>Custom_DW</ApplicationObject>
+    <ApplicationLibrary>Custom_DW.pbl\Custom_DW.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.5.1</PBOriginalVersion>
+    <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{cf904fe3-3dbb-4080-96d2-53e4bead80b4}</LibraryList>
+    <PBProjectDefault>{cf904fe3-3dbb-4080-96d2-53e4bead80b4},p_Custom_DW_wpf.srj,41Fxx;</PBProjectDefault>
+    <PBProjectsDeploy>{cf904fe3-3dbb-4080-96d2-53e4bead80b4},p_Custom_DW_wpf.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>Custom_DW.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>Custom_DW.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>ReachFramework</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Common, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Common</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Core, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Core</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Shared, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Shared</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Wpf, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Wpf</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>System.Web</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Xaml</Name>
+      <Private>False</Private>
+      <HintPath>
+      </HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VirtualEarthWPFControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>VirtualEarthWPFControl</Name>
+      <AssemblyName>VirtualEarthWPFControl.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>VirtualEarthWPFControl.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="Custom_DW.pbl\Custom_DW.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>Custom_DW</Name>
+      <InstanceGuid>{cf904fe3-3dbb-4080-96d2-53e4bead80b4}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>

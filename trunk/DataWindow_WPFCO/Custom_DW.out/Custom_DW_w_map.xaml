@@ -1,0 +1,7 @@
+<pbwpf:Window x:Class="w_map" x:ClassModifier="internal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:pbwpf="clr-namespace:Sybase.PowerBuilder.WPF.Controls;assembly=Sybase.PowerBuilder.WPF.Controls" PBTitle="地图浏览" PBHeight="1868" PBWidth="2464" MinBox="True" MaxBox="True" TitleBar="True" ControlMenu="True" Center="True" Resizable="True" Uid="21" Height="467" Width="539" xmlns:my="clr-namespace:VirtualEarthWPFControl;assembly=VirtualEarthWPFControl">
+    <Canvas>
+		<my:VEMap Canvas.Left="12" Canvas.Top="12" Name="vemap1" TabIndex="10" Height="317" Width="501" Background="#FF171212" />
+		<pbwpf:SingleLineEdit Canvas.Left="161" Canvas.Top="360" Height="28" Name="sle_input" TabOrder="20" Text="" TextSize="-10" Weight="400" Width="88" PBHeight="112" PBWidth="402" X="736" Y="1440" />
+		<pbwpf:CommandButton Canvas.Left="286" Canvas.Top="360" Height="28" Name="cb_search" TabOrder="30" Text="搜索" TextSize="-10" Width="88" PBHeight="112" PBWidth="402" X="1307" Y="1440" pbwpf:Window.Skin="ExpressionDark" />
+	</Canvas>
+</pbwpf:Window>
