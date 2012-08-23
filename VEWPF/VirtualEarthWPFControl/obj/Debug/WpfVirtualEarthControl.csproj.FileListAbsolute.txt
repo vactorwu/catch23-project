@@ -1,0 +1,26 @@
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Debug\WpfVirtualEarthControl.dll
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Debug\WpfVirtualEarthControl.pdb
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\TopWindow.baml
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\VEMap.baml
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\TopWindow.g.cs
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\VEMap.g.cs
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl_MarkupCompile.cache
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.g.resources
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.Properties.Resources.resources
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.csproj.GenerateResource.Cache
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.dll
+C:\Users\marcsc\Documents\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.pdb
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Debug\WpfVirtualEarthControl.dll
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Debug\WpfVirtualEarthControl.pdb
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\TopWindow.baml
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\VEMap.baml
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\TopWindow.g.cs
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\VEMap.g.cs
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl_MarkupCompile.cache
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.g.resources
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.Properties.Resources.resources
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.csproj.GenerateResource.Cache
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.dll
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Debug\WpfVirtualEarthControl.pdb

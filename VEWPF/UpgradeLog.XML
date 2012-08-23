@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VirtualEarthWPFControl">
+</Property><Property Name="解决方案文件" Value="C:\project\VEWPF\VirtualEarthWPFControl.sln">
+</Property><Property Name="用户选项文件" Value="C:\project\VEWPF\VirtualEarthWPFControl.suo">
+</Property><Property Name="Date" Value="2012年8月23日">
+</Property><Property Name="Time" Value="14:06">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="VirtualEarthWPFControl.sln" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl.sln">
+</Event><Event ErrorLevel="0" Project="" Source="VirtualEarthWPFControl.suo" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl.suo">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\VirtualEarthWPFControl.csproj" Description="项目文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\VirtualEarthWPFControl.csproj">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\VirtualEarthWPFControl.csproj.user" Description="项目用户文件成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\VirtualEarthWPFControl.csproj.user">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VEEventArgs.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VEEventArgs.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VEException.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VEException.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VELatLong.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VELatLong.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VELatLongRectangle.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VELatLongRectangle.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\VEMap.xaml.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\VEMap.xaml.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VEMapMode.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VEMapMode.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VEMapStyle.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VEMapStyle.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VEPixel.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VEPixel.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VEShape.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VEShape.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Common\VEShapeType.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Common\VEShapeType.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\WindowExternalHelper.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\WindowExternalHelper.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Properties\Settings.settings" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Properties\Resources.resx" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\Map.htm" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\Map.htm">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\VEMap.xaml" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControl\VEMap.xaml">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\VirtualEarthWPFControl.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\VirtualEarthWPFControl.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\VirtualEarthWPFControlDemo.csproj" Description="项目文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\VirtualEarthWPFControlDemo.csproj">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\App.xaml.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\Window1.xaml.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\Properties\Settings.settings" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\Properties\Resources.resx" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\App.xaml" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\App.xaml">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\Window1.xaml" Description="文件已成功备份为 C:\project\VEWPF\Backup\VirtualEarthWPFControlDemo\Window1.xaml">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\VirtualEarthWPFControlDemo.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\VirtualEarthWPFControlDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="VirtualEarthWPFControl.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="VirtualEarthWPFControl.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControl" Source="VirtualEarthWPFControl\VirtualEarthWPFControl.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event><Event ErrorLevel="0" Project="VirtualEarthWPFControlDemo" Source="VirtualEarthWPFControlDemo\VirtualEarthWPFControlDemo.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -1,0 +1,31 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ve="clr-namespace:VirtualEarthWPFControl;assembly=VirtualEarthWPFControl"
+    x:Class="VirtualEarthWPFControlDemo.Window1"
+    Title="Virtual Earth Control Test" 
+    Height="480" Width="720"
+    WindowState="Normal" WindowStartupLocation="CenterScreen">
+
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        
+        <ve:VEMap BorderBrush="White" BorderThickness="5" Grid.Column="1" Name="map" />
+        <TextBox Height="23" Margin="0,93,62,0" Name="textBox1" VerticalAlignment="Top" />
+        <Button Height="23" Margin="0,93,8,0" Name="button1" VerticalAlignment="Top" Click="button1_Click" HorizontalAlignment="Right" Width="51">Search</Button>
+        <CheckBox Foreground="White" Height="16" Margin="0,0,80,0" Name="checkBox1" VerticalAlignment="Bottom" IsChecked="True" Unchecked="checkBox1_Unchecked" Checked="checkBox1_Checked">Show Dashboard</CheckBox>
+    </Grid>
+
+
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0,0" StartPoint="0,1">
+            <GradientStop Color="#000000" Offset="0"/>
+            <GradientStop Color="#565A5E" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+</Window>

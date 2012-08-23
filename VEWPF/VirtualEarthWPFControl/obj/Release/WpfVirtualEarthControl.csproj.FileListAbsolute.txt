@@ -1,0 +1,26 @@
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Release\WpfVirtualEarthControl.dll
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Release\WpfVirtualEarthControl.pdb
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\ResolveAssemblyReference.cache
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\TopWindow.baml
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\VEMap.baml
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\TopWindow.g.cs
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\VEMap.g.cs
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl_MarkupCompile.cache
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.g.resources
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.Properties.Resources.resources
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.csproj.GenerateResource.Cache
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.dll
+C:\Users\marcsc\Documents\Live Mesh Folders\Evangelism Content\Virtual Earth\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.pdb
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Release\WpfVirtualEarthControl.dll
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\bin\Release\WpfVirtualEarthControl.pdb
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\ResolveAssemblyReference.cache
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\TopWindow.baml
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\TopWindow.g.cs
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl_MarkupCompile.cache
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.g.resources
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.Properties.Resources.resources
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.csproj.GenerateResource.Cache
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.dll
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\WpfVirtualEarthControl.pdb
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\VEMap.baml
+F:\CodeBases\WpfVirtualEarthControl\WpfVirtualEarthControl\obj\Release\VEMap.g.cs
