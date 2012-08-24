@@ -1,4 +1,4 @@
-			PBCompiler Report: 2012-8-23 14:17:40
+			PBCompiler Report: 2012-8-24 11:22:59
 
 Argument List for Sybase.PowerBuilder.Compiler:
 	/t:wpf
@@ -12,34 +12,40 @@ Argument List for Sybase.PowerBuilder.Compiler:
 	/oname:Custom_DW
 	/resdll:Custom_DW.resource
 	/rebuild:incremental
-	/rebuildapp:-
-	/r:"C:\WINDOWS\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ReachFramework.dll";"C:\Program Files\Sybase\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xaml.dll";"C:\project\DataWindow_WPFCO\VirtualEarthWPFControl.dll"
+	/rebuildapp:+
+	/r:"C:\WINDOWS\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ReachFramework.dll";"C:\Program Files\Sybase\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xaml.dll";"C:\Program Files\Telerik\RadControls for WPF Q2 2012 SP1\Binaries\WPF40\Telerik.Windows.Controls.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.dll";"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.dll";"C:\project\DataWindow_WPFCO\VirtualEarthWPFControl.dll"
 
 IPBCompiler.Report() output:
 Type-checking (pass 1) system (system)
-Pre-parsing takes 9.00 seconds
+Pre-parsing takes 8.00 seconds
 Parsing c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_main)
 Parsing c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_map)
+Parsing c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (Custom_DW)
 Parsing takes 0.00 seconds
-Type-checking (pass 1)  (Custom_DW)
+Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (Custom_DW)
 Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_main)
 Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_map)
+Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (Custom_DW)
 Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_main)
 Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_map)
+Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (Custom_DW)
 Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_main)
 Type-checking (pass 1) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_map)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (Custom_DW)
 Type-checking methods(pass 2) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_main)
 Type-checking (pass 1)  (pbglobaldefinitions_custom_dw)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking methods(pass 2) c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_map)
-Typechecking takes 0.00 seconds
+Typechecking takes 1.00 seconds
 Emitting c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_main)
 Emitting c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_map)
+Emitting c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (Custom_DW)
 Emitting c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_main)
 Emitting c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (w_map)
+Emitting c:\project\datawindow_wpfco\custom_dw.pbl\custom_dw.pblx (Custom_DW)
 Emiting takes 0.00 seconds
 DotNetImporter::loadGroupInfoXMLFile() duplicate group custom_dw_custom_dw_a error
 

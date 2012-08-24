@@ -12,3 +12,12 @@ C:\project\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw.pdb
 C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\virtualearthwpfcontrol.dll
 C:\project\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw_w_map.baml
 C:\project\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw_w_map.g.cs
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\telerik.windows.controls.dll
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\telerik.windows.controls.pdb
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\telerik.windows.controls.xml
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\de\telerik.windows.controls.resources.dll
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\es\telerik.windows.controls.resources.dll
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\fr\telerik.windows.controls.resources.dll
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\it\telerik.windows.controls.resources.dll
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\nl\telerik.windows.controls.resources.dll
+C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\tr\telerik.windows.controls.resources.dll
