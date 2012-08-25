@@ -1,8 +1,6 @@
-C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\custom_dw.resource.dll
-C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\custom_dw.resource.pdb
-C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\Microsoft.Vsa.dll
-C:\project\DataWindow_WPFCO\Custom_DW.out\bin\Debug\Microsoft.Vsa.xml
-C:\project\DataWindow_WPFCO\Custom_DW.out\obj\Debug\ResolveAssemblyReference.cache
-C:\project\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw.resource.dll
-C:\project\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw.resource.pdb
-C:\project\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw.resource.g.resources
+D:\svn\DataWindow_WPFCO\Custom_DW.out\bin\Debug\custom_dw.resource.dll
+D:\svn\DataWindow_WPFCO\Custom_DW.out\bin\Debug\custom_dw.resource.pdb
+D:\svn\DataWindow_WPFCO\Custom_DW.out\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw.resource.g.resources
+D:\svn\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw.resource.dll
+D:\svn\DataWindow_WPFCO\Custom_DW.out\obj\Debug\custom_dw.resource.pdb
