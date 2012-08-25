@@ -1,8 +1,13 @@
-c:\windows\microsoft.net\assembly\gac_32\presentationcore\v4.0_4.0.0.0__31bf3856ad364e35\presentationcore.dll
-c:\program files\reference assemblies\microsoft\framework\.netframework\v4.0\reachframework.dll
-c:\program files\sybase\powerbuilder 12.5\\dotnet\bin\sybase.powerbuilder.wcf.runtime.dll
-c:\program files\reference assemblies\microsoft\framework\.netframework\v4.0\system.xaml.dll
-c:\program files\telerik\radcontrols for wpf q2 2012 sp1\binaries\wpf40\telerik.windows.controls.dll
-c:\program files\reference assemblies\microsoft\framework\.netframework\v4.0\uiautomationprovider.dll
-c:\program files\reference assemblies\microsoft\framework\.netframework\v4.0\uiautomationtypes.dll
-c:\project\datawindow_wpfco\virtualearthwpfcontrol.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\presentationcore.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\reachframework.dll
+d:\program files\pb12\powerbuilder 12.5\\dotnet\bin\sybase.powerbuilder.wcf.runtime.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.componentmodel.dataannotations.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.xaml.dll
+d:\program files\telerik\radcontrols for wpf q2 2012 sp1\binaries\wpf40\telerik.windows.controls.dll
+d:\program files\telerik\radcontrols for wpf q2 2012 sp1\binaries\wpf40\telerik.windows.controls.data.dll
+d:\program files\telerik\radcontrols for wpf q2 2012 sp1\binaries\wpf40\telerik.windows.controls.gridview.dll
+d:\program files\telerik\radcontrols for wpf q2 2012 sp1\binaries\wpf40\telerik.windows.controls.input.dll
+d:\program files\telerik\radcontrols for wpf q2 2012 sp1\binaries\wpf40\telerik.windows.data.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\uiautomationprovider.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\uiautomationtypes.dll
+d:\svn\datawindow_wpfco\virtualearthwpfcontrol.dll
