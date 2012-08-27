@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Sybase PowerBuilder .NET Solution File
+Project("{1E00F042-675A-11D2-BCA5-000086095DDA}") = "demo_REST (D:\svn\RESTful Web Services)", "demo_REST.pbtx", "{E1AC1E25-3F42-44ED-AF8E-EFCDB3B54E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1AC1E25-3F42-44ED-AF8E-EFCDB3B54E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AC1E25-3F42-44ED-AF8E-EFCDB3B54E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1AA2D0-3594-4E32-AC2B-CDD070028E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1AA2D0-3594-4E32-AC2B-CDD070028E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F8DF42-D892-4F32-AC6D-4E8F261E5346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F8DF42-D892-4F32-AC6D-4E8F261E5346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

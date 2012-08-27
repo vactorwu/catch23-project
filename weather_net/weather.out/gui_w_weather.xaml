@@ -4,13 +4,13 @@
             <RowDefinition Height="87*" />
             <RowDefinition Height="139*" />
         </Grid.RowDefinitions>
-        <pbwpf:DataWindow Height="85" HorizontalAlignment="Left" LiveScroll="False" Name="dw_province" TabOrder="10" VerticalAlignment="Top" Width="123" PBHeight="340" PBWidth="562" X="0" Y="0" DataObject="d_province" DataContext="{Binding RelativeSource={RelativeSource TemplatedParent}}" PBHScrollBar="False" PBVScrollBar="False" pbwpf:Window.Skin="ExpressionDark" Grid.Row="1" />
+        <pbwpf:DataWindow Height="85" HorizontalAlignment="Left" LiveScroll="False" Name="dw_province" TabOrder="10" VerticalAlignment="Top" Width="123" PBHeight="340" PBWidth="562" X="0" Y="0" DataObject="d_province" DataContext="{Binding RelativeSource={RelativeSource TemplatedParent}}" PBHScrollBar="False" PBVScrollBar="False" pbwpf:Window.Skin="Metal" Grid.Row="1" />
         <pbwpf:DataWindow Height="85" HorizontalAlignment="Right" LiveScroll="True" Margin="0,0,347,0" Name="dw_city" TabOrder="20" VerticalAlignment="Top" Width="159" PBHeight="340" PBWidth="727" X="590" Y="0" pbwpf:Window.Skin="ExpressionDark" DataObject="d_form" Grid.Row="1" />
-        <pbwpf:DataWindow Height="85" HorizontalAlignment="Right" LiveScroll="True" Margin="0,0,12,0" Name="dw_weather" TabOrder="30" VerticalAlignment="Top" Width="331" PBHeight="340" PBWidth="1513" X="1335" Y="0" DataObject="d_weather" pbwpf:Window.Skin="ExpressionDark" Grid.Row="1"  />
+        <pbwpf:DataWindow Height="85" HorizontalAlignment="Right" LiveScroll="True" Margin="0,0,12,0" Name="dw_weather" TabOrder="30" VerticalAlignment="Top" Width="331" PBHeight="340" PBWidth="1513" X="1335" Y="0" DataObject="d_weather" pbwpf:Window.Skin="ExpressionDark" Grid.Row="1" />
         <pbwpf:CommandButton Grid.Row="1" Height="28" HorizontalAlignment="Right" Margin="0,149,177,0" Name="cb_1" TabOrder="40" Text="退出" TextSize="-10" VerticalAlignment="Top" Width="88" PBHeight="112" PBWidth="402" X="1691" Y="596" pbwpf:Window.Skin="ExpressionDark" />
-		<pbwpf:HProgressBar Grid.Row="1" Height="17" HorizontalAlignment="Left" Margin="229,198,0,0" Name="hpb_retrieve" VerticalAlignment="Top" Width="136" PBHeight="68" PBWidth="622" X="1047" Y="792" pbwpf:Window.Skin="RoughGreen" Value="{Binding ElementName=htb_1, Path=Value}"/>
+        <pbwpf:HProgressBar Grid.Row="1" Height="17" HorizontalAlignment="Left" Margin="229,198,0,0" Name="hpb_retrieve" VerticalAlignment="Top" Width="136" PBHeight="68" PBWidth="622" X="1047" Y="792" pbwpf:Window.Skin="RoughGreen" Value="{Binding ElementName=htb_1, Path=Value}" />
         <pbwpf:CommandButton Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="277,149,0,0" Name="cb_2" TabOrder="50" Text="苏州天气" TextSize="-10" VerticalAlignment="Top" Width="88" PBHeight="112" PBWidth="402" X="1266" Y="596" />
         <pbwpf:CommandButton Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="183,149,0,0" Name="cb_3" TabOrder="60" Text="日历" TextSize="-10" VerticalAlignment="Top" Width="88" PBHeight="112" PBWidth="402" X="837" Y="596" />
-		<pbwpf:HTrackBar Grid.Row="1" Height="34" HorizontalAlignment="Left" Margin="229,221,0,0" Name="htb_1" TabOrder="70" VerticalAlignment="Top" Width="136" PBHeight="136" PBWidth="622" X="1047" Y="884" Value="{Binding ElementName=dw_weather, Path=Object.Data.Owner.Table.RowCount}" />
-	</Grid>
+        <pbwpf:HTrackBar Grid.Row="1" Height="34" HorizontalAlignment="Left" Margin="229,221,0,0" Name="htb_1" TabOrder="70" VerticalAlignment="Top" Width="136" PBHeight="136" PBWidth="622" X="1047" Y="884" Value="{Binding ElementName=dw_weather, Path=Object.Data.Owner.Table.RowCount}" />
+    </Grid>
 </pbwpf:Window>

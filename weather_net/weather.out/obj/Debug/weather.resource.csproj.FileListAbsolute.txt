@@ -6,3 +6,9 @@ C:\project\weather_net\weather.out\obj\Debug\ResolveAssemblyReference.cache
 C:\project\weather_net\weather.out\obj\Debug\weather.resource.g.resources
 C:\project\weather_net\weather.out\obj\Debug\weather.resource.dll
 C:\project\weather_net\weather.out\obj\Debug\weather.resource.pdb
+D:\svn\weather_net\weather.out\bin\Debug\weather.resource.dll
+D:\svn\weather_net\weather.out\bin\Debug\weather.resource.pdb
+D:\svn\weather_net\weather.out\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\weather_net\weather.out\obj\Debug\weather.resource.g.resources
+D:\svn\weather_net\weather.out\obj\Debug\weather.resource.dll
+D:\svn\weather_net\weather.out\obj\Debug\weather.resource.pdb

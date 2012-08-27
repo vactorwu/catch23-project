@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\project\weather_net\weather.out\obj\Debug\
+D:\svn\weather_net\weather.out\obj\Debug\
 weather
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 11751748863
 
 7-1650793109
-61666708183
+61-580108541
 gui_w_weather.xaml;
 
 False

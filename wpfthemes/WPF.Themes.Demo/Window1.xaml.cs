@@ -19,6 +19,7 @@ namespace WPF.Themes.Demo
     {
         public string Name { get; set; }
         public string Surname { get; set; }
+        
     }
     /// <summary>
     /// Interaction logic for Window1.xaml
