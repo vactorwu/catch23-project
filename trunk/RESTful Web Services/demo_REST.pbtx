@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>demo_REST</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{e1ac1e25-3f42-44ed-af8e-efcdb3b54e23}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>demo_REST</AssemblyName>
+    <RootNamespace>demo_REST</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>demo_REST</ApplicationName>
+    <ApplicationObject>demo_REST</ApplicationObject>
+    <ApplicationLibrary>demo_REST.pbl\demo_REST.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.5.1</PBOriginalVersion>
+    <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55};{d5f8df42-d892-4f32-ac6d-4e8f261e5346}</LibraryList>
+    <PBProjectDefault>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_demo_REST_wpf.srj,41Fxx;</PBProjectDefault>
+    <PBProjectsDeploy>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_restclient.srj,41Gxx;{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_demo_REST_wpf.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>demo_REST.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>demo_REST.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="getcountryinfo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>getcountryinfo</Name>
+      <AssemblyName>getcountryinfo.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>getcountryinfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="proxy.pbl\proxy.pblx">
+      <Name>proxy</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{d5f8df42-d892-4f32-ac6d-4e8f261e5346}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="demo_REST.pbl\demo_REST.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>demo_REST</Name>
+      <InstanceGuid>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>

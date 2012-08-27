@@ -11,3 +11,14 @@ C:\project\weather_net\weather.out\obj\Debug\weather_MarkupCompile.cache
 C:\project\weather_net\weather.out\obj\Debug\weather.g.resources
 C:\project\weather_net\weather.out\obj\Debug\weather.exe
 C:\project\weather_net\weather.out\obj\Debug\weather.pdb
+D:\svn\weather_net\weather.out\bin\Debug\weather.exe
+D:\svn\weather_net\weather.out\bin\Debug\weather.pdb
+D:\svn\weather_net\weather.out\bin\Debug\weatherwebservice.dll
+D:\svn\weather_net\weather.out\bin\Debug\weather_proxy.dll
+D:\svn\weather_net\weather.out\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\weather_net\weather.out\obj\Debug\gui_w_weather.baml
+D:\svn\weather_net\weather.out\obj\Debug\gui_w_weather.g.cs
+D:\svn\weather_net\weather.out\obj\Debug\weather_MarkupCompile.cache
+D:\svn\weather_net\weather.out\obj\Debug\weather.g.resources
+D:\svn\weather_net\weather.out\obj\Debug\weather.exe
+D:\svn\weather_net\weather.out\obj\Debug\weather.pdb

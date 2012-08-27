@@ -6,12 +6,14 @@
     Loaded="Window_Loaded"
     Background="{DynamicResource WindowBackgroundBrush}"
         SizeToContent="Height"
-    Title="WPF.Themes" MinHeight="330" Width="732">
+    Title="WPF.Themes" MinHeight="330" Width="768" WindowStyle="None" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="501">
     <StackPanel>
         <Border Background="White" Height="30" BorderBrush="Black" BorderThickness="0,0,0,1">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <TextBlock Text="Theme: " Margin="5,0,0,0"   />
-                <ComboBox x:Name="themes" Width="150" Height="20" SelectionChanged="themes_SelectionChanged" SelectedIndex="0" />
+                <ComboBox x:Name="themes" Width="150" Height="20" SelectionChanged="themes_SelectionChanged" SelectedIndex="0" >
+                  
+                </ComboBox>
             </StackPanel>
         </Border>
 
@@ -25,6 +27,7 @@
             <StackPanel Margin="10,10,10,10" Grid.Column="1">
                 <ComboBox Height="22" Margin="0,0,0,5" x:Name="comboBox" DisplayMemberPath="Name" SelectedIndex="0" />
                 <ListBox Height="220" x:Name="listBox" DisplayMemberPath="Name" />
+                <ProgressBar Height="10" Name="progressBar1" Width="100" />
             </StackPanel>
             <StackPanel Margin="10,10,10,10" Grid.Column="0">
                 <Button Content="Button" Margin="0,0,0,2.5" Height="22" />
@@ -38,8 +41,8 @@
                 <RadioButton Content="RadioButton - Disabled" IsEnabled="False" Margin="0,0,0,5" />
 
                 <Slider x:Name="slider" Minimum="0" Maximum="100" Value="50" Margin="0,0,0,2.5" />
-                <ProgressBar IsIndeterminate="True" Height="22" Margin="0,0,0,2.5"/>
-                <ProgressBar Minimum="0" Maximum="100" Value="{Binding ElementName=slider, Path=Value}" Height="22" Margin="0,0,0,5" />
+                <ProgressBar IsIndeterminate="True" Height="22" Margin="0,0,0,2.5" Name="testabc" />
+                <ProgressBar Minimum="0" Maximum="100" Value="{Binding ElementName=slider, Path=Value}" Height="22" Margin="0,0,0,5" Name="test1" />
 
                 <TextBox Text="TextBox" />
             </StackPanel>
@@ -47,6 +50,7 @@
             <TabControl Grid.Column="2">
                 <TabItem Header="Tab #1">
                     <Grid>
+                        
                         <Expander IsExpanded="True" Header="Expander" Margin="8,8,8,8">
                             <TreeView HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="Auto" Height="215"  >
                                 <TreeViewItem Header="TreeViewItem #1"/>
@@ -76,5 +80,6 @@
 
             </TabControl>
         </Grid>
+        <Label Content="Labe1" Height="28" Name="label1"  Background="Aqua"/>
     </StackPanel>
 </Window>

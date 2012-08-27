@@ -42,6 +42,9 @@
     <Compile Include="w_main.srw">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="w_map.srw">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="d_earth.srd">
@@ -59,6 +62,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
       <DependentUpon>w_main.srw</DependentUpon>
+    </Page>
+    <Page Include="w_map.srw.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <DependentUpon>w_map.srw</DependentUpon>
     </Page>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
