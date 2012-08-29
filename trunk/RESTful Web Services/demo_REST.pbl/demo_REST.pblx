@@ -50,6 +50,9 @@
     <Content Include="p_restclient.srj">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="p_restclient1.srj">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Page Include="w_main.srw.xaml">

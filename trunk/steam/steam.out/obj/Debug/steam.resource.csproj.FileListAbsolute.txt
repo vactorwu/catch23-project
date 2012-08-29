@@ -1,0 +1,5 @@
+D:\svn\steam\steam.out\bin\Debug\steam.resource.dll
+D:\svn\steam\steam.out\bin\Debug\steam.resource.pdb
+D:\svn\steam\steam.out\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\steam\steam.out\obj\Debug\steam.resource.dll
+D:\svn\steam\steam.out\obj\Debug\steam.resource.pdb
