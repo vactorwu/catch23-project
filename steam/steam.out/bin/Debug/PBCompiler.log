@@ -1,0 +1,70 @@
+			PBCompiler Report: 2012-08-29 18:39:21
+
+Argument List for Sybase.PowerBuilder.Compiler:
+	/t:wpf
+	/pbt:"D:\svn\steam\steam.pbtx"
+	/a:steam
+	/o:"D:\svn\steam\steam.out"
+	/debug:+
+	/debugsymbol:+
+	/NoUFWarn:-
+	/platform:x86
+	/oname:steam
+	/resdll:steam.resource
+	/r:"D:\svn\steam\ISteamWebAPIUtil_GetServerInfo.dll";"D:\svn\steam\ISteamWebAPIUtil_GetSupportedAPIList.dll";"D:\svn\steam\Newtonsoft.Json.dll";"C:\Windows\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll";"D:\Program Files\pb12\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.IO.Log.dll"
+
+IPBCompiler.Report() output:
+Type-checking (pass 1) system (system)
+Pre-parsing takes 3.00 seconds
+Parsing d:\svn\steam\steam.pbl\steam.pblx (steam)
+Parsing d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
+Parsing d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
+Parsing d:\svn\steam\api.pbl\api.pblx (n_steam)
+Parsing d:\svn\steam\gui.pbl\gui.pblx (w_main)
+Parsing d:\svn\steam\util.pbl\util.pblx (n_logger)
+Parsing takes 0.00 seconds
+Type-checking (pass 1) d:\svn\steam\gui.pbl\gui.pblx (w_main)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
+Type-checking (pass 1) d:\svn\steam\util.pbl\util.pblx (n_logger)
+Type-checking (pass 1) d:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking (pass 1) d:\svn\steam\steam.pbl\steam.pblx (steam)
+Type-checking (pass 1) d:\svn\steam\gui.pbl\gui.pblx (w_main)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
+Type-checking (pass 1) d:\svn\steam\util.pbl\util.pblx (n_logger)
+Type-checking (pass 1) d:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking (pass 1) d:\svn\steam\steam.pbl\steam.pblx (steam)
+Type-checking (pass 1) d:\svn\steam\gui.pbl\gui.pblx (w_main)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
+Type-checking (pass 1) d:\svn\steam\util.pbl\util.pblx (n_logger)
+Type-checking (pass 1) d:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking (pass 1) d:\svn\steam\steam.pbl\steam.pblx (steam)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\svn\steam\gui.pbl\gui.pblx (w_main)
+Type-checking methods(pass 2) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
+Type-checking methods(pass 2) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
+Type-checking methods(pass 2) d:\svn\steam\util.pbl\util.pblx (n_logger)
+Type-checking methods(pass 2) d:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking methods(pass 2) d:\svn\steam\steam.pbl\steam.pblx (steam)
+Typechecking takes 1.00 seconds
+Emitting d:\svn\steam\steam.pbl\steam.pblx (steam)
+Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
+Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
+Emitting d:\svn\steam\api.pbl\api.pblx (n_steam)
+Emitting d:\svn\steam\gui.pbl\gui.pblx (w_main)
+Emitting d:\svn\steam\util.pbl\util.pblx (n_logger)
+Emitting d:\svn\steam\steam.pbl\steam.pblx (steam)
+Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
+Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
+Emitting d:\svn\steam\api.pbl\api.pblx (n_steam)
+Emitting d:\svn\steam\gui.pbl\gui.pblx (w_main)
+Emitting d:\svn\steam\util.pbl\util.pblx (n_logger)
+Emiting takes 1.00 seconds
+

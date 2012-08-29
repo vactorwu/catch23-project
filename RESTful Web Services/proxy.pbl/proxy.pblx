@@ -36,7 +36,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="p_getcountryinfo.sru">
+    <Compile Include=".sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="getplayersummery.sru">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

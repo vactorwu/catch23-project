@@ -1,0 +1,6 @@
+d:\svn\steam\isteamwebapiutil_getserverinfo.dll
+d:\svn\steam\isteamwebapiutil_getsupportedapilist.dll
+d:\svn\steam\newtonsoft.json.dll
+c:\windows\microsoft.net\assembly\gac_32\presentationcore\v4.0_4.0.0.0__31bf3856ad364e35\presentationcore.dll
+d:\program files\pb12\powerbuilder 12.5\\dotnet\bin\sybase.powerbuilder.wcf.runtime.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.io.log.dll

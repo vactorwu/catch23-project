@@ -1,0 +1,13 @@
+D:\svn\steam\steam.out\bin\Debug\steam.exe
+D:\svn\steam\steam.out\bin\Debug\steam.pdb
+D:\svn\steam\steam.out\bin\Debug\isteamwebapiutil_getserverinfo.dll
+D:\svn\steam\steam.out\bin\Debug\isteamwebapiutil_getsupportedapilist.dll
+D:\svn\steam\steam.out\bin\Debug\newtonsoft.json.dll
+D:\svn\steam\steam.out\bin\Debug\newtonsoft.json.xml
+D:\svn\steam\steam.out\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\steam\steam.out\obj\Debug\gui_w_main.baml
+D:\svn\steam\steam.out\obj\Debug\gui_w_main.g.cs
+D:\svn\steam\steam.out\obj\Debug\steam_MarkupCompile.cache
+D:\svn\steam\steam.out\obj\Debug\steam.g.resources
+D:\svn\steam\steam.out\obj\Debug\steam.exe
+D:\svn\steam\steam.out\obj\Debug\steam.pdb

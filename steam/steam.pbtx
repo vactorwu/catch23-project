@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>steam</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{60beebc1-6680-4ce8-a09f-0d62decc4b03}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>steam</AssemblyName>
+    <RootNamespace>steam</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <TargetType>PBDotNetWPF</TargetType>
+    <ApplicationName>steam</ApplicationName>
+    <ApplicationObject>steam</ApplicationObject>
+    <ApplicationLibrary>steam.pbl\steam.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.5.1</PBOriginalVersion>
+    <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0};{47c3bbf3-447b-4682-82d6-a32e19ed2095};{febed31c-c22d-46ab-9b1d-6140802e6648};{a56e99e7-7151-4f46-ae31-952eb464677a};{2c0e9b2d-3557-4802-a900-183af5cd7e1d}</LibraryList>
+    <PBProjectDefault>
+    </PBProjectDefault>
+    <PBProjectsDeploy>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamWebAPIUtil_GetServerInfo.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_GetSupportedAPIList.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_steam.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>steam.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>steam.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ISteamWebAPIUtil_GetServerInfo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>ISteamWebAPIUtil_GetServerInfo</Name>
+      <AssemblyName>ISteamWebAPIUtil_GetServerInfo.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>ISteamWebAPIUtil_GetServerInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="ISteamWebAPIUtil_GetSupportedAPIList, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>ISteamWebAPIUtil_GetSupportedAPIList</Name>
+      <AssemblyName>ISteamWebAPIUtil_GetSupportedAPIList.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>ISteamWebAPIUtil_GetSupportedAPIList.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <Name>Newtonsoft.Json</Name>
+      <AssemblyName>Newtonsoft.Json.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>System.Configuration</Name>
+      <AssemblyName>System.configuration.dll</AssemblyName>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Log, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>System.IO.Log</Name>
+      <AssemblyName>System.IO.Log.dll</AssemblyName>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="api.pbl\api.pblx">
+      <Name>api</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{febed31c-c22d-46ab-9b1d-6140802e6648}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="util.pbl\util.pblx">
+      <Name>util</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{2c0e9b2d-3557-4802-a900-183af5cd7e1d}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="gui.pbl\gui.pblx">
+      <Name>gui</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{a56e99e7-7151-4f46-ae31-952eb464677a}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="proxy.pbl\proxy.pblx">
+      <Name>proxy</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{47c3bbf3-447b-4682-82d6-a32e19ed2095}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="steam.pbl\steam.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>steam</Name>
+      <InstanceGuid>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.config">
+      <SubType>Content</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>

@@ -20,9 +20,9 @@
     <PBOriginalVersion>12.5.1</PBOriginalVersion>
     <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <LibraryList>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55};{d5f8df42-d892-4f32-ac6d-4e8f261e5346}</LibraryList>
+    <LibraryList>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55};{d5f8df42-d892-4f32-ac6d-4e8f261e5346};{9cff7053-3868-4468-9aca-e5bbfaa388cb};{138f4074-3b7a-4a27-8950-04e1448308cf}</LibraryList>
     <PBProjectDefault>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_demo_REST_wpf.srj,41Fxx;</PBProjectDefault>
-    <PBProjectsDeploy>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_restclient.srj,41Gxx;{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_demo_REST_wpf.srj,41Fxx;</PBProjectsDeploy>
+    <PBProjectsDeploy>{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_restclient1.srj,41Gxx;{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_restclient.srj,41Gxx;{0e1aa2d0-3594-4e32-ac2b-cdd070028e55},p_demo_REST_wpf.srj,41Fxx;</PBProjectsDeploy>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -40,6 +40,12 @@
       <AssemblyName>getcountryinfo.dll</AssemblyName>
       <Private>True</Private>
       <HintPath>getcountryinfo.dll</HintPath>
+    </Reference>
+    <Reference Include="getplayersummery, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>getplayersummery</Name>
+      <AssemblyName>getplayersummery.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>getplayersummery.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
@@ -84,6 +90,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <SubProject Include="control.pbl\control.pblx">
+      <Name>control</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{138f4074-3b7a-4a27-8950-04e1448308cf}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="view.pbl\view.pblx">
+      <Name>view</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{9cff7053-3868-4468-9aca-e5bbfaa388cb}</InstanceGuid>
+    </SubProject>
     <SubProject Include="proxy.pbl\proxy.pblx">
       <Name>proxy</Name>
       <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
