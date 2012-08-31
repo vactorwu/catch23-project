@@ -44,6 +44,15 @@
     <Content Include="p_GetSupportedAPIList.srj">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="p_ISteamApps_GetAppList.srj">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="p_ISteamEconomy_GetAssetPrices.srj">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="p_ISteamOAuth2_GetCaptchaGID.srj">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="p_ISteamWebAPIUtil_GetServerInfo.srj">
       <SubType>Content</SubType>
     </Content>
