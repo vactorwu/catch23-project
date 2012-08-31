@@ -21,9 +21,8 @@
     <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <LibraryList>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0};{47c3bbf3-447b-4682-82d6-a32e19ed2095};{febed31c-c22d-46ab-9b1d-6140802e6648};{a56e99e7-7151-4f46-ae31-952eb464677a};{2c0e9b2d-3557-4802-a900-183af5cd7e1d}</LibraryList>
-    <PBProjectDefault>
-    </PBProjectDefault>
-    <PBProjectsDeploy>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamWebAPIUtil_GetServerInfo.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_GetSupportedAPIList.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_steam.srj,41Fxx;</PBProjectsDeploy>
+    <PBProjectDefault>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_steam.srj,41Fxx;</PBProjectDefault>
+    <PBProjectsDeploy>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamEconomy_GetAssetPrices.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamOAuth2_GetCaptchaGID.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamWebAPIUtil_GetServerInfo.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_GetSupportedAPIList.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_steam.srj,41Fxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamApps_GetAppList.srj,40Gxx;</PBProjectsDeploy>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
@@ -36,6 +35,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ISteamApps_GetAppList, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>ISteamApps_GetAppList</Name>
+      <AssemblyName>ISteamApps_GetAppList.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>ISteamApps_GetAppList.dll</HintPath>
+    </Reference>
+    <Reference Include="ISteamEconomy_GetAssetPrices, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <Name>ISteamEconomy_GetAssetPrices</Name>
+      <AssemblyName>ISteamEconomy_GetAssetPrices.dll</AssemblyName>
+      <Private>True</Private>
+      <HintPath>ISteamEconomy_GetAssetPrices.dll</HintPath>
+    </Reference>
     <Reference Include="ISteamWebAPIUtil_GetServerInfo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Name>ISteamWebAPIUtil_GetServerInfo</Name>
       <AssemblyName>ISteamWebAPIUtil_GetServerInfo.dll</AssemblyName>
@@ -78,6 +89,11 @@
     <Reference Include="System.IO.Log, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
       <Name>System.IO.Log</Name>
       <AssemblyName>System.IO.Log.dll</AssemblyName>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>System.Net</Name>
+      <AssemblyName>System.Net.dll</AssemblyName>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml">

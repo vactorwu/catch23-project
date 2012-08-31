@@ -1,5 +1,6 @@
 D:\svn\steam\steam.out\bin\Debug\steam.exe
 D:\svn\steam\steam.out\bin\Debug\steam.pdb
+D:\svn\steam\steam.out\bin\Debug\isteamapps_getapplist.dll
 D:\svn\steam\steam.out\bin\Debug\isteamwebapiutil_getserverinfo.dll
 D:\svn\steam\steam.out\bin\Debug\isteamwebapiutil_getsupportedapilist.dll
 D:\svn\steam\steam.out\bin\Debug\newtonsoft.json.dll

@@ -36,6 +36,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="p_ISteamApps_GetAppList.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p_ISteamEconomy_GetAssetPrices.sru">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p_ISteamOAuth2_GetCaptchaGID.sru">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="p_ISteamWebAPIUtil_GetServerInfo.sru">
       <SubType>Code</SubType>
     </Compile>
