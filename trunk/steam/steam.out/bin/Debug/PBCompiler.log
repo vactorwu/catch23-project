@@ -1,4 +1,4 @@
-			PBCompiler Report: 2012-08-31 16:52:00
+			PBCompiler Report: 2012-09-06 10:52:42
 
 Argument List for Sybase.PowerBuilder.Compiler:
 	/t:wpf
@@ -13,50 +13,59 @@ Argument List for Sybase.PowerBuilder.Compiler:
 	/resdll:steam.resource
 	/rebuild:incremental
 	/rebuildapp:-
-	/r:"D:\svn\steam\ISteamApps_GetAppList.dll";"D:\svn\steam\ISteamWebAPIUtil_GetServerInfo.dll";"D:\svn\steam\ISteamWebAPIUtil_GetSupportedAPIList.dll";"D:\svn\steam\Newtonsoft.Json.dll";"C:\Windows\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll";"D:\Program Files\pb12\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.IO.Log.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Net.dll"
+	/r:"C:\Program Files (x86)\Actipro Software\WPFStudio\v12.1.0562\Assemblies\ActiproSoftware.Shared.Wpf.dll";"C:\Program Files (x86)\Actipro Software\WPFStudio\v12.1.0562\Assemblies\ActiproSoftware.SyntaxEditor.Wpf.dll";"C:\Program Files (x86)\Actipro Software\WPFStudio\v12.1.0562\Assemblies\ActiproSoftware.Text.Wpf.dll";"D:\svn\steam\ISteamApps_GetAppList.dll";"D:\svn\steam\ISteamEconomy_GetAssetPrices.dll";"D:\svn\steam\ISteamWebAPIUtil_GetServerInfo.dll";"D:\svn\steam\ISteamWebAPIUtil_GetSupportedAPIList.dll";"D:\svn\steam\Newtonsoft.Json.dll";"C:\Windows\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ReachFramework.dll";"D:\Program Files\pb12\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.IO.Log.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Net.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xaml.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.dll"
 
 IPBCompiler.Report() output:
 Type-checking (pass 1) system (system)
-Pre-parsing takes 5.00 seconds
+Pre-parsing takes 6.00 seconds
 Parsing d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Parsing d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
 Parsing d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Parsing d:\svn\steam\api.pbl\api.pblx (n_steam)
+Parsing d:\svn\steam\gui.pbl\gui.pblx (w_main)
 Parsing takes 0.00 seconds
 Type-checking (pass 1)  (steam)
+Type-checking (pass 1) d:\svn\steam\gui.pbl\gui.pblx (w_main)
 Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
 Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking (pass 1) d:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking (pass 1) d:\svn\steam\gui.pbl\gui.pblx (w_main)
 Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
 Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking (pass 1) d:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking (pass 1) d:\svn\steam\gui.pbl\gui.pblx (w_main)
 Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
 Type-checking (pass 1) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking (pass 1) d:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (n_steam)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking (pass 1)  (n_logger)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
-Type-checking methods(pass 2) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\svn\steam\gui.pbl\gui.pblx (w_main)
 Type-checking (pass 1)  (pbglobaldefinitions_steam)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking (pass 1)  (lyc.steam.proxy.isteamwebapiutil.p_isteamwebapiutil_getserverinfo)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking (pass 1)  (lyc.steam.proxy.isteamwebapiutil.p_isteamwebapiutil_getsupportedapilist)
 Type-checking prototypes/instance variables(pass 2) 
-Type-checking (pass 1)  (lyc.steam.gui.w_main)
-Type-checking prototypes/instance variables(pass 2) 
+Type-checking methods(pass 2) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Type-checking methods(pass 2) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
 Type-checking methods(pass 2) d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking methods(pass 2) d:\svn\steam\api.pbl\api.pblx (n_steam)
-Typechecking takes 1.00 seconds
+Typechecking takes 2.00 seconds
 Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
 Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Emitting d:\svn\steam\api.pbl\api.pblx (n_steam)
+Emitting d:\svn\steam\gui.pbl\gui.pblx (w_main)
 Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
+Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
 Emitting d:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Emitting d:\svn\steam\api.pbl\api.pblx (n_steam)
+Emitting d:\svn\steam\gui.pbl\gui.pblx (w_main)
 Emiting takes 0.00 seconds
 DotNetImporter::loadGroupInfoXMLFile() duplicate group proxy_p_isteamapps_getapplist_u error
+DotNetImporter::loadGroupInfoXMLFile() duplicate group proxy_p_isteameconomy_getassetprices_u error
 DotNetImporter::loadGroupInfoXMLFile() duplicate group proxy_p_isteamoauth2_getcaptchagid_u error
 

@@ -20,7 +20,7 @@
     <PBOriginalVersion>12.5.1</PBOriginalVersion>
     <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <LibraryList>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0};{47c3bbf3-447b-4682-82d6-a32e19ed2095};{febed31c-c22d-46ab-9b1d-6140802e6648};{a56e99e7-7151-4f46-ae31-952eb464677a};{2c0e9b2d-3557-4802-a900-183af5cd7e1d}</LibraryList>
+    <LibraryList>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0};{47c3bbf3-447b-4682-82d6-a32e19ed2095};{febed31c-c22d-46ab-9b1d-6140802e6648};{a56e99e7-7151-4f46-ae31-952eb464677a};{2c0e9b2d-3557-4802-a900-183af5cd7e1d};{62d4c279-6d4c-4f38-a547-9cb420fbafbd}</LibraryList>
     <PBProjectDefault>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_steam.srj,41Fxx;</PBProjectDefault>
     <PBProjectsDeploy>{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamEconomy_GetAssetPrices.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamOAuth2_GetCaptchaGID.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamWebAPIUtil_GetServerInfo.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_GetSupportedAPIList.srj,41Gxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_steam.srj,41Fxx;{6229ee6e-0f81-43dc-93ba-073e6e6cbcf0},p_ISteamApps_GetAppList.srj,40Gxx;</PBProjectsDeploy>
   </PropertyGroup>
@@ -35,6 +35,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ActiproSoftware.Shared.Wpf, Version=12.1.562.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9">
+      <Name>ActiproSoftware.Shared.Wpf</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ActiproSoftware.SyntaxEditor.Wpf, Version=12.1.562.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9">
+      <Name>ActiproSoftware.SyntaxEditor.Wpf</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ActiproSoftware.Text.Wpf, Version=12.1.562.0, Culture=neutral, PublicKeyToken=36ff2196ab5654b9">
+      <Name>ActiproSoftware.Text.Wpf</Name>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="ISteamApps_GetAppList, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <Name>ISteamApps_GetAppList</Name>
       <AssemblyName>ISteamApps_GetAppList.dll</AssemblyName>
@@ -64,6 +76,26 @@
       <AssemblyName>Newtonsoft.Json.dll</AssemblyName>
       <Private>True</Private>
       <HintPath>Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>ReachFramework</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Common, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Common</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Core, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Core</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Shared, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Shared</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.DataWindow.Wpf, Version=1.5.0.0, Culture=neutral, PublicKeyToken=cc0f66dd9541b3da">
+      <Name>Sybase.DataWindow.Wpf</Name>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
@@ -96,8 +128,36 @@
       <AssemblyName>System.Net.dll</AssemblyName>
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Name>System.Web</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Xaml</Name>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.Xml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <Name>System.Xml.Linq</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls, Version=2012.2.725.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7">
+      <Name>Telerik.Windows.Controls</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>UIAutomationProvider</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <Name>UIAutomationTypes</Name>
       <Private>False</Private>
     </Reference>
     <Reference Include="WindowsBase">
@@ -127,6 +187,11 @@
       <Name>api</Name>
       <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
       <InstanceGuid>{febed31c-c22d-46ab-9b1d-6140802e6648}</InstanceGuid>
+    </SubProject>
+    <SubProject Include="dwo.pbl\dwo.pblx">
+      <Name>dwo</Name>
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <InstanceGuid>{62d4c279-6d4c-4f38-a547-9cb420fbafbd}</InstanceGuid>
     </SubProject>
     <SubProject Include="util.pbl\util.pblx">
       <Name>util</Name>

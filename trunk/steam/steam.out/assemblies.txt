@@ -1,8 +1,16 @@
+c:\program files (x86)\actipro software\wpfstudio\v12.1.0562\assemblies\actiprosoftware.shared.wpf.dll
+c:\program files (x86)\actipro software\wpfstudio\v12.1.0562\assemblies\actiprosoftware.syntaxeditor.wpf.dll
+c:\program files (x86)\actipro software\wpfstudio\v12.1.0562\assemblies\actiprosoftware.text.wpf.dll
 d:\svn\steam\isteamapps_getapplist.dll
+d:\svn\steam\isteameconomy_getassetprices.dll
 d:\svn\steam\isteamwebapiutil_getserverinfo.dll
 d:\svn\steam\isteamwebapiutil_getsupportedapilist.dll
 d:\svn\steam\newtonsoft.json.dll
 c:\windows\microsoft.net\assembly\gac_32\presentationcore\v4.0_4.0.0.0__31bf3856ad364e35\presentationcore.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\reachframework.dll
 d:\program files\pb12\powerbuilder 12.5\\dotnet\bin\sybase.powerbuilder.wcf.runtime.dll
 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.io.log.dll
 c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.net.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\system.xaml.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\uiautomationprovider.dll
+c:\program files (x86)\reference assemblies\microsoft\framework\.netframework\v4.0\uiautomationtypes.dll
