@@ -9,13 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using ActiproSoftware.Products.SyntaxEditor;
-using ActiproSoftware.Text;
-using ActiproSoftware.Text.Implementation;
-using ActiproSoftware.Windows.Controls.SyntaxEditor;
-using ActiproSoftware.Windows.Controls.SyntaxEditor.Dialogs;
-using ActiproSoftware.Windows.Controls.SyntaxEditor.Implementation;
-using ActiproSoftware.Windows.Controls.SyntaxEditor.Primitives;
 using Sybase.PowerBuilder.WPF.Controls;
 using System;
 using System.Diagnostics;

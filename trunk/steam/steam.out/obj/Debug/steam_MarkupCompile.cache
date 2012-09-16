@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-D:\svn\steam\steam.out\obj\Debug\
+E:\svn\steam\steam.out\obj\Debug\
 steam
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 11555327113
 
 12-1811074522
-71-738488859
+68-1189174160
 gui_w_main.xaml;
 
 False
