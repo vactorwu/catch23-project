@@ -1,6 +1,6 @@
-D:\svn\steam\steam.out\bin\Debug\steam.resource.dll
-D:\svn\steam\steam.out\bin\Debug\steam.resource.pdb
-D:\svn\steam\steam.out\obj\Debug\ResolveAssemblyReference.cache
-D:\svn\steam\steam.out\obj\Debug\steam.resource.g.resources
-D:\svn\steam\steam.out\obj\Debug\steam.resource.dll
-D:\svn\steam\steam.out\obj\Debug\steam.resource.pdb
+E:\svn\steam\steam.out\bin\Debug\steam.resource.dll
+E:\svn\steam\steam.out\bin\Debug\steam.resource.pdb
+E:\svn\steam\steam.out\obj\Debug\ResolveAssemblyReference.cache
+E:\svn\steam\steam.out\obj\Debug\steam.resource.g.resources
+E:\svn\steam\steam.out\obj\Debug\steam.resource.dll
+E:\svn\steam\steam.out\obj\Debug\steam.resource.pdb

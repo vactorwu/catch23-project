@@ -1,5 +1,5 @@
 Save Format v3.0(19990112)
-RunProjectName "";
+RunProjectName "p_smjl_winform";
 RunProjectLib "smjl.pbl";
 appname "smjl";
 applib "smjl.pbl";
