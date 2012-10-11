@@ -1,0 +1,5 @@
+C:\Users\SybaseUser\Documents\Visual Studio 2008\Projects\365\365Library\365Library\bin\Debug\365Library.dll
+C:\Users\SybaseUser\Documents\Visual Studio 2008\Projects\365\365Library\365Library\bin\Debug\365Library.pdb
+C:\Users\SybaseUser\Documents\Visual Studio 2008\Projects\365\365Library\365Library\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SybaseUser\Documents\Visual Studio 2008\Projects\365\365Library\365Library\obj\Debug\365Library.dll
+C:\Users\SybaseUser\Documents\Visual Studio 2008\Projects\365\365Library\365Library\obj\Debug\365Library.pdb
