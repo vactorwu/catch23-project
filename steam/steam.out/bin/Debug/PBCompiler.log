@@ -1,4 +1,4 @@
-			PBCompiler Report: 2012/9/15 20:24:02
+			PBCompiler Report: 2012-10-12 13:45:49
 
 Argument List for Sybase.PowerBuilder.Compiler:
 	/t:wpf
@@ -11,84 +11,40 @@ Argument List for Sybase.PowerBuilder.Compiler:
 	/platform:x86
 	/oname:steam
 	/resdll:steam.resource
-	/r:"E:\svn\steam\ISteamApps_GetAppList.dll";"E:\svn\steam\ISteamEconomy_GetAssetPrices.dll";"E:\svn\steam\ISteamWebAPIUtil_GetServerInfo.dll";"E:\svn\steam\ISteamWebAPIUtil_GetSupportedAPIList.dll";"E:\svn\steam\Newtonsoft.Json.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\PresentationCore.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ReachFramework.dll";"C:\Program Files (x86)\pb12\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.IO.Log.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Net.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xaml.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.dll"
+	/rebuild:incremental
+	/rebuildapp:-
+	/r:"E:\svn\steam\ISteamApps_GetAppList.dll";"E:\svn\steam\ISteamEconomy_GetAssetPrices.dll";"E:\svn\steam\ISteamWebAPIUtil_GetServerInfo.dll";"E:\svn\steam\ISteamWebAPIUtil_GetSupportedAPIList.dll";"E:\svn\steam\Newtonsoft.Json.dll";"C:\Windows\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\ReachFramework.dll";"C:\Program Files (x86)\pb12\PowerBuilder 12.5\\DotNET\bin\Sybase.PowerBuilder.WCF.Runtime.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.IO.Log.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Net.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xaml.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationProvider.dll";"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\UIAutomationTypes.dll"
 
 IPBCompiler.Report() output:
 Type-checking (pass 1) system (system)
 Pre-parsing takes 5.00 seconds
-Parsing e:\svn\steam\steam.pbl\steam.pblx (steam)
-Parsing e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
-Parsing e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
-Parsing e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Parsing e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
-Parsing e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
-Parsing e:\svn\steam\api.pbl\api.pblx (n_steam)
 Parsing e:\svn\steam\gui.pbl\gui.pblx (w_main)
-Parsing e:\svn\steam\util.pbl\util.pblx (n_logger)
 Parsing takes 0.00 seconds
+Type-checking (pass 1)  (steam)
 Type-checking (pass 1) e:\svn\steam\gui.pbl\gui.pblx (w_main)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
-Type-checking (pass 1) e:\svn\steam\util.pbl\util.pblx (n_logger)
-Type-checking (pass 1) e:\svn\steam\api.pbl\api.pblx (n_steam)
-Type-checking (pass 1) e:\svn\steam\steam.pbl\steam.pblx (steam)
 Type-checking (pass 1) e:\svn\steam\gui.pbl\gui.pblx (w_main)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
-Type-checking (pass 1) e:\svn\steam\util.pbl\util.pblx (n_logger)
-Type-checking (pass 1) e:\svn\steam\api.pbl\api.pblx (n_steam)
-Type-checking (pass 1) e:\svn\steam\steam.pbl\steam.pblx (steam)
 Type-checking (pass 1) e:\svn\steam\gui.pbl\gui.pblx (w_main)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
-Type-checking (pass 1) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
-Type-checking (pass 1) e:\svn\steam\util.pbl\util.pblx (n_logger)
-Type-checking (pass 1) e:\svn\steam\api.pbl\api.pblx (n_steam)
-Type-checking (pass 1) e:\svn\steam\steam.pbl\steam.pblx (steam)
 Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (n_steam)
 Type-checking prototypes/instance variables(pass 2) 
-Type-checking prototypes/instance variables(pass 2) 
-Type-checking prototypes/instance variables(pass 2) 
-Type-checking prototypes/instance variables(pass 2) 
-Type-checking prototypes/instance variables(pass 2) 
-Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (n_logger)
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking prototypes/instance variables(pass 2) 
 Type-checking methods(pass 2) e:\svn\steam\gui.pbl\gui.pblx (w_main)
-Type-checking methods(pass 2) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
-Type-checking methods(pass 2) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
-Type-checking methods(pass 2) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Type-checking methods(pass 2) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
-Type-checking methods(pass 2) e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
-Type-checking methods(pass 2) e:\svn\steam\util.pbl\util.pblx (n_logger)
-Type-checking methods(pass 2) e:\svn\steam\api.pbl\api.pblx (n_steam)
-Type-checking methods(pass 2) e:\svn\steam\steam.pbl\steam.pblx (steam)
-Typechecking takes 3.00 seconds
-Emitting e:\svn\steam\steam.pbl\steam.pblx (steam)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
-Emitting e:\svn\steam\api.pbl\api.pblx (n_steam)
+Type-checking (pass 1)  (pbglobaldefinitions_steam)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (lyc.steam.proxy.isteamapps.p_isteamapps_getapplist)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (lyc.steam.proxy.isteameconomy.p_isteameconomy_getassetprices)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (lyc.steam.proxy.isteamoauth2.p_isteamoauth2_getcaptchagid)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (lyc.steam.proxy.isteamwebapiutil.p_isteamwebapiutil_getserverinfo)
+Type-checking prototypes/instance variables(pass 2) 
+Type-checking (pass 1)  (lyc.steam.proxy.isteamwebapiutil.p_isteamwebapiutil_getsupportedapilist)
+Type-checking prototypes/instance variables(pass 2) 
+Typechecking takes 2.00 seconds
 Emitting e:\svn\steam\gui.pbl\gui.pblx (w_main)
-Emitting e:\svn\steam\util.pbl\util.pblx (n_logger)
-Emitting e:\svn\steam\steam.pbl\steam.pblx (steam)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamApps_GetAppList)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamEconomy_GetAssetPrices)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamOAuth2_GetCaptchaGID)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetServerInfo)
-Emitting e:\svn\steam\proxy.pbl\proxy.pblx (p_ISteamWebAPIUtil_GetSupportedAPIList)
-Emitting e:\svn\steam\api.pbl\api.pblx (n_steam)
 Emitting e:\svn\steam\gui.pbl\gui.pblx (w_main)
-Emitting e:\svn\steam\util.pbl\util.pblx (n_logger)
 Emiting takes 0.00 seconds
 
