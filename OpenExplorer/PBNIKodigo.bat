@@ -1,0 +1,1 @@
+"C:\Program Files\Sybase\PowerBuilder 10.0\SDK\PBNI\pbx2pbd100.exe" D:\Dev\Kodigo\OpenExplorer\PBNIKodigo\Debug\fcxpbni.pbd D:\Dev\Kodigo\OpenExplorer\PBNIKodigo\Debug\PBNIKodigo.pbx 

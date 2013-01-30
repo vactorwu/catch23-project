@@ -1,0 +1,9 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "kobsolete.pbl" "";
+@end;
+@begin Objects
+ "u_borderpanel_old.sru" "kobsolete.pbl";
+ "n_svc_win32_bak.sru" "kobsolete.pbl";
+ "u_sheets_old.sru" "kobsolete.pbl";
+@end;
