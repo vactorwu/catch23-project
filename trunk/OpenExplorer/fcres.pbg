@@ -1,0 +1,18 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "fcres.pbl" "";
+@end;
+@begin Objects
+ "cimagelist.sru" "fcres.pbl";
+ "ccursor.sru" "fcres.pbl";
+ "fcres.sru" "fcres.pbl";
+ "imagelist_template.srd" "fcres.pbl";
+ "imgfamfam.srd" "fcres.pbl";
+ "imgsorticons.srd" "fcres.pbl";
+ "n_svc_resource.sru" "fcres.pbl";
+ "w_tmp_resource.srw" "fcres.pbl";
+ "imgcommon24.srd" "fcres.pbl";
+ "imgcommon16.srd" "fcres.pbl";
+ "imgstate.srd" "fcres.pbl";
+ "n_imagelist.sru" "fcres.pbl";
+@end;

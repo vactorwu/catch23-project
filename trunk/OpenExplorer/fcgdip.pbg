@@ -1,0 +1,46 @@
+Save Format v3.0(19990112)
+@begin Libraries
+ "fcgdip.pbl" "";
+@end;
+@begin Objects
+ "gppointf.srs" "fcgdip.pbl";
+ "gprectf.srs" "fcgdip.pbl";
+ "n_pointf.sru" "fcgdip.pbl";
+ "n_brush.sru" "fcgdip.pbl";
+ "gpsize.srs" "fcgdip.pbl";
+ "n_region.sru" "fcgdip.pbl";
+ "n_size.sru" "fcgdip.pbl";
+ "gppoint.srs" "fcgdip.pbl";
+ "n_color.sru" "fcgdip.pbl";
+ "n_matrix.sru" "fcgdip.pbl";
+ "n_point.sru" "fcgdip.pbl";
+ "n_pen.sru" "fcgdip.pbl";
+ "cgdiplus.sru" "fcgdip.pbl";
+ "gprect.srs" "fcgdip.pbl";
+ "n_font.sru" "fcgdip.pbl";
+ "disposegdiplusobjects.srf" "fcgdip.pbl";
+ "n_lineargradientbrush.sru" "fcgdip.pbl";
+ "n_fontcollection.sru" "fcgdip.pbl";
+ "n_pathgradientbrush.sru" "fcgdip.pbl";
+ "n_svc_gdiplus_new.sru" "fcgdip.pbl";
+ "n_imageattributes.sru" "fcgdip.pbl";
+ "gpbitmapdata.srs" "fcgdip.pbl";
+ "n_rectanglef.sru" "fcgdip.pbl";
+ "gpcolorblend.srs" "fcgdip.pbl";
+ "n_cachedbitmap.sru" "fcgdip.pbl";
+ "n_rectangle.sru" "fcgdip.pbl";
+ "n_graphicspath.sru" "fcgdip.pbl";
+ "n_stringformat.sru" "fcgdip.pbl";
+ "n_texturebrush.sru" "fcgdip.pbl";
+ "n_colormatrix.sru" "fcgdip.pbl";
+ "n_gdipbase.sru" "fcgdip.pbl";
+ "n_graphics.sru" "fcgdip.pbl";
+ "gpsizef.srs" "fcgdip.pbl";
+ "n_fontfamily.sru" "fcgdip.pbl";
+ "n_sizef.sru" "fcgdip.pbl";
+ "n_image.sru" "fcgdip.pbl";
+ "gpblend.srs" "fcgdip.pbl";
+ "n_hatchbrush.sru" "fcgdip.pbl";
+ "n_solidbrush.sru" "fcgdip.pbl";
+ "n_bitmap.sru" "fcgdip.pbl";
+@end;
