@@ -44,7 +44,7 @@ public class SQLTest {
 		String[] otherArgs = new GenericOptionsParser(conf, args)
 				.getRemainingArgs(   );
 		
-		
+		//svn 53
 		
 		Job job = new Job(conf);
 		DistributedCache.addFileToClassPath(new Path( "hdfs://192.168.137.131:9000/lib/ojdbc14.jar"), job.getConfiguration()); 
