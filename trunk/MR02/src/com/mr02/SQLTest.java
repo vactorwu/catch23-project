@@ -42,7 +42,7 @@ public class SQLTest {
 		Configuration conf = new Configuration();
 		conf.set("mapred.job.tracker", "192.168.137.131:9001");
 		String[] otherArgs = new GenericOptionsParser(conf, args)
-				.getRemainingArgs();
+				.getRemainingArgs(   );
 		
 		
 		
