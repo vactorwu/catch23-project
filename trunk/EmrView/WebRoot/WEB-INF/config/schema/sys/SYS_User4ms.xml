@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry id="SYS_User4ms" tableName="SYS_UserProp" alias="发送用户选择">
+    <item id="id" alias="id" type="int" not-null="true" pkey="true" generator="auto" length="50" display="0"/>
+	<item id="userId" alias="人员标识" type="string" length="50" not-null="1" display="0"/>
+	<item ref="b.personName" update="false"/>
+	<item ref="b.gender" update="false"/>
+	<item id="domain" alias="所属域" type="string" not-null="1" width="100">
+	   <dic id="domain" />
+	</item>
+	<item id="post" alias="职位" type="string" length="50" not-null="1" >
+        <dic id="positionDic" render="Tree" onlySelectLeaf="true"/>
+    </item>	
+    <item id="manaUnitId" alias="所属部门" type="string" length="50" width="150" fixed="true">
+       <dic id="positionDic" render="Tree"/>
+    </item>
+    <item id="jobId" alias="角色" type="string" length="50" not-null="1" display="0"/>
+   	<relations>
+		<relation type="children" entryName="SYS_Personnel">
+			<join parent="userId" child="personId" />
+		</relation>
+	</relations>
+</entry>

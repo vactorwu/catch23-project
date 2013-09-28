@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="EHR_AreaGrid" alias="网格地址" sort="orderNo asc , regionCode asc">
+	<item id="regionCode"  alias="网格地址编码" queryable="true" type="string" length="25" not-null="1" generator="assigned" pkey="true" width="200" colspan="2"/>
+  
+	<item id="orderNo"   alias="排列序号" type="int" hidden="true"/>
+	<item id="pyCode" alias="拼音检索码" type="string" length="50" queryable="true">
+		<set type="exp" run="server">['py',['$','r.regionName']]</set>
+	</item>
+	<item id="regionNo"    alias="网格地址编号" type="string" length="50"  width="150" hidden="true"/>
+	<item id="regionName"  alias="网格地址名称" type="string" queryable="true" length="100"  width="200" not-null="1" colspan="2"
+		anchor="100%" />
+	<item id="regionAlias"  alias="网格地址简称" type="string" length="30" />
+	<item id="manaDoctor"  alias="责任人" type="string" length="20" >
+	</item>  
+	<item id="cdhDoctor"  alias="儿保医生" type="string" length="20" >
+	</item>
+  
+	<item id="mhcDoctor"  alias="妇保医生" type="string" length="20" >
+	</item>
+	<item id="mapSign"   alias="地图物理标识" type="string" length="10" hidden="true" />
+	<item id="isBottom"  alias="是否最底层" type="string" length="1"  hidden="true" defaultValue="1" update="false">
+		<dic>
+			<item key="1" text="是" />
+			<item key="2" text="否" />
+		</dic>
+	</item>
+</entry>

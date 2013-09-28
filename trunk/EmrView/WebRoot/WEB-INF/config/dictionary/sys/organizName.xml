@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dic searchKey="pyCode" lastModi="2010-10-22 16:14:19" class="XMLDictionary" filename="D:\Oracle\Middleware\user_projects\domains\HZEHR_3node\servers\server10-81\stage\HZEHR\HZEHR\WEB-INF\classes\config\dictionary\manageUnit.xml" version="1307065846171" id="manageUnit">
+  <item key="3301" text="杭州市卫生局" pyCode="hzswsj">
+    <item key="330102" text="上城区卫生局" pyCode="scqwsj">
+      <item key="330102001" text="清波望江街道社区卫生服务中心" pyCode="qbwjjdsqwsfwzx">
+        <item key="33010200101" text="定安路社区团队" pyCode="dalsqtd"/>
+        <item key="33010200102" text="在水一方社区团队" pyCode="zsyfsqtd"/>
+        <item key="33010200103" text="近江东园社区团队" pyCode="jjdysqtd"/>
+        <item key="33010200104" text="徐家埠社区团队" pyCode="xjbsqtd"/>
+        <item key="33010200105" text="清泰门社区团队" pyCode="qtmsqtd"/>
+        <item key="33010200106" text="清波门社区团队" pyCode="qbmsqtd"/>
+        <item key="33010200107" text="劳动路社区团队" pyCode="ldlsqtd"/>
+        <item key="33010200108" text="兴隆社区团队" pyCode="xlsqtd"/>
+        <item key="33010200109" text="耀华社区团队" pyCode="yhsqtd"/>
+        <item key="33010200110" text="惠民苑社区团队" pyCode="hmysqtd"/>
+        <item key="33010200111" text="近江西园社区团队" pyCode="jjxysqtd"/>
+        <item key="33010200112" text="清河坊社区团队" pyCode="qhfsqtd"/>
+        <item key="33010200113" text="大通社区团队" pyCode="dtsqtd"/>
+        <item key="33010200114" text="始版桥社区团队" pyCode="sbqsqtd"/>
+        <item key="33010200115" text="莫邪塘社区团队" pyCode="mxtsqtd"/>
+        <item key="33010200116" text="中心团队" pyCode="zxtd"/>
+      </item>
+      <item key="330102003" text="湖滨街道社区卫生服务中心" pyCode="hbjdsqwsfwzx">
+        <item key="33010200301" text="涌金门社区团队" pyCode="yjmsqtd"/>
+        <item key="33010200302" text="东坡路社区团队" pyCode="dplsqtd"/>
+        <item key="33010200303" text="青年路社区团队" pyCode="qnlsqtd"/>
+        <item key="33010200304" text="岳王路社区团队" pyCode="ywlsqtd"/>
+        <item key="33010200305" text="东平巷社区团队" pyCode="dpxsqtd"/>
+        <item key="33010200306" text="吴山路社区团队" pyCode="wslsqtd"/>
+      </item>
+      <item key="330102004" text="小营街道社区卫生服务中心" pyCode="xyjdsqwsfwzx">
+        <item key="33010200402" text="马市街紫金团队" pyCode="msjsqtd"/>
+        <item key="33010200403" text="小营巷社区团队" pyCode="xyxsqtd"/>
+        <item key="33010200404" text="大学路社区团队" pyCode="dxlsqtd"/>
+        <item key="33010200405" text="葵巷老浙大社区团队" pyCode="kxsqtd"/>
+        <item key="33010200407" text="长明寺巷社区团队" pyCode="zmsxsqtd"/>
+        <item key="33010200408" text="金钱巷社区团队" pyCode="jqxsqtd"/>
+        <item key="33010200409" text="茅廊巷社区团队" pyCode="mlxsqtd"/>
+        <item key="33010200410" text="梅花碑社区团队" pyCode="mhbsqtd"/>
+        <item key="33010200411" text="姚园寺巷社区团队" pyCode="yysxsqtd"/>
+        <item key="33010200412" text="西牌楼社区团队" pyCode="xplsqtd"/>
+      </item>
+      <item key="330102008" text="南星街道社区卫生服务中心" pyCode="nxjdsqwsfwzx">
+        <item key="33010200801" text="美政社区团队" pyCode="mzsqtd"/>
+        <item key="33010200802" text="馒头山社区团队" pyCode="mtssqtd"/>
+        <item key="33010200803" text="水澄桥社区团队" pyCode="scqsqtd"/>
+        <item key="33010200804" text="玉皇社区团队" pyCode="yhsqtd"/>
+        <item key="33010200805" text="白塔社区卫生团队" pyCode="btsqwstd"/>
+        <item key="33010200806" text="复兴社区团队" pyCode="fxsqtd"/>
+        <item key="33010200807" text="海月桥社区" pyCode="hyqsq"/>
+        <item key="33010200808" text="紫花埠社区" pyCode="zhbsq"/>
+      </item>
+      <item key="330102009" text="紫阳街道社区卫生服务中心" pyCode="zyjdsqwsfwzx">
+        <item key="33010200901" text="彩霞岭社区团队" pyCode="cxlsqtd"/>
+        <item key="33010200903" text="十五奎巷社区团队" pyCode="swkxsqtd"/>
+        <item key="33010200905" text="候潮社区团队" pyCode="hcsqtd"/>
+        <item key="33010200906" text="北落马营社区团队" pyCode="blmysqtd"/>
+        <item key="33010200908" text="新工社区团队" pyCode="xgsqtd"/>
+        <item key="33010200909" text="木场巷社区团队" pyCode="mcxsqtd"/>
+        <item key="33010200911" text="春江花月社区团队" pyCode="cjhysqtd"/>
+        <item key="33010200902" text="上羊市街社区团队" pyCode="sysjsqtd"/>
+        <item key="33010200904" text="太庙社区团队" pyCode="tmsqtd"/>
+        <item key="33010200907" text="凤凰社区团队" pyCode="fhsqtd"/>
+        <item key="33010200910" text="海潮社区团队" pyCode="hcsqtd"/>
+      </item>
+    </item>
+    <item key="330103" text="下城区卫生局" pyCode="xcqwsj">
+      <item key="330103001" text="长庆潮鸣社区卫生服务中心" pyCode="zqcmsqwsfwzx">
+        <item key="33010300102" text="所巷社区" pyCode="sxsq"/>
+        <item key="33010300101" text="浙大御跸社区" pyCode="zdybsq"/>
+        <item key="33010300103" text="知足弄社区" pyCode="zznsq"/>
+        <item key="33010300104" text="艮山门社区" pyCode="gsmsq"/>
+        <item key="33010300105" text="体东社区" pyCode="tdsq"/>
+        <item key="33010300106" text="小天竺社区" pyCode="xtzsq"/>
+        <item key="33010300107" text="东园社区" pyCode="dysq"/>
+        <item key="33010300108" text="东河社区" pyCode="dhsq"/>
+        <item key="33010300109" text="艮园社区" pyCode="gysq"/>
+        <item key="33010300110" text="王马社区" pyCode="wmsq"/>
+        <item key="33010300111" text="柳营社区" pyCode="lysq"/>
+        <item key="33010300112" text="吴牙社区" pyCode="wysq"/>
+        <item key="33010300113" text="新华坊社区" pyCode="xhfsq"/>
+        <item key="33010300114" text="十五家园社区" pyCode="swjysq"/>
+        <item key="33010300115" text="刀茅巷社区" pyCode="dmxsq"/>
+      </item>
+      <item key="330103002" text="天水武林社区卫生服务中心" pyCode="tswlsqwsfwzx">
+        <item key="33010300201" text="延安社区团队" pyCode="yasqtd"/>
+        <item key="33010300202" text="皇亲苑社区团队" pyCode="hqysqtd"/>
+        <item key="33010300203" text="胭脂社区团队" pyCode="yzsqtd"/>
+        <item key="33010300204" text="仓桥社区团队" pyCode="cqsqtd"/>
+        <item key="33010300205" text="环北社区团队" pyCode="hbsqtd"/>
+        <item key="33010300206" text="灯芯巷社区团队" pyCode="dxxsqtd"/>
+        <item key="33010300207" text="戒坛寺巷社区团队" pyCode="jtsxsqtd"/>
+        <item key="33010300208" text="竹竿巷社区团队" pyCode="zgxsqtd"/>
+        <item key="33010300209" text="仙林苑社区团队" pyCode="xlysqtd"/>
+        <item key="33010300210" text="环西社区团队" pyCode="hxsqtd"/>
+        <item key="33010300211" text="凤麟社区团队" pyCode="flsqtd"/>
+        <item key="33010300212" text="中北社区团队" pyCode="zbsqtd"/>
+        <item key="33010300213" text="安吉社区团队" pyCode="ajsqtd"/>
+        <item key="33010300214" text="长寿社区团队" pyCode="zssqtd"/>
+      </item>
+      <item key="330103006" text="朝晖街道社区卫生服务中心" pyCode="chjdsqwsfwzx">
+        <item key="33010300601" text="黎园社区团队" pyCode="lysqtd"/>
+        <item key="33010300602" text="玉公桥社区团队" pyCode="ygqsqtd"/>
+        <item key="33010300603" text="华联社区团队" pyCode="hlsqtd"/>
+        <item key="33010300604" text="老房地社区团队" pyCode="lfdsqtd"/>
+        <item key="33010300605" text="应家桥社区团队" pyCode="yjqsqtd"/>
+        <item key="33010300606" text="大木桥社区团队" pyCode="dmqsqtd"/>
+        <item key="33010300607" text="塘南社区团队" pyCode="tnsqtd"/>
+        <item key="33010300608" text="河东社区团队" pyCode="hdsqtd"/>
+        <item key="33010300609" text="虹园社区团队" pyCode="hysqtd"/>
+        <item key="33010300610" text="稻香园社区团队" pyCode="dxysqtd"/>
+        <item key="33010300611" text="大家苑社区团队" pyCode="djysqtd"/>
+        <item key="33010300612" text="施家花园社区团队" pyCode="sjhysqtd"/>
+      </item>
+      <item key="330103007" text="文晖街道社区卫生服务中心" pyCode="whjdsqwsfwzx">
+        <item key="33010300701" text="流西社区团队" pyCode="lxsqtd"/>
+        <item key="33010300702" text="流东社区团队" pyCode="ldsqtd"/>
+        <item key="33010300703" text="京都苑社区团队" pyCode="jdysqtd"/>
+        <item key="33010300704" text="和平苑社区团队" pyCode="hpysqtd"/>
+        <item key="33010300705" text="打铁关社区团队" pyCode="dtgsqtd"/>
+        <item key="33010300706" text="现代城社区团队" pyCode="xdcsqtd"/>
+        <item key="33010300707" text="胜利社区团队" pyCode="slsqtd"/>
+        <item key="33010300708" text="三里家园社区团队" pyCode="sljysqtd"/>
+        <item key="33010300709" text="中心团队" pyCode="zxtd"/>
+      </item>
+      <item key="330103008" text="东新街道社区卫生服务中心" pyCode="dxjdsqwsfwzx">
+        <item key="33010300801" text="杭氧团队" pyCode="hysqtd"/>
+        <item key="33010300802" text="中舟团队" pyCode="zzsqtd"/>
+        <item key="33010300803" text="三塘北苑团队" pyCode="stbysqtd"/>
+        <item key="33010300804" text="沁园团队" pyCode="qysqtd"/>
+        <item key="33010300805" text="三塘团队" pyCode="stsqtd"/>
+        <item key="33010300806" text="德胜东村团队" pyCode="dsdcsqtd"/>
+        <item key="33010300807" text="水漾苑团队" pyCode="syysqtd"/>
+        <item key="33010300808" text="长青苑团队" pyCode="zqysqtd"/>
+        <item key="33010300809" text="西文团队" pyCode="xwsqtd"/>
+        <item key="33010300810" text="三塘苑团队" pyCode="stysqtd"/>
+        <item key="33010300811" text="灯塔团队" pyCode="dtsqtd"/>
+        <item key="33010300812" text="新颜苑团队" pyCode="xyysqtd"/>
+        <item key="33010300813" text="东新园团队" pyCode="dxysqtd"/>
+        <item key="33010300814" text="沈家团队" pyCode="sjsqtd"/>
+        <item key="33010300815" text="富春园团队" pyCode="fcysqtd"/>
+      </item>
+      <item key="330103101" text="石桥街道社区卫生服务中心" pyCode="sqjdsqwsfwzx">
+        <item key="33010310101" text="石桥社区团队" pyCode="sqsqtd"/>
+        <item key="33010310102" text="华丰社区团队" pyCode="hfsqtd"/>
+        <item key="33010310103" text="杨家社区团队" pyCode="yjsqtd"/>
+        <item key="33010310104" text="天堂园社区团队" pyCode="ttysqtd"/>
+        <item key="33010310105" text="景荣社区团队" pyCode="jrsqtd"/>
+        <item key="33010310106" text="景安社区团队" pyCode="jasqtd"/>
+        <item key="33010310107" text="永丰社区团队" pyCode="yfsqtd"/>
+      </item>
+    </item>
+    <item key="330104" text="江干区卫生局" pyCode="jgqwsj">
+      <item key="330104005" text="凯旋街道社区卫生服务中心" pyCode="kxjdsqwsfwzx">
+        <item key="33010400501" text="景芳社区团队" pyCode="jfsq"/>
+        <item key="33010400502" text="景昙社区团队" pyCode="jtsq"/>
+        <item key="33010400503" text="南肖埠社区团队" pyCode="nxbsqtd"/>
+        <item key="33010400504" text="凯西社区团队" pyCode="kxsqtd"/>
+        <item key="33010400505" text="景湖社区团队" pyCode="jhsqtd"/>
+        <item key="33010400506" text="金秋花园社区团队" pyCode="jqhysqtd"/>
+        <item key="33010400507" text="金兰池社区团队" pyCode="jlcsqtd"/>
+        <item key="33010400508" text="景秀社区团队" pyCode="jxsqtd"/>
+        <item key="33010400509" text="景华社区团队" pyCode="jhsqtd"/>
+        <item key="33010400510" text="景新社区团队" pyCode="jxsqtd"/>
+        <item key="33010400511" text="庆春门社区团队" pyCode="qcmsqtd"/>
+        <item key="33010400512" text="庆和社区团队" pyCode="qhsqtd"/>
+        <item key="33010400513" text="景苑社区团队" pyCode="jysqtd"/>
+        <item key="33010400514" text="华家池社区团队" pyCode="hjcsqtd"/>
+      </item>
+      <item key="330104006" text="采荷街道社区卫生服务中心" pyCode="chjdsqwsfwzx">
+        <item key="33010400601" text="红菱社区团队" pyCode="hlsqtd"/>
+        <item key="33010400602" text="双菱社区团队" pyCode="slsqtd"/>
+        <item key="33010400603" text="洁莲社区团队" pyCode="jlsqtd"/>
+        <item key="33010400604" text="芙蓉社区团队" pyCode="frsqtd"/>
+        <item key="33010400605" text="荷花塘社区团队" pyCode="hhtsqtd"/>
+        <item key="33010400606" text="青荷苑社区团队" pyCode="qhysqtd"/>
+        <item key="33010400607" text="新凯苑社区团队" pyCode="xkysqtd"/>
+        <item key="33010400608" text="人民社区团队" pyCode="rmsqtd"/>
+        <item key="33010400609" text="绿茗社区团队" pyCode="lmsqtd"/>
+        <item key="33010400610" text="商教社区团队" pyCode="sjsqtd"/>
+        <item key="33010400611" text="夕照社区团队" pyCode="xzsqtd"/>
+        <item key="33010400612" text="江汀社区团队" pyCode="jtsqtd"/>
+        <item key="33010400613" text="静怡社区团队" pyCode="jysqtd"/>
+        <item key="33010400614" text="常青苑社区团队" pyCode="cqysqtd"/>
+        <item key="33010400615" text="健风社区团队" pyCode="jfsqtd"/>
+        <item key="33010400616" text="其他团队" pyCode="qttd"/>
+      </item>
+      <item key="330104007" text="闸弄口街道社区卫生服务中心" pyCode="znkjdsqwsfwzx">
+        <item key="33010400701" text="天杭、闸弄口社区团队" pyCode="thsqtd"/>
+        <item key="33010400702" text="京惠社区团队" pyCode="jhsqtd"/>
+        <item key="33010400704" text="机神社区团队" pyCode="jssqtd"/>
+        <item key="33010400705" text="天城、濮家社区团队" pyCode="tcsqtd"/>
+        <item key="33010400707" text="闻皇庙、三里亭、兰苑社区团队" pyCode="whmsqtd"/>
+        <item key="33010400710" text="天仙、京惠社区团队" pyCode="txsqtd"/>
+        <item key="33010400711" text="春晖、红梅、董家、麦苗社区团队" pyCode="chsqtd"/>
+        <item key="33010400714" text="万家、天运社区团队" pyCode="wjsqtd"/>
+        <item key="33010400716" text="范家社区团队" pyCode="fjsqtd"/>
+        <item key="33010400709" text="兰苑社区团队" pyCode="lysqtd"/>
+        <item key="33010400703" text="闸弄口社区团队" pyCode="znksqtd"/>
+        <item key="33010400706" text="濮家社区团队" pyCode="pjsqtd"/>
+        <item key="33010400708" text="三里亭社区团队" pyCode="sltsqtd"/>
+        <item key="33010400712" text="红梅社区团队" pyCode="hmsqtd"/>
+        <item key="33010400713" text="董家社区团队" pyCode="djsqtd"/>
+        <item key="33010400715" text="天运社区团队" pyCode="tysqtd"/>
+      </item>
+      <item key="330104008" text="四季青街道社区卫生服务中心" pyCode="sjqjdsqwsfwzx">
+        <item key="33010400801" text="三叉团队" pyCode="sctd"/>
+        <item key="33010400802" text="五福团队" pyCode="wftd"/>
+        <item key="33010400803" text="钱江苑团队" pyCode="qjytd"/>
+        <item key="33010400804" text="水湘团队" pyCode="sxtd"/>
+        <item key="33010400805" text="钱杭团队" pyCode="qhtd"/>
+        <item key="33010400806" text="钱塘团队" pyCode="qttd"/>
+        <item key="33010400807" text="三堡团队" pyCode="sbtd"/>
+        <item key="33010400808" text="运新团队" pyCode="yxtd"/>
+      </item>
+      <item key="330104102" text="彭埠街道社区卫生服务中心" pyCode="pbjdsqwsfwzx">
+        <item key="33010410207" text="五堡团队" pyCode="wbtd"/>
+        <item key="33010410208" text="六堡团队" pyCode="lbtd"/>
+        <item key="33010410201" text="兴隆团队" pyCode="xltd"/>
+        <item key="33010410202" text="皋塘团队" pyCode="gttd"/>
+        <item key="33010410203" text="彭埠团队" pyCode="pbtd"/>
+        <item key="33010410204" text="新塘团队" pyCode="xttd"/>
+        <item key="33010410205" text="云峰团队" pyCode="yftd"/>
+        <item key="33010410206" text="章家坝团队" pyCode="zjbtd"/>
+        <item key="33010410209" text="御道团队" pyCode="ydtd"/>
+        <item key="33010410210" text="七堡团队" pyCode="qbtd"/>
+        <item key="33010410211" text="七堡村团队" pyCode="qbctd"/>
+        <item key="33010410212" text="红五月团队" pyCode="hwytd"/>
+        <item key="33010410213" text="新风团队" pyCode="xftd"/>
+        <item key="33010410214" text="普福团队" pyCode="pftd"/>
+        <item key="33010410215" text="建华团队" pyCode="jhtd"/>
+      </item>
+      <item key="330104103" text="笕桥镇社区卫生服务中心" pyCode="lqjdsqwsfwzx">
+        <item key="33010410301" text="白石团队" pyCode="bstd"/>
+        <item key="33010410302" text="黎明团队" pyCode="lmtd"/>
+        <item key="33010410303" text="横塘团队" pyCode="httd">
+          <item key="3301041030301" text="机场社区" pyCode="jcsq"/>
+        </item>
+        <item key="33010410304" text="俞章团队" pyCode="yztd"/>
+        <item key="33010410305" text="同心团队" pyCode="txtd"/>
+        <item key="33010410306" text="黄家团队" pyCode="hjtd"/>
+        <item key="33010410307" text="浜河团队" pyCode="bhtd"/>
+        <item key="33010410308" text="花园团队" pyCode="hytd"/>
+        <item key="33010410309" text="弄口团队" pyCode="nktd"/>
+        <item key="33010410310" text="笕桥团队" pyCode="jqtd"/>
+        <item key="33010410311" text="水墩团队" pyCode="sdtd"/>
+        <item key="33010410312" text="草庄团队" pyCode="cztd"/>
+        <item key="33010410313" text="机场团队" pyCode="jctd"/>
+        <item key="33010410314" text="笕桥中心团队" pyCode="jgzxtd"/>
+      </item>
+      <item key="330104104" text="丁桥街道社区卫生服务中心" pyCode="dqjdsqwsfwzx">
+        <item key="33010410403" text="同协社区团队" pyCode="hzsqtd" 同协社区="" 建塘社区=""/>
+        <item key="33010410404" text="赵家社区团队" pyCode="dlsqtd" 赵家社区="" 大塘社区="" 沿山村=""/>
+        <item key="33010410401" text="丁桥社区团队" pyCode="dqjysqtd"/>
+        <item key="33010410402" text="三义社区团队" pyCode="sysqtd"/>
+      </item>
+      <item key="330104105" text="九堡街道社区卫生服务中心" pyCode="jbjdsqwsfwzx">
+        <item key="33010410501" text="蚕桑社区团队" pyCode="cssqtd"/>
+        <item key="33010410502" text="九堡社区团队" pyCode="jbsqtd"/>
+        <item key="33010410503" text="牛田社区团队" pyCode="ntsqtd"/>
+        <item key="33010410504" text="三卫社区团队" pyCode="swsqtd"/>
+        <item key="33010410505" text="三村社区团队" pyCode="scsqtd"/>
+        <item key="33010410506" text="宣家埠社区团队" pyCode="xjbsqtd"/>
+        <item key="33010410507" text="杨公社区团队" pyCode="ygsqtd"/>
+        <item key="33010410508" text="格畈社区团队" pyCode="gfsqtd"/>
+        <item key="33010410509" text="八堡社区团队" pyCode="bbsqtd"/>
+        <item key="33010410510" text="中心团队" pyCode="zxtd" mCode="zxtd"/>
+      </item>
+    </item>
+    <item key="330105" text="拱墅区卫生局" pyCode="gsqwsj">
+      <item key="330105001" text="米市巷街道社区卫生服务中心" pyCode="msxjdsqwsfwzx">
+        <item key="33010500101" text="红石板社区团队" pyCode="hsbsqtd"/>
+        <item key="33010500102" text="大塘巷社区团队" pyCode="dtxsqtd"/>
+        <item key="33010500103" text="沈塘桥社区团队" pyCode="stqsqtd"/>
+        <item key="33010500104" text="半道红社区团队" pyCode="bdhsqtd"/>
+        <item key="33010500105" text="锦绣社区团队" pyCode="jxsqtd"/>
+        <item key="33010500106" text="夹城巷社区团队" pyCode="jcxsqtd"/>
+        <item key="33010500107" text="米市社区团队" pyCode="mssqtd"/>
+        <item key="33010500108" text="集体户口地址" pyCode="jthkdz"/>
+      </item>
+      <item key="330105002" text="小河湖墅社区卫生服务中心" pyCode="xhhssqwsfwzx">
+        <item key="33010500201" text="小河社区责任医师团队" pyCode="xhsqzrystd"/>
+        <item key="33010500202" text="长征桥社区责任医师团队" pyCode="zzqsqzrystd"/>
+        <item key="33010500203" text="塘河社区责任医师团队" pyCode="thsqzrystd"/>
+        <item key="33010500204" text="董家社区责任医师团队" pyCode="djsqzrystd" mCode="djxc"/>
+        <item key="33010500205" text="紫荆家园社区责任医师团队" pyCode="zjjysqzrystd"/>
+        <item key="33010500206" text="珠儿潭社区责任医师团队" pyCode="zetsqzrystd"/>
+        <item key="33010500207" text="双荡弄社区责任医师团队" pyCode="sdnsqzrystd"/>
+        <item key="33010500208" text="仓基社区责任医师团队" pyCode="cjsqzrystd"/>
+        <item key="33010500209" text="长乐社区责任医师团队" pyCode="zlsqzrystd"/>
+      </item>
+      <item key="330105004" text="和睦街道社区卫生服务中心" pyCode="hmjdsqwsfwzx">
+        <item key="33010500401" text="和睦社区团队" pyCode="hmsqtd"/>
+        <item key="33010500402" text="华丰社区团队" pyCode="hfsqtd"/>
+        <item key="33010500403" text="化纤社区团队" pyCode="hxsqtd"/>
+        <item key="33010500404" text="李家桥社区团队" pyCode="ljqsqtd"/>
+      </item>
+      <item key="330105005" text="拱宸桥街道社区卫生服务中心" pyCode="gcqjdsqwsfwzx">
+        <item key="33010500501" text="登云路社区" pyCode="dylsq"/>
+        <item key="33010500502" text="蚕花园社区" pyCode="chysq"/>
+        <item key="33010500503" text="蚕花园东社区" pyCode="chydsq"/>
+        <item key="33010500504" text="台州路社区" pyCode="tzlsq"/>
+        <item key="33010500505" text="温州路社区" pyCode="wzlsq"/>
+        <item key="33010500506" text="衢州路社区" pyCode="qzlsq"/>
+        <item key="33010500507" text="桥西社区" pyCode="qxsq"/>
+      </item>
+      <item key="330105007" text="大关上塘社区卫生服务中心" pyCode="dgstsqwsfwzx">
+        <item key="33010500701" text="东一社区团队" pyCode="dysqtd"/>
+        <item key="33010500702" text="东二社区团队" pyCode="desqtd"/>
+        <item key="33010500703" text="西一社区团队" pyCode="xysqtd"/>
+        <item key="33010500704" text="西二社区团队" pyCode="xesqtd"/>
+        <item key="33010500705" text="南苑社区团队" pyCode="nysqtd"/>
+        <item key="33010500706" text="德胜社区团队" pyCode="dssqtd"/>
+        <item key="33010500707" text="皋亭社区团队" pyCode="gtsqtd"/>
+        <item key="33010500708" text="善贤社区团队" pyCode="sxsqtd"/>
+        <item key="33010500709" text="瓜山社区团队" pyCode="gssqtd"/>
+        <item key="33010500710" text="台州路社区团队" pyCode="tzlsqtd"/>
+        <item key="33010500711" text="绍兴路社区团队" pyCode="sxlsqtd"/>
+        <item key="33010500712" text="蔡马社区团队" pyCode="cmsqtd"/>
+        <item key="33010500713" text="假山路社区团队" pyCode="jslsqtd"/>
+      </item>
+      <item key="330105102" text="康桥镇社区卫生服务中心" pyCode="kqzsqwsfwzx">
+        <item key="33010510201" text="义桥社区责任医师团队" pyCode="yqsqzrystd"/>
+        <item key="33010510202" text="西杨社区责任医师团队" pyCode="xysqzrystd"/>
+        <item key="33010510203" text="蒋家浜社区责任医师团队" pyCode="jjbsqzrystd"/>
+        <item key="33010510204" text="吴家墩责任医师团队" pyCode="wjdzrystd"/>
+        <item key="33010510205" text="计家村社区责任医师团队" pyCode="jjcsqzrystd"/>
+        <item key="33010510206" text="永和村社区责任医师团队" pyCode="yhcsqzrystd"/>
+        <item key="33010510207" text="康桥社区社区责任医师团队" pyCode="kqsqsqzrystd" zj="kqsqsqzrystd"/>
+        <item key="33010510208" text="独城社区责任医师团队" pyCode="dcsqzrystd"/>
+        <item key="33010510209" text="平安桥社区责任医师团队" pyCode="paqsqzrystd"/>
+        <item key="33010510210" text="谢村社区责任医师团队" pyCode="xcsqzrystd"/>
+        <item key="33010510211" text="康桥村社区责任医师团队" pyCode="kqcsqzrystd"/>
+      </item>
+      <item key="330105103" text="半山镇社区卫生服务中心" pyCode="bszsqwsfwzx">
+        <item key="33010510301" text="田园社区团队" pyCode="tysqtd"/>
+        <item key="33010510302" text="杭钢西苑团队" pyCode="hgxytd"/>
+        <item key="33010510303" text="杭钢南苑团队" pyCode="hgnytd"/>
+        <item key="33010510304" text="阔板桥社区团队" pyCode="kbqsqtd"/>
+        <item key="33010510305" text="杭钢北苑团队" pyCode="hgbytd"/>
+        <item key="33010510306" text="石塘社区团队" pyCode="stsqtd"/>
+        <item key="33010510307" text="沈家桥社区团队" pyCode="sjqsqtd"/>
+        <item key="33010510308" text="金星社区团队" pyCode="jxsqtd"/>
+        <item key="33010510309" text="半山社区团队" pyCode="bssqtd"/>
+      </item>
+      <item key="330105104" text="祥符镇社区卫生服务中心" pyCode="xfzsqwsfwzx">
+        <item key="33010510401" text="总管堂社区团队" pyCode="zgtsqtd"/>
+        <item key="33010510402" text="都市水乡社区团队" pyCode="dssxsqtd"/>
+        <item key="33010510403" text="祥符桥村社区团队" pyCode="xfqcsqtd"/>
+        <item key="33010510404" text="祥符社区团队" pyCode="xfsqtd"/>
+        <item key="33010510405" text="渡驾桥社区团队" pyCode="djqsqtd"/>
+        <item key="33010510406" text="花园岗社区团队" pyCode="hygsqtd"/>
+        <item key="33010510407" text="方家塘社区团队" pyCode="fjtsqtd"/>
+        <item key="33010510408" text="阮家桥社区团队" pyCode="rjqsqtd"/>
+        <item key="33010510409" text="庆隆社区团队" pyCode="qlsqtd"/>
+        <item key="33010510410" text="勤丰社区团队" pyCode="qfsqtd"/>
+        <item key="33010510411" text="吉如社区团队" pyCode="jrsqtd"/>
+        <item key="33010510412" text="星桥村社区团队" pyCode="xqcsqtd"/>
+        <item key="33010510413" text="新文村社区团队" pyCode="xwcsqtd"/>
+        <item key="33010510414" text="孔家埭社区团队" pyCode="kjdsqtd"/>
+        <item key="33010510415" text="郭家厍社区团队" pyCode="gjssqtd"/>
+        <item key="33010510416" text="陆家圩社区团队" pyCode="ljwsqtd"/>
+      </item>
+    </item>
+    <item key="330106" text="西湖区卫生局" pyCode="xhqwsj">
+      <item key="330106002" text="北山街道社区卫生服务中心" pyCode="bsjdsqwsfwzx">
+        <item key="33010600201" text="宝石社区团队" pyCode="bssqtd"/>
+        <item key="33010600202" text="上保社区团队" pyCode="sbsqtd"/>
+        <item key="33010600203" text="松木场社区团队" pyCode="smcsqtd"/>
+        <item key="33010600204" text="金祝社区团队" pyCode="jzsqtd"/>
+        <item key="33010600205" text="友谊社区团队" pyCode="yysqtd"/>
+        <item key="33010600206" text="沿山河社区团队" pyCode="yshsqtd"/>
+        <item key="33010600207" text="曲院社区团队" pyCode="qysqtd"/>
+        <item key="33010600208" text="建档团队" pyCode="jdtd"/>
+      </item>
+      <item key="330106003" text="灵隐街道社区卫生服务中心" pyCode="lyjdsqwsfwzx">
+        <item key="33010600301" text="东山弄社区团队" pyCode="dsnsqtd"/>
+        <item key="33010600302" text="曙光社区团队" pyCode="sgsqtd"/>
+        <item key="33010600303" text="庆丰社区团队" pyCode="qfsqtd"/>
+        <item key="33010600304" text="求是社区团队" pyCode="qssqtd"/>
+        <item key="33010600305" text="玉泉社区团队" pyCode="yqsqtd"/>
+        <item key="33010600306" text="117社区团队" pyCode="117sqtd"/>
+        <item key="33010600307" text="黄龙社区团队" pyCode="hlsqtd"/>
+      </item>
+      <item key="330106004" text="西溪街道社区卫生服务中心" pyCode="lyjdsqwsfwzx">
+        <item key="33010600401" text="求智巷团队" pyCode="qzxtd"/>
+        <item key="33010600402" text="上马塍团队" pyCode="smctd"/>
+        <item key="33010600403" text="下马塍团队" pyCode="xmctd"/>
+        <item key="33010600404" text="石灰桥团队" pyCode="shqtd"/>
+        <item key="33010600405" text="白荡海团队" pyCode="bdhtd"/>
+        <item key="33010600406" text="文教团队" pyCode="wjtd"/>
+        <item key="33010600407" text="文天团队" pyCode="wttd"/>
+        <item key="33010600408" text="花园亭团队" pyCode="hyttd"/>
+        <item key="33010600409" text="集体户口团队" pyCode="jthktd"/>
+      </item>
+      <item key="330106005" text="翠苑街道社区卫生服务中心" pyCode="cyjdsqwsfwzx">
+        <item key="33010600501" text="翠苑一区团队" pyCode="cyyqtd"/>
+        <item key="33010600502" text="翠苑二区团队" pyCode="cyeqtd"/>
+        <item key="33010600503" text="翠苑三区团队" pyCode="cysqtd"/>
+        <item key="33010600504" text="翠苑四区团队" pyCode="cysqtd"/>
+        <item key="33010600505" text="古荡湾团队" pyCode="gdwtd"/>
+        <item key="33010600506" text="九莲团队" pyCode="jltd"/>
+        <item key="33010600507" text="黄姑山团队" pyCode="hgstd"/>
+        <item key="33010600508" text="花园团队" pyCode="hytd"/>
+        <item key="33010600509" text="保亭团队" pyCode="bttd"/>
+      </item>
+      <item key="330106006" text="蒋村文新社区卫生服务中心" pyCode="jcwxsqwsfwzx">
+        <item key="33010600601" text="星洲社区团队" pyCode="xzsqtd"/>
+        <item key="33010600602" text="南都社区团队" pyCode="ndsqtd"/>
+        <item key="33010600603" text="竞舟社区团队" pyCode="jzsqtd"/>
+        <item key="33010600604" text="新金都社区团队" pyCode="xjdsqtd"/>
+        <item key="33010600605" text="香樟社区团队" pyCode="xzsqtd"/>
+        <item key="33010600606" text="金乐社区团队" pyCode="jlsqtd"/>
+        <item key="33010600607" text="德加社区团队" pyCode="djsqtd"/>
+        <item key="33010600608" text="沁雅社区团队" pyCode="qysqtd"/>
+        <item key="33010600609" text="湖畔社区团队" pyCode="hpsqtd"/>
+        <item key="33010600610" text="府苑社区团队" pyCode="fysqtd"/>
+        <item key="33010600611" text="府新社区团队" pyCode="fxsqtd"/>
+        <item key="33010600612" text="桂花园社区团队" pyCode="ghysqtd"/>
+        <item key="33010600613" text="登云圩社区团队" pyCode="dywsqtd"/>
+        <item key="33010600614" text="蒋村花园社区团队" pyCode="jchysqtd"/>
+        <item key="33010600615" text="西溪花园社区团队" pyCode="xxhysqtd"/>
+        <item key="33010600616" text="西溪社区" pyCode="xxsq"/>
+        <item key="33010600617" text="其它网格地址" pyCode="qtwgdz"/>
+      </item>
+      <item key="330106007" text="古荡街道社区卫生服务中心" pyCode="gdjdsqwsfwzx">
+        <item key="33010600709" text="华星社区" pyCode="hxsq"/>
+        <item key="33010600710" text="嘉荷社区" pyCode="jhsq"/>
+        <item key="33010600708" text="嘉绿苑社区" pyCode="jlysq"/>
+        <item key="33010600701" text="古东社区" pyCode="gdsq"/>
+        <item key="33010600702" text="古北社区" pyCode="dbsq"/>
+        <item key="33010600703" text="古南社区" pyCode="gnsq"/>
+        <item key="33010600704" text="古墩社区" pyCode="gdsq"/>
+        <item key="33010600705" text="莲花社区" pyCode="ylsq"/>
+        <item key="33010600707" text="文华社区" pyCode="whsq"/>
+        <item key="33010600706" text="益乐社区" pyCode="ylsq"/>
+      </item>
+      <item key="330106104" text="转塘街道社区卫生服务中心" pyCode="ztjdsqwsfwzx">
+        <item key="33010610401" text="中心团队" pyCode="zxtd"/>
+        <item key="33010610402" text="回龙社区团队" pyCode="hlsqtd" mCode="hl"/>
+        <item key="33010610403" text="珊瑚沙社区团队" pyCode="shssqtd" mCode="shs"/>
+        <item key="33010610404" text="狮子社区团队" pyCode="szsqtd" mCode="sz"/>
+        <item key="33010610405" text="五云社区团队" pyCode="wysqtd" mCode="wy"/>
+        <item key="33010610406" text="凌家桥社区团队" pyCode="ljqsqtd" mCode="ljq"/>
+        <item key="33010610408" text="中村社区团队" pyCode="zcsqtd"/>
+        <item key="33010610409" text="双龙社区团队" pyCode="slsqtd"/>
+      </item>
+      <item key="330106103" text="留下街道社区卫生服务中心" pyCode="lxjdsqwsfwzx">
+        <item key="33010610301" text="留下中心团队" pyCode="lxzxtd"/>
+        <item key="33010610302" text="东岳社区团队" pyCode="dysqtd"/>
+        <item key="33010610303" text="金鱼井社区团队" pyCode="jyjsqtd"/>
+        <item key="33010610304" text="杨家牌楼社区团队" pyCode="yjplsqtd"/>
+        <item key="33010610305" text="屏峰社区团队" pyCode="pfsqtd"/>
+        <item key="33010610306" text="小和山社区团队" pyCode="xhssqtd"/>
+        <item key="33010610307" text="东穆坞社区团队" pyCode="dmwsqtd"/>
+        <item key="33010610308" text="石马社区团队" pyCode="smsqtd"/>
+      </item>
+      <item key="330106105" text="袁浦镇社区卫生服务中心" pyCode="ypzsqwsfwzx">
+        <item key="33010610501" text="新沙片社区团队" pyCode="xspsqtd"/>
+        <item key="33010610502" text="东江嘴片社区团队" pyCode="djzpsqtd"/>
+        <item key="33010610503" text="浦塘片社区团队" pyCode="ptpsqtd"/>
+        <item key="33010610504" text="麦岭沙片社区团队" pyCode="mlspsqtd"/>
+        <item key="33010610505" text="袁浦片社区团队" pyCode="yppsqtd"/>
+      </item>
+      <item key="330106106" text="龙坞社区卫生服务中心" pyCode="lwsqwsfwzx">
+        <item key="33010610601" text="慈母桥团队" pyCode="cmqc"/>
+        <item key="33010610602" text="葛衙庄团队" pyCode="gyzsq"/>
+        <item key="33010610603" text="龙门坎团队" pyCode="lmkc"/>
+        <item key="33010610604" text="桐坞团队" pyCode="twtd"/>
+      </item>
+      <item key="330106109" text="三墩镇社区卫生服务中心" pyCode="sdzsqwsfwzx">
+        <item key="33010610901" text="政苑社区责任医人员团队" pyCode="zysqzryrytd"/>
+        <item key="33010610902" text="文鼎苑社区责任医人员团队" pyCode="wdysqzryrytd"/>
+        <item key="33010610903" text="西苑社区责任医人员团队" pyCode="xysqzryrytd"/>
+        <item key="33010610904" text="兰里社区责任医人员团队" pyCode="llsqzryrytd"/>
+        <item key="33010610905" text="颐兰社区责任医人员团队" pyCode="ylsqzryrytd"/>
+        <item key="33010610906" text="水月社区责任医人员团队" pyCode="sysqzryrytd"/>
+        <item key="33010610907" text="望月社区责任医人员团队" pyCode="wysqzryrytd"/>
+        <item key="33010610908" text="秀月社区责任医人员团队" pyCode="xlwsqzryrytd"/>
+        <item key="33010610909" text="三坝社区责任医人员团队" pyCode="sbsqzryrytd"/>
+        <item key="33010610910" text="新星社区责任医人员团队" pyCode="xxsqzryrytd"/>
+        <item key="33010610911" text="五里塘社区责任医人员团队" pyCode="wltsqzryrytd"/>
+        <item key="33010610912" text="庙前街社区责任医人员团队" pyCode="mqjsqzryrytd"/>
+        <item key="33010610913" text="大港桥社区责任医人员团队" pyCode="dgqsqzryrytd"/>
+        <item key="33010610914" text="南阳坝社区责任医人员团队" pyCode="nybsqzryrytd"/>
+        <item key="33010610915" text="荡王头社区责任医人员团队" pyCode="dwtsqzryrytd"/>
+        <item key="33010610916" text="杨家桥社区责任医人员团队" pyCode="yjqsqzryrytd"/>
+        <item key="33010610917" text="同仁社区责任医人员团队" pyCode="trsqzryrytd"/>
+        <item key="33010610918" text="厚诚桥社区责任医人员团队" pyCode="hcqsqzryrytd"/>
+        <item key="33010610919" text="吉鸿社区责任医人员团队" pyCode="jhsqzryrytd"/>
+        <item key="33010610920" text="五幸村社区责任医人员团队" pyCode="wxcsqzryrytd"/>
+        <item key="33010610921" text="绕城村社区责任医人员团队" pyCode="rccsqzryrytd"/>
+        <item key="33010610922" text="山联村社区责任医人员团队" pyCode="slcsqzryrytd"/>
+        <item key="33010610923" text="华联村社区责任医人员团队" pyCode="hlcsqzryrytd"/>
+        <item key="33010610924" text="双桥村社区责任医人员团队" pyCode="sqcsqzryrytd"/>
+        <item key="33010610925" text="塘河村社区责任医人员团队" pyCode="thcsqzryrytd"/>
+        <item key="33010610926" text="厨房斗社区责任医人员团队" pyCode="cfdsqzryrytd"/>
+        <item key="33010610927" text="浙大港湾家园责任医师团队" pyCode="zdgwjyzrystd"/>
+      </item>
+      <item key="330106202" text="周浦社区卫生服务中心" pyCode="zpsqwsfwzx">
+        <item key="33010620201" text="白鸟片社区团队" pyCode="bnpsqtd"/>
+        <item key="33010620202" text="湖埠片社区团队" pyCode="hbpsqtd"/>
+        <item key="33010620203" text="社井片社区团队" pyCode="sjpsqtd"/>
+        <item key="33010620204" text="周浦中心团队" pyCode=""/>
+      </item>
+    </item>
+    <item key="330108" text="滨江区卫生局" pyCode="bjqwsj">
+      <item key="330108001" text="西兴街道社区卫生服务中心" pyCode="xxjdsqwsfwzx">
+        <item key="33010800101" text="西陵社区团队" pyCode="xlsqtd"/>
+        <item key="33010800102" text="共联团队" pyCode="gltd"/>
+        <item key="33010800103" text="协同团队" pyCode="xttd"/>
+        <item key="33010800104" text="马湖团队" pyCode="mhtd"/>
+        <item key="33010800105" text="西兴团队" pyCode="xxtd"/>
+        <item key="33010800106" text="水电社区团队" pyCode="sdsqtd"/>
+        <item key="33010800107" text="星民团队" pyCode="xmtd"/>
+        <item key="33010800108" text="襄七房团队" pyCode="xqftd"/>
+        <item key="33010800109" text="庙后王团队" pyCode="mhwtd"/>
+        <item key="33010800110" text="七甲闸团队" pyCode="qjztd"/>
+      </item>
+      <item key="330108002" text="长河街道社区卫生服务中心" pyCode="zhjdsqwsfwzx">
+        <item key="33010800201" text="江一社区团队" pyCode="jysqtd"/>
+        <item key="33010800202" text="滨兴社区团队" pyCode="bxsqtd"/>
+        <item key="33010800203" text="江三社区团队" pyCode="jssqtd"/>
+        <item key="33010800204" text="长一社区团队" pyCode="zysqtd"/>
+        <item key="33010800205" text="白马湖社区团队" pyCode="zesqtd"/>
+        <item key="33010800206" text="长河社区团队" pyCode="zhsqtd"/>
+        <item key="33010800207" text="汤家桥社区团队" pyCode="tjqsqtd"/>
+        <item key="33010800208" text="傅家峙社区团队" pyCode="fjzsqtd"/>
+        <item key="33010800209" text="塘子堰社区团队" pyCode="tzysqtd"/>
+        <item key="33010800210" text="汤家井社区团队" pyCode="tjjsqtd"/>
+        <item key="33010800211" text="张家村社区团队" pyCode="zjcsqtd"/>
+        <item key="33010800212" text="山一社区团队" pyCode="sysqtd"/>
+        <item key="33010800213" text="中兴社区团队" pyCode="zxsqtd"/>
+        <item key="33010800214" text="天官社区团队" pyCode="tgsqtd"/>
+        <item key="33010800215" text="闻涛社区团队" pyCode="wtsqtd"/>
+        <item key="33010800216" text="月明社区" pyCode="ymsq"/>
+        <item key="33010800217" text="晶都社区" pyCode="jdsq"/>
+      </item>
+      <item key="330108003" text="浦沿街道社区卫生服务中心" pyCode="pyjdsqwsfwzx">
+        <item key="33010800301" text="浦联村团队" pyCode="plctd"/>
+        <item key="33010800302" text="新生村团队" pyCode="xsctd"/>
+        <item key="33010800303" text="东冠社区团队" pyCode="dgsqtd"/>
+        <item key="33010800304" text="山二村团队" pyCode="sectd"/>
+        <item key="33010800305" text="新浦社区团队" pyCode="xpsqtd"/>
+        <item key="33010800306" text="岩大房社区团队" pyCode="ydfsqtd"/>
+        <item key="33010800307" text="杨家墩社区团队" pyCode="yjdsqtd"/>
+        <item key="33010800308" text="冠一社区团队" pyCode="gysqtd"/>
+        <item key="33010800309" text="冠二社区团队" pyCode="gesqtd"/>
+        <item key="33010800310" text="联庄社区团队" pyCode="lzsqtd"/>
+        <item key="33010800311" text="之江社区团队" pyCode="zjsqtd"/>
+        <item key="33010800312" text="妇幼保健团队" pyCode="fybjtd"/>
+      </item>
+    </item>
+    <item key="330109" text="下沙开发区卫生局" pyCode="xskfqwsj">
+      <item key="330109001" text="白杨街道社区卫生服务中心" pyCode="byjdsqwsfwzx">
+        <item key="33010900101" text="大北社区团队" pyCode="dbsqtd"/>
+        <item key="33010900102" text="高教社区团队" pyCode="gjsqtd"/>
+        <item key="33010900103" text="月雅苑社区团队" pyCode="yyysqtd"/>
+        <item key="33010900104" text="景园社区团队" pyCode="jysqtd"/>
+        <item key="33010900105" text="闻潮社区团队" pyCode="wcsqtd"/>
+        <item key="33010900106" text="邻里社区团队" pyCode="llsqtd"/>
+        <item key="33010900107" text="云水社区团队" pyCode="yssqtd"/>
+      </item>
+      <item key="330109002" text="下沙街道社区卫生中心" pyCode="xsjdsqwszx">
+        <item key="33010900201" text="七格社区团队" pyCode="qgsqtd"/>
+        <item key="33010900202" text="智格社区团队" pyCode="zgsqtd"/>
+        <item key="33010900203" text="头格社区团队" pyCode="tgsqtd"/>
+        <item key="33010900204" text="下沙社区团队" pyCode="xssqtd"/>
+        <item key="33010900205" text="中沙社区团队" pyCode="zssqtd"/>
+        <item key="33010900206" text="下卫中心团队" pyCode="xwzxtd"/>
+        <item key="33010900207" text="高沙社区团队" pyCode="gssqtd"/>
+        <item key="33010900208" text="东方社区团队" pyCode="dfsqtd"/>
+        <item key="33010900209" text="元成社区团队" pyCode="ycsqtd"/>
+        <item key="33010900210" text="松合社区团队" pyCode="shsqtd"/>
+        <item key="33010900211" text="湾南社区团队" pyCode="wnsqtd"/>
+      </item>
+    </item>
+    <item key="330119" text="西湖名胜风景区卫生局" pyCode="xhmsfjqwsj">
+      <item key="330119001" text="西湖街道社区卫生服务中心" pyCode="xhjdsqwsfwzx">
+        <item key="33011900101" text="净寺社区团队" pyCode="jssqtd"/>
+        <item key="33011900102" text="栖霞岭社区团队" pyCode="qxlsqtd"/>
+        <item key="33011900103" text="九溪社区团队" pyCode="jxsqtd"/>
+        <item key="33011900104" text="梵村社区团队" pyCode="fcsqtd"/>
+        <item key="33011900105" text="梅家坞社区团队" pyCode="mjwsqtd"/>
+        <item key="33011900106" text="三台山社区团队" pyCode="stssqtd"/>
+        <item key="33011900107" text="满觉陇社区团队" pyCode="mjlsqtd"/>
+        <item key="33011900108" text="杨梅岭社区团队" pyCode="ymlsqtd"/>
+        <item key="33011900109" text="龙井社区团队" pyCode="ljsqtd"/>
+        <item key="33011900110" text="双峰社区团队" pyCode="sfsqtd"/>
+        <item key="33011900111" text="翁家山社区团队" pyCode="wjssqtd"/>
+        <item key="33011900112" text="金沙港社区团队" pyCode="jsgsqtd"/>
+        <item key="33011900113" text="茅家埠社区团队" pyCode="mjbsqtd"/>
+        <item key="33011900114" text="灵隐社区团队" pyCode="lysqtd"/>
+      </item>
+    </item>
+    <item key="330110" text="余杭区卫生局" pyCode="yhq">
+      <item key="330110001" text="五常街道社区卫生服务中心">
+        <item key="33011000101" text="邱桥团队"/>
+        <item key="33011000102" text="荆山团队"/>
+        <item key="33011000103" text="顾家桥团队"/>
+        <item key="33011000104" text="永福团队"/>
+        <item key="33011000105" text="沿山河团队" pyCode="yshtd"/>
+      </item>
+      <item key="330110002" text="东湖街道社区卫生服务中心">
+        <item key="33011000201" text="桂芳桥社区团队"/>
+        <item key="33011000202" text="梅堰社区团队"/>
+        <item key="33011000203" text="庙东社区团队"/>
+        <item key="33011000204" text="庙前社区团队"/>
+        <item key="33011000205" text="新塘社区团队"/>
+        <item key="33011000206" text="丁塘社区团队"/>
+        <item key="33011000207" text="工农社区团队"/>
+        <item key="33011000208" text="横塘社区团队"/>
+        <item key="33011000209" text="塘湾社区团队"/>
+        <item key="33011000210" text="红旗社区团队"/>
+        <item key="33011000211" text="罗庄社区团队"/>
+        <item key="33011000212" text="胡桥社区团队"/>
+        <item key="33011000213" text="星光社区团队"/>
+        <item key="33011000214" text="红丰社区团队"/>
+        <item key="33011000215" text="双林社区团队"/>
+        <item key="33011000216" text="西大街社区团队"/>
+        <item key="33011000217" text="星火社区团队"/>
+        <item key="33011000218" text="丘山社区团队"/>
+        <item key="33011000219" text="荷花塘社区团队"/>
+        <item key="33011000220" text="钱江社区团队"/>
+        <item key="33011000221" text="武林社区团队"/>
+        <item key="33011000222" text="工农新村社区团队"/>
+      </item>
+      <item key="330110003" text="开发区城西社区卫生服务中心">
+        <item key="33011000301" text="结网团队"/>
+        <item key="33011000302" text="苏家团队"/>
+        <item key="33011000303" text="丁山团队"/>
+        <item key="33011000304" text="小林团队"/>
+        <item key="33011000305" text="星河团队"/>
+        <item key="33011000306" text="屯里团队"/>
+        <item key="33011000307" text="建富团队"/>
+        <item key="33011000308" text="庄里团队"/>
+        <item key="33011000309" text="陈家木桥团队"/>
+      </item>
+      <item key="330110004" text="开发区城北社区卫生服务中心">
+        <item key="33011000401" text="星火团队"/>
+        <item key="33011000402" text="禾丰团队"/>
+        <item key="33011000403" text="石坝团队"/>
+        <item key="33011000404" text="乾元团队"/>
+        <item key="33011000405" text="南公河团队"/>
+        <item key="33011000406" text="龙安团队"/>
+        <item key="33011000407" text="万陈团队"/>
+        <item key="33011000408" text="南横港团队"/>
+        <item key="33011000409" text="滩里团队"/>
+        <item key="33011000410" text="章家河团队"/>
+        <item key="33011000411" text="长虹团队"/>
+        <item key="33011000412" text="圣塘团队"/>
+        <item key="33011000413" text="道墩坝团队"/>
+      </item>
+      <item key="330110005" text="乔司镇社区卫生服务中心">
+        <item key="33011000501" text="中心团队"/>
+        <item key="33011000502" text="胜稼团队"/>
+        <item key="33011000503" text="永西团队"/>
+        <item key="33011000504" text="和睦桥团队"/>
+        <item key="33011000505" text="方桥团队"/>
+        <item key="33011000506" text="五星团队"/>
+        <item key="33011000507" text="朝阳团队"/>
+        <item key="33011000508" text="大井团队"/>
+        <item key="33011000509" text="新街社区团队"/>
+        <item key="33011000510" text="三角团队"/>
+      </item>
+      <item key="330110006" text="运河镇社区卫生服务中心">
+        <item key="33011000601" text="中心团队"/>
+        <item key="33011000602" text="亭趾团队"/>
+        <item key="33011000603" text="五杭团队"/>
+        <item key="33011000604" text="博陆团队"/>
+        <item key="33011000605" text="兴旺团队"/>
+        <item key="33011000606" text="费庄团队"/>
+        <item key="33011000607" text="明智团"/>
+        <item key="33011000608" text="杭信团队"/>
+        <item key="33011000609" text="东兴团队"/>
+        <item key="33011000610" text="双桥团队"/>
+        <item key="33011000611" text="新宇团队"/>
+        <item key="33011000612" text="戚家桥团队"/>
+        <item key="33011000613" text="杭南团队"/>
+      </item>
+      <item key="330110007" text="崇贤镇社区卫生服务中心">
+        <item key="33011000701" text="崇贤、陆家桥村团队"/>
+        <item key="33011000702" text="向阳村团队"/>
+        <item key="33011000703" text="沾桥、四维村团队"/>
+        <item key="33011000704" text="龙旋村团队"/>
+        <item key="33011000705" text="北庄村团队"/>
+        <item key="33011000706" text="大安村团队"/>
+        <item key="33011000707" text="沿山村团队"/>
+        <item key="33011000708" text="鸭兰村团队"/>
+        <item key="33011000709" text="三家村团队"/>
+      </item>
+      <item key="330110008" text="星桥街道社区卫生服务中心">
+        <item key="33011000801" text="中心团队"/>
+        <item key="33011000802" text="汤家团队"/>
+        <item key="33011000803" text="太平团队"/>
+        <item key="33011000804" text="星桥团队"/>
+        <item key="33011000805" text="南星团队"/>
+        <item key="33011000806" text="万乐团队"/>
+        <item key="33011000807" text="安乐团队"/>
+        <item key="33011000808" text="民乐团队"/>
+        <item key="33011000809" text="枉山团队"/>
+        <item key="33011000810" text="周杨团队"/>
+        <item key="33011000811" text="贾家团队"/>
+        <item key="33011000812" text="香榭团队"/>
+      </item>
+      <item key="330110009" text="塘栖镇社区卫生服务中心">
+        <item key="33011000901" text="宏畔卫生服务分中心团队"/>
+        <item key="33011000902" text="宏河社区服务站团队"/>
+        <item key="33011000903" text="星河社区服务站团队"/>
+        <item key="33011000904" text="唐家埭社区服务站团队"/>
+        <item key="33011000905" text="丁河卫生服务分中心团队"/>
+        <item key="33011000906" text="丁河社区服务站团队"/>
+        <item key="33011000907" text="西苑社区服务站团队"/>
+        <item key="33011000908" text="乐苑社区服务站团队"/>
+        <item key="33011000909" text="超山卫生服务分中心团队"/>
+        <item key="33011000910" text="柴家坞社区服务站团队"/>
+        <item key="33011000911" text="泰山社区服务站团队"/>
+        <item key="33011000912" text="超丁社区服务站团队"/>
+        <item key="33011000913" text="塘北社区服务站团队"/>
+      </item>
+      <item key="330110010" text="仁和镇社区卫生服务中心">
+        <item key="33011001001" text="新桥团队"/>
+        <item key="33011001002" text="平宅团队"/>
+        <item key="33011001003" text="普宁团队"/>
+        <item key="33011001004" text="葛墩团队"/>
+        <item key="33011001005" text="三白潭团队"/>
+        <item key="33011001006" text="东塘团队"/>
+        <item key="33011001007" text="奉口团队"/>
+        <item key="33011001008" text="永胜团队"/>
+        <item key="33011001009" text="洛阳渔公桥团队"/>
+        <item key="33011001010" text="獐山东风团队"/>
+        <item key="33011001011" text="永泰团队"/>
+        <item key="33011001012" text="栅庄桥团队"/>
+        <item key="33011001013" text="双陈团队"/>
+        <item key="33011001014" text="花园团队"/>
+        <item key="33011001015" text="东山团队"/>
+        <item key="33011001016" text="九龙团队"/>
+        <item key="33011001017" text="云会团队"/>
+      </item>
+      <item key="330110011" text="瓶窑镇社区卫生服务中心">
+        <item key="33011001101" text="中心团队"/>
+        <item key="33011001102" text="彭公社区团队"/>
+        <item key="33011001103" text="奇鹤塘埠社区团队"/>
+        <item key="33011001104" text="石濑社区团队"/>
+        <item key="33011001105" text="南山社区团队"/>
+        <item key="33011001106" text="瓶窑团队" pyCode="pytd"/>
+        <item key="33011001112" text="城区团队" pyCode="cqtd"/>
+      </item>
+      <item key="330110012" text="良渚镇社区卫生服务中心">
+        <item key="33011001201" text="南庄兜社区团队"/>
+        <item key="33011001202" text="行宫塘社区团队"/>
+        <item key="33011001203" text="东塘河社区团队"/>
+        <item key="33011001204" text="运河村社区团队"/>
+        <item key="33011001205" text="吴家厍社区团队"/>
+        <item key="33011001206" text="谢村社区团队"/>
+        <item key="33011001207" text="长桥社区团队"/>
+        <item key="33011001208" text="管家塘社区团队"/>
+        <item key="33011001209" text="金家渡社区团队"/>
+        <item key="33011001210" text="小洋坝社区团队"/>
+        <item key="33011001211" text="西塘河社区团队"/>
+        <item key="33011001212" text="勾庄村社区团队"/>
+        <item key="33011001213" text="石桥村社区团队"/>
+        <item key="33011001214" text="良渚村社区团队"/>
+        <item key="33011001215" text="良港村社区团队"/>
+        <item key="33011001216" text="荀山村社区团队"/>
+        <item key="33011001217" text="施家湾社区团队"/>
+        <item key="33011001218" text="杜甫村社区团队"/>
+        <item key="33011001219" text="东莲村社区团队"/>
+        <item key="33011001220" text="大陆村社区团队"/>
+        <item key="33011001221" text="七贤桥社区团队"/>
+        <item key="33011001222" text="崇福村社区团队"/>
+        <item key="33011001223" text="纤石村社区团队"/>
+        <item key="33011001224" text="安溪村社区团队"/>
+        <item key="33011001225" text="杜城村社区团队"/>
+        <item key="33011001226" text="港南村社区团队"/>
+        <item key="33011001227" text="新港村团队" pyCode="xgctd"/>
+        <item key="33011001228" text="新桥社区团队" pyCode="xqsqtd"/>
+        <item key="33011001229" text="天阳棕榈湾社区团队" pyCode="myysqtd"/>
+        <item key="33011001230" text="亲亲家园社区团队" pyCode="qqjysqtd"/>
+        <item key="33011001231" text="万年桥社区团队" pyCode="wnqsqtd"/>
+        <item key="33011001232" text="铭雅苑社区团队" pyCode="myysqtd"/>
+      </item>
+      <item key="330110013" text="径山镇社区卫生服务中心">
+        <item key="33011001301" text="潘板桥团队"/>
+        <item key="33011001302" text="求是团队"/>
+        <item key="33011001303" text="漕桥团队"/>
+        <item key="33011001304" text="前溪团队"/>
+        <item key="33011001305" text="小古城团队"/>
+        <item key="33011001306" text="长乐团队"/>
+        <item key="33011001307" text="平山团队"/>
+        <item key="33011001308" text="西山团队"/>
+        <item key="33011001309" text="绿景团队"/>
+        <item key="33011001310" text="麻车头团队"/>
+        <item key="33011001311" text="双溪团队"/>
+        <item key="33011001312" text="四岭团队"/>
+        <item key="33011001313" text="径山团队"/>
+        <item key="33011001314" text="桥头社区团队"/>
+      </item>
+      <item key="330110014" text="黄湖镇社区卫生服务中心">
+        <item key="33011001401" text="虎山团队"/>
+        <item key="33011001402" text="清波团队"/>
+        <item key="33011001403" text="赐壁团队"/>
+        <item key="33011001404" text="王位山团队"/>
+        <item key="33011001405" text="青山团队"/>
+      </item>
+      <item key="330110015" text="鸬鸟镇社区卫生服务中心">
+        <item key="33011001501" text="仙佰坑村团队"/>
+        <item key="33011001502" text="前庄村团队"/>
+        <item key="33011001503" text="雅城村团队"/>
+        <item key="33011001504" text="太平山村团队"/>
+        <item key="33011001505" text="太公堂村团队"/>
+        <item key="33011001506" text="山沟沟村团队"/>
+      </item>
+      <item key="330110016" text="百丈镇社区卫生服务中心">
+        <item key="33011001601" text="石竹园团队" pyCode="szytd"/>
+        <item key="33011001602" text="半山村团队"/>
+        <item key="33011001603" text="仙岩村团队"/>
+        <item key="33011001604" text="百丈村团队"/>
+        <item key="33011001605" text="泗溪村团队"/>
+        <item key="33011001606" text="溪口村团队"/>
+        <item key="33011001607" text="镇东社区团队" pyCode="zdsqtd"/>
+      </item>
+      <item key="330110017" text="余杭镇社区卫生服务中心">
+        <item key="33011001701" text="凤联社区团队"/>
+        <item key="33011001702" text="通济社区团队"/>
+        <item key="33011001703" text="南安社区团队"/>
+        <item key="33011001704" text="山西园社区团队"/>
+        <item key="33011001705" text="南渠社区团队"/>
+        <item key="33011001706" text="竹园村团队"/>
+        <item key="33011001707" text="仙宅村团队"/>
+        <item key="33011001708" text="义桥村团队"/>
+        <item key="33011001709" text="下陡门村团队"/>
+        <item key="33011001710" text="洪桐村团队"/>
+        <item key="33011001711" text="永安村团队"/>
+        <item key="33011001712" text="中南村团队"/>
+        <item key="33011001713" text="上湖村团队"/>
+        <item key="33011001714" text="沈家店村团队"/>
+        <item key="33011001715" text="华坞、上文山村团队"/>
+        <item key="33011001716" text="金星村团队"/>
+        <item key="33011001717" text="宝塔、水产村团队"/>
+        <item key="33011001718" text="凤凰村团队"/>
+        <item key="33011001719" text="溪塔村团队"/>
+      </item>
+      <item key="330110018" text="仓前镇社区卫生服务中心">
+        <item key="33011001801" text="中心团队"/>
+        <item key="33011001802" text="朱庙团队"/>
+        <item key="33011001803" text="永乐团队"/>
+        <item key="33011001804" text="太炎团队"/>
+        <item key="33011001805" text="吴山团队"/>
+        <item key="33011001806" text="连埧团队"/>
+        <item key="33011001807" text="斗门团队"/>
+        <item key="33011001808" text="苕溪团队"/>
+        <item key="33011001809" text="葛巷团队"/>
+        <item key="33011001810" text="高桥团队"/>
+        <item key="33011001811" text="灵源团队"/>
+      </item>
+      <item key="330110019" text="闲林镇社区卫生服务中心">
+        <item key="33011001901" text="中心团队"/>
+        <item key="33011001902" text="北山团队"/>
+        <item key="33011001903" text="万景团队"/>
+        <item key="33011001904" text="何母桥团队"/>
+        <item key="33011001905" text="民丰团队"/>
+        <item key="33011001906" text="华丰团队"/>
+        <item key="33011001907" text="桦树团队"/>
+        <item key="33011001908" text="里项团队"/>
+        <item key="33011001909" text="孙家坞团队"/>
+      </item>
+      <item key="330110020" text="中泰乡社区卫生服务中心">
+        <item key="33011002001" text="芩岭团队"/>
+        <item key="33011002002" text="桃源团队"/>
+        <item key="33011002003" text="双联团队"/>
+        <item key="33011002004" text="枫岭团队"/>
+        <item key="33011002005" text="泰峰团队"/>
+        <item key="33011002006" text="紫荆团队"/>
+        <item key="33011002007" text="新泰团队"/>
+        <item key="33011002008" text="白云团队"/>
+        <item key="33011002009" text="南湖团队"/>
+        <item key="33011002010" text="南峰团队"/>
+        <item key="33011002011" text="石鸽团队"/>
+        <item key="33011002012" text="中桥团队"/>
+      </item>
+      <item key="330110021" text="塘南镇社区卫生服务中心">
+        <item key="33011002101" text="姚家埭社区卫生服务站团队"/>
+        <item key="33011002102" text="泉漳社区服务站团队"/>
+        <item key="33011002103" text="李家桥社区服务站团队"/>
+        <item key="33011002104" text="朱家角社区服务站团队"/>
+      </item>
+      <item key="330110022" text="南苑街道社区卫生服务中心">
+        <item key="33011002201" text="中心团队"/>
+        <item key="33011002202" text="天万团队"/>
+        <item key="33011002203" text="钱塘团队"/>
+        <item key="33011002204" text="高地团队"/>
+        <item key="33011002205" text="红联团队"/>
+        <item key="33011002206" text="联盟团队"/>
+        <item key="33011002207" text="新丰团队"/>
+        <item key="33011002208" text="长树团队"/>
+        <item key="33011002209" text="保障桥社区团队"/>
+        <item key="33011002210" text="新城社区团队"/>
+        <item key="33011002211" text="河南埭社区团队"/>
+        <item key="33011002212" text="东安社区团队"/>
+        <item key="33011002213" text="新安社区团队"/>
+        <item key="33011002214" text="时代团队"/>
+        <item key="33011002215" text="东湖" pyCode="dh"/>
+      </item>
+      <item key="330110023" text="余杭区第一人民医院" pyCode="yy"/>
+      <item key="330110024" text="余杭区第二人民医院" pyCode="ey"/>
+      <item key="330110025" text="余杭区第三人民医院" pyCode="sy"/>
+      <item key="330110026" text="余杭区中医院" pyCode="zyy"/>
+      <item key="330110027" text="余杭区第五人民医院" pyCode="yhqdwrmyy" pym="wy"/>
+      <item key="330110028" text="余杭区妇幼保健院" pyCode="yhqfybjy" pym="fby"/>
+    </item>
+    <item key="330127" text="淳安县卫生局" pyCode="cax">
+      <item key="330127001" text="千岛湖镇社区卫生服务中心" pyCode="qdhzsqwsfwzx">
+        <item key="33012700101" text="城中社区卫生团队" pyCode="czsqwstd"/>
+        <item key="33012700102" text="城北社区卫生团队" pyCode="cbsqwstd"/>
+        <item key="33012700103" text="城南社区卫生团队" pyCode="cnsqwstd"/>
+        <item key="33012700104" text="城西社区卫生团队" pyCode="cxsqwstd"/>
+        <item key="33012700105" text="淡竹社区卫生团队" pyCode="dzsqwstd"/>
+        <item key="33012700106" text="汪家社区卫生团队" pyCode="wjsqwstd"/>
+        <item key="33012700107" text="浪达岭社区卫生团队" pyCode="ldlsqwstd"/>
+        <item key="33012700108" text="汪宅社区卫生团队" pyCode="wzsqwstd"/>
+        <item key="33012700109" text="里杉柏社区卫生团队" pyCode="lsbsqwstd"/>
+        <item key="33012700110" text="明珠社区卫生团队" pyCode="mzsqwstd"/>
+        <item key="33012700111" text="东瓜坞社区卫生团队" pyCode="dgwsqwstd"/>
+        <item key="33012700112" text="珍珠半岛社区卫生团队" pyCode="zzbdsqwstd"/>
+        <item key="33012700113" text="坪山社区卫生团队" pyCode="pssqwstd"/>
+      </item>
+      <item key="330127002" text="文昌镇社区卫生服务中心" pyCode="wczsqwsfwzx">
+        <item key="33012700201" text="文昌社区卫生团队" pyCode="wcsqwstd"/>
+        <item key="33012700202" text="文昌镇社区卫生服务中心团队" pyCode="wczsqwsfwzxtd"/>
+      </item>
+      <item key="330127003" text="里商乡社区卫生服务中心" pyCode="lsxsqwsfwzx">
+        <item key="33012700301" text="许源社区卫生团队" pyCode="xysqwstd"/>
+        <item key="33012700302" text="岔口社区卫生团队" pyCode="cksqwstd"/>
+        <item key="33012700303" text="里阳中心团队" pyCode="lyzxtd"/>
+      </item>
+      <item key="330127004" text="富文乡社区卫生服务中心" pyCode="fwxsqwsfwzx">
+        <item key="33012700401" text="富文乡社区卫生服务中心团队" pyCode="fwxsqwsfwzx"/>
+      </item>
+      <item key="330127005" text="左口乡社区卫生服务中心" pyCode="zkxsqwsfwzx">
+        <item key="33012700501" text="光昌社区卫生团队" pyCode="gcsqwstd"/>
+        <item key="33012700502" text="桥西社区卫生团队" pyCode="qxsqwstd"/>
+        <item key="33012700503" text="左口乡社区卫生服务中心团队" pyCode="zkxsqwsfwzxtd"/>
+      </item>
+      <item key="330127006" text="金峰乡社区卫生服务中心" pyCode="jfxsqwsfwzx">
+        <item key="33012700601" text="金峰乡社区卫生服务中心团队" pyCode="jfxsqwsfwzxtd"/>
+      </item>
+      <item key="330127007" text="临岐镇社区卫生服务中心" pyCode="lqzsqwsfwzx">
+        <item key="33012700701" text="夏中社区卫生团队" pyCode="xzsqwstd"/>
+        <item key="33012700702" text="卸岭社区卫生团队" pyCode="xlsqwstd"/>
+        <item key="33012700703" text="临岐镇社区卫生服务中心团队" pyCode="lqzsqwsfwzxtd"/>
+      </item>
+      <item key="330127008" text="屏门乡社区卫生服务中心" pyCode="pmxsqwsfwzx">
+        <item key="33012700801" text="秋源社区卫生团队" pyCode="qysqwstd"/>
+        <item key="33012700802" text="屏门乡社区卫生服务中心团队" pyCode="pmxsqwsfwzxtd"/>
+      </item>
+      <item key="330127009" text="瑶山乡社区卫生服务中心" pyCode="ysxsqwsfwzx">
+        <item key="33012700901" text="琅洞社区卫生团队" pyCode="ldsqwstd"/>
+        <item key="33012700902" text="瑶山乡社区卫生服务中心团队" pyCode="ysxsqwsfwzxtd"/>
+      </item>
+      <item key="330127010" text="威坪镇社区卫生服务中心" pyCode="wpzsqwsfwzx">
+        <item key="33012701001" text="威坪镇唐村社区卫生团队" pyCode="wpztcsqwstd"/>
+        <item key="33012701002" text="威坪镇叶家社区卫生团队" pyCode="wpzyjsqwstd"/>
+        <item key="33012701003" text="威坪镇长岭社区卫生团队" pyCode="wpzzlsqwstd"/>
+        <item key="33012701004" text="威坪镇坑下社区卫生团队" pyCode="wpzkxsqwstd"/>
+        <item key="33012701005" text="威坪镇厚屏社区卫生团队" pyCode="wpzhpsqwstd"/>
+        <item key="33012701006" text="威坪镇横双社区卫生团队" pyCode="wpzhssqwstd"/>
+        <item key="33012701007" text="威坪镇虹桥头社区卫生团队" pyCode="wpzhqtsqwstd"/>
+        <item key="33012701008" text=" 威坪镇社区卫生服务中心" pyCode=" wpzsqwsfwzx"/>
+      </item>
+      <item key="330127011" text="鸠坑乡社区卫生服务中心" pyCode="jkxsqwsfwzx">
+        <item key="33012701101" text="鸠坑乡社区卫生服务中心团队" pyCode="jksqwstd"/>
+        <item key="33012701102" text="鸠坑乡卫生服务站团队" pyCode="jkxwsfwztd"/>
+      </item>
+      <item key="330127012" text="王阜乡社区卫生服务中心" pyCode="wfxsqwsfwzx">
+        <item key="33012701201" text="严家社区卫生服务站团队" pyCode="yjsqwstd"/>
+        <item key="33012701204" text="王村埠社区卫生服务站团队" pyCode="wcbsqwsfwztd"/>
+        <item key="33012701205" text="郑中社区卫生服务站团队" pyCode="zzsqwsfwztd"/>
+      </item>
+      <item key="330127013" text="宋村乡社区卫生服务中心" pyCode="scxsqwsfwzx">
+        <item key="33012701301" text="宋村乡社区卫生服务中心团队" pyCode="scsqwstd"/>
+        <item key="33012701302" text="宋村社区卫生服务站团队" pyCode="scsqwsfwztd"/>
+      </item>
+      <item key="330127014" text="姜家镇社区卫生服务中心" pyCode="jjzsqwsfwzx">
+        <item key="33012701401" text="郭村社区卫生团队" pyCode="gcsqwstd"/>
+        <item key="33012701402" text="双溪社区卫生团队" pyCode="sxsqwstd"/>
+        <item key="33012701403" text="姜家镇社区卫生服务中心团队" pyCode="jjzsqwsfwzxtd"/>
+      </item>
+      <item key="330127015" text="梓桐镇社区卫生服务中心" pyCode="ztzsqwsfwzx">
+        <item key="33012701501" text="里桐社区卫生团队" pyCode="ltsqwstd"/>
+        <item key="33012701502" text="外桐社区卫生团队" pyCode="wtsqwstd"/>
+        <item key="33012701503" text="梓桐镇社区卫生服务中心团队" pyCode="ztzsqwsfwzxtd"/>
+      </item>
+      <item key="330127016" text="浪川乡社区卫生服务中心" pyCode="lcxsqwsfwzx">
+        <item key="33012701601" text="浪川乡社区卫生服务中心团队" pyCode="sysqwstd"/>
+      </item>
+      <item key="330127017" text="界首乡社区卫生服务中心" pyCode="jsxsqwsfwzx">
+        <item key="33012701701" text="界首乡社区卫生团队" pyCode="tzwsqwstd"/>
+        <item key="33012701702" text="桐子坞社区卫生服务站" pyCode="tzwsqwsfwz"/>
+      </item>
+      <item key="330127018" text="汾口镇社区卫生服务中心" pyCode="fkzsqwsfwzx">
+        <item key="33012701801" text="界川社区卫生团队" pyCode="jcsqwstd"/>
+        <item key="33012701802" text="仙居社区卫生团队" pyCode="xjsqwstd"/>
+        <item key="33012701803" text="横沿社区卫生团队" pyCode="hysqwstd"/>
+        <item key="33012701804" text="龙川社区卫生团队" pyCode="lcsqwstd"/>
+        <item key="33012701805" text="郑家社区卫生团队" pyCode="zjsqwstd"/>
+        <item key="33012701806" text="汾口社区卫生团队" pyCode="fksqwstd"/>
+        <item key="33012701807" text="汾口镇社区卫生服务中心" pyCode="fkzsqwsfwzx"/>
+      </item>
+      <item key="330127019" text="中洲镇社区卫生服务中心" pyCode="zzzsqwsfwzx">
+        <item key="33012701901" text="余家社区卫生团队" pyCode="yjsqwstd"/>
+        <item key="33012701902" text="叶村社区卫生团队" pyCode="ycsqwstd"/>
+        <item key="33012701903" text="樟村社区卫生团队" pyCode="zcsqwstd"/>
+        <item key="33012701904" text="中洲镇社区卫生服务中心团队" pyCode="zzzsqwsfwzxtd"/>
+      </item>
+      <item key="330127020" text="大墅镇社区卫生服务中心" pyCode="dszsqwsfwzx">
+        <item key="33012702001" text="上坊社区卫生团队" pyCode="sfsqwstd"/>
+        <item key="33012702002" text="大墅镇社区卫生服务中心团队" pyCode="dszsqwsfwzxtd"/>
+      </item>
+      <item key="330127021" text="枫树岭镇社区卫生服务中心" pyCode="fslzsqwsfwzx">
+        <item key="33012702101" text="白马社区卫生团队" pyCode="bmsqwstd"/>
+        <item key="33012702102" text="铜山社区卫生团队" pyCode="tssqwstd"/>
+        <item key="33012702103" text="夏峰社区卫生团队" pyCode="xfsqwstd"/>
+        <item key="33012702104" text="枫树岭镇社区卫生服务中心团队" pyCode="fslzsqwsfwzxtd"/>
+      </item>
+      <item key="330127022" text="安阳乡社区卫生服务中心" pyCode="ayxsqwsfwzx">
+        <item key="33012702201" text="安阳乡社区卫生服务中心团队" pyCode="ayxsqwsfwzxtd"/>
+      </item>
+      <item key="330127023" text="石林镇社区卫生服务中心" pyCode="slzsqwsfwzx">
+        <item key="33012702301" text="石林镇社区卫生服务中心团队" pyCode="slzsqwsfwzxtd"/>
+      </item>
+    </item>
+    <item key="330182" text="建德市卫生局" pyCode="jdswsj">
+      <item key="330182001" text="新安江社区卫生服务中心" pyCode="xajsqwsfwzx">
+        <item key="33018200101" text="白沙社区团队" pyCode="bssqtd"/>
+        <item key="33018200102" text="府东社区团队" pyCode="fdsqtd"/>
+        <item key="33018200103" text="府西社区团队" pyCode="fxsqtd"/>
+        <item key="33018200104" text="健安社区团队" pyCode="jasqtd"/>
+        <item key="33018200105" text="罗桐社区团队" pyCode="ltsqtd"/>
+        <item key="33018200106" text="叶家社区团队" pyCode="yjsqtd"/>
+      </item>
+      <item key="330182002" text="更楼街道卫生院" pyCode="gljdwsy">
+        <item key="33018200201" text="石岭张家团队" pyCode="slzjtd"/>
+        <item key="33018200202" text="骆村黄岙团队" pyCode="lchatd"/>
+        <item key="33018200203" text="更楼后塘团队" pyCode="glhttd"/>
+        <item key="33018200204" text="邓家团队" pyCode="djtd"/>
+        <item key="33018200205" text="甘溪洪宅团队" pyCode="gxhztd"/>
+        <item key="33018200206" text="湖岑畈团队" pyCode="hcftd"/>
+        <item key="33018200207" text="于岩许新团队" pyCode="yyxxtd"/>
+      </item>
+      <item key="330182003" text="洋溪街道社区卫生服务中心" pyCode="yxjdsqwsfwzx">
+        <item key="33018200301" text="洋溪团队" pyCode="yxtd"/>
+        <item key="33018200302" text="朱城团队" pyCode="zctd"/>
+        <item key="33018200303" text="友谊团队" pyCode="yytd"/>
+        <item key="33018200304" text="安结团队" pyCode="ajtd"/>
+      </item>
+      <item key="330182004" text="杨村桥镇卫生院" pyCode="ycqzwsy">
+        <item key="33018200401" text="塘梓团队" pyCode="tztd"/>
+        <item key="33018200402" text="杨镇团队" pyCode="yztd"/>
+        <item key="33018200403" text="上官团队" pyCode="sgtd"/>
+        <item key="33018200404" text="路源团队" pyCode="lytd"/>
+        <item key="33018200405" text="黄龙团队" pyCode="hltd"/>
+        <item key="33018200406" text="长龙团队" pyCode="zltd"/>
+      </item>
+      <item key="330182005" text="下涯镇社区卫生服务中心" pyCode="xyzsqwsfwzx">
+        <item key="33018200501" text="大洲团队" pyCode="dztd"/>
+        <item key="33018200502" text="下涯团队" pyCode="xytd"/>
+        <item key="33018200503" text="之江团队" pyCode="zjtd"/>
+        <item key="33018200504" text="联和团队" pyCode="lhtd"/>
+        <item key="33018200505" text="丰和团队" pyCode="fhtd"/>
+      </item>
+      <item key="330182006" text="梅城镇社区卫生服务中心" pyCode="mczsqwsfwzx">
+        <item key="33018200602" text="千鹤团队" pyCode="qhtd"/>
+        <item key="33018200603" text="南峰团队" pyCode="nftd"/>
+        <item key="33018200604" text="洋尾团队" pyCode="ywtd"/>
+        <item key="33018200605" text="梅城城区团队" pyCode="mccqtd"/>
+      </item>
+      <item key="330182007" text="大同镇社区卫生服务中心" pyCode="dtzsqwsfwzx">
+        <item key="33018200701" text="大同团队" pyCode="dttd"/>
+        <item key="33018200704" text="溪口团队" pyCode="xktd"/>
+        <item key="33018200706" text="上马团队" pyCode="smtd"/>
+        <item key="33018200707" text="劳村团队" pyCode="lcdt"/>
+      </item>
+      <item key="330182008" text="李家镇卫生院" pyCode="ljzwsy">
+        <item key="33018200801" text="李家团队" pyCode="ljtd"/>
+        <item key="33018200802" text="新桥团队" pyCode="xqtd"/>
+        <item key="33018200803" text="沙墩头团队" pyCode="sdttd"/>
+        <item key="33018200804" text="长林团队" pyCode="zltd"/>
+        <item key="33018200805" text="白马团队" pyCode="bmtd"/>
+      </item>
+      <item key="330182009" text="寿昌镇社区卫生服务中心" pyCode="sczsqwsfwzx">
+        <item key="33018200901" text="西湖社区团队" pyCode="xhsqtd"/>
+        <item key="33018200902" text="东昌社区团队" pyCode="dcsqtd"/>
+        <item key="33018200903" text="望江社区团队" pyCode="wjsqtd"/>
+        <item key="33018200904" text="横山社区团队" pyCode="hssqtd"/>
+        <item key="33018200905" text="南浦村团队" pyCode="npctd"/>
+        <item key="33018200906" text="永嘉桥村团队" pyCode="yjqctd"/>
+        <item key="33018200907" text="乌石村团队" pyCode="wsctd"/>
+        <item key="33018200908" text="金桥村团队" pyCode="jqctd"/>
+        <item key="33018200909" text="陈家村团队" pyCode="cjctd"/>
+        <item key="33018200910" text="石泉村团队" pyCode="sqctd"/>
+        <item key="33018200911" text="山峰村团队" pyCode="sfctd"/>
+        <item key="33018200912" text="桂花村团队" pyCode="ghctd"/>
+        <item key="33018200913" text="大塘边村团队" pyCode="dtbctd"/>
+        <item key="33018200914" text="周村团队" pyCode="zctd"/>
+        <item key="33018200915" text="余洪村团队" pyCode="yhctd"/>
+        <item key="33018200916" text="后大路村团队" pyCode="hdlctd"/>
+        <item key="33018200917" text="三岩村团队" pyCode="syctd"/>
+        <item key="33018200918" text="卜家蓬村团队" pyCode="bjpctd"/>
+        <item key="33018200919" text="十八桥村团队" pyCode="sbqctd"/>
+        <item key="33018200920" text="河南里村团队" pyCode="hnlctd"/>
+        <item key="33018200921" text="绿荷塘村团队" pyCode="lhtctd"/>
+        <item key="33018200922" text="西华村团队" pyCode="xhctd"/>
+        <item key="33018200923" text="童家村团队" pyCode="tjctd"/>
+      </item>
+      <item key="330182010" text="三都镇卫生院" pyCode="sdzwsy">
+        <item key="33018201001" text="社区一团队" pyCode="sqytd"/>
+        <item key="33018201002" text="社区二团队" pyCode="sqetd"/>
+        <item key="33018201003" text="社区三团队" pyCode="sqstd"/>
+        <item key="33018201004" text="社区四团队" pyCode="sqstd"/>
+        <item key="33018201005" text="社区五团队" pyCode="sqwtd"/>
+      </item>
+      <item key="330182011" text="乾潭镇社区卫生服务中心" pyCode="qtzsqwsfwzx">
+        <item key="33018201101" text="牌胥仇村团队" pyCode="pcctd"/>
+        <item key="33018201102" text="骑方村团队" pyCode="qfctd"/>
+        <item key="33018201103" text="沛幸陵村团队" pyCode="pxlctd"/>
+        <item key="33018201104" text="乾一乾村团队" pyCode="qyqctd"/>
+        <item key="33018201105" text="大新万村团队" pyCode="dxwctd"/>
+        <item key="33018201106" text="马鞍岭团队" pyCode="maltd"/>
+        <item key="33018201107" text="安后施村团队" pyCode="ahsctd"/>
+        <item key="33018201108" text="前王下村团队" pyCode="qwxctd"/>
+        <item key="33018201109" text="梓洲团队" pyCode="zztd"/>
+        <item key="33018201110" text="罗邵村团队" pyCode="lctd"/>
+        <item key="33018201111" text="下包村团队" pyCode="sxlctd"/>
+        <item key="33018201112" text="方家团队" pyCode="fjtd"/>
+        <item key="33018201113" text="候补团队" pyCode="hbtd"/>
+      </item>
+      <item key="330182012" text="大慈岩镇卫生院" pyCode="dcyzwsy">
+        <item key="33018201201" text="第一团队" pyCode="dytd"/>
+        <item key="33018201202" text="第二团队" pyCode="detd"/>
+        <item key="33018201203" text="第三团队" pyCode="dstd"/>
+      </item>
+      <item key="330182013" text="大洋镇卫生院" pyCode="dyzwsy">
+        <item key="33018201301" text="下源片团队" pyCode="xyptd"/>
+        <item key="33018201302" text="上源片团队" pyCode="syptd"/>
+        <item key="33018201303" text="三河片团队" pyCode="shptd"/>
+        <item key="33018201304" text="麻车片团队" pyCode="mcptd"/>
+      </item>
+      <item key="330182014" text="航头镇卫生院" pyCode="htzwsy">
+        <item key="33018201401" text="大店口片团队" pyCode="ddkptd"/>
+        <item key="33018201402" text="石屏片团队" pyCode="spptd"/>
+        <item key="33018201403" text="航头片团队" pyCode="htptd"/>
+        <item key="33018201404" text="溪沿片团队" pyCode="xyptd"/>
+      </item>
+      <item key="330182015" text="莲花镇卫生院" pyCode="lhzwsy">
+        <item key="33018201502" text="昴戴团队" pyCode="mdtd"/>
+        <item key="33018201503" text="林齐徐团队" pyCode="lqxtd"/>
+        <item key="33018201504" text="莲花团队" pyCode="lhtd"/>
+      </item>
+      <item key="330182016" text="钦堂乡卫生院" pyCode="qtxwsy">
+        <item key="33018201601" text="钦堂中心团队" pyCode="qtzxtd"/>
+        <item key="33018201602" text="蒲田团队" pyCode="pttd"/>
+        <item key="33018201603" text="谢田团队" pyCode="xttd"/>
+        <item key="33018201604" text="葛塘团队" pyCode="gttd"/>
+      </item>
+      <item key="330182017" text="新安江街道公共卫生院" pyCode="xajjdggwsy">
+        <item key="33018201701" text="梅新黄丰团队" pyCode="mxhftd"/>
+      </item>
+    </item>
+    <item key="330183" text="富阳市卫生局" pyCode="fyswsj">
+      <item key="330183011" text="富春街道社区卫生服务中心" pyCode="fcjdsqwsfwzx">
+        <item key="33018301101" text="城东团队" pyCode="dctd"/>
+        <item key="33018301102" text="盘龙山团队" pyCode="plstd"/>
+        <item key="33018301103" text="鹳山团队" pyCode="gstd"/>
+        <item key="33018301104" text="镬子山团队" pyCode="hzstd"/>
+        <item key="33018301105" text="苋浦团队" pyCode="jptd"/>
+        <item key="33018301106" text="城西团队" pyCode="cxtd"/>
+        <item key="33018301108" text="后亭子团队" pyCode="htztd"/>
+        <item key="33018301109" text="春晖团队" pyCode="chtd"/>
+        <item key="33018301110" text="春秋团队" pyCode="cqtd"/>
+        <item key="33018301111" text="秋月团队" pyCode="qytd"/>
+        <item key="33018301112" text="春南团队" pyCode="cntd"/>
+        <item key="33018301113" text="太平桥团队" pyCode="tpqtd"/>
+        <item key="33018301114" text="后周团队" pyCode="hztd"/>
+        <item key="33018301115" text="凤浦团队" pyCode="fptd"/>
+        <item key="33018301116" text="金桥团队" pyCode="jqtd"/>
+        <item key="33018301117" text="秦望团队" pyCode="qwtd"/>
+        <item key="33018301118" text="鹿山团队" pyCode="lstd"/>
+        <item key="33018301119" text="江滨团队" pyCode="jbtd"/>
+        <item key="33018301120" text="宵井团队" pyCode="xjtd"/>
+        <item key="33018301121" text="方家井团队" pyCode="fjjtd"/>
+        <item key="33018301122" text="执中亭团队" pyCode="zzttd"/>
+        <item key="33018301123" text="西邮团队" pyCode="xytd"/>
+        <item key="33018301124" text="青云桥团队" pyCode="qyqtd"/>
+        <item key="33018301126" text="杨清庙团队" pyCode="yqmtd"/>
+        <item key="33018301127" text="湖塍团队" pyCode="hctd"/>
+        <item key="33018301128" text="三桥团队" pyCode="sqtd"/>
+        <item key="33018301129" text="三联团队" pyCode="sltd"/>
+        <item key="33018301130" text="春华团队" pyCode="chtd"/>
+        <item key="33018301131" text="秋丰团队" pyCode="qftd"/>
+        <item key="33018301132" text="鸣翠桃源团队" pyCode="mctytd"/>
+      </item>
+      <item key="330183021" text="春江街道社区卫生服务中心" pyCode="cjjdsqwsfwzx">
+        <item key="33018302101" text="八一村团队" pyCode="byctd"/>
+        <item key="33018302102" text="新建村团队" pyCode="xjctd"/>
+        <item key="33018302103" text="建设村团队" pyCode="jsctd"/>
+        <item key="33018302104" text="民主村团队" pyCode="mzctd"/>
+        <item key="33018302105" text="山建村团队" pyCode="sjctd"/>
+        <item key="33018302106" text="临江村团队" pyCode="hgctd"/>
+        <item key="33018302107" text="春江村团队" pyCode="cjctd"/>
+        <item key="33018302108" text="中沙村团队" pyCode="zsctd"/>
+        <item key="33018302109" text="太平村团队" pyCode="tpctd"/>
+      </item>
+      <item key="330183031" text="东洲街道社区卫生服务中心" pyCode="dzjdsqwsfwzx">
+        <item key="33018303101" text="富春江社区团队" pyCode="fcjsqtd"/>
+        <item key="33018303102" text="木桥头社区团队" pyCode="mqtsqtd"/>
+        <item key="33018303103" text="新沙社区团队" pyCode="xssqtd"/>
+        <item key="33018303104" text="东洲社区团队" pyCode="dzsqtd"/>
+        <item key="33018303105" text="红旗社区团队" pyCode="hqsqtd"/>
+        <item key="33018303106" text="张家社区团队" pyCode="zjsqtd"/>
+        <item key="33018303107" text="建华社区团队" pyCode="jhsqtd"/>
+        <item key="33018303108" text="学校沙社区团队" pyCode="xxssqtd"/>
+        <item key="33018303109" text="鸡笼山社区团队" pyCode="jlssqtd"/>
+        <item key="33018303110" text="黄公望社区团队" pyCode="hgwsqtd"/>
+        <item key="33018303111" text="五丰社区团队" pyCode="wfsqtd"/>
+        <item key="33018303112" text="民联社区团队" pyCode="mlsqtd"/>
+        <item key="33018303113" text="紫铜社区团队" pyCode="ztsqtd"/>
+        <item key="33018303114" text="陆家浦社区团队" pyCode="ljpsqtd"/>
+        <item key="33018303115" text="何埭社区团队" pyCode="hdsxtd"/>
+      </item>
+      <item key="330183041" text="鹿山街道社区卫生服务中心" pyCode="lsjdsqwsfwzx">
+        <item key="33018304101" text="鹿山街道蒋家村社区团队(中心队）" pyCode="lsjdjjcsqtd"/>
+        <item key="33018304102" text="鹿山街道谢家溪社区团队（中心队）" pyCode="lsjdxjxsqtd"/>
+        <item key="33018304103" text="鹿山街道汤家埠社区团队" pyCode="lsjdtjbsqtd"/>
+        <item key="33018304104" text="鹿山街道南山村社区团队" pyCode="lsjdnscsqtd"/>
+        <item key="33018304105" text="鹿山街道上里片社区团队" pyCode="lsjdslpsqtd"/>
+        <item key="33018304106" text="鹿山街道陆家村社区团队（中心队）" pyCode="lsjdljcsqtd"/>
+      </item>
+      <item key="330183051" text="高桥镇社区卫生服务中心" pyCode="gqzsqwsfwzx">
+        <item key="33018305101" text="高桥社区团队1" pyCode="gqsqtd1"/>
+        <item key="33018305102" text="高桥社区团队2" pyCode="gqsqtd2"/>
+        <item key="33018305103" text="高桥社区团队3" pyCode="gqsqtd3"/>
+        <item key="33018305104" text="高桥社区团队4" pyCode="gqsqtd4"/>
+        <item key="33018305105" text="坑西社区站团队" pyCode="kxsqztd"/>
+        <item key="33018305106" text="新义社区站团队1" pyCode="xysqztd1"/>
+        <item key="33018305107" text="新义社区站团队2" pyCode="xysqztd2"/>
+        <item key="33018305108" text="新义社区站团队3" pyCode="xysqztd3"/>
+      </item>
+      <item key="330183061" text="春建乡社区卫生服务中心" pyCode="cjxsqwsfwzx">
+        <item key="33018306101" text="中心社区团队" pyCode="zxsqtd"/>
+        <item key="33018306102" text="大唐社区团队" pyCode="dtsqtd"/>
+        <item key="33018306103" text="五四社区团队" pyCode="wssqtd"/>
+        <item key="33018306104" text="上俞社区团队" pyCode="sysqtd"/>
+      </item>
+      <item key="330183081" text="受降镇社区卫生服务中心" pyCode="sjzsqwsfwzx">
+        <item key="33018308101" text="受降村卫生服务团队" pyCode="dsxzwsfwtd"/>
+        <item key="33018308102" text="新常村卫生服务中心团队" pyCode="sqwsfwzxtd"/>
+        <item key="33018308103" text="大庄村社区卫生服务团队" pyCode="szzsqwsfwtd"/>
+        <item key="33018308104" text="东坞山村社区卫生服务团队" pyCode="jlzsqwsfwtd"/>
+        <item key="33018308105" text="银湖村社区卫生服务团队" pyCode="slzsqwsfwtd"/>
+        <item key="33018308106" text="梓树村社区卫生服务团队" pyCode="zscsqwsfwtd"/>
+      </item>
+      <item key="330183091" text="大源镇社区卫生服务中心" pyCode="dyzsqwsfwzx">
+        <item key="33018309101" text="大源镇蒋家村社区团队" pyCode="dyzjjcqtd"/>
+        <item key="33018309102" text="大源镇新关村社区团队" pyCode="dyzxgcsqtd"/>
+        <item key="33018309103" text="大源镇新建村社区团队" pyCode="dyzxjcsqtd"/>
+        <item key="33018309104" text="大源镇骆村社区团队" pyCode="dyzlcsqtd"/>
+        <item key="33018309105" text="大源镇觃口村社区团队" pyCode="dyzykcsqtd"/>
+        <item key="33018309106" text="大源镇东前村社区团队" pyCode="dyzdqcsqtd"/>
+        <item key="33018309107" text="大源镇稠溪村社区团队" pyCode="dyzcxcsqtd"/>
+        <item key="33018309108" text="大源镇大同村社区团队" pyCode="dyzdtcsqtd"/>
+        <item key="33018309109" text="大源镇青山村社区团队" pyCode="dyzqscsqtd"/>
+        <item key="33018309110" text="大源镇三岭村社区团队" pyCode="dyzslcsqtd"/>
+        <item key="33018309111" text="大源镇史家村社区团队" pyCode="dyzsjcsqtd"/>
+        <item key="33018309112" text="大源镇社区卫生服务中心团队" pyCode="dyzsqwsfwzxtd"/>
+        <item key="33018309113" text="大源镇虹赤村社区团队" pyCode="dyzhccsqtd"/>
+      </item>
+      <item key="330183101" text="灵桥镇社区卫生服务中心" pyCode="lqzsqwsfwzx">
+        <item key="33018310101" text="灵桥社区团队" pyCode="lqsqtd"/>
+        <item key="33018310102" text="光明社区团队" pyCode="gmsqtd"/>
+        <item key="33018310103" text="董家桥王家宕社区团队" pyCode="djqwjdsqtd"/>
+        <item key="33018310104" text="江丰外沙社区团队" pyCode="jfwssqtd"/>
+        <item key="33018310105" text="礼源社区团队" pyCode="lysqtd"/>
+        <item key="33018310106" text="永丰社区团队" pyCode="yfsqtd"/>
+        <item key="33018310107" text="菖蒲团队" pyCode="cptd"/>
+      </item>
+      <item key="330183111" text="里山镇社区卫生服务中心" pyCode="lszsqwsfwzx">
+        <item key="33018311101" text="里山村社区团队（停用）" pyCode="lscsqtd"/>
+        <item key="33018311102" text="灵峰村团队（停用）" pyCode="lfctd"/>
+        <item key="33018311103" text="民强村团队（停用）" pyCode="mqctd"/>
+        <item key="33018311104" text="马鞍山村社区团队(停用）" pyCode="mascsqtd"/>
+        <item key="33018311105" text="安顶村社区团队（停用）" pyCode="adcsqtd"/>
+        <item key="33018311106" text="第一团队" pyCode="dytd"/>
+        <item key="33018311107" text="第二团队" pyCode="detd"/>
+      </item>
+      <item key="330183121" text="渔山乡社区卫生服务中心" pyCode="ysxsqwsfwzx">
+        <item key="33018312101" text="大葛村社区团队" pyCode="dgcsqtd"/>
+        <item key="33018312102" text="五岭村社区团队" pyCode="wlcsqtd"/>
+        <item key="33018312103" text="渔山村社区团队" pyCode="yscsqtd"/>
+        <item key="33018312104" text="墅溪村社区团队" pyCode="sxcsqtd"/>
+      </item>
+      <item key="330183131" text="常绿镇社区卫生服务中心" pyCode="clzsqwsfwzx">
+        <item key="33018313101" text="中心社区团队" pyCode="zxsqtd"/>
+        <item key="33018313102" text="长佳社区团队" pyCode="zjsqtd"/>
+        <item key="33018313103" text="长春社区团队" pyCode="zcsqtd"/>
+        <item key="33018313104" text="北坞社区团队" pyCode="bwsqtd"/>
+      </item>
+      <item key="330183141" text="上官乡社区卫生服务中心" pyCode="sgxsqwsfwzx">
+        <item key="33018314101" text="深里村、四堡村、徐村村、睦村村、周村村社区团队" pyCode="slcsbcxccmcczccsqtd"/>
+        <item key="33018314102" text="盛村村、上官村、斜黄村、芳村村社区团队" pyCode="sccsgcxhcfccsqtd"/>
+      </item>
+      <item key="330183151" text="龙门镇社区卫生服务中心" pyCode="lmzsqwsfwzx">
+        <item key="33018315101" text="龙门镇南社区卫生服务团队" pyCode="lmznsqwsfwtd"/>
+        <item key="33018315102" text="龙门镇社区卫生中心服务团队" pyCode="lmzxsqwsfwtd"/>
+      </item>
+      <item key="330183161" text="环山乡社区卫生服务中心" pyCode="hsxsqwsfwzx">
+        <item key="33018316101" text="环一村团队" pyCode="hyctd"/>
+        <item key="33018316102" text="环二村团队" pyCode="hectd"/>
+        <item key="33018316103" text="环三村团队" pyCode="hsctd"/>
+        <item key="33018316104" text="环联村团队" pyCode="hlctd"/>
+        <item key="33018316105" text="中兴村团队" pyCode="zxctd"/>
+        <item key="33018316106" text="诸家坞村团队" pyCode="zjwctd"/>
+        <item key="33018316107" text="中埠村团队" pyCode="zbctd"/>
+      </item>
+      <item key="330183171" text="场口镇社区卫生服务中心" pyCode="ckzsqwsfwzx">
+        <item key="33018317101" text="场口片社区卫生服务团队" pyCode="ckpsqwsfwtd"/>
+        <item key="33018317102" text="王洲片社区卫生服务团队" pyCode="wzpsqwsfwtd"/>
+        <item key="33018317103" text="东图片社区卫生服务团队" pyCode="dtpsqwsfwtd"/>
+      </item>
+      <item key="330183181" text="永昌镇社区卫生服务中心" pyCode="yczsqwsfwzx">
+        <item key="33018318101" text="永昌团队" pyCode="yctd"/>
+        <item key="33018318102" text="清河团队" pyCode="qhtd"/>
+      </item>
+      <item key="330183191" text="常安镇社区卫生服务中心" pyCode="cazsqwsfwzx">
+        <item key="33018319101" text="横坞社区团队" pyCode="hwsqtd"/>
+        <item key="33018319102" text="安禾社区团队" pyCode="ahsqtd"/>
+        <item key="33018319103" text="沧洲社区团队" pyCode="czsqtd"/>
+        <item key="33018319104" text="东风社区团队" pyCode="dfsqtd"/>
+        <item key="33018319105" text="幸福社区团队" pyCode="xfsqtd"/>
+        <item key="33018319106" text="富春社区团队" pyCode="fcsqtd"/>
+        <item key="33018319107" text="栖鹤社区团队" pyCode="qhsqtd"/>
+      </item>
+      <item key="330183201" text="新桐乡社区卫生服务中心" pyCode="xtxsqwsfwzx">
+        <item key="33018320101" text="新桐乡程浦村社区团队" pyCode="xtxcpcsqtd"/>
+        <item key="33018320102" text="新桐乡新桐村社区团队" pyCode="xtxxtcsqtd"/>
+        <item key="33018320103" text="新桐乡小桐州村社区团队" pyCode="xtxxtzcsqtd"/>
+        <item key="33018320104" text="新桐乡新中村，春渚村社区团队" pyCode="xtxxzc-czcsqtd"/>
+        <item key="33018320105" text="新桐乡俞家村，大桐州村社区团队" pyCode="xtxyjc-dtzcsqtd"/>
+      </item>
+      <item key="330183211" text="胥口镇社区卫生服务中心" pyCode="xkzsqwsfwzx">
+        <item key="33018321101" text="胥口社区团队" pyCode="xksqtd"/>
+        <item key="33018321102" text="汪家社区团队" pyCode="wjsqtd"/>
+        <item key="33018321103" text="下练社区团队" pyCode="xlsqtd"/>
+        <item key="33018321104" text="新崤社区团队" pyCode="xysqtd"/>
+        <item key="33018321105" text="高坪社区团队" pyCode="gpsqtd"/>
+        <item key="33018321106" text="平畈社区团队" pyCode="pfsqtd"/>
+      </item>
+      <item key="330183221" text="新登镇社区卫生服务中心" pyCode="xdzsqwsfwzx">
+        <item key="33018322101" text="古城社区团队" pyCode="gcsqtd"/>
+        <item key="33018322102" text="登云社区团队" pyCode="dysqtd"/>
+        <item key="33018322103" text="昌东社区团队" pyCode="cdsqtd"/>
+        <item key="33018322104" text="大山社区团队" pyCode="dssqtd"/>
+        <item key="33018322105" text="双联社区团队" pyCode="slsqtd"/>
+        <item key="33018322106" text="南津社区团队" pyCode="njsqtd"/>
+        <item key="33018322107" text="五里桥社区团队" pyCode="wlqsqtd"/>
+        <item key="33018322108" text="双庙社区团队" pyCode="smsqtd"/>
+        <item key="33018322109" text="半山社区团队" pyCode="bssqtd"/>
+        <item key="33018322110" text="仙里社区团队" pyCode="xlsqtd"/>
+        <item key="33018322111" text="官山社区团队" pyCode="gssqtd"/>
+        <item key="33018322112" text="松溪社区团队" pyCode="sxsqtd"/>
+        <item key="33018322113" text="官塘社区团队" pyCode="gtsqtd"/>
+        <item key="33018322114" text="元村社区团队" pyCode="ycsqtd"/>
+        <item key="33018322115" text="湘主社区团队" pyCode="xzsqtd"/>
+        <item key="33018322117" text="湘溪社区团队" pyCode="xxsqtd"/>
+        <item key="33018322118" text="湘河社区团队" pyCode="xhsqtd"/>
+        <item key="33018322119" text="新登镇社区卫生服务中心团队" pyCode="xdzsqwsfwzxtd"/>
+        <item key="33018322120" text="东安社区团队" pyCode="dasqtd"/>
+      </item>
+      <item key="330183231" text="渌渚镇社区卫生服务中心" pyCode="lzzsqwsfwzx">
+        <item key="33018323101" text="岘口社区团队" pyCode="xksqtd"/>
+        <item key="33018323102" text="六渚社区团队" pyCode="lzsqtd"/>
+        <item key="33018323103" text="莲桥社区团队" pyCode="lqsqtd"/>
+        <item key="33018323104" text="阆坞社区团队" pyCode="lwsqtd"/>
+        <item key="33018323105" text="山亚社区团队" pyCode="sysqtd"/>
+        <item key="33018323106" text="新浦社区团队" pyCode="xpsqtd"/>
+        <item key="33018323107" text="浦中社区团队" pyCode="pzsqtd"/>
+        <item key="33018323108" text="新岭社区团队" pyCode="xlsqtd"/>
+      </item>
+      <item key="330183241" text="湖源乡社区卫生服务中心" pyCode="hyxsqwsfwzx">
+        <item key="33018324101" text="湖源片社区卫生服务团队" pyCode="hypsqwsfwtd"/>
+        <item key="33018324102" text="窈口片社区卫生服务团队" pyCode="ykpsqwsfwtd"/>
+      </item>
+      <item key="330183251" text="万市镇社区卫生服务中心" pyCode="wszsqwsfwzx">
+        <item key="33018325101" text="第一社区责任医生团队" pyCode="disqzrystd"/>
+        <item key="33018325102" text="第二社区责任医生团队" pyCode="desqzrystd"/>
+        <item key="33018325103" text="第三社区责任医生团队" pyCode="dssqzrystd"/>
+      </item>
+      <item key="330183261" text="洞桥镇社区卫生服务中心" pyCode="dqzsqwsfwzx">
+        <item key="33018326101" text="洞桥社区团队" pyCode="dqsqtd"/>
+        <item key="33018326102" text="里仁社区团队" pyCode="lrsqtd"/>
+        <item key="33018326103" text="石羊社区团队" pyCode="sysqtd"/>
+        <item key="33018326104" text="枫瑞社区团队" pyCode="frsqtd"/>
+        <item key="33018326105" text="三溪社区团队" pyCode="sxsqtd"/>
+        <item key="33018326106" text="大溪社区团队" pyCode="dxsqtd"/>
+        <item key="33018326107" text="贤德社区团队" pyCode="xdsqtd"/>
+        <item key="33018326108" text="大乐社区团队" pyCode="dlsqtd"/>
+      </item>
+    </item>
+    <item key="330185" text="临安市卫生局" pyCode="laswsj">
+      <item key="330185001" text="锦城街道社区卫生服务中心" pyCode="jcjdsqwsfwzx">
+        <item key="33018500102" text="苕溪社区团队" pyCode="txsqtd"/>
+        <item key="33018500103" text="锦桥社区团队" pyCode="jqsqtd"/>
+        <item key="33018500104" text="兰岭社区团队" pyCode="llsqtd"/>
+        <item key="33018500105" text="锦潭社区团队" pyCode="jtsqtd"/>
+        <item key="33018500106" text="万马社区团队" pyCode="wmsqtd"/>
+        <item key="33018500107" text="西墅社区团队" pyCode="xssqtd"/>
+        <item key="33018500108" text="林学院社区团队" pyCode="lxysqtd"/>
+        <item key="33018500109" text="马溪社区团队" pyCode="mxsqtd"/>
+        <item key="33018500110" text="文昌阁社区团队" pyCode="wcgsqtd"/>
+        <item key="33018500111" text="新民里社区团队" pyCode="xmlsqtd"/>
+        <item key="33018500112" text="龙马村团队" pyCode="lmctd"/>
+        <item key="33018500113" text="金马村团队" pyCode="jmctd"/>
+        <item key="33018500114" text="青柯村团队" pyCode="qkctd"/>
+        <item key="33018500115" text="民主村团队" pyCode="mzctd"/>
+        <item key="33018500116" text="集贤村团队" pyCode="jxctd"/>
+        <item key="33018500117" text="泥山湾村团队" pyCode="nswctd"/>
+        <item key="33018500118" text="上东村团队" pyCode="sdctd"/>
+        <item key="33018500119" text="横街村团队" pyCode="hjctd"/>
+        <item key="33018500120" text="余村村团队" pyCode="ycctd"/>
+        <item key="33018500121" text="新联村团队" pyCode="xlctd"/>
+        <item key="33018500101" text="武肃里社区团队" pyCode="wslsqtd"/>
+        <item key="33018500123" text="竹林村团队" pyCode="zlctd"/>
+        <item key="33018500124" text="新溪桥村团队" pyCode="xxqctd"/>
+        <item key="33018500125" text="泥川村团队" pyCode="ncctd"/>
+        <item key="33018500126" text="潘山村团队" pyCode="psctd"/>
+        <item key="33018500127" text="大罗村团队" pyCode="dlctd"/>
+        <item key="33018500128" text="东湖村团队" pyCode="dhctd"/>
+        <item key="33018500129" text="平山村团队" pyCode="psctd"/>
+        <item key="33018500130" text="回龙村团队" pyCode="hlctd"/>
+        <item key="33018500131" text="东门村团队" pyCode="dmctd"/>
+        <item key="33018500132" text="胜利村团队" pyCode="slctd"/>
+        <item key="33018500133" text="新民村团队" pyCode="xmctd"/>
+        <item key="33018500134" text="横潭村团队" pyCode="htctd"/>
+        <item key="33018500135" text="西瓜村团队" pyCode="xgctd"/>
+        <item key="33018500136" text="锦桥村团队" pyCode="jqctd"/>
+        <item key="33018500137" text="青龙村团队" pyCode="qlctd"/>
+        <item key="33018500138" text="马溪村团队" pyCode="mxctd"/>
+        <item key="33018500139" text="西墅村团队" pyCode="xsctd"/>
+        <item key="33018500140" text="钱王铺村团队" pyCode="qwpctd"/>
+      </item>
+      <item key="330185002" text="青山湖街道社区卫生服务中心" pyCode="qshjdsqwsfwzx">
+        <item key="33018500201" text="青山湖街道社区团队" pyCode="qshjdsqtd"/>
+      </item>
+      <item key="330185003" text="玲珑街道社区卫生服务中心" pyCode="lljdsqwsfwzx">
+        <item key="33018500301" text="化龙社区团队" pyCode="hlsqtd"/>
+        <item key="33018500302" text="锦绣社区团队" pyCode="jxsqtd"/>
+        <item key="33018500303" text="夏禹桥社区团队" pyCode="xyqsqtd"/>
+        <item key="33018500304" text="玲珑社区团队" pyCode="llsqtd"/>
+      </item>
+      <item key="330185004" text="太湖源镇社区卫生服务中心" pyCode="thyzsqwsfwzx">
+        <item key="33018500401" text="青云临目片社区团队" pyCode="qylmpsqtd"/>
+        <item key="33018500402" text="杨岭片社区团队" pyCode="ylpsqtd"/>
+        <item key="33018500403" text="东天目片社区团队" pyCode="dtmpsqtd"/>
+      </item>
+      <item key="330185005" text="高虹镇社区卫生服务中心" pyCode="ghzsqwsfwzx">
+        <item key="33018500501" text="高乐片社区团队" pyCode="glpsqtd"/>
+        <item key="33018500502" text="长溪片社区团队" pyCode="zxpsqtd"/>
+        <item key="33018500503" text="石门片社区团队" pyCode="smpsqtd"/>
+      </item>
+      <item key="330185006" text="三口镇社区卫生服务中心" pyCode="skzsqwsfwzx">
+        <item key="33018500601" text="三口镇社区团队" pyCode="skzsqtd"/>
+      </item>
+      <item key="330185007" text="板桥乡社区卫生服务中心" pyCode="bqxsqwsfwzx">
+        <item key="33018500701" text="板桥乡社区团队" pyCode="bqxsqtd"/>
+        <item key="33018500702" text="上田片社区团队" pyCode="stpsqtd"/>
+      </item>
+      <item key="330185008" text="横畈镇社区卫生服务中心" pyCode="hfzsqwsfwzx">
+        <item key="33018500801" text="庆南村社区团队" pyCode="qncsqtd"/>
+        <item key="33018500802" text="庆北村社区团队" pyCode="qbcsqtd"/>
+        <item key="33018500803" text="洪村村社区团队" pyCode="hccsqtd"/>
+        <item key="33018500804" text="雅观村社区团队" pyCode="ygcsqtd"/>
+        <item key="33018500805" text="泉口村社区团队" pyCode="qkcsqtd"/>
+        <item key="33018500806" text="安村村社区团队" pyCode="accsqtd"/>
+        <item key="33018500807" text="潘联村社区团队" pyCode="plcsqtd"/>
+        <item key="33018500808" text="郎家村社区团队" pyCode="ljcsqtd"/>
+        <item key="33018500809" text="孝村村社区团队" pyCode="xccsqtd"/>
+        <item key="33018500810" text="白水涧村社区团队" pyCode="bsjcsqtd"/>
+      </item>
+      <item key="330185009" text="藻溪镇卫生院" pyCode="zxzwsy">
+        <item key="33018500901" text="藻溪镇社区团队" pyCode="zxzsqtd"/>
+      </item>
+      <item key="330185010" text="於潜镇社区卫生服务中心" pyCode="wqzsqwsfwzx">
+        <item key="33018501001" text="绍鲁社区团队" pyCode="slsqtd"/>
+        <item key="33018501002" text="堰口社区团队" pyCode="yksqtd"/>
+        <item key="33018501003" text="方元社区团队" pyCode="fysqtd"/>
+        <item key="33018501004" text="凌口社区团队" pyCode="lksqtd"/>
+        <item key="33018501005" text="自由社区团队" pyCode="zysqtd"/>
+        <item key="33018501006" text="金家社区团队" pyCode="jjsqtd"/>
+        <item key="33018501007" text="民幸社区团队" pyCode="mxsqtd"/>
+        <item key="33018501008" text="南山社区团队" pyCode="nssqtd"/>
+        <item key="33018501009" text="昔口社区团队" pyCode="xksqtd"/>
+        <item key="33018501010" text="英功社区团队" pyCode="ygsqtd"/>
+        <item key="33018501011" text="扶西社区团队" pyCode="fxsqtd"/>
+        <item key="33018501012" text="百园社区团队" pyCode="bysqtd"/>
+        <item key="33018501013" text="双坑社区团队" pyCode="sksqtd"/>
+        <item key="33018501014" text="观山社区团队" pyCode="gssqtd"/>
+        <item key="33018501015" text="铜山社区团队" pyCode="tssqtd"/>
+        <item key="33018501016" text="下埠社区团队" pyCode="xbsqtd"/>
+        <item key="33018501017" text="潜东社区团队" pyCode="qdsqtd"/>
+        <item key="33018501018" text="横鑫社区团队" pyCode="hxsqtd"/>
+        <item key="33018501019" text="谢家社区团队" pyCode="xjsqtd"/>
+        <item key="33018501020" text="逸逸社区团队" pyCode="yysqtd"/>
+        <item key="33018501021" text="祈祥社区团队" pyCode="qxsqtd"/>
+        <item key="33018501022" text="光明社区团队" pyCode="gmsqtd"/>
+        <item key="33018501023" text="绍鲁社区团队" pyCode="slsqtd"/>
+        <item key="33018501024" text="横山社区团队" pyCode="hssqtd"/>
+        <item key="33018501025" text="田干社区团队" pyCode="tgsqtd"/>
+        <item key="33018501026" text="古竺社区团队" pyCode="gzsqtd"/>
+      </item>
+      <item key="330185011" text="乐平乡社区卫生服务中心" pyCode="lpxsqwsfwzx">
+        <item key="33018501101" text="河西片（上沃、西乐）社区团队" pyCode="hxp-sw-xl-sqtd"/>
+        <item key="33018501102" text="北片（伍村、外伍）社区团队" pyCode="bp-wc-ww-sqtd"/>
+        <item key="33018501103" text="南片（乐平、七坑）社区团队" pyCode="np-lp-qk-sqtd"/>
+      </item>
+      <item key="330185012" text="潜川镇社区卫生服务中心" pyCode="qczsqwsfwzx">
+        <item key="33018501201" text="塔山社区团队" pyCode="tssqtd"/>
+        <item key="33018501202" text="马山社区团队" pyCode="mssqtd"/>
+        <item key="33018501203" text="紫水社区团队" pyCode="zssqtd"/>
+      </item>
+      <item key="330185013" text="千洪乡社区卫生服务中心" pyCode="qhxsqwsfwzx">
+        <item key="33018501301" text="千洪乡社区团队" pyCode="qhxsqtd"/>
+      </item>
+      <item key="330185014" text="横路乡社区卫生服务中心" pyCode="hlxsqwsfwzx">
+        <item key="33018501401" text="横路乡社区团队" pyCode="hlxsqtd"/>
+      </item>
+      <item key="330185015" text="西天目乡社区卫生服务中心" pyCode="xtmxsqwsfwzx">
+        <item key="33018501501" text="西天目乡社区团队" pyCode="xtmxsqtd"/>
+      </item>
+      <item key="330185016" text="太阳镇社区卫生服务中心" pyCode="tyzsqwsfwzx">
+        <item key="33018501601" text="太阳镇社区团队" pyCode="tyzsqtd"/>
+      </item>
+      <item key="330185017" text="昌化镇社区卫生服务中心" pyCode="chzsqwsfwzx">
+        <item key="33018501701" text="城西片社区服务团队" pyCode="cxpsqfwtd"/>
+        <item key="33018501702" text="城中片社区服务团队" pyCode="czpsqfwtd"/>
+        <item key="33018501703" text="城东片社区服务团队" pyCode="cdpsqfwtd"/>
+      </item>
+      <item key="330185018" text="河桥镇社区卫生服务中心" pyCode="hqzsqwsfwzx">
+        <item key="33018501801" text="河桥镇社区团队" pyCode="hqzsqtd"/>
+        <item key="33018501802" text="石瑞片社区团队" pyCode="srpsqtd"/>
+      </item>
+      <item key="330185019" text="湍口镇卫生院" pyCode="tkzwsy">
+        <item key="33018501901" text="湍口镇卫生院社区服务团队" pyCode="tkzwsysqfwtd"/>
+      </item>
+      <item key="330185020" text="清凉峰社区卫生服务中心" pyCode="qlfsqwsfwzx">
+        <item key="33018502001" text="顺溪社区团队" pyCode="jdsqtd"/>
+        <item key="33018502002" text="洲头社区团队" pyCode="xdsqtd"/>
+        <item key="33018502003" text="颊口社区团队" pyCode="jksqtd"/>
+      </item>
+      <item key="330185021" text="马啸乡社区卫生服务中心" pyCode="mxxsqwsfwzx">
+        <item key="33018502101" text="路口片团队" pyCode="lkptd"/>
+        <item key="33018502102" text="中心片团队" pyCode="zxptd"/>
+        <item key="33018502103" text="浙川片团队" pyCode="zcptd"/>
+      </item>
+      <item key="330185022" text="龙岗镇社区卫生服务中心" pyCode="lgzsqwsfwzx">
+        <item key="33018502201" text="汤家湾社区团队" pyCode="tjwsqtd"/>
+        <item key="33018502202" text="兴隆社区团队" pyCode="xlsqtd"/>
+        <item key="33018502203" text="百丈社区团队" pyCode="bzsqtd"/>
+        <item key="33018502204" text="郡沃社区团队" pyCode="jwsqtd"/>
+        <item key="33018502205" text="无他社区团队" pyCode="wtsqtd"/>
+        <item key="33018502206" text="龙井社区团队" pyCode="ljsqtd"/>
+        <item key="33018502207" text="新溪新村社区团队" pyCode="xxxcsqtd"/>
+        <item key="33018502208" text="林坑社区团队" pyCode="lkcsqtd"/>
+      </item>
+      <item key="330185023" text="大峡谷镇社区卫生服务中心" pyCode="dxgzsqwsfwzx">
+        <item key="33018502301" text="鱼跳社区团队" pyCode="ytsqtd"/>
+        <item key="33018502302" text="仙人塘社区团队" pyCode="xrtsqtd"/>
+        <item key="33018502303" text="峡谷源社区团队" pyCode="xgysqtd"/>
+        <item key="33018502304" text="上溪社区团队" pyCode="sxsqtd"/>
+        <item key="33018502305" text="龙井桥社区团队" pyCode="ljqsqtd"/>
+      </item>
+      <item key="330185024" text="新桥乡社区卫生服务中心" pyCode="xqxsqwsfwzx">
+        <item key="33018502401" text="新桥乡社区团队" pyCode="xqxsqtd"/>
+      </item>
+      <item key="330185025" text="岛石镇社区卫生服务中心" pyCode="dszsqwsfwzx">
+        <item key="33018502502" text="岛石村社区团队" pyCode="dscsqtd"/>
+        <item key="33018502508" text="呼日村社区团队" pyCode="hrcsqtd"/>
+        <item key="33018502511" text="仁里村社区团队" pyCode="rlcsqtd"/>
+      </item>
+      <item key="330185026" text="锦南街道社区卫生服务中心" pyCode="jnjdsqwsfwzx">
+        <item key="33018502601" text="卦畈村团队" pyCode="gfctd"/>
+        <item key="33018502602" text="兰锦村团队" pyCode="ljctd"/>
+        <item key="33018502603" text="市坞村团队" pyCode="swctd"/>
+        <item key="33018502604" text="杨岱村团队" pyCode="ydctd"/>
+        <item key="33018502605" text="柯家村团队" pyCode="kjctd"/>
+        <item key="33018502606" text="上畈村团队" pyCode="sfctd"/>
+        <item key="33018502607" text="上甘村团队" pyCode="sgctd"/>
+        <item key="33018502608" text="锦源村团队" pyCode="jyctd"/>
+        <item key="33018502609" text="横岭村团队" pyCode="hlctd"/>
+      </item>
+      <item key="330185027" text="临安妇保院" pyCode="lafby" lafby=""/>
+    </item>
+    <item key="330181" text="萧山区卫生局" pyCode="xsqwsj">
+      <item key="330181001" text="北干街道社区卫生服务中心" pyCode="bgjdsqwsfwzx">
+        <item key="33018100101" text="中心周边团队" pyCode="zxzbtd"/>
+        <item key="33018100102" text="北干一苑团队" pyCode="bgyytd"/>
+        <item key="33018100103" text="北干二苑团队" pyCode="bgeytd"/>
+        <item key="33018100104" text="荣庄团队" pyCode="rztd"/>
+        <item key="33018100105" text="明星团队" pyCode="mxtd"/>
+        <item key="33018100106" text="兴议团队" pyCode="xytd"/>
+        <item key="33018100107" text="荣星团队" pyCode="rxtd"/>
+        <item key="33018100108" text="城北团队" pyCode="cbtd"/>
+        <item key="33018100109" text="塘湾团队" pyCode="twtd"/>
+        <item key="33018100110" text="墩里吴团队" pyCode="dlwtd"/>
+        <item key="33018100111" text="荣联团队" pyCode="rltd"/>
+        <item key="33018100112" text="金山西苑团队" pyCode="jsxytd"/>
+        <item key="33018100113" text="广德团队" pyCode="gdtd"/>
+        <item key="33018100114" text="金泰苑团队" pyCode="jtytd"/>
+        <item key="33018100115" text="华达团队" pyCode="hdtd"/>
+      </item>
+      <item key="330181002" text="义桥镇社区卫生服务中心" pyCode="yqzsqwsfwzx">
+        <item key="33018100201" text="罗峰社区责任医生团队" pyCode="lfsqzrystd"/>
+        <item key="33018100202" text="山后村责任医生团队" pyCode="shczrystd"/>
+        <item key="33018100203" text="民丰村责任医生团队" pyCode="mfczrystd"/>
+        <item key="33018100204" text="富春村责任医生团队" pyCode="fcczrystd"/>
+        <item key="33018100205" text="河西村责任医生团队" pyCode="hxczrystd"/>
+        <item key="33018100206" text="北坞村责任医生团队" pyCode="bwczrystd"/>
+        <item key="33018100207" text="丁家庄村责任医生团队" pyCode="djzczrystd"/>
+        <item key="33018100208" text="义桥村责任医生团队" pyCode="yqczrystd"/>
+        <item key="33018100209" text="新坝村责任医生团队" pyCode="xbczrystd"/>
+        <item key="33018100210" text=" 联三村责任医生团队" pyCode=" lcczrystd"/>
+        <item key="33018100211" text="湘南村责任医生团队" pyCode="xnczrystd"/>
+        <item key="33018100212" text="湘东村责任医生团队" pyCode="xdczrystd"/>
+        <item key="33018100213" text="西山村责任医生团队" pyCode="xsczrystd"/>
+        <item key="33018100214" text="罗幕村责任医生团队" pyCode="lmczrystd"/>
+        <item key="33018100215" text="蛟山村责任医生团队" pyCode="jsczrystd"/>
+        <item key="33018100216" text="田丰村责任医生团队" pyCode="tfczrystd"/>
+        <item key="33018100217" text="勤里村责任医生团队" pyCode="qlczrystd"/>
+        <item key="33018100218" text="云峰村责任医生团队" pyCode="yfczrystd"/>
+        <item key="33018100219" text="昇光村责任医生团队" pyCode="sgczrystd"/>
+        <item key="33018100220" text="復兴村责任医生团队" pyCode="fxczrystd"/>
+        <item key="33018100221" text="七里店村责任医生团队" pyCode="qldczrystd"/>
+        <item key="33018100222" text="徐童山下村责任医生团队" pyCode="xtsxczrystd"/>
+      </item>
+      <item key="330181003" text="南阳街道社区卫生服务中心" pyCode="nyjdsqwsfwzx">
+        <item key="33018100301" text="南阳社区责任医生团队" pyCode="nysqtd"/>
+        <item key="33018100302" text="赭山社区责任医生团队" pyCode="zssqtd"/>
+        <item key="33018100303" text="横蓬责任医生团队" pyCode="hptd"/>
+        <item key="33018100304" text="雷山责任医生团队" pyCode="lstd"/>
+        <item key="33018100305" text="南丰责任医生团队" pyCode="nftd"/>
+        <item key="33018100306" text="龙虎责任医生团队" pyCode="lhtd"/>
+        <item key="33018100307" text="岩峰责任医生团队" pyCode="yftd"/>
+        <item key="33018100308" text="赭东责任医生团队" pyCode="zdtd"/>
+        <item key="33018100309" text="东风责任医生团队" pyCode="dftd"/>
+        <item key="33018100310" text="永利责任医生团队" pyCode="yltd"/>
+        <item key="33018100311" text="红山责任医生团队" pyCode="hstd"/>
+        <item key="33018100312" text="坞里责任医生团队" pyCode="wltd"/>
+        <item key="33018100313" text="远大责任医生团队" pyCode="ydtd"/>
+        <item key="33018100314" text="南翔责任医生团队" pyCode="nxtd"/>
+        <item key="33018100315" text="南兴责任医生团队" pyCode="nxtd"/>
+      </item>
+      <item key="330181004" text="河上镇社区卫生服务中心" pyCode="hszsqwsfwzx">
+        <item key="33018100401" text="河上镇凤坞服务团队" pyCode="hszfwfutd"/>
+        <item key="33018100402" text="河上镇樟树下服务团队" pyCode="hzszsxfwtd"/>
+        <item key="33018100403" text="河上镇溪头服务团队" pyCode="hszxtfwtd"/>
+        <item key="33018100404" text="河上镇白堰服务团队" pyCode="hszbyfwtd"/>
+        <item key="33018100405" text="河上镇大桥服务团队" pyCode="hzsdqfwtd"/>
+        <item key="33018100406" text="河上镇祥河桥服务团队" pyCode="hszxhqfwtd"/>
+      </item>
+      <item key="330181005" text="瓜沥镇社区卫生服务中心" pyCode="glzsqwsfwzx">
+        <item key="33018100501" text="塘头责任医师团队" pyCode="ttzrystd"/>
+        <item key="33018100502" text="中心责任医师团队" pyCode="zxzrystd"/>
+        <item key="33018100503" text="进化责任医师团队" pyCode="jhzrystd"/>
+        <item key="33018100504" text="运东责任医师团队" pyCode="ydzrystd"/>
+        <item key="33018100505" text="运西责任医师团队" pyCode="yxzrystd"/>
+        <item key="33018100506" text="永福责任医师团队" pyCode="yfzrystd"/>
+        <item key="33018100507" text="横埂头责任医师团队" pyCode="hgtzrystd"/>
+        <item key="33018100508" text="靖一责任医师团队" pyCode="jyzrystd"/>
+        <item key="33018100509" text="群联责任医师团队" pyCode="qlzrystd"/>
+        <item key="33018100510" text="长巷责任医师团队" pyCode="zxzrystd"/>
+        <item key="33018100511" text="大义责任医师团队" pyCode="dyzrystd"/>
+      </item>
+    </item>
+  </item>
+</dic>

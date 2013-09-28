@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="1" text="需求评审"/>
+	<item key="2" text="设计评审"/>
+	<item key="3" text="单元测试"/>
+	<item key="4" text="集成测试"/>
+	<item key="5" text="功能测试"/>
+	<item key="6" text="用户测试"/>
+</dic>

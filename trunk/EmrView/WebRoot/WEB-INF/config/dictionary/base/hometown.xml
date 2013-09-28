@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="33" text="浙江省"/>
+	<item key="3301" text="杭州市">
+		<item key="330101" text="西湖区"/>
+		<item key="330102" text="上城区"/>
+		<item key="330103" text="下城区"/>
+		<item key="330104" text="余杭区"/>
+	</item>
+</dic>

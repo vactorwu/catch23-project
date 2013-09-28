@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="DictMedicalAdviceItemType" keyField="TYPEENCODE" textField="TYPENAME">
+	<prop field="CATALOGENCODE"/>
+	<prop field="LONGADVICEORDERUSE"/>
+	<prop field="SHORTADVICEORDERUSE"/>
+	<prop field="REMARKSINFO"/>
+	<prop field="EFFECTIVEFLAG"/>
+</dic>

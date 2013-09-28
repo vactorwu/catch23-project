@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="Mon_SQL" alias="SQL语句监控">
+  <item id="id" alias="编号" type="int" not-null="1" generator="auto" pkey="true"/>
+  <item id="sqlContent" alias="SQL语句" type="string" length="2000"/>
+  <item id="executeCount" alias="执行次数" type="int"/>
+  <item id="lastTime" alias="最后执行时间" type="timestamp"/>
+  <item id="maxTimespan" alias="最大耗时" type="int"/>
+  <item id="maxTimespanOccurTime" alias="最大耗时执行时间" type="timestamp"/>
+  <item id="dsId" alias="所属数据源" type="int"/>
+</entry>

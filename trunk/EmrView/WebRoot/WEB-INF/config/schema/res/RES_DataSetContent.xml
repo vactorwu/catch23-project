@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="RES_DataSetContent" alias="数据集内容" sort="a.DataGroup desc,a.DSequence">
+  <item id="DataSetContentId" alias="数据集内容ID" type="int" not-null="1" generator="auto" pkey="true" display="0"/>
+  <item id="DataSetId" alias="数据集ID" type="int" not-null="1" display="0"/>
+  <item id="DataElementId" alias="数据元ID" type="int" not-null="1" display="0"/>
+  <item ref="b.StandardIdentify" update="false"/>
+  <item id="CustomIdentify" alias="自定义标识符" type="string" length="50" not-null="1" regexp="^[a-zA-Z]\w*"/>
+  <item ref="b.CustomIdentify" id="bCustomIdentify" display="0"/>
+  <item id="InteriorIdentify" alias="内部标识符" type="string" length="50" display="0"/>
+  <item id="DName" alias="别名" type="string" length="50"/>
+  <item ref="b.DName" id="bDName" display="0"/>
+  <item id="PyCode" alias="拼音码" type="string" length="50" update="false">
+  	<set type="exp" run="server">['py',['$','r.DName']]</set>
+  </item>
+  <item ref="b.DataType" update="false">
+  	<dic id="resdataType"/>
+  </item>
+  <item ref="b.DataLength" update="false"/>
+  <item ref="b.Maximum" update="false"/>
+  <item ref="b.Minimum" update="false"/>
+  <item id="CodeSystem" alias="字典" type="string" length="50" update="false"/>
+  <item ref="b.CodeSystem" id="bCodeSystem" display="0"/>
+  <item ref="b.Category" update="false" display="0"/>
+  <item id="ForceIdentify" alias="强制性标识" type="string" length="1" not-null="1" defaultValue="0">
+  	<dic id="ForceIdentify"/>
+  </item>
+  <item id="Frequency" alias="重复次数" type="string" length="1"/>
+  <item id="DSequence" alias="顺序" type="int"/>
+  <item id="DefaultValueWhenNull" alias="空时默认值" type="string" length="200"/>
+  <item id="SampleValue" alias="示例值" type="string" length="200"/>
+  <item id="ImportantItem" alias="关键数据项" type="int" display="0"/>
+  <item id="DataGroup" alias="分组" type="int">
+  	<dic id="resDataGroup"/>
+  </item>
+  <item id="TargetTable" alias="目标表名" type="string" length="50" display="0"/>
+  <item id="TargetColumn" alias="目标字段名" type="string" length="50" display="0"/>
+  <item ref="b.DataStandardId"/>
+  <item ref="b.StandardRule" update="false"/>
+  <item id="DComment" alias="定义" type="string" length="500" xtype="textarea" colspan="2"/>
+  <item ref="b.DComment" id="bDComment" display="0"/>
+  <relations>
+		<relation type="parent" entryName="RES_DataElement">
+			<join parent="DataElementId" child="DataElementId" />
+		</relation>
+	</relations>
+</entry>

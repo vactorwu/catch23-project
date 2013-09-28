@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:ssdev="http://www.bsoft.com.cn/schema/ssdev"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	http://www.bsoft.com.cn/schema/ssdev 
+	http://www.bsoft.com.cn/schema/ssdev/ssdev.xsd">
+<!-- 
+	<ssdev:applicationDomain name="configuration" 
+		registryAddress="zookeeper://localhost:2181" 
+		rpcServerWorkUrl="hessian://localhost:8081/ssdev-app/rpc/" enableLogger="true"/>
+
+	platform rpc service
+	<ssdev:service id="dictionaryLoader" class="ctd.service.remote.DictionaryRemoter"/>
+	<ssdev:service id="schemaLoader" class="ctd.service.remote.SchemaRemoter"/>
+	<ssdev:service id="serviceProxy" class="ctd.service.core.proxy.OriginalServiceProxy"/>
+	<ssdev:service id="configLoader" class="ctd.service.remote.ConfigRemotor"/>
+	<ssdev:service id="domainLoader" class="ctd.service.remote.DomainRemoter" />
+	<ssdev:service id="userLoader" class="ctd.service.remote.UserRemoter" />
+	<ssdev:service id="personLoader" class="ctd.service.remote.PersonRemoter" />
+	<ssdev:service id="dataElementLoader" class="ctd.service.remote.DataElementRemoter"/>
+	<ssdev:service id="monitorInfoRPCServiceImpl" class="ctd.monitor.service.remote.MonitorInfoRPCServiceImpl"/>
+	<ssdev:service id="rulegetter" class="ctd.service.remote.GetRuleRemoter"/>
+	<ssdev:service id="nodeAuthProvide" class="ctd.core.rpc.auth.TableNodeAuthProvide"/>
+	<ssdev:service id="qualityDataUpload" class="ctd.service.remote.QualityDataRemoter"/>
+	 
+	<ssdev:service id="configWatcher" class="ctd.config.support.ConfigWatcher" subscribe="configuration/configWatcher"/>
+	<ssdev:reference id="configuration.qualityDataUpload" interface="ctd.service.remote.base.QualityDataUpload"/>
+	<ssdev:reference id="configuration.dataElementLoader" interface="ctd.service.remote.base.DataElementLoader"/>
+	<ssdev:reference id="configuration.monitorInfoRPCServiceImpl" interface="ctd.service.remote.MonitorInfoService"/>
+	 -->
+</beans>

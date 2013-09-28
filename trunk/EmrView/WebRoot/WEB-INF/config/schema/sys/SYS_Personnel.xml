@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry id="SYS_Personnel" alias="人员注册">
+	<item id="id" alias="id" type="int" pkey="true" display="0" />	
+	<item id="personId" alias="人员编号" type="string" queryable="true" update="false" not-null="1" length="50"/>
+	<item id="personName" alias="人员姓名" type="string" queryable="true" not-null="1" length="50"/>
+	<item id="img" alias="人员照片" xtype="imagefieldex" type="string" display="2" rowspan="4" />	
+	<item id="cardtype" alias="证件种类" type="string" not-null="1" defaultValue="1">
+		<dic />
+	</item>
+	<item id="cardnum" alias="证件号码" type="string" width="150" not-null="1" queryable="true" length="25"/>
+	<item id="birthday" alias="出生日期" type="date"/>
+	<item id="gender" alias="性别" type="string" length="1" width="40" not-null="1" defaultValue="1">
+		<dic />
+	</item>
+	<item id="ethnic" alias="民族" type="string" width="60" not-null="1" defaultValue="01">
+		<dic />
+	</item>
+	<item id="hometown" alias="籍贯" type="string" width="100" length="150"/>
+	<item id="certificatenum" alias="执业证书编码" type="string" length="20" colspan="2" width="150" not-null="1"/>
+	<item id="jobpost" alias="行政职务" type="string">
+		<dic />
+	</item>
+	<item id="education" alias="最高学历" type="string" length="2" defaultValue="20" >
+		<dic />
+	</item>
+	<item id="educationbackground" alias="学位" type="string">
+		<dic />
+	</item>
+	
+	<item id="majorname" alias="所学专业" type="string">
+		<dic render="Tree"/>
+	</item>
+	<item id="majorqualify" alias="专业技术资格" width="100" type="string">
+		<dic render="Tree"/>
+	</item>
+	<item id="majorjob" alias="专业技术职务" width="100" type="string">
+		<dic />
+	</item>
+	<item id="majortype" alias="专业类别" type="string">
+		<dic />
+	</item>
+	<item id="operationtype" alias="医师执业类别" width="100" type="string">
+		<dic />
+	</item>
+	<item id="operationscope" alias="医师执业范围" type="string" colspan="2" width="100" length="50">
+		<dic render="TreeCheck" onlyLeafCheckable="true"/>
+	</item>
+	<item id="email" alias="电子邮箱" type="string" colspan="1" width="150" length="50"/>
+	<item id="officeTel" alias="办公室电话" type="string" length="25"/>
+	<item id="mobile" alias="手机号码" type="string" width="100" length="25"/>
+	<item id="joininwork" alias="参加工作时间" type="date" queryable="true"/>
+	<item id="organizCode" alias="所在机构" type="string" width="200" colspan="2" not-null="1" display="-1">
+		<dic render="Tree" id="organizationDic" />
+	</item>
+	<item id="inDate" alias="调入时间" type="date" width="100"/>
+	<item id="outDate" alias="调出时间" type="date" width="100"/>
+	<item id="address" alias="联系地址" type="string" colspan="1" display="0" length="150"/>
+	<item id="pyCode" alias="拼音助记" type="string" length="50">
+		<set type="exp" run="server">['py',['$','r.personName']]</set>
+	</item>
+	<item id="remark" alias="备注" type="string"  colspan="3"
+		width="250" height="50" xtype="textarea" length="500"/>
+</entry>

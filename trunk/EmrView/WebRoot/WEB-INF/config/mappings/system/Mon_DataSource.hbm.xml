@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class entity-name="Mon_DataSource" table="Mon_DataSource">
+		<id name="id" type="java.lang.Integer">
+	    	<column name="id"/>
+			<generator class="identity" />
+		</id>
+		<property name="dsName" type="java.lang.String" length="50" />
+		<property name="dbType" type="java.lang.String" length="50" />
+		<property name="driverClassName" type="java.lang.String" length="100" />
+		<property name="driverMajorVersion" type="java.lang.Integer"  />
+		<property name="driverMinorVersion" type="java.lang.Integer"  />
+		<property name="jdbcUrl" type="java.lang.String" length="100" />
+		<property name="createTime" type="timestamp"  />
+		<property name="username" type="java.lang.String" length="50" />
+		<property name="maxActive" type="java.lang.Integer"  />
+		<property name="minIdle" type="java.lang.Integer"  />
+		<property name="initialSize" type="java.lang.Integer"  />
+		<property name="activeCount" type="java.lang.Integer"  />
+		<property name="connectCount" type="java.lang.Integer"  />
+		<property name="closeCount" type="java.lang.Integer"  />
+		<property name="poolingCount" type="java.lang.Integer"  />
+		<property name="createCount" type="java.lang.Integer"  />
+		<property name="destroyCount" type="java.lang.Integer"  />
+		<property name="maxWait" type="java.lang.Integer"  />
+		<property name="maxWaitThreadCount" type="java.lang.Integer"  />
+		<property name="waitThreadCount" type="java.lang.Integer"  />
+		<property name="lastReportTime" type="timestamp"  />
+		<property name="domainId" type="java.lang.String" length="50" />
+		<property name="ipAddress" type="java.lang.String" length="30" />
+	</class>
+</hibernate-mapping>

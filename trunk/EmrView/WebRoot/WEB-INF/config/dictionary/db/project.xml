@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" searchField="projectNo" searchFieldEx="pyCode" entry="BASE_Project" keyField="projectId" textField="shortName" queryOnly="false">
+</dic>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="RES_DataStandard" 
+	 keyField="DataStandardId" textField="DName" sortField="PublishDate desc"
+	 filter="['eq',['$','Status'],['s','1']]">
+</dic>

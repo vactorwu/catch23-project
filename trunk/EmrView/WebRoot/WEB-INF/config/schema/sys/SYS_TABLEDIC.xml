@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="SYS_TABLEDIC" alias="数据库字典">
+  <item id="id" alias="字典名称" type="string" length="50" not-null="1" generator="assigned" pkey="true" queryable="true"/>
+  <item id="entry" alias="表名" type="string" length="50" width="120" queryable="true"/>
+  <item id="keyField" alias="键字段" type="string" length="50" width="120" queryable="true"/>
+  <item id="textField" alias="值字段" type="string" length="50" width="120" queryable="true"/>
+  <item id="searchField" alias="搜索字段" type="string" length="50" width="120" queryable="true"/>
+  <item id="searchFieldEx" alias="扩展搜索字段" type="string" length="50" width="120" queryable="true"/>
+  <item id="queryOnly" alias="是否直查数据库" type="string" length="50" width="120" queryable="true"/>
+  <item id="sortField" alias="排序字段" type="string" length="50" width="120" queryable="true"/>
+  <item id="filter" alias="过滤" type="string" length="50" width="120" queryable="true"/>
+</entry>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="DictDiseasesCode" keyField="DISEASESCODE" textField="DISEASESNAME">
+	<prop field="CODELEVEL"/>
+	<prop field="MAINENCODE"/>
+	<prop field="APPENDENCODE"/>
+	<prop field="MEDICALRECORDSTATISTICSCODE"/>
+	<prop field="ENGLISHNAME"/>
+	<prop field="SEXLIMIT"/>
+	<prop field="ALLOWCURE"/>
+</dic>

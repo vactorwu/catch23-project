@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<role name="系统管理员" type="post" parent="base" id="system">
+  <accredit>
+    <apps acType="whitelist">
+      <others/>
+    </apps>
+    <service acType="whitelist"></service>
+    <storage acType="whitelist">
+      <others acValue="1111"/>
+    </storage>
+  </accredit>
+</role>

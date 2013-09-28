@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="entry">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="item" maxOccurs="unbounded"/>
+				<xsd:element ref="relations" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:string" use="required"/>
+			<xsd:attribute name="alias" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="item">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="key" minOccurs="0"/>
+				<xsd:element ref="dic" minOccurs="0"/>
+				<xsd:element ref="set" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:string" use="required"/>
+			<xsd:attribute name="alias" type="xsd:string" use="required"/>
+			<xsd:attribute name="type" type="xsd:string" use="required"/>
+			<xsd:attribute name="not-null" use="optional">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="1"/>
+						<xsd:enumeration value="0"/>
+						<xsd:enumeration value="true"/>
+						<xsd:enumeration value="false"/>
+					</xsd:restriction>	
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="generator" type="xsd:string" use="optional"/>
+			<xsd:attribute name="pkey" type="xsd:boolean" use="optional"/>
+			<xsd:attribute name="display" use="optional">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:integer">
+						<xsd:enumeration value="0"/>
+						<xsd:enumeration value="1"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="length" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="width" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="defaultValue" type="xsd:string" use="optional"/>
+			<xsd:attribute name="inputType" type="xsd:string" use="optional"/>
+			<xsd:attribute name="colspan" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="rowspan" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="height" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="precision" type="xsd:string" use="optional"/>
+			<xsd:attribute name="hidden" type="xsd:boolean" use="optional"/>
+			<xsd:attribute name="queryable" type="xsd:boolean" use="optional"/>
+			<xsd:attribute name="ref" type="xsd:string" use="optional"/>
+			<xsd:attribute name="fixed" type="xsd:boolean" use="optional"/>
+			<xsd:attribute name="xtype" type="xsd:string" use="optional"/>
+			<xsd:attribute name="custom" type="xsd:string" use="optional"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="set" >
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:string">
+				<xsd:attribute name="type" type="xsd:string" use="required"/>
+				</xsd:extension>
+			</xsd:simpleContent>	
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="dic">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="item" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="key" type="xsd:string" use="required"/>
+						<xsd:attribute name="text" type="xsd:string" use="required"/>
+						<xsd:attribute name="mCode" type="xsd:string" use="optional"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>	
+			<xsd:attribute name="id" type="xsd:string" use="optional"/>
+			<xsd:attribute name="render" type="xsd:string" use="optional"/>
+			<xsd:attribute name="onlySelectLeaf" type="xsd:boolean" use="optional"/>
+			<xsd:attribute name="includeParentMinLen" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="parentKey" type="xsd:string" use="optional"/>
+			<xsd:attribute name="rootVisible" type="xsd:boolean" use="optional"/>
+			<xsd:attribute name="filterMin" type="xsd:integer" use="optional"/>
+			<xsd:attribute name="filterMax" type="xsd:integer" use="optional"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="relations">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="relation" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="relation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="join" minOccurs="0">
+					<xsd:complexType>
+						<xsd:attribute name="parent" type="xsd:string"/>
+						<xsd:attribute name="child" type="xsd:string"/>
+					</xsd:complexType>
+				</xsd:element>
+				<xsd:element name="condition" minOccurs="0">
+					<xsd:complexType>
+						<xsd:attribute name="exp" type="xsd:string"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+			<xsd:attribute name="type" type="xsd:string"/>
+			<xsd:attribute name="entryName" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="key">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="rule" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="name" type="xsd:string"/>
+						<xsd:attribute name="type" type="xsd:string"/>
+						<xsd:attribute name="defaultFill" type="xsd:string"/>
+						<xsd:attribute name="length" type="xsd:string"/>
+						<xsd:attribute name="startPos" type="xsd:string"/>
+						<xsd:attribute name="fillPos" type="xsd:string"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

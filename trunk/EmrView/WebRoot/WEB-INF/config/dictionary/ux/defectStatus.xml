@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="1" text="打开"/>
+	<item key="2" text="延迟"/>
+	<item key="3" text="忽略"/>
+	<item key="4" text="修复中"/>
+	<item key="5" text="已修复"/>
+	<item key="6" text="关闭"/>
+</dic>

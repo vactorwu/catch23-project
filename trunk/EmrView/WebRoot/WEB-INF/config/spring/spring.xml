@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- set spring context to use,should be in the first -->
+	<bean class="ctd.util.AppContextHolder">
+		<property name="devMode" value="true"/>
+	</bean>
+	<bean class="ctd.resource.ResourceCenter"/>
+	
+	<import resource="spring-hibernate.xml"/>
+	<import resource="spring-transaction.xml"/>
+	<import resource="spring-exp.xml"/>
+	<import resource="spring-context.xml"/>
+	<import resource="spring-service.xml"/>
+	<import resource="spring-rpc.xml"/>
+	<import resource="spring-freemarker.xml"/>
+	<import resource="spring-print.xml"/>
+	<import resource="spring-mail.xml"/>
+	<!-- <import resource="spring-test.xml"/> -->
+	<import resource="spring-schedule.xml"/>
+	
+	<bean id="serviceExecutor" class="ctd.service.core.ServiceExecutor" />
+	<bean id="appConfigLocator" class="ctd.service.core.AppConfigLocator"/>
+	<bean id="moduleConfigLocator" class="ctd.service.core.ModuleConfigLocator"/>
+	<bean id="catalogConfigLocator" class="ctd.service.core.CatalogConfigLocator"/>
+	<bean id="reportSchemaLoader" class="ctd.service.core.ReportSchemaLoader"/>
+	<bean id="simpleReport" class="ctd.service.dao.SimpleReport"/>
+	<bean id="logon" class="ctd.service.core.Logon"/>
+	<bean id="ssologon" class="ctd.sso.SSOLogon"/>
+	<bean id="logonOut" class="ctd.service.core.LogonOut"/>
+	<bean id="passwordChanger" class="ctd.service.core.PasswordChanger"/>
+	<bean id="reloadContext" class="ctd.service.core.ReloadContext"/>
+	<bean id="simpleSave" class="ctd.service.dao.SimpleSave"/>
+	<bean id="simpleLoad" class="ctd.service.dao.SimpleLoad"/>
+	<bean id="simpleLoadWithParentRelation" class="ctd.service.dao.SimpleLoadWithParentRelation"/>
+	<bean id="simpleRemove" class="ctd.service.dao.SimpleRemove"/>
+	<bean id="simpleQuery" class="ctd.service.dao.SimpleQuery"/>
+	<bean id="roleLocator" class="ctd.service.core.RoleLocator"/>
+	<bean id="onlineHandler" class="ctd.service.core.OnlineHandler"/>
+	<bean id="serviceInfoHandler" class="ctd.service.core.ServiceInfoHandler"/>
+	<bean id="dictionaryUtil" class="ctd.service.core.DictionaryUtil"/>
+	<bean id="getNotifyInfo" class="ctd.service.core.GetNotifyInfo"/>
+	<bean id="message" class="ctd.message.Message"/>
+	<bean id="configuration" class="ctd.service.core.Configuration">
+	   <property name="transactionSupport">
+	       <value>true</value>
+	   </property>
+    </bean>
+     <!-- 配置管理service -->
+    <bean id="userService" class="ctd.configure.UserConfig" />
+    <bean id="manageService" class="ctd.configure.ManageUnitConfig" />
+    <bean id="domainConfig" class="ctd.configure.DomainConfig" />
+    <bean id="appConfig" class="ctd.configure.ApplicationConfig" />
+    <bean id="personnelService" class="ctd.configure.PersonnelService">
+       <property name="picPath" value="photo/"></property>
+       <property name="tempPath" value="temp/"></property>
+    </bean>
+    <bean id="organizationService" class="ctd.configure.OrganizationService" />
+    <bean id="roleConfig" class="ctd.configure.RoleConfig"/>
+    <bean id="organizTypeService" class="ctd.configure.OrganizTypeService"/>
+    <bean id="quickService" class="ctd.configure.QuickConfig"/>
+    <bean id="settingService" class="ctd.configure.SettingService">
+        <property name="index" value="welcome.jshtml"></property>
+    </bean>
+    <!-- ****************** -->  
+	<!--  
+	<bean id="logonInterceptor" class="ctd.dao.LogonInterceptor"/>
+	<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="beanNames">
+			<list>
+				<value>simple*</value>
+				<value>logon</value>
+			</list>
+		</property>
+		<property name="interceptorNames">
+			<list>
+				<value>logonInterceptor</value>
+			</list>
+		</property>
+	</bean>
+	-->
+</beans>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="DictPhysicalSignItem" keyField="ITEMNUMBER" textField="ITEMNAME">
+	<prop field="ITEMUNIT"/>
+	<prop field="SYSTEMFLAG"/>
+	<prop field="PHYSICALSIGNTYPE"/>
+	<prop field="EFFECTIVEFLAG"/>
+</dic>

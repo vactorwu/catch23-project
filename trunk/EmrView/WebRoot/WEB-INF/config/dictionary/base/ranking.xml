@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="1" text="国家级正职"/>
+	<item key="2" text="国家级副职"/>
+	<item key="3" text="省部级正职"/>
+	<item key="4" text="省部级副职"/>
+	<item key="5" text="厅局级正职"/>
+	<item key="6" text="厅局级副职"/>
+	<item key="7" text="县处级正职"/>
+	<item key="8" text="县处级副职"/>
+	<item key="9" text="乡科级正职"/>
+	<item key="10" text="乡科级副职"/>
+</dic>

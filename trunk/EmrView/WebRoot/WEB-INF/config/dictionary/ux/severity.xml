@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="A" text="严重缺陷"/>
+	<item key="B" text="较严重缺陷"/>
+	<item key="C" text="一般性缺陷"/>
+	<item key="D" text="较小缺陷"/>
+	<item key="E" text="其他缺陷"/>
+</dic>

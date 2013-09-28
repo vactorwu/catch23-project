@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="STAT_Locate" alias="地图定位信息" sort="manaUnitId asc">
+	<item id="manaUnitId"  alias="管理单元" type="string" length="20" width="200" not-null="1" generator="assigned" pkey="true">
+		<dic id="manageUnit" includeParentMinLen="6" slice="2" render="Tree"
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="regionCode"  alias="网格地址" width="200" type="string" length="20" display="0">
+	</item>
+	<item id="mapSign" 	alias="地图标识" type="string" length="30" xtype="mapfield" display="0"/>
+	<!-- <item id="gemetryPoint"  alias="地图物理坐标" type="string" length="30" xtype="mapfield"/>-->
+	<item id="summary"  alias="简介信息" type="text" length="500" width="400" colspan="3"/>  
+</entry>

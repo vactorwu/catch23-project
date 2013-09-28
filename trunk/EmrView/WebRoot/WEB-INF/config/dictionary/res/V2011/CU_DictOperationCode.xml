@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="DictOperationCode" keyField="OPERATIONNUMBER" textField="OPERATIONNAME">
+	<prop field="OPERATIONCODE"/>
+    <prop field="OPERATIONLEVEL"/>
+	<prop field="SPELLCODE"/>
+	<prop field="FIVETYEPINGCODE"/>
+	<prop field="OTHERCODE"/>
+	<prop field="EFFECTIVEFLAG"/>
+</dic>

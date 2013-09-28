@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="t_person" alias="人">
+  <item id="id" alias="标识" not-null="1" generator="auto" pkey="true">
+  </item>
+  <item id="name" alias="姓名" length="50"/>
+</entry>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry id="SYS_Office" alias="机构报表">
+	<item id="officeCode" alias="科室代码" type="string" pkey="true" queryable="true" generator="assigned" width="100" update="false" not-null="1" length="50"/>
+	<item id="officeName" alias="科室名称" type="string" queryable="true" colspan="2" width="120" not-null="1" length="50"/>
+	<item id="address" alias="地址" type="string" colspan="3" width="200" length="50"/>
+	<item id="organizCode" alias="所属机构" type="string" colspan="2" width="120" not-null="1" display="-1">
+	    <dic render="Tree" id="organizationDic"/>
+	</item>	
+	<item id="parentId" alias="上级科室" type="string" colspan="1" display="-1">
+	   <dic render="Tree" id="officeDic"/>
+	</item>	
+	<item id="organizType" alias="科室类型" type="string" width="120" colspan="2" not-null="1" queryable="true">
+		<dic id="officeType" />
+	</item>
+	<item id="telphone" alias="联系电话" type="string" width="100" length="50"/>
+	<item id="email" alias="电子邮箱" type="string" width="120" length="45"/>	
+	<item id="plsx" alias="排列顺序" type="string" length="10"/>	
+	<item id="pyCode" alias="拼音助记" type="string" length="50">
+		<set type="exp" run="server">['py',['$','r.officeName']]</set>
+	</item>
+</entry>

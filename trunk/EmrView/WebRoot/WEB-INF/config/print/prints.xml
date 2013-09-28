@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<prints>
+	<print id="test" alias="测试页面1" bean="testPrintBean" fill="ds" />
+	<print id="test2" alias="测试页面2"/>
+	<print id="cover" alias="健康档案封面" bean="cover" />
+	<print id="show" alias="列表测试" bean="show" fill="ds"/>
+</prints>

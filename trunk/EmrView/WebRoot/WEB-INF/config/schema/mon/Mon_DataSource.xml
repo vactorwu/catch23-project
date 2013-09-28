@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="Mon_DataSource" alias="数据源监控信息">
+  <item id="id" alias="编号" type="int" not-null="1" generator="auto" pkey="true"/>
+  <item id="dsName" alias="名称" type="string" length="50"/>
+  <item id="dbType" alias="数据库类型" type="string" length="50"/>
+  <item id="driverClassName" alias="驱动名称" type="string" length="100"/>
+  <item id="driverMajorVersion" alias="大版本号" type="int"/>
+  <item id="driverMinorVersion" alias="小版本号" type="int"/>
+  <item id="jdbcUrl" alias="jdbcUrl" type="string" length="100"/>
+  <item id="createTime" alias="创建时间" type="timestamp"/>
+  <item id="username" alias="使用用户" type="string" length="50"/>
+  <item id="maxActive" alias="允许最大连接数" type="int"/>
+  <item id="minIdle" alias="允许最小空闲数" type="int"/>
+  <item id="initialSize" alias="初始化连接数" type="int"/>
+  <item id="activeCount" alias="使用的连接数" type="int"/>
+  <item id="connectCount" alias="连接请求次数" type="int"/>
+  <item id="closeCount" alias="连接释放次数" type="int"/>
+  <item id="poolingCount" alias="池中连接数" type="int"/>
+  <item id="createCount" alias="创建连接次数" type="int"/>
+  <item id="destroyCount" alias="销毁连接次数" type="int"/>
+  <item id="maxWait" alias="最大等待时间" type="int"/>
+  <item id="maxWaitThreadCount" alias="允许最大等待线程数" type="int"/>
+  <item id="waitThreadCount" alias="当前等待线程数" type="int"/>
+  <item id="lastReportTime" alias="最后上传时间" type="timestamp"/>
+  <item id="domainId" alias="所属域" type="string" length="50"/>
+  <item id="ipAddress" alias="IP地址" type="string" length="30"/>
+</entry>

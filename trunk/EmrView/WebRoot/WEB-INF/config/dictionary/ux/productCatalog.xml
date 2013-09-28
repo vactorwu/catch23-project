@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="A" text="医院信息化"/>
+	<item key="B" text="公共卫生信息化">
+		<item key="B01" text="卫生行政">
+			<item key="B0101" text="卫生行政业务管理系统"/>
+			<item key="B0102" text="区域卫生数据中心"/>
+		</item>
+		<item key="B02" text="疾病控制"/>
+		<item key="B03" text="卫生监督"/>
+		<item key="B04" text="妇幼保健"/>
+		<item key="B05" text="基层卫生">
+			<item key="B0501" text="社区卫生服务"/>
+			<item key="B0502" text="农村合作医疗"/>
+			<item key="B0503" text="村卫生室信息化"/>
+		</item>
+	</item>
+</dic>

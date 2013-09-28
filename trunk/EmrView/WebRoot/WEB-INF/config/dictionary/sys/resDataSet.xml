@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="ComposeDictionary" navDic="resDataSetCatalog" entry="RES_DataSet a"
+	keyField="a.DataSetId" textField="a.DName" searchField="a.Catalog">
+	<prop field="a.DataStandardId" as="DataStandardId" />
+	<prop field="a.CustomIdentify" as="CustomIdentify" />
+</dic>

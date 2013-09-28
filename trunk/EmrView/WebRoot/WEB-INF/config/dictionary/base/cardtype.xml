@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="1" text="身份证"/>
+	<item key="2" text="军官证"/>
+	<item key="3" text="港澳台居民通行证"/>
+	<item key="4" text="护照"/>
+</dic>

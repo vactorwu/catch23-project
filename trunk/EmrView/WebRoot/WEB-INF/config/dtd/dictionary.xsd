@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="dic">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="item" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="prop" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="arg" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="class"/>
+			<xsd:attribute name="parent"/>
+			<xsd:attribute name="entry"/>
+			<xsd:attribute name="keyField"/>
+			<xsd:attribute name="textField"/>
+			<xsd:attribute name="queryOnly" type="xsd:boolean"/>
+			<xsd:attribute name="searchField"/>
+			<xsd:attribute name="searchFieldEx"/>
+			<xsd:attribute name="iconCls"/>
+			<xsd:attribute name="filter"/>
+			<xsd:attribute name="sortField"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="item">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="item" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:attribute name="key"/>
+			<xsd:attribute name="text"/>
+			<xsd:attribute name="mCode"/>
+			<xsd:attribute name="pyCode"/>
+			<xsd:attribute name="iconCls"/>
+			<xsd:attribute name="roles"/>
+			<xsd:attribute name="path"/>
+			<xsd:attribute name="entryName"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="prop">
+		<xsd:complexType>
+			<xsd:attribute name="field"/>
+			<xsd:attribute name="as"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="arg">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:anySimpleType">
+				<xsd:attribute name="name" use="optional"/>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

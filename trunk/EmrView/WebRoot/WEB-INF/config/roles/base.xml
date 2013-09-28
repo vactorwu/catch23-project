@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<role name="系统用户">
+	<accredit>
+		<service acType="whitelist">
+			<others />
+		</service>
+	</accredit>
+</role>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class entity-name="SYS_METADATA" table="SYS_METADATA">
+			<id name="ID" type="java.lang.String">
+            	<column name="ID"/>
+            	<generator class="assigned" />
+        	</id>
+        	<property name="NAME" type="java.lang.String" length="50" />
+        	<property name="DATATYPE" type="java.lang.String" length="50" />
+        	<property name="DATAFORMAT" type="java.lang.String" length="50" />
+        	<property name="DATARANGE" type="java.lang.String" length="50" />
+        	<property name="DEFINE" type="java.lang.String" length="500" />
+</class>
+</hibernate-mapping>

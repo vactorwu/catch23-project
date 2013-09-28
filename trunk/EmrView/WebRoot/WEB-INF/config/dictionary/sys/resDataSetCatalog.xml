@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="RES_DataSetCatalog a" parent="a.ParentCatalogId"
+	keyField="a.CatalogId" textField="a.CatalogName" iconCls="folder">
+	<prop field="a.DataStandardId" as="DataStandardId"/>
+	<prop field="a.CustomIdentify" as="CustomIdentify"/>
+</dic>

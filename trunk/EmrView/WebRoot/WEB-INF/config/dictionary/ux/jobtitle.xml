@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="1" text="程序员"/>
+	<item key="2" text="高级程序员"/>
+	<item key="3" text="团队带头人"/>
+	<item key="4" text="产品经理"/>
+	<item key="5" text="技术总监"/>
+	<item key="6" text="部门经理"/>
+	<item key="7" text="上级主管"/>
+	<item key="8" text="客户"/>
+</dic>

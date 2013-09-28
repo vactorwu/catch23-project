@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="A" text="医疗事业部"/>
+	<item key="B" text="公共卫生事业部">
+		<item key="B01" text="研发中心"/>
+		<item key="B02" text="工程中心"/>
+		<item key="B03" text="市场"/>
+	</item>
+	<item key="Z" text="客户"/>
+</dic>

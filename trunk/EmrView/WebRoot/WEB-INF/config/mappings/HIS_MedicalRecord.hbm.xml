@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class entity-name="HIS_MedicalRecord" table="HIS_MedicalRecord">
+		<id name="phrId" type="java.lang.Integer">
+	    	<column name="phrId"/>
+			<generator class="identity" />
+		</id>
+		<property name="cardNo" type="java.lang.String" length="20" />
+		<property name="personName" type="java.lang.String" length="20" />
+		<property name="sexCode" type="java.lang.String" length="20" />
+		<property name="idCard" type="java.lang.String" length="20" />
+		<property name="birthday" type="date"  />
+		<property name="blood" type="java.lang.String" length="20" />
+		<property name="mobileNumber" type="java.lang.String" length="20" />
+		<property name="contactPhone" type="java.lang.String" length="20" />
+		<property name="masterFlag" type="java.lang.String" length="1" />
+		<property name="relaCode" type="java.lang.String" length="2" />
+		<property name="manaDoctorId" type="java.lang.String" length="20" />
+		<property name="manaUnitId" type="java.lang.String" length="20" />
+		<property name="isAgrRegister" type="java.lang.String" length="1" />
+		<property name="workType1" type="java.lang.String" length="2" />
+		<property name="workType2" type="java.lang.String" length="2" />
+		<property name="sickContent" type="java.lang.String"  />
+	</class>
+</hibernate-mapping>

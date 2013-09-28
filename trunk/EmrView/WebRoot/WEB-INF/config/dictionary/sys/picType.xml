@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dic> 
+  <item key="logobanner.png" text="主界面图片(1024×87)" mCode="1"/>
+  <item key="logo.gif" text="登录界面(387×87)" mCode="2"/>
+</dic>

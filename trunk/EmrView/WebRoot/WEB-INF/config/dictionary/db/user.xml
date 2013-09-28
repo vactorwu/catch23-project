@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" searchField="logonName" searchFieldEx="pyCode" entry="BASE_Staff" keyField="userId" textField="name" queryOnly="false">
+</dic>

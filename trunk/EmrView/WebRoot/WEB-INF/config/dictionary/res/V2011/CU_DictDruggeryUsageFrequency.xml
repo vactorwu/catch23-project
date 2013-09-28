@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="DictDruggeryUsageFrequency" keyField="FREQUENCYCODE" textField="FREQUENCYNAME">
+	<prop field="EFFECTIVEFLAG"/>
+</dic>

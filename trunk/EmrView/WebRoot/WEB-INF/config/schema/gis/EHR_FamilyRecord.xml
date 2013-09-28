@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry id="EHR_FamilyRecord" alias="家庭健康档案" sort="familyId desc">
+	<item id="familyId" pkey="true" alias="家庭编号" type="string"
+		length="16" not-null="1"  fixed="true" queryable="true"  generator="assigned"  width="160">
+		<set type="exp">['idGen','EHR_FamilyRecord']</set>
+	</item>
+	<item id="ownerName" alias="户主姓名" type="string" length="20"
+		not-null="1" queryable="true" />
+	<item id="manaDoctorId" alias="责任医生" type="string" length="20" not-null="1" queryable="true" update="false" >
+		<dic id="user01" render="Tree" onlySelectLeaf="true" />
+	</item>
+	<item id="regionCode" alias="网格地址" type="string" length="25" 
+		not-null="1" queryable="true" width="450" colspan="2" anchor="100%" update="false">
+		<dic id="areaGrid" includeParentMinLen="6" filterMin="10" filterMax="18" render="Tree" onlySelectLeaf="true"  />
+	</item>
+	<item id="manaUnitId" alias="管辖机构" type="string" length="16" width="180" not-null="1" queryable="true" fixed="true"  defaultValue="%user.prop.manaUnitId">
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree" onlySelectLeaf="true" parentKey="%user.prop.manaUnitId" rootVisible="false"/>
+	</item>
+	<item id="familyAddr" alias="家庭地址" type="string" length="100" width="180"/>
+	<item id="familyHome" alias="家庭电话" type="string" length="50" queryable="true" />
+	<item id="roomTypeCode" alias="住房类型" type="string" length="6"  display="2">
+		<dic>
+			<item key="0" text="商品房"></item>
+			<item key="1" text="小区房"></item>
+			<item key="2" text="农民房"></item>
+		</dic>
+	</item>
+	<item id="roomArea" alias="居住面积(㎡)"  type="double" length="8" precision="2"  display="2"/>
+	<item id="totalNumber" alias="家庭总人口" type="int"  display="2"/>
+	<item id="liveNumber" alias="现住人口数" type="int"  display="2"/>
+	<item id="aveIncome" alias="月人均收入" type="int"  display="2"/>
+
+	<item id="fuelType" alias="燃料类型" type="string" length="6" defaultValue="1"  display="2">
+		<dic>
+			<item key="0" text="木材"></item>
+			<item key="1" text="煤气"></item>
+			<item key="2" text="天然气"></item>
+		</dic>
+	</item>
+	<item id="waterSourceCode" alias="饮用水来源" type="string" length="6" defaultValue="1"  display="2">
+		<dic>
+			<item key="1" text="自来水（一次供水）"></item>
+			<item key="2" text="自来水（二次供水）"></item>
+			<item key="3" text="经净化器过滤的水"></item>
+			<item key="4" text="井水"></item>
+			<item key="5" text="河水"></item>
+			<item key="6" text="纯水或桶装水"></item>
+			<item key="7" text="其他"></item>
+			
+		</dic>
+	</item>
+	<item id="washroom" alias="卫生设施类型" type="string" length="2" defaultValue="1"  display="2">
+		<dic>
+			<item key="1" text="家庭卫生厕所"></item>
+			<item key="2" text="马桶"></item>
+			<item key="3" text="公共厕所"></item>
+			<item key="4" text="无盖坑厕"></item>
+			<item key="5" text="抽水马桶"></item>
+			
+		</dic>
+	</item>
+	<item id="economicalStatus" alias="家庭经济状况" type="string" length="1"  display="2">
+		<dic>
+			<item key="0" text="好"></item>
+			<item key="1" text="良好"></item>
+			<item key="2" text="差"></item>
+		</dic>
+	</item>
+	<item id="internetModeCode" alias="上网方式" type="string" length="6"  display="2">
+		<dic>
+			<item key="0" text="有线网"></item>
+			<item key="1" text="无线网"></item>
+			<item key="2" text="网吧"></item>
+		</dic>
+	</item>
+	<item id="createUnit" alias="建档单位" type="string" length="16"
+		width="180"  fixed="true" defaultValue="%user.prop.manaUnitId">
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree" onlySelectLeaf="true" parentKey="%user.prop.manaUnitId"/>
+	</item>
+	<item id="createUser" alias="建档人" type="string" length="20"
+		 fixed="true" defaultValue="%user.userId" queryable="true">
+		<dic id="user" render="Tree" onlySelectLeaf="true" parentKey="%user.prop.manaUnitId"/>
+	</item>
+	<item id="createDate" alias="建档日期" type="date" fixed="true" defaultValue="%server.date.date" queryable="true">
+       <set type="exp">['$','%server.date.date']</set>
+   </item>
+	<item id="lastModifyUnit" alias="修改单位" type="string" length="16"
+		width="180" hidden="true" defaultValue="%user.prop.manaUnitId">
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree" onlySelectLeaf="true"  parentKey="%user.prop.manaUnitId"/>
+	</item>
+	<item id="lastModifyUser" alias="修改人" type="string" length="20"
+		display="1" defaultValue="%user.userId">
+		<dic id="user" render="Tree" onlySelectLeaf="true" parentKey="%user.prop.manaUnitId"/>
+	</item>
+	<item id="lastModifyDate" alias="修改日期" type="date" hidden="true" defaultValue="%server.date.date">
+         <set type="exp">['$','%server.date.date']</set>
+    </item>
+	<item id="writeOffUnit" alias="注销单位" type="string" length="16"
+		width="180" hidden="true" >
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree" onlySelectLeaf="true" parentKey="%user.prop.manaUnitId"/>
+	</item>
+	<item id="writeOffUser" alias="注销人" type="string" length="20"
+		hidden="true" >
+		<dic id="user" render="Tree" onlySelectLeaf="true" parentKey="%user.prop.manaUnitId"/>
+	</item>
+	<item id="writeOffDate" alias="注销日期" type="date" hidden="true" />
+	<item id="status" alias="档案状态" type="string" length="1"
+		hidden="true" defaultValue="0">
+		<dic>
+			<item key="0" text="正常"></item>
+			<item key="1" text="注销"></item>
+		</dic>
+	</item>
+	<item id="memo" alias="备注" type="string" xtype="textarea" colspan="3"
+		length="500" display="2"/>
+</entry>
