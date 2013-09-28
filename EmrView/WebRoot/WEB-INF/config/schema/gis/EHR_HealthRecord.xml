@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry id="EHR_HealthRecord" alias="个人健康档案" sort="a.phrId desc">
+	<item id="phrId" pkey="true" alias="档案编号" type="string" length="16"
+		width="160" not-null="1" fixed="true" queryable="true"
+		generator="assigned">
+		<set type="exp">['idGen','EHR_HealthRecord']</set>
+	</item>
+
+	<item ref="b.cardNo" display="1" queryable="true" />
+	<item ref="b.personName" display="1" queryable="true" />
+	<item ref="b.sexCode" display="1" queryable="true" />
+	<item ref="b.birthday" display="1" queryable="true" />
+	<item ref="b.idCard" display="1" queryable="true" />
+	<item ref="b.mobileNumber" display="1" queryable="true" />
+	<item ref="b.contactPhone" display="1" queryable="true" />
+
+	<item ref="b.registeredPermanent" display="0" queryable="true" />
+
+	<item id="empiId" alias="empiid" type="string" length="32"
+		fixed="true" notDefaultValue="true" hidden="true" />
+	<item id="regionCode" alias="网格地址" type="string" length="25"
+		not-null="1" width="450" colspan="2" anchor="100%" update="false"  queryable="true">
+		<dic id="areaGrid" includeParentMinLen="6" filterMin="10"
+			filterMax="18" render="Tree" onlySelectLeaf="true" />
+	</item>
+	<!--  
+	<item id="regionCode_text" alias="网格地址TEXT"/>
+	-->
+	<!-- 
+		<item id="homeAddress" alias="户籍地址" length="21" display="2"
+		colspan="3" not-null="1">
+		<dic id="areaGrid" render="Tree" onlySelectLeaf="true"
+		parentKey="%user.prop.regionCode" />
+		</item>
+	-->
+	<item id="familyId" alias="所属家庭" type="string" length="30"
+		hidden="true" />
+	<item id="masterFlag" alias="是否户主" type="string" 
+		width="180" length="1">
+		<dic>
+			<item key="1" text="是" />
+			<item key="2" text="否" />
+		</dic>
+	</item>
+	<item id="relaCode" alias="与户主关系" type="string" 
+		length="2">
+		<dic id="relaCode" />
+	</item>
+	<item id="manaDoctorId" alias="责任医生" type="string" length="20"
+		queryable="true" not-null="1" update="false">
+		<dic id="user01" render="Tree" onlySelectLeaf="true" />
+	</item>
+  <!--
+	<item id="manaNurse" alias="责任护士" type="string" length="20">
+		<dic id="user01" render="Tree" onlySelectLeaf="true"
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="healthDoctor" alias="公卫医生" type="string" length="20">
+		<dic id="user" render="Tree" onlySelectLeaf="true"
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+  -->
+	<item id="manaUnitId" alias="管辖机构" type="string" length="8"
+		colspan="2" anchor="100%" width="180" not-null="1" fixed="true"  queryable="true"  defaultValue="%user.prop.manaUnitId">
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree"
+			parentKey="%user.prop.manaUnitId" rootVisible="false" />
+	</item>
+	<item id="signFlag" alias="签约标志" type="string" length="1"
+		defaultValue="1">
+		<dic>
+			<item key="1" text="是" />
+			<item key="2" text="否" />
+		</dic>
+	</item>
+	<item id="fatherId" alias="父亲编号" type="string" length="32"
+		hidden="true" display="2" />
+	<item id="fatherName" alias="父亲姓名" type="string" length="20"
+		display="2" xtype="lookupfieldex" />
+	<item id="motherId" alias="母亲编号" type="string" length="32"
+		hidden="true" display="2" />
+	<item id="motherName" alias="母亲姓名" type="string" length="20"
+		display="2" xtype="lookupfieldex" />
+	<item id="partnerId" alias="配偶编号" type="string" length="32"
+		hidden="true" display="2" />
+	<item id="partnerName" alias="配偶姓名" type="string" length="20"
+		display="2" xtype="lookupfieldex" />
+	<!-- 
+		<item id="allergic" alias="过敏物质" type="string" length="500"
+		defaultValue="无" display="2" />
+	-->
+	<item id="isAgrRegister" alias="是否农业户籍" type="string" length="1"
+		not-null="1" display="2">
+		<dic>
+			<item key="1" text="是" />
+			<item key="2" text="否" />
+		</dic>
+	</item>
+	<item id="deadFlag" alias="死亡标志" type="string" length="1"
+		defaultValue="2" display="2">
+		<dic>
+			<item key="1" text="是" />
+			<item key="2" text="否" />
+		</dic>
+	</item>
+	<item id="deadDate" alias="死亡日期" type="date" fixed="true"
+		display="2"  maxValue="%server.date.date"/>
+	<item id="deadReason" alias="死亡原因" type="string" fixed="true"
+		length="100" display="2" colspan="2" />
+	<item id="createUnit" alias="建档单位" type="string" length="8"
+		width="180" fixed="true" defaultValue="%user.prop.manaUnitId">
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree" onlySelectLeaf="true" 
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="createUser" alias="建档人" type="string" length="20"
+		fixed="true" update="false" defaultValue="%user.userId"
+		queryable="true">
+		<dic id="user" render="Tree" onlySelectLeaf="true"
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="createDate" alias="建档日期" type="date" update="false"
+		fixed="true" defaultValue="%server.date.date" queryable="true" >
+         <set type="exp">['$','%server.date.date']</set>
+    </item>
+	<item id="lastModifyUnit" alias="修改单位" type="string" length="20"
+		width="180" hidden="true" defaultValue="%user.prop.manaUnitId">
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree" onlySelectLeaf="true" 
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="lastModifyUser" alias="修改人" type="string" length="20"
+		display="1" defaultValue="%user.userId">
+		<dic id="user" render="Tree" onlySelectLeaf="true"
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="lastModifyDate" alias="修改日期" type="date" hidden="true"
+		defaultValue="%server.date.date">
+         <set type="exp">['$','%server.date.date']</set>
+	</item>
+	<item id="cancellationUnit" alias="注销单位" type="string" length="8"
+		width="180" hidden="true">
+		<dic id="manageUnit" includeParentMinLen="6"  render="Tree" onlySelectLeaf="true"
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="cancellationUser" alias="注销人" type="string" length="20"
+		hidden="true">
+		<dic id="user" render="Tree" onlySelectLeaf="true"
+			parentKey="%user.prop.manaUnitId" />
+	</item>
+	<item id="cancellationDate" alias="注销日期" type="date" hidden="true" />
+	<item id="status" alias="档案状态" type="string" length="1"
+		defaultValue="0" hidden="true">
+		<dic>
+			<item key="0" text="正常" />
+			<item key="1" text="已注销" />
+			<item key="2" text="未审核" />
+		</dic>
+	</item>
+	<item id="cancellationReason" alias="注销原因" type="string" length="1"
+		hidden="true">
+		<dic>
+			<item key="1" text="死亡" />
+			<item key="2" text="迁出" />
+			<item key="3" text="失访" />
+			<item key="4" text="拒绝" />
+			<item key="9" text="其他" />
+		</dic>
+	</item>
+	<item id="oldlastVisitDate" alias="老年人最后随访时间" type="date" hidden="true" />
+	
+	<item id="isDiabetes" alias="是否糖尿病" type="string" length="1"
+		defaultValue="2" queryable="true" display="1">
+		<dic>
+			<item key="1" text="是" />
+			<item key="2" text="否" />
+		</dic>
+	</item>
+	<item id="isHypertension" alias="是否高血压" type="string" length="1"
+		defaultValue="2" queryable="true" display="1">
+		<dic>
+			<item key="1" text="是" />
+			<item key="2" text="否" />
+		</dic>
+	</item>
+	<relations>
+		<relation type="parent" entryName="MPI_DemographicInfo" />
+	</relations>
+
+</entry>

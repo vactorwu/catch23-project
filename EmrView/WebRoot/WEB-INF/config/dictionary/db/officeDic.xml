@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" parent="parentId" searchField="pyCode"
+     entry="SYS_Office" keyField="officeCode" textField="officeName" queryOnly="false">
+     <prop field="organizCode"/>
+</dic>

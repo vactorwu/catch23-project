@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="exp_set_base" class="ctd.util.exp.ExpressionSet">
+		<property name="name" value="base"/>
+		<property name="expressions">
+		<list>
+			<bean class="ctd.util.exp.standard.IF" />
+			<bean class="ctd.util.exp.standard.SUBSTR" />
+			<bean class="ctd.util.exp.standard.AND" />
+			<bean class="ctd.util.exp.standard.OR" />
+			<bean class="ctd.util.exp.standard.SUM" />
+			<bean class="ctd.util.exp.standard.DEC" />
+			<bean class="ctd.util.exp.standard.MUL" />
+			<bean class="ctd.util.exp.standard.DIV" />
+			<bean class="ctd.util.exp.standard.NUM" />
+			<bean class="ctd.util.exp.standard.INT" />
+			<bean class="ctd.util.exp.standard.STR" />
+			<bean class="ctd.util.exp.standard.DATE" />
+			<bean class="ctd.util.exp.standard.REF" />
+			<bean class="ctd.util.exp.standard.IN" />
+			<bean class="ctd.util.exp.standard.LIKE" />
+			<bean class="ctd.util.exp.standard.NE" />
+			<bean class="ctd.util.exp.standard.EQ" />
+			<bean class="ctd.util.exp.standard.GT" />
+			<bean class="ctd.util.exp.standard.GE" />
+			<bean class="ctd.util.exp.standard.LT" />
+			<bean class="ctd.util.exp.standard.LE" />
+			<bean class="ctd.util.exp.standard.CONCAT" />
+			<bean class="ctd.util.exp.standard.PY" />
+			<bean class="ctd.util.exp.standard.LENGTH" />
+			<bean class="ctd.util.exp.standard.ISNULL" />
+			<bean class="ctd.util.exp.standard.TOCHAR" />
+			<bean class="ctd.util.exp.standard.CONVERT" />
+			<bean class="ctd.util.exp.standard.GetValueByKeyFromMap" />
+		</list>
+		</property>
+	</bean>
+	
+	<bean id="expRunner" class="ctd.util.exp.ExpRunner">
+		<property name="expressionSets">
+			<list>
+				<ref bean="exp_set_base"/>
+			</list>
+		</property>
+	</bean>
+</beans>

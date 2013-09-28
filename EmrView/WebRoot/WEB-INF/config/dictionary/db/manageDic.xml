@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  
+<dic class="TableDictionary" 
+     searchField="parentId" codeRule="1,2,2" parent="parentId"
+     entry="SYS_ManageUnit" keyField="deptId" textField="deptName" queryOnly="false">
+</dic>
+-->
+
+<dic class="TableDictionary" parent="parentId"
+     entry="SYS_ManageUnit" keyField="deptId" textField="deptName" queryOnly="false">
+</dic>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic entry="SYS_DOMAIN" keyField="ID" textField="DomainName" queryOnly="false" 
+     filter="['eq',['$','Status'],['s','1']]">
+</dic>

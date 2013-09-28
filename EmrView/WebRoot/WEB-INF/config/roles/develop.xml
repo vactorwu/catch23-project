@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<role name="中心主任" parent="base" version="1329801438672">
+  <accredit>
+    <apps>
+      <app id="RES">
+        <catalog id="RESCATA">
+          <module id="RES_01"/>
+        </catalog>
+      </app>
+    </apps>
+    <service acType="whitelist">
+      <service id="logon"/>
+      <service id="schemaLoader"/>
+      <service id="simpleSave"/>
+      <service id="simpleLoad"/>
+      <service id="simpleQuery"/>
+      <service id="simpleRemove"/>
+      <others/>
+    </service>
+    <storage acType="whitelist">
+      <others acValue="1111"/>
+    </storage>
+  </accredit>
+</role>

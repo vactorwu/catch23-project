@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="pdm2schema" class="ctd.util.PDMToSchema" />
+	<bean id="dataStandardSave" class="ctd.metadata.element.DataStandardSave"/>
+	<bean id="dataStandardRemove" class="ctd.metadata.element.DataStandardRemove"/>
+	<bean id="dataSetElementLoad" class="ctd.metadata.element.DataSetElementLoad"/>
+	<bean id="dataElementLoad" class="ctd.metadata.element.DataElementLoad"/>
+	<bean id="elementAndGroupQuery" class="ctd.metadata.element.ElementAndGroupQuery" />
+	<bean id="dataSetCatalogSave" class="ctd.metadata.element.DataSetCatalogSave" />
+	<bean id="downloadDataSetZip" class="ctd.metadata.element.DownloadDataSetZip" />
+	<bean id="batchDownloadDataSetZip" class="ctd.metadata.element.BatchDownloadDataSetZip" />
+	<bean id="simpleLoadWithParentRelation" class="ctd.service.dao.SimpleLoadWithParentRelation"/>	
+	<bean id="searchSet" class="ctd.metadata.element.SearchSet" />	
+	<bean id="parseExcel" class="ctd.service.core.ParseExcel" />
+	<bean id="qualityData" class="ctd.service.core.QualityDataService" />
+	
+	<bean id="activeNodeQuery" class="ctd.monitor.service.ActiveNodeQuery" />
+	<bean id="monInfo" class="ctd.monitor.service.MonInfo" />
+	<bean id="sqlAndSerInfo" class="ctd.util.log.SqlAndSerInfo" />
+	<bean id="hisMedicalRecordService" class="ctd.metadata.element.HisMedicalRecordService" />
+	<bean id="topicUtil" class="ctd.service.core.TopicUtil" />
+	<bean id="solrSave" class="ctd.test.grid.SolrSave" />
+	<bean id="solrRemove" class="ctd.test.grid.SolrRemove" />
+	<bean id="DB2Solr" class="ctd.test.grid.DB2Solr" />
+	<!-- <bean id="dbchange" class="ctd.test.DBChange"/> -->
+</beans>

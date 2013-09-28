@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="SYS_SUBJECT" alias="主题管理">
+  <item id="id" alias="ID" type="int" not-null="1"  pkey="true" width="150" display="0"/>
+   <item id="domain" alias="域" type="string" length="50" width="100" not-null="1" colspan="3">
+  	<dic id="domain"/>
+  </item>	
+  <item id="enName" alias="英文名字" type="string" not-null="1"  width="200" colspan="3"/> 
+  <item id="cnName" alias="中文名字" type="string" not-null="1"  width="200" colspan="3"/>
+</entry>

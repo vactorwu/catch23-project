@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+ <!--  
+<dic navDic="manageUnit"
+	searchField="b.post" iconCls="user"
+	entry="SYS_USERS a, SYS_UserProp b" keyField="a.userId" textField="a.userName" queryOnly="false"
+	filter="['and',['in',['$','b.jobId'],['teamer','develop']],['$','a.userId=b.userId']] ">
+	<prop field="b.manaUnitId"/>
+</dic>
+
+navDic="deptTest"
+-->
+
+<!-- searchField="b.post" 表示生成的一棵树,点树节点后,就把当前节点的id, 做成查询条件 b.post='xxx', 新增的节点也是在post下面的-->
+  
+<dic navDic="manageUnit" 
+	searchField="b.manaUnitId" iconCls="user"
+	entry="SYS_USERS a, SYS_UserProp b" keyField="a.userId" textField="a.userName" queryOnly="true"
+	filter="['and',['eq',['$','b.jobId'],['s','teamer']],['eq',['$','a.userId'],['$','b.userId']]]">
+	<prop field="b.manaUnitId"/>
+	<prop field="b.jobId"/>
+</dic>
+

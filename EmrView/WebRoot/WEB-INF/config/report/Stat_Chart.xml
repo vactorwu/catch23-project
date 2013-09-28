@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report id="GridGis" title="健康档案建档分析" type="level">
+	<rule id="manaUnitId" expr="a.manaUnitId" dic="manageUnit" para="level">
+		['ge',['$','length(a.manaUnitId)'],['d',{0}]]
+	</rule>
+	<define>
+		<headers>
+			<item renderIndex="1" id="manaUnitId"  expr="a.manaUnitId" alias="管理单元" dic="manageUnit" type="string"/>
+			<item renderIndex="2" id="EHR_HealthRecord" alias="健康档案数" expr="a.phrId" type="int" func="count" mid="A04_1"/>
+		</headers>
+		<src>
+			<entry name="EHR_HealthRecord"/>
+			<entry name="MPI_DemographicInfo"/>
+			<join>
+				<field src="a.empiId" dest="b.empiId"/>
+			</join>
+		</src>
+	</define>
+	<define>
+		<headers>
+			<item renderIndex="1" id="manaUnitId" alias="管理单元" dic="manageUnit" expr="a.manaUnitId" type="string"/>
+			<item renderIndex="2" id="EHR_FamilyRecord" alias="家庭档案" expr="b.familyId" type="int" func="count" mid="B01"/>
+		</headers>
+		<src>
+			<entry name="EHR_HealthRecord"/>
+			<entry name="EHR_FamilyRecord"/>
+			<join>
+				<field src="a.familyId" dest="b.familyId"/>
+			</join>
+		</src>
+	</define>
+	
+	<condition>
+			['and',
+			['ge',
+					['convert',['$','a.createDate'],
+						['s','yyyy-mm-dd']],
+					['$','%q.beginDate']
+				],
+				['le',
+					['convert',['$','a.createDate'],
+						['s','yyyy-mm-dd']],
+					['$','%q.endDate']
+				]
+			]
+	</condition>
+	<chart template="SimpleMSColumn" chartType="MSColumn3D"/>
+	<queryArgs>
+		<arg id="beginDate" expr="a.createDate" alias="起始时间" type="date" width="80" defaultValue="2011-01-01"/>
+		<arg id="endDate" expr="a.createDate" alias="终止时间" type="date" width="80" defaultValue="2011-12-31"/>
+	</queryArgs>
+</report>

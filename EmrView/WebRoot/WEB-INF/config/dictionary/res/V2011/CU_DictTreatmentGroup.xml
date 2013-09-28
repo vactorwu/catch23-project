@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="DictTreatmentGroup" keyField="GROUPNUMBER" textField="GROUPNAME">
+	<prop field="ORGANIZATIONID"/>
+	<prop field="BELONGTODEPARTMENT"/>
+	<prop field="GROUPPRINCIPAL"/>
+	<prop field="EFFECTIVEFLAG"/>
+</dic>

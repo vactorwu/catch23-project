@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class entity-name="SYS_Office" table="SYS_Office">
+	    <id name="officeCode" type="java.lang.String" length="20">
+			<column name="officeCode" />
+			<generator class="assigned" />
+		</id>
+		<property name="officeName" type="java.lang.String" length="50" />
+		<property name="telphone" type="java.lang.String" length="20" />
+		<property name="address" type="java.lang.String" length="250" />
+		<property name="organizCode" type="java.lang.String" length="20" />		
+		<property name="parentId" type="java.lang.String" length="20" />
+		<property name="organizType" type="java.lang.String" length="20" />
+		<property name="email" type="java.lang.String" length="50" />
+		<property name="plsx" type="java.lang.String" length="10" />
+		<property name="pyCode" type="java.lang.String" length="20" />
+	</class>
+</hibernate-mapping>

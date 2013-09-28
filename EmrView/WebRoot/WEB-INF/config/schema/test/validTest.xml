@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="validTest" alias="用户信息">
+  <item id="id" alias="ID" type="string" not-null="1" generator="assigned" pkey="true" hidden="true">
+     <key>
+       <rule name="increaseId" type="increase" defaultFill="0" length="5" startPos="0" />
+       <!-- rule name="dayRule" defaultFill="0" type="date" timeFormat="yyyyMMdd" /-->
+       <rule name="area" type="string" defaultFill="0" length="5" fillPos="after">
+          %user.manageUnit.id
+       </rule>
+     </key>
+  </item>
+  <item id="vvsex" alias="性别" type="string" length="20">
+     <dic id="gender"/>
+  </item>
+  <item id="vvname" alias="提交人" type="string" not-null="1" length="20"/>
+  <item id="age" alias="年龄" type="int" display="3" custom="age"/>
+  <item id="email" alias="email" type="string" display="3" email="1"/>
+  <item id="startD" alias="开始日期" type="date" display="3" custom="dateRange:startD,endD"/>
+  <item id="endD" alias="结束日期" type="date" display="3" custom="dateRange:startD,endD"/>  
+</entry>

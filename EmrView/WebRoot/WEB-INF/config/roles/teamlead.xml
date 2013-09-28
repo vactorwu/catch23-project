@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<role name="儿保医生" parent="base" version="1329794701388">
+  <accredit>
+    <apps>
+      <app id="DATA">
+        <catalog id="DATACATA">
+          <module id="DATA_03"/>
+        </catalog>
+        <catalog id="ETL">
+          <module id="ETL_02"/>
+        </catalog>
+      </app>
+    </apps>
+    <service acType="whitelist">
+      <service id="logon"/>
+      <service id="schemaLoader"/>
+      <service id="simpleSave"/>
+      <service id="simpleLoad"/>
+      <service id="simpleQuery"/>
+      <service id="simpleRemove"/>
+      <others/>
+    </service>
+    <storage acType="whitelist">
+      <others acValue="1111"/>
+    </storage>
+  </accredit>
+</role>

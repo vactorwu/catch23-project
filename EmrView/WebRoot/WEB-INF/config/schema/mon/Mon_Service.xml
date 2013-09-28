@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="Mon_Service" alias="Service执行情况监控">
+  <item id="id" alias="编号" type="int" not-null="1" generator="auto" pkey="true"/>
+  <item id="serviceName" alias="服务名称" type="string" length="100"/>
+  <item id="execCount" alias="执行次数" type="int"/>
+  <item id="maxTimecost" alias="最大耗时" type="int"/>
+  <item id="lastExecTime" alias="最后执行时间" type="timestamp"/>
+  <item id="lastReportTime" alias="最后上传时间" type="timestamp"/>
+  <item id="domainId" alias="所属域" type="string" length="50"/>
+  <item id="ipAddress" alias="IP地址" type="string" length="30"/>
+</entry>

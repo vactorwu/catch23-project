@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="Mon_Conneciton" alias="使用连接信息监控">
+  <item id="id" alias="编号" type="int" not-null="1" generator="auto" pkey="true"/>
+  <item id="connectTime" alias="连接时间" type="timestamp"/>
+  <item id="ConnectStatckTrace" alias="连接堆栈信息" type="string" length="2000"/>
+  <item id="aliveTimespan" alias="活动时长" type="int"/>
+  <item id="lastSql" alias="最后执行的SQL" type="string" length="2000"/>
+  <item id="lastStatementStackTrace" alias="最后执行SQL堆栈信息" type="string" length="2000"/>
+  <item id="dsId" alias="所属数据源" type="int"/>
+</entry>

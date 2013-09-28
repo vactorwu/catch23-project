@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers isCluster="false">
+  <server ip="172.16.170.41" port="18890" />
+  <server ip="172.16.170.41" port="18891" />
+  <!-- server ip="172.16.170.44" port="8892" /-->
+</servers>

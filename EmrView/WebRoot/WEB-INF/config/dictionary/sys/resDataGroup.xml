@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dic class="TableDictionary" entry="RES_DataGroup" keyField="DataGroupId" textField="DName" iconCls="expandall">
+	<prop field="DataStandardId" />
+	<prop field="GroupIdentify" />
+	<prop field="FrequencyNumber" />
+	<prop field="ForceIdentify" />
+	<prop field="ParentGroupId" />
+</dic>

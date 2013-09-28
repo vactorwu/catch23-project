@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="1" text="需求阶段"/>
+	<item key="2" text="设计阶段"/>
+	<item key="3" text="编码阶段"/>
+	<item key="4" text="实施阶段"/>
+</dic>

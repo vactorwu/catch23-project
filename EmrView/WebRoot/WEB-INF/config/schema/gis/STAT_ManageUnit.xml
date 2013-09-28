@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry id="STAT_ManageUnit" tableName="PUB_Resource" alias="公共基础信息" sort="infoYear">
+	<item id="StatID" pkey="true" alias="编号" type="string" length="20"
+		not-null="1" fixed="true" hidden="true">
+		<set type="exp">['idGen','STAT_ManageUnit']</set>
+		</item>
+	<item id="manaUnitId" alias="管理单元" type="java.lang.String" length="21"/> 
+	<item id="year" alias="年" type="java.lang.String"/>
+	<item id="month" alias="月" type="java.lang.String"/>
+	<item id="season" alias="季度" type="java.lang.String"/>
+	<item id="statDate" alias="录入日期" type="java.lang.String"/>
+    <item id="KPICode" alias="指标编号" type="java.lang.String" length="8" />
+    <item id="KPI" alias="指标" type="java.lang.String" length="16" />
+    <item id="RunDate" alias="统计日期" type="date"/>
+    <item id="doctor" alias="医生" type="java.lang.String" length="18" />
+    
+</entry> 

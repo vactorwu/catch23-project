@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dic>
+  <item key="1" text="条状"/>
+  <item key="2" text="软状"/>
+  <item key="3" text="干结"/>
+  <item key="4" text="稀水状"/>
+  <item key="5" text="不祥"/>
+</dic>

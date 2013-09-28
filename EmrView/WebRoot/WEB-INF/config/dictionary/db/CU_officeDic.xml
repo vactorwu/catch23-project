@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic class="TableDictionary" entry="SYS_Office" keyField="officeCode" textField="officeName">
+     <prop field="organizCode"/>
+</dic>

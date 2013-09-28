@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic> 
+    <item key="2" level="6" text="直辖市"/>
+	<item key="4" level="6" text="市"/>
+	<item key="6" level="9" text="区"/>
+	<item key="9" level="11" text="社区服务卫生中心"/>
+	<item key="11" level="11" text="团队"/>
+</dic>

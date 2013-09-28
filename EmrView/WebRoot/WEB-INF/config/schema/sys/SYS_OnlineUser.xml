@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="SYS_OnlineUser" alias="在线用户信息">
+	<item id="sessionId" alias="会话ID" display="0"/>
+	<item id="logonName" alias="登录帐号" width="120"/>
+	<item id="name" alias="姓名" display="0"/>
+	<item id="role" alias="岗位" display="0"/>
+	<item id="department" alias="部门" display="0"/>
+	<item id="serverIP" alias="服务器IP" width="100"/>
+	<item id="serverPORT" alias="服务器端口" width="80"/>
+	<item id="clientIP" alias="客户端IP" width="100"/>
+	<item id="userAgent" alias="客户端信息" width="550"/>
+	<item id="logonTime" alias="上次登录时间" width="140"/>
+	<item id="lastAccessTime" alias="最后请求时间" display="0"/>
+	<item id="leaveTime" alias="上次注销时间" display="0"/>
+	<item id="isOnline" alias="是否在线" display="0"/>
+</entry>

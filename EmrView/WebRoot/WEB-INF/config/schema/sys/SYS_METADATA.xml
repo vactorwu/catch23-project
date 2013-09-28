@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="SYS_METADATA" alias="数据元">
+  <item id="ID" alias="数据元标识符" type="string" length="50" not-null="1" generator="assigned" pkey="true" width="120" queryable="true"/>
+  <item id="NAME" alias="数据元名称" type="string" length="50" not-null="1" colspan="2" width="160" queryable="true"/>
+  <item id="DATATYPE" alias="数据元值的数据类型" type="string" length="50" width="120"/>
+  <item id="DATAFORMAT" alias="值的表示格式" type="string" length="50" width="120"/>
+  <item id="DATARANGE" alias="允许值" type="string" length="50" width="120"/>
+  <item id="DEFINE" alias="定义" type="string" length="500" xtype="textarea" colspan="3" width="220" queryable="true"/>
+</entry>

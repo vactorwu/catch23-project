@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<report id="Composite" title="各区域业务数据统计图" type="level">
+	<rule id="manaUnitId" expr="manaUnitId" dic="manageUnit" para="level">
+		['ge',['$','length(manaUnitId)'],['d',{0}]]
+	</rule>
+	<define type="composite">
+		<headers>
+			<item renderIndex="1" id="manaUnitId" alias="管理单元"
+				expr="manaUnitId" type="string" dic="manageUnit"/>
+			<item renderIndex="2" id="KPICode" alias="业务编码"
+				expr="KPICode" type="string" hidden="true" comp="true"/>
+			<item renderIndex="3" id="KPI" alias="统计数量" expr="a.KPI"
+				type="double" func="sum" hidden="true"/>
+		</headers>
+		<sort id="manaUnitId"/>
+		<src>
+			<entry name="STAT_ManageUnit a" />
+		</src>
+		<condition>
+			['and', 
+				['like',
+					['$','a.manaUnitId'],
+					['concat',['$','%q.manaUnitId'],['s','%']]
+				],
+				['ge',
+					['convert',
+						['$','a.statDate'],
+						['s','yyyy-mm']
+					],
+					['$','%q.beginDate']
+				],
+				['le',
+					['convert',
+						['$','a.statDate'],
+						['s','yyyy-mm']
+					],
+					['$','%q.endDate']
+				]
+			]
+		</condition>
+	</define>
+	<digger>
+		<dig match="manaUnitId" target="Composite"/>
+	</digger>
+	<chart template="CompositeMSColumn" chartType="MSColumn3D" />
+	<queryArgs>
+		<arg id="manaUnitId" alias="管理单元" type="string"
+			defaultValue="3301" width="150">
+			<dic id="manageUnit" render="Tree" 
+				parentKey="3301" rootVisible="true" />
+		</arg>
+		<arg id="cnd" alias="统计条件" type="string" hidden="true"/>
+		<arg id="beginDate" alias="起始时间" type="month" width="80" defaultValue="2011-01"/>
+		<arg id="endDate" alias="终止时间" type="month" width="80" defaultValue="2011-12"/>
+	</queryArgs>
+</report>

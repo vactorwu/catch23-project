@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dic>
+	<item key="A" text="严重缺陷">
+		<item key="A01" text="由于程序所引起的死机,非法退出"/>
+		<item key="A02" text="死循环"/>
+		<item key="A03" text="数据库发生死锁"/>
+		<item key="A04" text="错误操作导致的程序中断"/>
+		<item key="A05" text="严重的计算错误"/>
+		<item key="A06" text="数据库连接错误"/>
+		<item key="A07" text="数据通讯错误"/>
+	</item>
+	<item key="B" text="较严重缺陷">
+		<item key="B01" text="影响系统要求或基本功能的实现,且没有办法更正"/>
+		<item key="B02" text="功能不符"/>
+		<item key="B03" text="程序接口错误"/>
+		<item key="B04" text="数据流错误"/>
+		<item key="B05" text="轻微数据计算错误"/>
+	</item>
+	<item key="C" text="一般性缺陷">
+		<item key="C01" text="影响系统要求或基本功能的实现,存在合理的更正办法"/>
+		<item key="C02" text="轻微数据计算错误"/>
+		<item key="C03" text="界面错误"/>
+		<item key="C04" text="打印内容,格式错误"/>
+		<item key="C05" text="数据输入没有边界值限定或不合理"/>
+		<item key="C06" text="删除操作未给出提示"/>
+	</item>
+	<item key="D" text="较小缺陷">
+		<item key="D01" text="操作不方便或麻烦，但不影响功能"/>
+		<item key="D02" text="辅助说明描述不清楚"/>
+		<item key="D03" text="显示格式不规范"/>
+		<item key="D04" text="系统处理未优化"/>
+		<item key="D05" text="长时间操作未给用户进度提示"/>
+		<item key="D06" text="提示窗口文字未采用行业术语"/>
+	</item>
+	<item key="E" text="代码缺陷">
+		<item key="E01" text="缺少注释或不符合注释规范"/>
+		<item key="D02" text="变量定义不符合规范"/>
+		<item key="D03" text="语句缺陷"/>
+		<item key="D04" text="实现功能有误"/>
+	</item>
+	<item key="F" text="其他缺陷">
+		<item key="F01" text="建议"/>
+		<item key="F02" text="其他"/>
+	</item>
+</dic>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="EmrView"
+  id="myeclipse.1380374342189"
+  context-root="/EmrView"
+  j2ee-spec="6.0"
+  archive="EmrView.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rolelist>
+	<role id="base" />
+	<role id="system" alias="系统管理员" />
+</rolelist>

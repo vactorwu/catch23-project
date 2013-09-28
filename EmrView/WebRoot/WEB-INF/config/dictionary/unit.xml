@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dic codeRule="4,2,3" entry="manageUnit" 
+	 keyField="manageUnitId" textField="manageUnitName" 
+	 searchField="manageUnitName" searchFieldEx="pyCode"
+	 queryOnly="true" sortField="manageUnitId"
+	 filter="['eq',['s','1'],['s','1']]">
+	<prop field="pyCode"/>
+	<prop field="descrption"/>
+</dic>

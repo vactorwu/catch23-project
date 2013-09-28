@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'>
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<param name="Threshold" value="INFO" />
+		<param name="Target" value="System.out" />
+		<param name="Encoding" value="GBK" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{dd HH\:mm\:ss,SSS} %-5p] %F\:%L - %m%n" />
+		</layout>
+	</appender>
+	<appender name="A1" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="${ssdev.app.root}/WEB-INF/logs/server.log" />
+		<param name="Threshold" value="INFO" />
+		<param name="Encoding" value="GBK" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd HH\:mm\:ss,SSS}][%p][%c{1}] %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="DBpool" class="ctd.util.log.JDBCPoolAppender">
+		<param name="Threshold" value="error" />
+		<!-- <param name="BufferSize" value="10" /> -->
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="INSERT INTO sys_log4j(logLevel,logDate,logClass,logRowNumber,logMessage,logType,logUser) VALUES ('%p','%d{yyyy-MM-dd HH\:mm\:ss}','%C','%L','%m','1','%X{userId}')" />
+		</layout>
+	</appender>
+	
+	<category name="com.mchange.v2" additivity="false">
+		<level value="off" />
+	</category>
+
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="A1" />
+		<!--
+		<appender-ref ref="DBpool" />
+		-->
+	</root>
+
+
+</log4j:configuration>

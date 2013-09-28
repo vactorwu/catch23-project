@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entrys>
+    <entry id="keyManager"  file="test/keyManager.xml"/>
+    <entry id="validTest"  file="test/validTest.xml"/>
+    <entry id="dept"  file="sys/dept.xml"/>
+	<entry id="project"  file="sys/project.xml"/>
+	<entry id="BASE_Comment"  file="base/BASE_Comment.xml"/>
+	<entry id="BASE_Project"  file="base/BASE_Project.xml"/>
+	<entry id="BASE_Staff"  file="base/BASE_Staff.xml"/>
+</entrys>

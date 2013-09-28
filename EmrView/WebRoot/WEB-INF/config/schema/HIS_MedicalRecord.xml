@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entry id="HIS_MedicalRecord" alias="病历简介">
+  <item id="phrId" alias="phrId" type="int" not-null="1" generator="auto" pkey="true" display="0"/>
+  <item id="cardNo" alias="市民卡" type="string" length="20"/>
+  <item id="personName" alias="姓名" type="string" length="20"/>
+  <item id="sexCode" alias="性别" type="string" length="20">
+  	<dic id="gender"/>
+  </item>
+  <item id="idCard" alias="身份证" type="string" length="20"/>
+  <item id="birthday" alias="出生日期" type="date"/>
+  <item id="blood" alias="血型" type="string" length="20">
+  	<dic id="blood"/>
+  </item>
+  <item id="mobileNumber" alias="本人电话" type="string" length="20"/>
+  <item id="contactPhone" alias="联系人电话" type="string" length="20"/>
+  <item id="masterFlag" alias="是否户主" type="string" length="1">
+  	<dic id="yesOrNo"/>
+  </item>
+  <item id="relaCode" alias="与户主关系" type="string" length="2"/>
+  <item id="manaDoctorId" alias="责任医生" type="string" length="20"/>
+  <item id="manaUnitId" alias="管辖机构" type="string" length="20">
+  	<dic id="manageUnit2" render="Tree"/>
+  </item>
+  <item id="isAgrRegister" alias="是否农业户籍" type="string" length="1">
+  	<dic id="yesOrNo"/>
+  </item>
+  <item id="workType1" alias="是否公务员" type="string" length="2">
+  	<dic id="yesOrNo"/>
+  </item>
+  <item id="workType2" alias="行政级别" type="string" length="2">
+  	<dic id="ranking"/>
+  </item>
+  <item id="sickContent" alias="病历信息" type="string" xtype="htmleditor" colspan="3" display="2"/>
+</entry>
